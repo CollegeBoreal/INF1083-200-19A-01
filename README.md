@@ -5,7 +5,7 @@ Système de gestion de bases de données
 
 | Date   |                                                     |     Commentaires                                                      |
 |:------:|:----------------------------------------------------|:----------------------------------------------------------------------|
-|05-09-19| [3NF](./0.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                        |
+|05-09-19| [3NF](./1.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                        |
 
 
 ## Déroulement de cours:
