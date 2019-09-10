@@ -6,21 +6,19 @@ Système de gestion de bases de données
 | Date   |                                                     |     Commentaires                                                      |
 |:------:|:----------------------------------------------------|:----------------------------------------------------------------------|
 |05-09-19| [3NF](./0.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                        |
-|12-09-19| [Modele](./1.Modele)                                | Presenter l'ebauche du model sous MySQL Workbench, fichier _*.mwb_    |
-|19-09-19| [DML](./2.DML/PRATIQUE.md#exercice)                 | Exercices de requetes sur Sakila (Paiements)                          |
-|26-09-19| [DML](./2.DML/PRATIQUE.md#perfectionnement)         | Exercices de requetes sur Sakila (Films)                              |
-|03-10-19| [E2E](./3.E2E)                                      | Exercices de requetes sur World (pays)                                |
+
+|
 ## Déroulement de cours:
 
 |# | Date   |                                                     |     Commentaires                                                   |
 |--|:------:|:----------------------------------------------------|:-------------------------------------------------------------------|
 |01|03-09-19|                                                     | Rentrée des classes                                                |
 |02|10-09-19| [3NF](./0.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                     |
-|03|17-09-19| TBD                                                 | TBD                                                                |
-|04|24-09-19| TBD                                                 | TBD                                                                |
-|05|01-10-19| TBD                                                 | TBD                                                                |
-|06|08-10-19| TBD                                                 | TBD                                                                |
-|07|15-10-19| TBD                                                 | TBD                                                                |
+|03|17-09-19| [Docker]                                            | Install MySQL with Docker                                          |
+|04|24-09-19| [DCL]                                               | Data Control Language                                              |
+|05|01-10-19| [DDL]                                               | Data Description Language                                          |
+|06|08-10-19| [DML]                                               | Data Manipulation Language                                         |
+|07|15-10-19| [DQL]                                               | Data Query Language                                                |
 |08|22-10-19| Semaine d'études                                    | Pas de cours                                                       |
 |09|29-10-19| TBD                                                 | TBD                                                                |
 |10|05-11-19| TBD                                                 | TBD                                                                |
@@ -50,7 +48,7 @@ Système de gestion de bases de données
 |No| Date   | Cours                       | Intitulé              |  Pratique .                                                    |
 |--|--------|:----------------------------|:----------------------|:---------------------------------------------------------------|
 | 1|05-09-19|                             | Rentree des classes   |                                                                |
-| 3|02-10-19| [DML](./2.DML#exercices)    | DML                   | function, alias                                                |
+| 3|02-10-19| [DQL](./2.DQL#exercices)    | DQL                   | function, alias                                                |
 |  |        |                             |                       | groupement, condition (having), ordonnacement                  |
 |  |        |                             |                       | imbrication (SELECT)                                           |
 |  |        |                             |                       | JOIN, alias, inner join (ANSI-Style, Theta), Cartesian Product |
