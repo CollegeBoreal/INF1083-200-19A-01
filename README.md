@@ -13,8 +13,8 @@ Système de gestion de bases de données
 |# | Date   |                                                     |     Commentaires                                                   |
 |--|:------:|:----------------------------------------------------|:-------------------------------------------------------------------|
 |01|03-09-19|                                                     | Rentrée des classes                                                |
-|03|10-09-19| [Docker]()                                          | Install MySQL with Docker                                          |
-|02|17-09-19| [3NF](./0.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                     |
+|03|10-09-19| [Docker](./0.Docker)                                | Install MySQL with Docker                                          |
+|02|17-09-19| [3NF](./1.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                     |
 |04|24-09-19| [DCL]()                                             | Data Control Language                                              |
 |05|01-10-19| [DDL]()                                             | Data Description Language                                          |
 |06|08-10-19| [DML]()                                             | Data Manipulation Language                                         |
