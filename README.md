@@ -10,6 +10,25 @@ Système de gestion de bases de données
 |19-09-19| [DML](./2.DML/PRATIQUE.md#exercice)                 | Exercices de requetes sur Sakila (Paiements)                          |
 |26-09-19| [DML](./2.DML/PRATIQUE.md#perfectionnement)         | Exercices de requetes sur Sakila (Films)                              |
 |03-10-19| [E2E](./3.E2E)                                      | Exercices de requetes sur World (pays)                                |
+## Déroulement de cours:
+
+|# | Date   |                                                     |     Commentaires                                                   |
+|--|:------:|:----------------------------------------------------|:-------------------------------------------------------------------|
+|01|03-09-19|                                                     | Rentrée des classes                                                |
+|02|10-09-19| [3NF](./0.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                     |
+|03|17-09-19| TBD                                                 | TBD                                                                |
+|04|24-09-19| TBD                                                 | TBD                                                                |
+|05|01-10-19| TBD                                                 | TBD                                                                |
+|06|08-10-19| TBD                                                 | TBD                                                                |
+|07|15-10-19| TBD                                                 | TBD                                                                |
+|08|22-10-19| Semaine d'études                                    | Pas de cours                                                       |
+|09|29-10-19| TBD                                                 | TBD                                                                |
+|10|05-11-19| TBD                                                 | TBD                                                                |
+|11|12-11-19| TBD                                                 | TBD                                                                |
+|12|19-11-19| TBD                                                 | TBD                                                                |
+|13|26-11-19| TBD                                                 | TBD                                                                |
+|14|03-12-19| TBD                                                 | TBD                                                                |
+|15|10-12-19| TBD                                                 | TBD                                                                |
 
 
 
@@ -44,6 +63,8 @@ https://books.goalkicker.com/MySQLBook/ (free books)
 http://sql.sh/ressources/cours-sql-sh-.pdf (En francais)
 
 http://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf
+
+https://en.wikibooks.org/wiki/MySQL/Language/Definitions:_what_are_DDL,_DML_and_DQL%3F
 
 ### Docker
 
