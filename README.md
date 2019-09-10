@@ -20,13 +20,13 @@ Système de gestion de bases de données
 |06|08-10-19| [DML]()                                             | Data Manipulation Language                                         |
 |07|15-10-19| [DQL]()                                             | Data Query Language                                                |
 |08|22-10-19| Semaine d'études                                    | Pas de cours                                                       |
-|09|29-10-19| TBD()                                               | TBD                                                                |
-|10|05-11-19| TBD()                                               | TBD                                                                |
-|11|12-11-19| TBD()                                               | TBD                                                                |
-|12|19-11-19| TBD()                                               | TBD                                                                |
-|13|26-11-19| TBD()                                               | TBD                                                                |
-|14|03-12-19| TBD()                                               | TBD                                                                |
-|15|10-12-19| TBD()                                               | TBD                                                                |
+|09|29-10-19| TBD                                                 | TBD                                                                |
+|10|05-11-19| TBD                                                 | TBD                                                                |
+|11|12-11-19| TBD                                                 | TBD                                                                |
+|12|19-11-19| TBD                                                 | TBD                                                                |
+|13|26-11-19| TBD                                                 | TBD                                                                |
+|14|03-12-19| TBD                                                 | TBD                                                                |
+|15|10-12-19| TBD                                                 | TBD                                                                |
 
 
 
