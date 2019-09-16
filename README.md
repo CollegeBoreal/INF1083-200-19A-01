@@ -8,7 +8,7 @@ Développement d'applications
 |--|:------:|:----------------------------------------------------|:---------------------------------------------------------------------|
 |01|02-09-19|                                                     | Rentrée des classes                                                  |
 |02|09-09-19| Présentation du nouveau cours                       | Présentation d'Applications Hybrides comme NativeScript et github    |
-|03|16-09-19| Introduction de NativeScript                        | https://play.nativescript.org                                        |
+|03|16-09-19| Introduction NativeScript                           | https://play.nativescript.org                                        |
 |04|23-09-19| TBD                                                 | TBD                                                                  |
 |05|30-09-19| TBD                                                 | TBD                                                                  |
 |06|07-10-19| TBD                                                 | TBD                                                                  |
