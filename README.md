@@ -29,6 +29,7 @@ https://collegeboreal.brightspace.com/d2l/home/29006
 
 |  NativeScript PlayGroud                                                            |  Commentaire                              |
 |------------------------------------------------------------------------------------|-------------------------------------------|
+| [Telerik Play Groud](https://play.nativescript.org)                                |                                           |   
 | [Google Play](https://play.google.com/store/apps/details?id=org.nativescript.play) |                                           |
 | [Apple Store](https://apps.apple.com/ca/app/nativescript-playground/id1263543946)  |                                           |
 
