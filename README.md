@@ -27,8 +27,16 @@ Développement d'applications
 
 https://collegeboreal.brightspace.com/d2l/home/29006
 
+|  NativeScript PlayGroud                                                            |  Commentaire                              |
+|------------------------------------------------------------------------------------|-------------------------------------------|
+| [Google Play](https://play.google.com/store/apps/details?id=org.nativescript.play) |                                           |
+| [Apple Store](https://apps.apple.com/ca/app/nativescript-playground/id1263543946)  |                                           |
+
 
 |                              Glossaire                                                    |                                      |
 |-------------------------------------------------------------------------------------------|--------------------------------------|
 | [Application Framework](https://www.techopedia.com/definition/6005/application-framework) |                                      |
+
+
+
 
