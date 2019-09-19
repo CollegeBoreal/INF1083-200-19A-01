@@ -1,7 +1,12 @@
-Domaine:Picasa
-Données : 
-Portrait , Animalier , Paysage ,événement , 
-Noir & Blanc, Couleur , Original , Sepia , Argenté
-RGB , CMYK, RAW, 
-Instagram , Facebook  , 
-4*6    8.5*11    11*17   18*24
+1NF => Domaine: Picasa
+
+2NF => Données : 
+
+{ Portrait , Animalier , Paysage ,événement , ... } => Mode[Nom] 
+{ Noir & Blanc, Original , Sepia , Argenté } => Couleur[Nom] 
+{ RGB , CMYK, RAW, } => Format[Nom] 
+{ Instagram , Facebook  , ...} => Social Media[Nom] 
+{ 4*6    8.5*11    11*17   18*24 } => Frame[Nom, width, length]
+{ Frame - 4*5, 8*8, cart postale, PNG - 3Mb 5Mb, GIF } => Mode de livraison[Nom, Format]
+{ Poste, Download} => Livraison[Nom]
+{ $4, $15, $20} => Prix(Nom, Tariff)
