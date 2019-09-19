@@ -15,8 +15,8 @@
 | [300111766](300111766.txt) | :x:                           |
 | [300112017](300112017.txt) | :x:                           |
 | [300112687](300112687.txt) | :x:                           |
-| [300112917](300112917.txt) | :x:                           |
-| [300113775](300113775.txt) | :x:                           |
+| [300112917](300112917.txt) | :negative_squared_cross_mark: |
+| [300113775](300113775.txt) | :negative_squared_cross_mark: |
 
 
 https://www.linkedin.com/learning/database-foundations-storage/reducing-redundancy-with-normalization
