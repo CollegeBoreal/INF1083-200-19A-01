@@ -2,7 +2,7 @@
 
 2NF =>
 
-Données: 
+`Données`: 
 {Noir, Bleu, Gris, Pale, ...} => Couleur[Nom] 
 {Made in Turkey - Lira, Made in Morocco - Diram, Made in Yemen - USD, ...} => Pays de Fabrication [Nom, Devise]
 {Cotton, Soie, Laine, ...} => Tissu[Nom]
