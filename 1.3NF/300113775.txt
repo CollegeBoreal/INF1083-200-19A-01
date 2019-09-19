@@ -1,1 +1,7 @@
-Domaine:Picassa
+Domaine:Picasa
+Données : 
+Portrait , Animalier , Paysage ,événement , 
+Noir & Blanc, Couleur , Original , Sepia , Argenté
+RGB , CMYK, RAW, 
+Instagram , Facebook  , 
+4*6    8.5*11    11*17   18*24
