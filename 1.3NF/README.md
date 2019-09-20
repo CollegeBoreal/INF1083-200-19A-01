@@ -3,8 +3,8 @@
 
 | Student :id:               | Mark                          |
 |----------------------------|-------------------------------|
-| [300104524](300104524.txt) | :x:                           |
-| [300104541](300104541.txt) | :x:                           |
+| [300104524](300104524.txt) | :negative_squared_cross_mark: |
+| [300104541](300104541.txt) | :negative_squared_cross_mark: |
 | [300105201](300105201.txt) | :negative_squared_cross_mark: |
 | [300106918](300106918.txt) | :negative_squared_cross_mark: |
 | [300107361](300107361.txt) | :negative_squared_cross_mark: |
