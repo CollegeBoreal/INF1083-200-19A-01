@@ -3,12 +3,12 @@
 
 | Student :id:               | Mark                          |
 |----------------------------|-------------------------------|
-| [300104524](300104524.txt) | :negative_squared_cross_mark: |
+| [300104524](300104524.txt) | :recycle: |
 | [300104541](300104541.txt) | :negative_squared_cross_mark: |
 | [300105201](300105201.txt) | :negative_squared_cross_mark: |
 | [300106918](300106918.txt) | :negative_squared_cross_mark: |
 | [300107361](300107361.txt) | :negative_squared_cross_mark: |
-| [300108234](300108234.txt) | :white_check_mark: |
+| [300108234](300108234.txt) | :heavy_check_mark: |
 | [300110500](300110500.txt) | :x:                           |
 | [300110529](300110529.txt) | :negative_squared_cross_mark: |
 | [300111671](300111671.txt) | :negative_squared_cross_mark: |
