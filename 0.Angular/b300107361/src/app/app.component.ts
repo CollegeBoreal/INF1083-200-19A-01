@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'b300107361';
+  // TODO change Tochgaly
+  title = 'Tochgaly';
 }
