@@ -28,7 +28,7 @@
 | [300112017](300112017.txt) | :x:                           |
 | [300112687](300112687.txt) | :x:                           |
 | [300112917](300112917.txt) | :heavy_minus_sign: |
-| [300113775](300113775.txt) | :x: |
+| [300113775](300113775.txt) | :heavy_check_mark: |
 
 
 https://www.linkedin.com/learning/database-foundations-storage/reducing-redundancy-with-normalization
