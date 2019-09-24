@@ -1,1 +1,4 @@
-Domaine : Technical Support
+1NF Domaine : Technical Support
+2NF Données:
+
+Réparation d'ordinateurs, Réparations de téléphones, Dépannage des réseaux, Création de site web - $500
