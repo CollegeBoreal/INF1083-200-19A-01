@@ -1,3 +1,2 @@
-Domaine : Ventes des cartes graphiques
-1NF Domaine :
+1NF Domaine : Ventes des cartes graphiques
 2NF Donnees Meta-donnees
