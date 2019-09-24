@@ -34,13 +34,13 @@ $ docker exec --interactive some-mysql  mysql --user root -ppassword \
 - Charger la base
 
 ```
-$ docker exec  --interactive some-mysql  mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-schema.sql
+$ docker exec  --interactive some-mysql  mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-db/sakila-schema.sql
 ```
 
 - Charger les données
 
 ```
-$ docker exec  --interactive some-mysql  mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-data.sql
+$ docker exec  --interactive some-mysql  mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-db/sakila-data.sql
 ```
 
 ### Éxécuter les commandes SQL de BlackBoard
