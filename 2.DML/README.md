@@ -16,7 +16,7 @@ http://downloads.mysql.com/docs/sakila-db.zip
 ```
 $ docker exec --interactive --tty some-mysql \
               mysql --user root --password --execute \
-              "CREATE DATABASE SAKILA;"
+              "CREATE DATABASE sakila;"
 ```
 
 - Créer un utilisateur
