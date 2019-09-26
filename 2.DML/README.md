@@ -49,7 +49,7 @@ $ docker exec  --interactive some-mysql \
                mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-data.sql
 ```
 
-### Se connecter à MySQL PowerBench
+### Se connecter à [MySQL WorkBench](https://www.mysql.com/fr/products/workbench/)
 
 ![image](images/connection.png)
 
