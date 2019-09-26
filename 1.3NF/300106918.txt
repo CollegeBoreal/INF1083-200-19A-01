@@ -1,14 +1,13 @@
 Domaine: network IT
 
-domaine: network it
 
 1nf => domaine: network it
 
 
 2nf
 
-données 
-{..maintenance et support,configuration...} => solution [wlan  vlan routeur  résoudre des problèmes techniques ]
-{.. routers, switches ,security ,cables, camera ....}  => vente products [nom , ]
-{... pare-feu (firewall),anti-virus ,logiciel de nettoyage,anti espions connexion ..} => sécurité [ installation ,mise a jours ]  
-{$30 + tax - base , ..., } => prix  [type service  , tarif products ]
+Données 
+{..maintenance et support,configuration .wlan  vlan routeur...} => Solution [Nom]
+{.. routers, switches ,security ,cables, camera ....}  => Products [Nom , Date ]
+{... pare-feu (firewall),anti-virus ,logiciel de nettoyage,,mise a jours  ..} => Installation  [Nom ]  
+{$30 + tax - base , ..., } => Prix  [type service  , tarif products ]
