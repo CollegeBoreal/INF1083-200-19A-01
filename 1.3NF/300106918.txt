@@ -1,13 +1,11 @@
-Domaine: network IT
+1nf => Domaine: network IT
 
 
-1nf => domaine: network it
-
-
-2nf
-
-Données 
+2nf => Données 
 {..maintenance et support,configuration .wlan  vlan routeur...} => Solution [Nom]
 {.. routers, switches ,security ,cables, camera ....}  => Products [Nom , Date ]
 {... pare-feu (firewall),anti-virus ,logiciel de nettoyage,,mise a jours  ..} => Installation  [Nom ]  
 {$30 + tax - base , ..., } => Prix  [type service  , tarif products ]
+
+
+3nf  =>
