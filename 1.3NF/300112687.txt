@@ -1,1 +1,11 @@
-Domaine: Assurance 
+1NF => Domaine: Assurance
+
+2NF =>
+
+  Donées:
+  
+  {locataire, Pied à terre, vie , Proprietaire, Maison mobile,Santé, Rapatrition} => Type d'assurance[Nom]
+  {Trimestriel, Semestriel, Annuel} => Type d'abonement[Nom]
+  {credit carte, paypal, débit carte, M-pesa} type de paiement [Nom]
+  {vol, incedie , renovation , maladie, embaumement funéraire} => service offert [Nom]
+  {600$ *3 , 800*6, 1500*12} =>Prix [Montant]
