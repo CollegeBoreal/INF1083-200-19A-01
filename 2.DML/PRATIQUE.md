@@ -9,8 +9,6 @@
 * Correction
 Se référer au fichier suivant:
 
-[JOIN](JOIN.md)
-
 ### Perfectionnement:
 
 1. Quel(le) acteur(rice) est apparu(e) dans le plus de films?
