@@ -14,27 +14,32 @@ http://downloads.mysql.com/docs/sakila-db.zip
 - Créer la base de données sakila
 
 ```
-$ docker exec --interactive --tty some-mysql mysql --user root --password --execute "create database sakila;"
+$ docker exec --interactive --tty some-mysql \
+              mysql --user root --password --execute \
+              "CREATE DATABASE SAKILA;"
 ```
 
 - Créer un utilisateur
 
 ```
-$ docker exec --interactive some-mysql  mysql --user root -ppassword \
-    --execute "CREATE USER 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';"
+$ docker exec --interactive some-mysql  \
+              mysql --user root -ppassword --execute \
+              "CREATE USER 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';"
 ```
 
 - Accorder tous les drois a l'utilisateur d'utiliser la base sakila
 
 ```
-$ docker exec --interactive some-mysql  mysql --user root -ppassword \
-   --execute "GRANT ALL ON sakila.* TO 'etudiants'@'%';"
+$ docker exec --interactive some-mysql  \
+              mysql --user root -ppassword --execute \
+              "GRANT ALL ON sakila.* TO 'etudiants'@'%';"
 ```
 
 - Charger la base
 
 ```
-$ docker exec  --interactive some-mysql  mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-schema.sql
+$ docker exec  --interactive some-mysql \
+               mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-schema.sql
 ```
 
 - Charger les données
