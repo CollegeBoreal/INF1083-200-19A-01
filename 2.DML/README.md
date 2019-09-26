@@ -49,6 +49,10 @@ $ docker exec  --interactive some-mysql \
                mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-data.sql
 ```
 
-### Éxécuter les commandes SQL de BlackBoard
+### Se connecter à MySQL PowerBench
+
+![image](images/connection.png)
+
+### Éxécuter les commandes SQL en se servant du modèle ci-dessous
 
 ![image](images/sakila.png)
