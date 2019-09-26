@@ -9,6 +9,10 @@ http://downloads.mysql.com/docs/sakila-db.zip
 
 . Décompresser le fichier
 
+```
+$ unzip ~/Downloads/sakila-db.zip  -d ~/Downloads
+```
+
 ### Charger les données dans Docker 
 
 - Créer la base de données sakila
