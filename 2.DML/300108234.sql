@@ -1,0 +1,1 @@
+-- Imprimer l'enregistrement comprenant le pays Algerie 
