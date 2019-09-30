@@ -7,4 +7,4 @@
 
 ## Emulation
 
-[Emule](Emulation.md)
+[Emule](Emulator.md)
