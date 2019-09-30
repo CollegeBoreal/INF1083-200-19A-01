@@ -66,7 +66,7 @@ This script has modified your environment. You need to log off and log back on f
 Press any key to continue...
 ```
 
-Sortie du Terminal bash et rouvrir un autre pour tester les variables
+Sortir du Terminal `cmd` et rouvrir un autre (i.e. `bash`) pour tester les variables
 
 ```bash
 moi@ma-machine MINGW64 ~
