@@ -53,7 +53,17 @@ This script has modified your environment. You need to log off and log back on f
 Press any key to continue...
 ```
 
-Sortie du Terminal bash et rouvrir un autre
+Sortie du Terminal bash et rouvrir un autre pour tester les variables
+
+```
+moi@ma-machine MINGW64 ~
+$ echo $JAVA_HOME
+C:\Program Files\Java\jdk1.8.0_221
+
+moi@ma-machine MINGW64 ~
+$ echo $ANDROID_HOME
+C:\Android\android-sdk
+```
 
 ## Utiliser NativeScript
 
