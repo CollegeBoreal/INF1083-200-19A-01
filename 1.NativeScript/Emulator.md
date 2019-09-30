@@ -22,3 +22,7 @@ Do you wish to create a custom hardware profile? [no] no
 ```bash
 $ emulator -avd test &
 ```
+
+* Jouer avec l'AVD
+
+![image](images/image.png)
