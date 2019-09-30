@@ -11,6 +11,6 @@ $  tns create b<mon ID> --template tns-template-tab-navigation-ng
 * Émulation
 
 ```
-$  tns create b<mon ID> --template tns-template-tab-navigation-ng
+$  tns run
 ```
 
