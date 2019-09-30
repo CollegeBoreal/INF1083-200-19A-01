@@ -78,6 +78,14 @@ $ echo $ANDROID_HOME
 C:\Android\android-sdk
 ```
 
+#### Accélerateur de matériel
+
+:warning: Installer l'accélérateur en fonction de votre plateforme
+
+Si vous utilisez Hyper-V installer [WHPX](https://developer.android.com/studio/run/emulator-acceleration#vm-windows-whpx)
+
+https://developer.android.com/studio/run/emulator-acceleration#vm-windows
+
 ### MacOS
 
 Ouvrir un terminal et executer la commande
