@@ -25,4 +25,4 @@ $ emulator -avd test &
 
 * Jouer avec l'AVD
 
-![image](images/image.png)
+![image](images/emulator.png)
