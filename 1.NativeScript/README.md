@@ -6,6 +6,13 @@
 
 [Installation Rapide](https://docs.nativescript.org/start/quick-setup)
 
+
+Executer la commande suivante dans `cmd` en tant qu'Administrateur `(Touche Windows > taper "cmd" > right click > Run as Administrator)`
+
+```
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://www.nativescript.org/setup/win'))"
+```
+
 ### Windows
 
 * [Chocolatey](https://chocolatey.org/)
