@@ -3,6 +3,9 @@
 
 ## Windows
 
+
+:bookmark: Ouvrir git bash
+
 * Installer l'emulateur, les differents outils et la derniere version de la SDK Android
 
 ```bash
