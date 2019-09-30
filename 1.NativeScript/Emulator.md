@@ -12,7 +12,7 @@ $ $ANDROID_HOME/tools/bin/sdkmanager.bat "emulator" "platform-tools" "platforms;
 * Creer le AVD (Android Virtual Device) avec un SDK
 
 ```bash
-$ $ANDROID_HOME/tools/bin/avdmanager.bat create avd -n test -k "system-images;android-28;google_apis;x86_64"
+$ $ANDROID_HOME/tools/bin/avdmanager.bat create avd --name test --package "system-images;android-28;google_apis;x86_64"
 Auto-selecting single ABI x86===========] 100% Fetch remote repository...
 Do you wish to create a custom hardware profile? [no] no
 ```
