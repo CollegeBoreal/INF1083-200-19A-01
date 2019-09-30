@@ -86,7 +86,6 @@ Si vous utilisez Hyper-V installer [WHPX](https://developer.android.com/studio/r
 
 [Windows Hypervisor Platform](https://stackoverflow.com/questions/53599660/cant-windows-hypervisor-platform-option-in-my-windows-10-pro) feature depends on Windows 10 version 1803 (aka "Redstone 4") 
 
-https://developer.android.com/studio/run/emulator-acceleration#vm-windows
 
 ### MacOS
 
