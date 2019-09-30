@@ -8,5 +8,5 @@ Do you wish to create a custom hardware profile? [no] no
 ```
 
 ```bash
-$ emulator -avd test
+$ emulator -avd test &
 ```
