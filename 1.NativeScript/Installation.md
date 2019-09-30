@@ -16,7 +16,7 @@
 `(Touche Windows > taper "cmd" > right click > Run as Administrator)`
 
 ```
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://www.nativescript.org/setup/win'))"
+> @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://www.nativescript.org/setup/win'))"
 ```
 
 :two: Questions a repondre
@@ -84,7 +84,8 @@ C:\Android\android-sdk
 
 Si vous utilisez Hyper-V installer [WHPX](https://developer.android.com/studio/run/emulator-acceleration#vm-windows-whpx)
 
-https://developer.android.com/studio/run/emulator-acceleration#vm-windows
+[Windows Hypervisor Platform](https://stackoverflow.com/questions/53599660/cant-windows-hypervisor-platform-option-in-my-windows-10-pro) feature depends on Windows 10 version 1803 (aka "Redstone 4") 
+
 
 ### MacOS
 
