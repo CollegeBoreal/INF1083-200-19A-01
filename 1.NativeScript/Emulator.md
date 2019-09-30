@@ -11,7 +11,7 @@
 ```bash
 $ $ANDROID_HOME/tools/bin/sdkmanager.bat "emulator" "platform-tools" "platforms;android-28" "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
 ```
-* Installer le package
+* Installer le package Android SDK version 28
 
 ```bash
 $ $ANDROID_HOME/tools/bin/sdkmanager.bat --install "system-images;android-28;google_apis;x86_64"
