@@ -6,7 +6,8 @@
 * Installer la derniere version de la SDK Android
 
 ```bash
-$ $ANDROID_HOME/tools/bin/sdkmanager.bat "emulator" "platform-tools" "platforms;android-28" "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
+$ $ANDROID_HOME/tools/bin/sdkmanager.bat "emulator" "platform-tools" "platforms;android-28" \ 
+                                         "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
 ```
 
 * Creer 
