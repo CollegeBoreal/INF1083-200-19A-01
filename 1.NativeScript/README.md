@@ -65,6 +65,14 @@ $ echo $ANDROID_HOME
 C:\Android\android-sdk
 ```
 
+### MacOS
+
+Ouvrir un terminal et executer la commande
+
+```
+$ ruby -e "$(curl -fsSL https://www.nativescript.org/setup/mac)"
+```
+
 ## Utiliser NativeScript
 
 https://github.com/CollegeBoreal/Tutoriels/tree/master/3.Angular/M.Mobile
