@@ -2,6 +2,14 @@
 Développement d'applications
 
 
+## Devoirs
+
+|# | Date   | Themes                                              |     Commentaires                                                   |
+|--|:------:|:----------------------------------------------------|:-------------------------------------------------------------------|
+|01|23-09-19| [Angular CLI](https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/0.Angular/README.md#participation) | Mon premier projet sous Angular CLI          |                                                  
+
+
+
 ## Déroulement de cours:
 
 |# | Date   |                                                     |     Commentaires                                                     |
