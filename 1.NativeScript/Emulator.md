@@ -29,3 +29,13 @@ $ emulator -avd test &
 * Jouer avec l'AVD
 
 ![image](images/emulator.png)
+
+## Problème de JDK
+
+modifier votre JDK en "/c/Program Files/java/jdk1.8.0_221"
+
+example export JAVA_HOME="/c/Program Files/java/jdk1.8.0_221"
+
+```bash
+$ nano ~/.bashrc
+```
