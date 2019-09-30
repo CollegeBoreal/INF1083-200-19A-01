@@ -55,7 +55,7 @@ Press any key to continue...
 
 Sortie du Terminal bash et rouvrir un autre pour tester les variables
 
-```
+```bash
 moi@ma-machine MINGW64 ~
 $ echo $JAVA_HOME
 C:\Program Files\Java\jdk1.8.0_221
