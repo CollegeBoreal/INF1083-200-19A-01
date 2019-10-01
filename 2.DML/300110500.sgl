@@ -1,12 +1,1 @@
- 
- SELECT * FROM film JOIN film_actor ON (film.film_id = film_actor.film_id)
- 
- 
 
-
-  SELECT * FROM film JOIN film_actor USING (film_id)
-  
-
-
-
-  SELECT * FROM film, film_actor WHERE film.film_id = film_actor.film_id
