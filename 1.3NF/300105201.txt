@@ -1,2 +1,10 @@
-Domaine: Musicshop
+1NF => Domaine: Musicshop
+
+2NF =>
+
+Donnees :
+{Guitars, Keyboards, Drums, Band & Orchestral, Software, ..} => Types d'instruments[Nom]
+{Toutes les options} => Size[Nom]
+[Gris, Noir, Blanc, Bleu,...} => Couleur[Nom]
+{Visa, debit, Master Card} => Paiment[Nom]
 

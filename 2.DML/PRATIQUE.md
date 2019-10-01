@@ -8,8 +8,7 @@
 
 * Correction
 Se référer au fichier suivant:
-
-[JOIN](JOIN.md)
+`<TBD>`
 
 ### Perfectionnement:
 

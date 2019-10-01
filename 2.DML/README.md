@@ -9,40 +9,54 @@ http://downloads.mysql.com/docs/sakila-db.zip
 
 . Décompresser le fichier
 
+```
+$ unzip ~/Downloads/sakila-db.zip  -d ~/Downloads
+```
+
 ### Charger les données dans Docker 
 
 - Créer la base de données sakila
 
 ```
-$ docker exec --interactive --tty some-mysql mysql --user root --password --execute "create database sakila;"
+$ docker exec --interactive --tty some-mysql \
+              mysql --user root --password --execute \
+              "CREATE DATABASE sakila;"
 ```
 
 - Créer un utilisateur
 
 ```
-$ docker exec --interactive some-mysql  mysql --user root -ppassword \
-    --execute "CREATE USER 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';"
+$ docker exec --interactive some-mysql  \
+              mysql --user root -ppassword --execute \
+              "CREATE USER 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';"
 ```
 
 - Accorder tous les drois a l'utilisateur d'utiliser la base sakila
 
 ```
-$ docker exec --interactive some-mysql  mysql --user root -ppassword \
-   --execute "GRANT ALL ON sakila.* TO 'etudiants'@'%';"
+$ docker exec --interactive some-mysql  \
+              mysql --user root -ppassword --execute \
+              "GRANT ALL ON sakila.* TO 'etudiants'@'%';"
 ```
 
 - Charger la base
 
 ```
-$ docker exec  --interactive some-mysql  mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-db/sakila-schema.sql
+$ docker exec  --interactive some-mysql \
+               mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-schema.sql
 ```
 
 - Charger les données
 
 ```
-$ docker exec  --interactive some-mysql  mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-db/sakila-data.sql
+$ docker exec  --interactive some-mysql \
+               mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-data.sql
 ```
 
-### Éxécuter les commandes SQL de BlackBoard
+### Se connecter à [MySQL WorkBench](https://www.mysql.com/fr/products/workbench/)
 
-![alt tag](https://github.com/CollegeBoreal/INF1006-202-18A-02/blob/master/2.DML/sakila.png)
+![image](images/connection.png)
+
+### Éxécuter les commandes SQL en se servant du modèle ci-dessous
+
+![image](images/sakila.png)

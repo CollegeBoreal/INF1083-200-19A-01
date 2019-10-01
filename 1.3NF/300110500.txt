@@ -4,4 +4,5 @@ DOMAINE: IMMIGRATION CONSULTING
 {Visa Etudiant, visa Resident Permanent, visa Resident Temporaire, visa de refugier} => Type de visa[Nom]
 {Espece,Cheque, Carte Bancaire, Western Union} =>  Mode de reglement des Honoraire[Nom]
 {Ghana, Niger, Congo, Burkina Faso, France} => (Pays de Residence)
-Canada, USA, Espagne, France, Allemagne(Payd d'immigration)
+Canada, USA, Espagne, France, Allemagne => (Payd d'immigration)
+{Appui, conseil, documentation, annulation d'une demande} => (Type de Service) 
