@@ -3,7 +3,7 @@
 
 ## Installation
 
-[Installe](Installation.md)
+[Installe](installation)
 
 ## Emulation
 
