@@ -45,3 +45,12 @@ Step 1 of 12:
 Allow the script to install Homebrew?
 (Y)es/(N)o
 ```
+
+* Installer Google Chrome
+
+```
+Step 2 of 12:
+Allow the script to install Google Chrome?
+(Y)es/(N)o
+N
+```
