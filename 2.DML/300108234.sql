@@ -14,8 +14,7 @@ WHERE
     a.address_id = m.address_id AND    
     p.customer_id = m.customer_id AND
     c.city_id = a.city_id
-        AND c.city LIKE 'Lubumbashi'
-GROUP BY m.last_name;
+        AND c.city LIKE 'Lubumbashi';
 
 
 
@@ -42,12 +41,11 @@ SELECT
     IFNULL(m.last_name, 'Total') AS Nom,
     SUM(p.amount) AS Facture
 FROM
-    customer m
+customer m
 INNER JOIN address a ON m.address_id = a.address_id
 INNER JOIN city c ON a.city_id = c.city_id
 INNER JOIN country o ON o.country_id = c.country_id
 INNER JOIN payment p ON p.customer_id = m.customer_id
 WHERE
     country LIKE 'Congo%'
-    OR country LIKE 'Algeria'
-GROUP BY o.country , m.last_name;
+    OR country LIKE 'Algeria';
