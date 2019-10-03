@@ -31,7 +31,7 @@ $ docker exec --interactive some-mysql  \
               "CREATE USER 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';"
 ```
 
-- Accorder tous les drois a l'utilisateur d'utiliser la base sakila
+- Accorder tous les droits a l'utilisateur d'utiliser la base sakila
 
 ```
 $ docker exec --interactive some-mysql  \
