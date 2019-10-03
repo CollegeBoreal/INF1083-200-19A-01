@@ -1,4 +1,6 @@
-Ouvrir un terminal et executer la commande
+# MacOS
+
+* Ouvrir un terminal et executer la commande
 
 ```
 $ ruby -e "$(curl -fsSL https://www.nativescript.org/setup/mac)"
