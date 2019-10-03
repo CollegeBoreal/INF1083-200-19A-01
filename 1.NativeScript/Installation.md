@@ -93,6 +93,12 @@ Ouvrir un terminal et executer la commande
 
 ```
 $ ruby -e "$(curl -fsSL https://www.nativescript.org/setup/mac)"
+These scripts require sudo permissions
+Password:
+NativeScript requires Xcode.
+If you do not have Xcode installed, download and install it from App Store and run it once to complete its setup.
+Do you have Xcode installed? (y/n)
+y
 ```
 
 ## Utiliser NativeScript
