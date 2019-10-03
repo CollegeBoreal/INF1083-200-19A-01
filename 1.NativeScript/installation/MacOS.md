@@ -54,3 +54,13 @@ Allow the script to install Google Chrome?
 (Y)es/(N)o
 N
 ```
+
+* Installer Open JDK 8
+
+```
+Step 3 of 12:
+Allow the script to install Open JDK 8?
+(Y)es/(N)o
+Y
+Set JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+```
