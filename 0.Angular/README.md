@@ -15,3 +15,5 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/3.Angular
 $ ng new monprojet --style=scss
 ```
 
+
+## [Participation](Participation.md)
