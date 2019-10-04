@@ -11,11 +11,11 @@
 ### Windows
 
 
-[Installation sur Windows](installation/Windows.md)
+[Installation sur Windows](Windows.md)
 
 ### MacOS
 
-[Installation sur MacOS](installation/MacOS.md)
+[Installation sur MacOS](MacOS.md)
 
 ## Utiliser NativeScript
 
