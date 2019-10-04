@@ -6,7 +6,7 @@ Développement d'applications
 
 |# | Date   | Themes                                              |     Commentaires                                                   |
 |--|:------:|:----------------------------------------------------|:-------------------------------------------------------------------|
-|01|23-09-19| [Angular CLI](https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/0.Angular/README.md#participation) | Mon premier projet sous Angular CLI          |                                                  
+|01|23-09-19| [Angular CLI](0.Angular/README.md#participation)    | Mon premier projet sous Angular CLI          |                                                  
 
 
 
@@ -17,7 +17,7 @@ Développement d'applications
 |01|02-09-19|                                                     | Rentrée des classes                                                  |
 |02|09-09-19| Présentation du nouveau cours                       | Présentation d'Applications Hybrides comme NativeScript et github    |
 |03|16-09-19| Introduction NativeScript                           | https://play.nativescript.org                                        |
-|04|23-09-19| TBD                                                 | TBD                                                                  |
+|04|23-09-19| [Angular](0.Angular/README.md)                      | https://angular.io/ Application Framework                           |
 |05|30-09-19| TBD                                                 | TBD                                                                  |
 |06|07-10-19| TBD                                                 | TBD                                                                  |
 |07|14-10-19| TBD                                                 | TBD                                                                  |
