@@ -64,3 +64,23 @@ Allow the script to install Open JDK 8?
 Y
 Set JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 ```
+
+```
+Step 4 of 12:
+Allow the script to install Android SDK?
+Note that if you type all you won't be prompted for subsequent installations
+(Y)es/(N)o/(A)ll
+Y
+```
+
+```
+Step 5 of 12:
+Do you want to install Android emulator system image? (y/n)
+y
+```
+
+```
+Step 6 of 12:
+Do you want to install HAXM (Hardware accelerated Android emulator)? (y/n)
+y
+```
