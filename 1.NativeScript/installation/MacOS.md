@@ -23,6 +23,10 @@ By typing 'agree' you are agreeing to the terms of the software license agreemen
 You can view the license agreements in Xcode's About Box, or at /Applications/Xcode.app/Contents/Resources/English.lproj/License.rtf
 ```
 
+* Accepter la License en tapant :  `agree`
+
+
+
 * Menu d'installation
 
 ```
