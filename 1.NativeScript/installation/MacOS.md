@@ -52,7 +52,10 @@ Allow the script to install Homebrew?
 Step 2 of 12:
 Allow the script to install Google Chrome?
 (Y)es/(N)o
-N
+Y
+...
+Error: It seems there is already an App at '/Applications/Google Chrome.app'.
+WARNING: Google Chrome not installed
 ```
 
 * Installer Open JDK 8
