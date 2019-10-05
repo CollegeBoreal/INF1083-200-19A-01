@@ -46,12 +46,15 @@ This setup script will request to install the following on your machine:
 
 ```
 
+:warning: Installer par defaut en tapant `Y` soit le logiciel se mettra a jour soit ile ne sera pas installe
+
 * Installer Homebrew
 
 ```
 Step 1 of 12:
 Allow the script to install Homebrew?
 (Y)es/(N)o
+Y
 ```
 
 * Installer Google Chrome
