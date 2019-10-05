@@ -77,6 +77,9 @@ Allow the script to install Open JDK 8?
 (Y)es/(N)o
 Y
 Set JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+...
+Installing Open JDK 8 ... This might take some time, please, be patient.
+Warning: Cask 'adoptopenjdk8' is already installed.
 ```
 
 ```
