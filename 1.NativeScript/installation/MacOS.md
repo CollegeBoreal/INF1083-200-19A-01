@@ -11,7 +11,11 @@ If you do not have Xcode installed, download and install it from App Store and r
 Do you have Xcode installed? (y/n)
 y
 ```
-* Accepter la License en appuyant plusieurs fois sur la touche `espace` et en finissant avec la touche `q`
+* Lire la License XCode Apple en appuyant :
+
+    - plusieurs fois sur la touche `espace` 
+    
+    - et en finissant avec la touche `q`
 
 ```
 By typing 'agree' you are agreeing to the terms of the software license agreements. Type 'print' to print them or anything else to cancel, [agree, print, cancel] agree
