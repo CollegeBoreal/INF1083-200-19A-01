@@ -46,3 +46,13 @@ example export JAVA_HOME="/c/Program Files/java/jdk1.8.0_221"
 ```bash
 $ nano ~/.bashrc
 ```
+
+# Variables d'environemment
+
+## Android Specific
+
+export ANDROID_HOME=/usr/local/share/android-sdk
+export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+
+export PATH=$ANDROID_SDK_ROOT/tools:$PATH
