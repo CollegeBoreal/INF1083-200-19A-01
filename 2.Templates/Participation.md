@@ -1,6 +1,14 @@
 # Participation
 
 
+
+| Légende            | Signification      |
+|--------------------|--------------------|
+| :heavy_check_mark: | Travail fait       |
+| :heavy_plus_sign:  | Doit faire plus    |
+| :x:                | N'a rien fait      |
+
+
 |:hash:| :id:                             |   Commentaires                           | Appreciation       |
 |------|----------------------------------|------------------------------------------|--------------------|
 | 00   | [300098957](b300098957-blank-ng) |                                          | :heavy_check_mark: |
