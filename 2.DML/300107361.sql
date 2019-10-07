@@ -42,3 +42,4 @@ INNER JOIN payment p ON p.customer_id = m.customer_id
 WHERE
     country LIKE 'Congo%'
     OR country LIKE 'Algeria';
+
