@@ -24,6 +24,14 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 
 ![image](images/Essentials.png)
 
-:three: Utiliser les commandes `git` pour poser votre projet sous github
+:three: Activités `git`
+
+* Créer un fichier README.md
+
+* Ajouter des commentaires sur votre projet dans le fichier README.md
+
+* Faire une copie d'écran de votre simulator (emulator), sauvegarder les fichier et l'afficher dans README.md
+
+* Utiliser les commandes `git` pour envoyer votre projet sous github
 
 # [Participation](Participation.md)
