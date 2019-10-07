@@ -1,49 +1,23 @@
 <ActionBar title="shopping time" class="action-bar">
 </ActionBar>
 
-<<Button text="login" (tap)="onButtonTap()">
-    <Button text="sign up" (tap)="onButtonTap()"></Button>
-</Button>
-
+<Label text="Label"></Label>
 
 <Image
         src="https://play.nativescript.org/dist/assets/img/NativeScript_logo.png">
 </Image>
 
 
-<ListView class="list-group" [items]="clothing"
-          (itemTap)="onItemTap($event)" style="height:1250px">
-    <ng-template let-country="item">
-        <FlexboxLayout flexDirection="row" class="list-group-item">
-            <Image [src]="clothing.imageSrc" class="thumb img-circle">
-            </Image>
-            <Label [text]="clothing.name" class="list-group-item-heading"
-                   verticalAlignment="center" style="width: 60%"></Label>
-        </FlexboxLayout>
-    </ng-template>
-</ListView>
+<Label text="Label"></Label>
 
-<ListView class="list-group" [items]="accessories"
-          (itemTap)="onItemTap($event)" style="height:1250px">
-    <ng-template let-country="item">
-        <FlexboxLayout flexDirection="row" class="list-group-item">
-            <Image [src]="accessories.imageSrc" class="thumb img-circle">
-            </Image>
-            <Label [text]="accessories.name"
-                   class="list-group-item-heading" verticalAlignment="center"
-                   style="width: 60%"></Label>
-        </FlexboxLayout>
-    </ng-template>
-</ListView>
 
-<ListView class="list-group" [items]="home & living"
-          (itemTap)="onItemTap($event)" style="height:1250px">
-    <ng-template let-country="item">
-        <FlexboxLayout flexDirection="row" class="list-group-item">
-            <Image [src]="home & living.imageSrc" class="thumb img-circle">
-            </Image>
-            <Label [text]="home & living .name" class="list-group-item-heading"
-                   verticalAlignment="center" style="width: 60%"></Label>
-        </FlexboxLayout>
-    </ng-template>
-</ListView>
+
+<DockLayout width="210" height="210" backgroundColor="lightgray"
+            stretchLastChild="false">
+    <Label text="left" dock="left" width="60" backgroundColor="red"></Label>
+    <Label text="top" dock="top" height="60" backgroundColor="green"></Label>
+    <Label text="right" dock="right" width="60" backgroundColor="blue">
+    </Label>
+    <Label text="bottom" dock="bottom" height="60" backgroundColor="yellow">
+    </Label>
+</DockLayout>
