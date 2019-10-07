@@ -20,7 +20,7 @@ Développement d'applications
 |03|16-09-19| Introduction NativeScript                           | https://play.nativescript.org                                        |
 |04|23-09-19| [Angular](0.Angular/README.md)                      | https://angular.io/ Application Framework                           |
 |05|30-09-19| [NativeScript](1.tns)                               | Install [NativeScript](N.NativeScript)                                                     |
-|06|07-10-19| TBD                                                 | TBD                                                                  |
+|06|07-10-19| [Templates](2.Templates)                            | Ecrire une page HTML (Template) d'un template                                                                  |
 |07|14-10-19| TBD                                                 | TBD                                                                  |
 |08|21-10-19| Semaine d'études                                    | Pas de cours                                                         |
 |09|28-10-19| TBD                                                 | TBD                                                                  |
