@@ -1,6 +1,12 @@
 # TNS CLI Blank Template
 
-:zero: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
+:zero: Dessiner, à la main, une page d'un écran mobile (sketch) et en prendre une photo 
+
+:bulb: Ce sketch sera utiliser pour créer une application mobile
+
+```
+La page comprendra du texte et une ou des images
+```
 
 
 :one: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
