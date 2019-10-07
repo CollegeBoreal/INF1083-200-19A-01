@@ -8,7 +8,7 @@
 La page comprendra du texte et une ou des images
 ```
 
-* montrer l'image du `sketch`
+* montrer l'image du `sketch` dans son fichier `README.md` (voir ci-dessous)
 
 :one: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
 
