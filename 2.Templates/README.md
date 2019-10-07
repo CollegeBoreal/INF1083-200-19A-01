@@ -20,7 +20,11 @@ La page comprendra du texte et une ou des images
 $  tns create my-blank-ng --template tns-template-blank-ng
 ```
 
-:two: En s'aidant de [play.nativescript.org](https://play.nativescript.org), Remplacer le `template` du composant application pour afficher:
+:two: En s'aidant de [play.nativescript.org](https://play.nativescript.org), Remplacer le `template` du composant `home` pour afficher:
+
+:warning: Ne pas toucher le fichier `app.component.html` il doit contenir `<page-router-outlet></page-router-outlet>`
+
+:bulb: Editer le fichier `home.component.html`
 
 * Une barre d'action
 
