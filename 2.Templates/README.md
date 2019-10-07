@@ -26,4 +26,4 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 
 :three: Utiliser les commandes `git` pour poser votre projet sous github
 
-## [Participation](Participation.md)
+# [Participation](Participation.md)
