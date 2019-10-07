@@ -24,7 +24,7 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 
 ![image](images/Essentials.png)
 
-:three: Activités `git`
+:three: Activités `git` et [MarkDown](https://github.com/CollegeBoreal/Tutoriels/tree/master/M.MarkDown)
 
 * Créer un fichier README.md
 
