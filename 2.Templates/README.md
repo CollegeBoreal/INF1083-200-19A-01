@@ -1,8 +1,8 @@
 # TNS CLI Blank Template
 
-### Créer un nouveau projet en remplacant `my` dans `my-blank-ng` par b`<`votre :id:`>`
+### :one: Créer un nouveau projet en remplacant `my` dans `my-blank-ng` par b`<`votre :id:`>`
 
-:tip: par example le nom du projet sera `b300098957-blank-ng` 
+:bulb: par example le nom du projet sera `b300098957-blank-ng` 
 
 * Création
 
