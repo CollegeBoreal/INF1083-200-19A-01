@@ -1,12 +1,1 @@
-<ActionBar title="WD NativeScript App"></ActionBar>
-<StackLayout>
-    <ListView [items]="pokemon">
-        <template let-monster="item" let-index="index">
-            <GridLayout rows="auto" columns="auto * auto" margin="15" (tap)="showInformation(index+1)">
-                <Label class="pokemon-number" text="{{index + 1}}." row="0" col="0" marginRight="10"></Label>
-                <Label class="pokemon-name" [text]="monster.name" row="0" col="1"></Label>
-                <Image class="pokemon-image" src="~/images/{{index + 1}}.png" row="0" col="2"></Image>
-            </GridLayout>
-        </template>
-    </ListView>
-</StackLayout>
+<page-router-outlet></page-router-outlet>
