@@ -22,8 +22,8 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 
 * Deux `Labels` et une `Image`
 
-![image](images/essentials.png)
+![image](images/Essentials.png)
 
-
+:three: Utiliser les commandes `git` pour poser votre projet sous github
 
 ## [Participation](Participation.md)
