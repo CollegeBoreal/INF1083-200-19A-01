@@ -1,13 +1,14 @@
 # Participation
 
+## Légende 
 
-
-| Légende            | Signification      |
+| Signe .             | Signification      |
 |--------------------|--------------------|
 | :heavy_check_mark: | Travail fait       |
 | :heavy_plus_sign:  | Doit faire plus    |
 | :x:                | N'a rien fait      |
 
+## Résultat
 
 |:hash:| :id:                             |   Commentaires                           | Appreciation       |
 |------|----------------------------------|------------------------------------------|--------------------|
