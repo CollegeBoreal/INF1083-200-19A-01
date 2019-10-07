@@ -10,10 +10,10 @@
 $  tns create my-blank-ng --template tns-template-blank-ng
 ```
 
-* Émulation
+### :two: En s'aidant de play.nativescript.org, Remplacer le `template` du composant application pour afficher:
 
-```
-$  tns run
-```
+* Une barre d'action
+
+* Un layout
 
 ## [Participation](Participation.md)
