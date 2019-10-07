@@ -14,6 +14,16 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 
 * Une barre d'action
 
+![image](images/Bars.png)
+
 * Un layout
+
+![image](images/Layouts.png)
+
+* Deux `Labels` et une `Image`
+
+![image](images/essentials.png)
+
+
 
 ## [Participation](Participation.md)
