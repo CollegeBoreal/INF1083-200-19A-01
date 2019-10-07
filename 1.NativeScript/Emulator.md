@@ -53,19 +53,24 @@ $ nano ~/.bashrc
 
 * Vérifier les variables d'environemments suivantes
 
-## Android Specific
+
 
 ```
+## Android Specific
+
 export ANDROID_HOME=/usr/local/share/android-sdk
 export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+
+export PATH=$ANDROID_SDK_ROOT/tools:$PATH
 ```
 
 export PATH=$ANDROID_SDK_ROOT/tools:$PATH
 
-## MacOS Specific
 
 ```
+## MacOS Specific
+
 function emulator { cd "$(dirname "$(which emulator)")" && ./emulator "$@"; }
 alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
 ```
