@@ -49,6 +49,10 @@ $ nano ~/.bashrc
 
 # Variables d'environemment
 
+* Ouvrir le fichier `~/.bashrc` avec `nano`
+
+* Vérifier les variables d'environemments suivantes
+
 ## Android Specific
 
 ```
