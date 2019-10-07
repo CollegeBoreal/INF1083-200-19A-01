@@ -22,6 +22,8 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 
 :two: En s'aidant de [play.nativescript.org](https://play.nativescript.org), Remplacer le `template` du composant `home` pour afficher:
 
+:bulb: Editer le fichier `home.component.html`
+
 * Une barre d'action
 
 ![image](images/Bars.png)
