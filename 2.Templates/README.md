@@ -45,3 +45,11 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 * Utiliser les commandes `git` pour envoyer votre projet sous github
 
 # [Participation](Participation.md)
+
+# Nettoyer
+
+```
+delete node_modules, platforms, hooks folders
+clean npm cache with npm cache clear
+try to rebuild the project using only tns run android
+```
