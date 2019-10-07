@@ -6,7 +6,7 @@ Développement d'applications
 
 |# | Date   | Themes                                              |     Commentaires                                                   |
 |--|:------:|:----------------------------------------------------|:-------------------------------------------------------------------|
-|01|23-09-19| [Angular CLI](0.Angular/README.md#participation)    | Mon premier projet sous Angular CLI          |                                                  
+|01|23-09-19| [Angular CLI](0.Angular/README.md#participation)    | Mon premier projet sous Angular CLI          |                 |02|07-10-19| [Templates](2.Templates/README.md#participation)    | Mon premier fichier HTML sous NativeScript   |                                                  
 
 
 
