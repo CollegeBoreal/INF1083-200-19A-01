@@ -18,7 +18,7 @@ Développement d'applications
 |02|09-09-19| Présentation du nouveau cours                       | Présentation d'Applications Hybrides comme NativeScript et github    |
 |03|16-09-19| Introduction NativeScript                           | https://play.nativescript.org                                        |
 |04|23-09-19| [Angular](0.Angular/README.md)                      | https://angular.io/ Application Framework                           |
-|05|30-09-19| TBD                                                 | TBD                                                                  |
+|05|30-09-19| [NativeScript](1.tns)                               | Install [NativeScript](N.NativeScript)                                                     |
 |06|07-10-19| TBD                                                 | TBD                                                                  |
 |07|14-10-19| TBD                                                 | TBD                                                                  |
 |08|21-10-19| Semaine d'études                                    | Pas de cours                                                         |
