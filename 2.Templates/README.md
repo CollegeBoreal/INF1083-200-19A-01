@@ -1,6 +1,6 @@
 # TNS CLI Blank Template
 
-### Créer un nouveau projet en remplacant < my > par b<mon ID> par votre :id:
+### Créer un nouveau projet en remplacant " my " par b<mon ID> par votre :id:
 
 * Création
 
