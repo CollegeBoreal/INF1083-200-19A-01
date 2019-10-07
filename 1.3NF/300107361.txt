@@ -1,31 +1,26 @@
-Domaine: Car Center
+1NF Domaine: Car Center
 
-Sale:
+2NF Donnees: 
 
-Sport Car:
+{Sale, Repair And cleaning, Insurance} => Services offered [Name]
 
+{Acura, Audi, Bentley, BMW, Buick, Cadilac, Chevrolet, Chrysler, CODA, Daihatsu, Dodge, Ferrari, FIAT, Ford, GMC, Honda, Hyundai, Infiniti, Izuzu, Jaguar, Jeep, Kia, Lamborghini, Lamd Rover, Lexus, LOtus, Maserati, Maybach, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Porsche, Subaru, Suzuki, Toyota, Volkswagen, Volvo 48, Yamaha}                                                                             => Make[Name]
 
-SUV:
-
-
-Truck:
+{CL, CSX, EL, ILX, INTEGRA, LEGEND, VIGOR, 100, 200, CABRIOLET, R8 GT SPYDER, 1 SERIES, 640 GRAN COUP, 640 GRAN TURISMO, AVALANCHE, AVEO, IMPALA, BERETA, G30, 328, 348 SPYDER, CHEROKEE, WRANGLER, GLADIATOR, COMPASS, COMMANDER}                                                                  => Model [Name]
 
 
-Family Car
+{Made in USA, Japan, Germany, Italy, ...} => origin [name]
 
 
-
-Repair And cleaning:
-
-Tires
-
-Transmission
-
-Brake
+{Black, Bleue, Gray, white, green, red, yellow ...} => Coulour[Name] 
 
 
-Insurance:
+{1990-2000, 2000-2010, 2010-2020, ...} => years[name]
 
-New Driver:
 
-Company:
+{Electric, Hybrid, petrol, Suv, truck, regular, sport car} => engin type[name]
+
+{18000-400000} => price [int]
+
+{tires repair, transmission, brake} => reparation [name]
+
