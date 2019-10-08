@@ -61,4 +61,4 @@ $ docker exec  --interactive some-mysql \
 
 ![image](images/sakila.png)
 
-[Participation](Participation.md)
+# [Participation](Participation.md)
