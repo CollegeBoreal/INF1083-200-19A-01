@@ -10,4 +10,10 @@ Afficher une page mobile comportant deux libellés et une image
 
 :two: Le résultat final
 
+** Android **
+
 ![image](Final.png)
+
+** iOS **
+
+![image](FinaliOS.png)
