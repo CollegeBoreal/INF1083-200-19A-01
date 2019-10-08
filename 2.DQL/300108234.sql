@@ -2,7 +2,7 @@
 
 SELECT 
     customer.last_name AS 'Nom',
-    SUM(p.amount) AS 'Montant Total de la Facture'
+    SUM(payement.amount) AS 'Montant Total de la Facture'
 FROM
     customer,payment,address,city 
 WHERE
