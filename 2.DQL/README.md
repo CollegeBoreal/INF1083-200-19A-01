@@ -60,3 +60,5 @@ $ docker exec  --interactive some-mysql \
 ### Éxécuter les commandes SQL en se servant du modèle ci-dessous
 
 ![image](images/sakila.png)
+
+[Participation](Participation.md)
