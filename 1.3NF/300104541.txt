@@ -7,6 +7,6 @@
 Disquette, Online => Support[Nom]
 PS4, PS3, X-BOX One, PS vita => Console[Nom]
 Client Online: Playstore => Vente Virtuelle [Nom]
-Client Physique: EB-Games, The Source, BestBuy Vente[Nom] 
+Client Physique: EB-Games, The Source, BestBuy => Vente Physique [Nom] 
 Publicite: google add, direct => Diffusion[Nom] 
 
