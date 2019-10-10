@@ -39,7 +39,7 @@ CREATE TABLE FRAMES (
      
 CREATE TABLE MODES_DE_LIVRAISON (
      nom VARCHAR(20) NOT NULL,
-     format
+     format INT
      );
      
 CREATE TABLE LIVRAISONS (
