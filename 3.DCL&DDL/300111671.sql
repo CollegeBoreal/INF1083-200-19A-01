@@ -8,9 +8,9 @@ CREATE DATABASE Boubou;
 
 
 
-CREATE USER 'abbas'@'localhost' IDENTIFIED BY 'abbas_1';
+CREATE USER 'Boubou'@'localhost' IDENTIFIED BY 'Boubou_1';
 
-GRANT ALL ON abbas.* TO 'abbas'@'localhost';
+GRANT ALL ON Boubou.* TO 'Boubou'@'localhost';
 
 
 
@@ -89,6 +89,8 @@ CREATE TABLE PAIEMENT (
   NAME VARCHAR(30) NOT NULL
 
   );
+
+
 
 
 
