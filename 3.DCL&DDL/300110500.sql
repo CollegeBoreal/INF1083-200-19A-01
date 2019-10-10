@@ -16,8 +16,4 @@ CREATE TABLE IMMIGRATION (
   initiale VARCHAR(35) NOT NULL
   );
 
-CREATE TABLE NOTES (
-  nom VARCHAR(30) NOT NULL,
-  note INT
-  );
   
