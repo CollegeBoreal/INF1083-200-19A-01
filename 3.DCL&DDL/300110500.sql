@@ -12,7 +12,7 @@ use guigma;
 
 -- Mes Tables
 
-CREATE TABLE  (
+CREATE TABLE Visa (
   initiale VARCHAR(35) NOT NULL
   );
 
