@@ -12,8 +12,13 @@ use guigma;
 
 -- Mes Tables
 
-CREATE TABLE IMMIGRATION (
+CREATE TABLE  (
   initiale VARCHAR(35) NOT NULL
   );
 
   
+{Visa Etudiant, visa Resident Permanent, visa Resident Temporaire, visa de refugier} => Type de visa[Nom]
+{Espece,Cheque, Carte Bancaire, Western Union} =>  Mode de reglement[Nom]
+{Ghana, Niger, Congo, Burkina Faso, France} => [Pays de Residence]
+Canada, USA, Espagne, France, Allemagne => [Pays d'immigration]
+{Appui, conseil, documentation, annulation d'une demande} => [Type de Service]
