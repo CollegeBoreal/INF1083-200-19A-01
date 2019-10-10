@@ -18,19 +18,31 @@ CREATE TABLE MODES (
   initiale VARCHAR(15) NOT NULL
   );
   
- CREATE TABLE COULEURS (
+CREATE TABLE COULEURS (
      initiale VARCHAR(10) NOT NULL
      );
      
- CREATE TABLE FORMATS (
+CREATE TABLE FORMATS (
      initiale VARCHAR(5) NOT NULL
      );
   
   
- CREATE TABLE SOCIAL MEDIAS (
+CREATE TABLE SOCIAL MEDIAS (
      initiale VARCHAR(10) NOT NULL
      );
      
-   CREATE TABLE FRAMES (
+ CREATE TABLE FRAMES (
+     initiale VARCHAR(10) NOT NULL
+     );
+     
+ CREATE TABLE MODES DE LIVRAISON (
+     initiale VARCHAR(20) NOT NULL
+     );
+     
+  CREATE TABLE LIVRAISONS (
+     initiale VARCHAR(15) NOT NULL
+     );
+     
+   CREATE TABLE PRIX (
      initiale VARCHAR(10) NOT NULL
      );
