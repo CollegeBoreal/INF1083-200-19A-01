@@ -10,6 +10,10 @@ use etudiants;
 
 -- Mes Tables
 
+CREATE TABLE ETUDIANTS (
+  nom VARCHAR(30) NOT NULL
+  );
+
 CREATE TABLE NOTES (
   nom VARCHAR(30) NOT NULL,
   note INT
