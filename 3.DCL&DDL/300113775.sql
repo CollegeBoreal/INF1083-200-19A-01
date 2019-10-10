@@ -15,34 +15,38 @@ use Picasa;
 
 --mes tables 
 CREATE TABLE MODES (
-  initiale VARCHAR(15) NOT NULL
+  nom VARCHAR(15) NOT NULL
   );
   
 CREATE TABLE COULEURS (
-     initiale VARCHAR(10) NOT NULL
+     nom VARCHAR(10) NOT NULL
      );
      
 CREATE TABLE FORMATS (
-     initiale VARCHAR(5) NOT NULL
+     nom VARCHAR(5) NOT NULL
      );
   
   
 CREATE TABLE SOCIAL_MEDIAS (
-     initiale VARCHAR(10) NOT NULL
+     nom VARCHAR(10) NOT NULL
      );
      
 CREATE TABLE FRAMES (
-     initiale VARCHAR(10) NOT NULL
+     nom VARCHAR(10) NOT NULL,
+     width INT,
+     length INT 
      );
      
 CREATE TABLE MODES_DE_LIVRAISON (
-     initiale VARCHAR(20) NOT NULL
+     nom VARCHAR(20) NOT NULL,
+     format
      );
      
-  CREATE TABLE LIVRAISONS (
-     initiale VARCHAR(15) NOT NULL
+CREATE TABLE LIVRAISONS (
+     nom VARCHAR(15) NOT NULL
      );
      
-   CREATE TABLE PRIX (
-     initiale VARCHAR(10) NOT NULL
+CREATE TABLE PRIX (
+     nom VARCHAR(10) NOT NULL,
+     tarif INT 
      );
