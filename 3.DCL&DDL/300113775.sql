@@ -1,5 +1,5 @@
 -- Mon Domaine
-CREATE DATABASA Picasa;
+CREATE DATABASE Picasa;
 
 
 
