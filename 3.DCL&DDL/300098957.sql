@@ -1,5 +1,5 @@
 -- Mon domaine
-CREATE DATABSE etudiants;
+CREATE DATABASE etudiants;
 
 -- Mon utilisateur
 
