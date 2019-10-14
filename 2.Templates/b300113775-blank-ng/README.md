@@ -1,4 +1,4 @@
 mon sketch 
 
 
-![image](images/skecth775.png)
+![image](images/sketch775.png)
