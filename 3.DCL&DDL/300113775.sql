@@ -1,11 +1,11 @@
--- Mon Domaine
+--Mon Domaine
 CREATE DATABASE Picasa;
 
 
 
 --Mon Utilisateur
-CREATE USER 'Picasa'@'localhost' IDENTIFIED BY 'Picasa_1';
-GRANT ALL ON Picasa.* TO 'Picasa'@'localhost';
+CREATE USER 'picasa'@'localhost' IDENTIFIED BY 'picasa_1';
+GRANT ALL ON picasa.* TO 'picasa'@'localhost';
 
 
 
