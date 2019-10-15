@@ -1,6 +1,6 @@
 -- Mon domaine
 
-CREATE DATABASE Jeux-videos 
+CREATE DATABASE Jeux-videos; 
 
 -- Mon User
 
