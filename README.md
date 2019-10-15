@@ -6,7 +6,7 @@ Système de gestion de bases de données
 | Date   |                                                     |     Commentaires                                                      |
 |:------:|:----------------------------------------------------|:----------------------------------------------------------------------|
 |05-09-19| [3NF](./1.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                        |
-|30-09-19| [DML](2.DML/PRATIQUE.md)                            | Construire des requetes SQL en reponse a des demandes specifiques  |
+|30-09-19| [DQL](2.DQL/PRATIQUE.md)                            | Construire des requetes SQL en reponse a des demandes specifiques  |
 
 
 ## Déroulement de cours:
