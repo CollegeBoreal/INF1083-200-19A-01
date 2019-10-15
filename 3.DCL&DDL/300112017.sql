@@ -1,4 +1,4 @@
---Mon domaine
+-- Mon domaine
                                 CREATE DATABASE magasin;
 
 -- Mon utilisateur
