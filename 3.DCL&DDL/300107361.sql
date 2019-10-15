@@ -1,5 +1,5 @@
 -- Mon domaine
-CREATE DATABSE Car_Center;
+CREATE DATABASE Car_Center;
 
 -- Mon utilisateur
 
