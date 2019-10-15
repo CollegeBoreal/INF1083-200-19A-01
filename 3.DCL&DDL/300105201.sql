@@ -2,7 +2,7 @@ CREATE DATABASE Musicshop;
 
 
 CREATE USER 'musicshop'@'localhost' IDENTIFIED BY 'musicshop_1';
-GRANT ALL ON musicshop.* TO 'Musicshop'@'localhost';
+GRANT ALL ON musicshop.* TO 'musicshop'@'localhost';
 
 use musicshop;
 
