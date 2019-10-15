@@ -6,7 +6,7 @@ GRANT ALL ON Car_Center.* TO 'joker'@'localhost';
 
  
  
-use Car_center;
+use Car_Center;
 
 
 
