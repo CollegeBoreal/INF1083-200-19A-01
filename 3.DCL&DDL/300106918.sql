@@ -7,7 +7,7 @@ CREATE DATABASE network_IT;
 
 CREATE USER 'AEK'@'localhost' IDENTIFIED BY 'AEK';
 
-GRANT ALL ON network_IT.* TO 'AEK'@'localhost';
+GRANT ALL ON AEK.* TO 'AEK'@'localhost';
 
 -- selectionner la base de donnees
 
