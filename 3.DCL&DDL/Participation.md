@@ -11,7 +11,7 @@ $ docker exec --interactive some-mysql mysql --user root -ppassword ~/Developer/
 
 |:hash:| :id:                       | SQL Existe         | Execution          | Modele                            |
 |------|----------------------------|--------------------|--------------------|-----------------------------------|
-| 01   | [300104524](300104524.sql) | :heavy_check_sign: | :heavy_check_sign: | [300104524](images/300104524.png) |
+| 01   | [300104524](300104524.sql) | :heavy_check_mark: | :heavy_check_mark: | [300104524](images/300104524.png) |
 | 02   | [300104541](300104541.sql) | :x:                |
 | 03   | [300105201](300105201.sql) | :x:                |
 | 04   | [300106918](300106918.sql) | :x:                |
