@@ -7,7 +7,7 @@ Système de gestion de bases de données
 |:------:|:----------------------------------------------------|:----------------------------------------------------------------------|
 |05-09-19| [3NF](./1.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                        |
 |30-09-19| [DQL](2.DQL/PRATIQUE.md)                            | Construire des requetes SQL en reponse a des demandes specifiques  |
-|17-10-19| [DCL&DDL](3.DCL%26DDL/PRATIQUE.md)                    | Contruire votre domaine en fonction des règles DCL et DDL  |
+|17-10-19| [DCL&DDL](3.DCL%26DDL/Participation.md)             | Contruire votre domaine en fonction des règles DCL et DDL  |
 
 
 ## Déroulement de cours:
