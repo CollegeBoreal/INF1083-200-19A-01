@@ -1,5 +1,5 @@
 Mon domaine
-                                CREATE DATABASE magasin
+                                CREATE DATABASE magasin;
 
 -- Mon utilisateur
 
