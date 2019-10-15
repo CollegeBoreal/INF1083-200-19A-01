@@ -1,5 +1,11 @@
 # Participation
 
+## Execution
+
+docker exec --interactive some-mysql mysql --user root -ppassword ~/Developer/INF1006-202-29A-01/3.DCL\&DDL/:id:.sql
+
+## Resultat
+
 
 |:hash:| :id:                       | Statut             |
 |------|----------------------------|--------------------|
