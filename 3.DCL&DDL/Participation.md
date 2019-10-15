@@ -3,7 +3,7 @@
 ## Execution
 
 ```
-$ docker exec --interactive some-mysql mysql --user root -ppassword ~/Developer/INF1006-202-29A-01/3.DCL\&DDL/:id:.sql
+$ docker exec --interactive some-mysql mysql --user root -ppassword ~/Developer/INF1006-202-19A-01/3.DCL\&DDL/:id:.sql
 ```
 
 ## Resultat
