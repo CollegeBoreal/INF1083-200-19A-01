@@ -1,8 +1,8 @@
-  --Mon domaine
+ --Mon domaine
 
 CREATE DATABASE Jeux videos 
 
---Mon User
+ --Mon User
 
 CREATE USER 'Romeo'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON Romeo.* TO 'Romeo'@'localhost';
