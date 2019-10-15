@@ -1,5 +1,5 @@
 --Mon Domaine
-CREATE DATABASE Picasa;
+CREATE DATABASE picasa;
 
 
 
@@ -10,7 +10,7 @@ GRANT ALL ON picasa.* TO 'picasa'@'localhost';
 
 
 --Selectionner la base de donnée
-use Picasa;
+use picasa;
 
 
 --mes tables 
