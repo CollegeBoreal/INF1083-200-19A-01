@@ -1,16 +1,16 @@
 -- Mon domaine
 
-CREATE DATABASE Jeux videos 
+CREATE DATABASE Jeux-videos 
 
 -- Mon User
 
-CREATE USER 'Romeo'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL ON Jeux videos.* TO 'Romeo'@'localhost';
+CREATE USER 'romeo'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL ON Jeux-videos.* TO 'romeo'@'localhost';
 
 --selectionner la base de donnees 
 
 
-use Jeux videos;
+use Jeux-videos;
 
 
 -- Mes tables
