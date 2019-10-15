@@ -1,6 +1,6 @@
 -- Mon domaine
 
-CREATE DATABASE Carte_Graphique;
+CREATE DATABASE Carte_graphique;
 
 
 
@@ -8,15 +8,15 @@ CREATE DATABASE Carte_Graphique;
 
 
 
-CREATE USER 'Carte_Graphique'@'localhost' IDENTIFIED BY 'Carte_Graphique';
+CREATE USER 'Carte_graphique'@'localhost' IDENTIFIED BY 'Carte_graphique';
 
-GRANT ALL ON Carte Graphique.* TO 'Carte_Graphique'@'localhost';
+GRANT ALL ON Carte_graphique.* TO 'Carte_graphique'@'localhost';
 
 
 
 -- selectionner la base de donnees
 
-use Carte_Graphique;
+use Carte_graphique;
 
 
 
