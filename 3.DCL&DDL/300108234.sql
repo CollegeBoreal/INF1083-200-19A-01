@@ -2,13 +2,13 @@
 
 CREATE DATABASE Hijabfashion;
 
--- Mon USER 
+-- Mon utilisateur
 
 CREATE USER 'halima'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL ON halima.* TO 'halima'@'localhost';
+GRANT ALL ON Hijabfashion.* TO 'halima'@'localhost';
 
 
--- selectionner la base de donnees 
+-- Selectionner la base de donnees 
  
 use Hijabfashion;
 
@@ -33,7 +33,6 @@ Couleurs INT
  );
 
 
-
 CREATE TABLE Accessoires (
   
 nom VARCHAR(10) NOT NULL,
@@ -42,6 +41,7 @@ Accessoires INT
 
 );
 
+
 CREATE TABLE Prix (
   
 nom VARCHAR(10) NOT NULL,
@@ -49,7 +49,6 @@ tarif VARCHAR(10) NOT NULL,
 Prix INT
 
 );
-
 
 
 CREATE TABLE Tailles (   
