@@ -1,4 +1,3 @@
---Mon domaine
 CREATE DATABASE Car_Center;
 
 --Mon utilisateur
