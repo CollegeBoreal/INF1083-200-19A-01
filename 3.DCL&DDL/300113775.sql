@@ -3,17 +3,13 @@ CREATE DATABASE picasa;
 
 
 
---Mon Utilisateur
+
 CREATE USER 'picasa'@'localhost' IDENTIFIED BY 'picasa_1';
 GRANT ALL ON picasa.* TO 'picasa'@'localhost';
 
 
-
---Selectionner la base de donnée
 use picasa;
 
-
---mes tables 
 CREATE TABLE MODES (
   nom VARCHAR(15) NOT NULL
   );
