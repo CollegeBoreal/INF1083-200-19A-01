@@ -5,7 +5,7 @@ CREATE DATABASE Jeux videos
 -- Mon User
 
 CREATE USER 'Romeo'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL ON Romeo.* TO 'Romeo'@'localhost';
+GRANT ALL ON Jeux videos.* TO 'Romeo'@'localhost';
 
 --selectionner la base de donnees 
 
