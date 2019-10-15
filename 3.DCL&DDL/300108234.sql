@@ -1,19 +1,19 @@
---Mon domaine
+-- Mon domaine
 
 CREATE DATABASE Hijabfashion;
 
---Mon USER 
+-- Mon USER 
 
 CREATE USER 'halima'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON halima.* TO 'halima'@'localhost';
 
 
---selectionner la base de donnees 
+-- selectionner la base de donnees 
  
 use Hijabfashion;
 
 
---Mes tables
+-- Mes tables
 
 
 CREATE TABLE Couleurs (
