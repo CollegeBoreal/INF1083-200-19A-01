@@ -1,4 +1,4 @@
-CREATE DATABASE Musicshop;
+CREATE DATABASE musicshop;
 
 
 CREATE USER 'musicshop'@'localhost' IDENTIFIED BY 'musicshop_1';
