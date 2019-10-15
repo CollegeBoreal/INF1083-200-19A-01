@@ -1,4 +1,4 @@
---Mon Domaine
+
 CREATE DATABASE picasa;
 
 
