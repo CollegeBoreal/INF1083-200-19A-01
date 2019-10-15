@@ -1,15 +1,14 @@
 CREATE DATABASE Car_Center;
 
---Mon utilisateur
 
 CREATE USER 'joker'@'localhost' IDENTIFIED BY 'etudiants_1';
 GRANT ALL ON Car_Center.* TO 'joker'@'localhost';
 
---selectionner la base de donnees 
+ 
  
 use Car_center
 
---Mes Tables
+
 
 CREATE TABLE SERVICES_OFFERED (
   name VARCHAR(30) NOT NULL
