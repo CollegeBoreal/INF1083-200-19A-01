@@ -1,7 +1,7 @@
--- Mon domaine
+--Mon domaine
 CREATE DATABASE Car_Center;
 
--- Mon utilisateur
+--Mon utilisateur
 
 CREATE USER 'joker'@'localhost' IDENTIFIED BY 'etudiants_1';
 GRANT ALL ON Car_Center.* TO 'joker'@'localhost';
@@ -10,7 +10,7 @@ GRANT ALL ON Car_Center.* TO 'joker'@'localhost';
  
 use Car_center
 
--- Mes Tables
+--Mes Tables
 
 CREATE TABLE SERVICES_OFFERED (
   name VARCHAR(30) NOT NULL
