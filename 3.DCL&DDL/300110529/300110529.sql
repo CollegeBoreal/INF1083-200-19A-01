@@ -1,0 +1,98 @@
+-- Mon domaine
+
+CREATE DATABASE Carte Graphique;
+
+
+
+-- Mon utilisateur
+
+
+
+CREATE USER 'Carte Graphique'@'localhost' IDENTIFIED BY 'Carte Graphique';
+
+GRANT ALL ON Carte Graphique.* TO 'Carte Graphique'@'localhost';
+
+
+
+-- selectionner la base de donnees
+
+use Carte Graphique;
+
+
+
+-- Mes Tables
+
+
+
+CREATE TABLE MARQUE (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE CAPACITE (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE  MODELE (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE COULEUR (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE DELAI (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE QUANTITE (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE DUREE (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE ANNEE (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE GARANTIE (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE PRIX (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+CREATE TABLE PAIEMENT (
+
+  NAME VARCHAR(30) NOT NULL
+
+  );
+
+
+
+
+
+
+
