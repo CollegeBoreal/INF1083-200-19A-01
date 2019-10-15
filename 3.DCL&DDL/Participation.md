@@ -24,4 +24,4 @@ $ docker exec --interactive some-mysql mysql --user root -ppassword ~/Developer/
 | 11   | [300112017](300112017.sql) | :heavy_check_mark: | [:warning:](errors/300112017.txt)   |
 | 12   | [300112687](300112687.sql) | :heavy_check_mark: | [:warning:](errors/300112687.txt)   |
 | 13   | [300112917](300112917.sql) | :heavy_check_mark: | [:bar_chart:](images/300112917.png) |
-| 14   | [300113775](300113775.sql) | :heavy_plus_sign:  |
+| 14   | [300113775](300113775.sql) | :heavy_check_mark: | [:warning:](errors/300113775.txt)   |
