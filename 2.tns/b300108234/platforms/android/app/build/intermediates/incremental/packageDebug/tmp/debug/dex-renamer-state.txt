@@ -1,4 +1,0 @@
-#Mon Sep 30 16:39:39 EDT 2019
-base.0=C\:\\Users\\User\\Developer\\INF1083-200-19A-01\\2.tns\\b300108234\\platforms\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
