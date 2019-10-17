@@ -22,7 +22,7 @@ PRIMARY KEY(technical_support)
 CREATE TABLE NOTES (
 demarche VARCHAR(120)NOT NULL,
 documentation VARCHAR(120) NOT NULL,
-PRIMARH KEY (technical_support)
+PRIMARH KEY(technical_support)
 PRIMARY KEY(technical_support,services),
     FOREIGN KEY(technical_support)
 REFERENCES SERVICES(technical_support),
