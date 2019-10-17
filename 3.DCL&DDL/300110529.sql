@@ -2,16 +2,10 @@
 
 CREATE DATABASE Carte_graphique;
 
-
-
 -- Mon utilisateur
 
-
-
 CREATE USER 'Carte_graphique'@'localhost' IDENTIFIED BY 'Carte_graphique';
-
 GRANT ALL ON Carte_graphique.* TO 'Carte_graphique'@'localhost';
-
 
 
 -- selectionner la base de donnees
@@ -19,16 +13,16 @@ GRANT ALL ON Carte_graphique.* TO 'Carte_graphique'@'localhost';
 use Carte_graphique;
 
 
-
 -- Mes Tables
 
 
+CREATE TABLE Marques (
 
-CREATE TABLE MARQUE (
-
-  NAME VARCHAR(30) NOT NULL
+  NAME VARCHAR(30) NOT NULL,
+  Marques INT
 
   );
+
 
 CREATE TABLE CAPACITE (
 
