@@ -1,14 +1,14 @@
---Mon domaine
+-- Mon domaine
 
 CREATE DATABASE immigration;
 
--- Mon utilsateu
+-- Mon utilsateur
 
 CREATE USER 'guigma'@'localhost' IDENTIFIED BY 'guigma_1';
-GRANT ALL ON etudiants.* TO 'guigma'@'localhost';
+GRANT ALL ON immigration.* TO 'guigma'@'localhost';
 
 -- selectionner la base de donnees
-use guigma;
+use immigration;
 
 -- Mes Tables
 

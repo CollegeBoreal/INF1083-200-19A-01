@@ -17,3 +17,20 @@ CREATE TABLE clients(
      nom VARCHAR(30),
     prenom VARCHAR(20)
     );
+CREATE TABLE marchandises(
+       num_marchandise INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+       nom_marchandise VARCHAR(20),
+       prix_marchandise INT(20) NOT NULL,
+       description_marchandise TEXT
+      );
+CREATE TABLE PAYMENTS(
+          nom VARCHAR(30) NOT NULL, 
+          note INT
+);
+CREATE TABLE Couleurs(
+          nom VARCHAR(30) NOT NULL, 
+          note INT
+);
+CREATE TABLE Marques(
+          nom VARCHAR(30) NOT NULL, 
+          note INT

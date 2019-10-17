@@ -1,13 +1,14 @@
 # DCL & DDL
 
 
-https://www.w3schools.in/mysql/ddl-dml-dcl/
+*** Tache ***
+
+:bookmark: Écrire un fichier de commande SQL permettant de créer votre domain dans un base de données MySQL
+
+:warning: Créer un fichier avec votre :id: et nommer le :id:`.sql`
 
 
-![image](https://www.w3schools.in/wp-content/uploads/2014/08/SQL-Commands-1-700x470.png)
-
-
-### DCL & DDL:
+### Example de DCL & DDL:
 
 . lancer le CLI (Command Level Interface) de MySQL
 
@@ -18,13 +19,13 @@ https://www.w3schools.in/mysql/ddl-dml-dcl/
 
 . Dans le CLI
 
-.. créer une base de données
+.. créer une base de données (DDL)
 
 ```
 mysql> CREATE DATABASE etudiants;
 ```
 
-.. créer les utilisateurs
+.. créer les utilisateurs (DDL et DCL)
 
 - Version Longue
 

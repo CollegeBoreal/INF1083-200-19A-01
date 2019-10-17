@@ -1,61 +1,22 @@
-	CREATE DATABESES
-Vente_portable
+CREATE  DATABASE  vente_telephone;
 
+CREATE  USER ' vente_telephone ' @ ' localhost ' IDENTIFIED BY ' vente_telephone' ;
+GRANT ALL ON vente_telephone. * TO ' vente_telephone' @ ' localhost ' ;
 
-	
+use vente_telephone;
 
-	
-	-- Mon utilisateur
-
-
-CREATE USER 'vente_prtable'@'localhost' IDENTIFIED BY 'password'
-GRANT ALL ON Vente_portable* TO      'Vente_portable'@'localhost';
-
-
-	
-	
-	
-
-	-- selectionner la base de donnees
-use telephones;
-
-	
-	
-
-	-- Mes Tables
-	
-
-	CREATE TABLE telephones(
-	  initiale VARCHAR(30) NOT NULL
-	  );
-	
-
-	
-	
-	
-
-	
-
-	CREATE TABLE telephones 
-(
-	
-NON_MARQUE INT NOT NUL,
-NUMERO_SERIE VAR(30) NOT NUL,
-PRIX INT
+CREATE  TABLE  telephones
+ (
+phone_id INT NOT NULL PRIMERY KEY, marque VARCHAR ( 30 ) NOT NULL
 );
-CREATE TABLE Accessoires
-)
-Chargeur VARCHAR(30) NOT NULL,
-Ecran VARCHAR(30) NOT NULL,
-Protége VARCHAR(30) N0T NULL,
-Prix INT
-);--
 
-	
-	
 
-	
-	 
-	
-	
 
+CREATE  TABLE  accessoires 
+(
+accessoir_id INT NOT NULL PRIMERY KEY, chargeurs VARCHAR ( 30 ) NON NUL , prix VARCHAR ( 30 ) NON NUL 
+) ;
+CREATE TABE payement
+(
+Nnom VARCHAR(20), prix VARCHAR (20) NOT NULL
+) ;
