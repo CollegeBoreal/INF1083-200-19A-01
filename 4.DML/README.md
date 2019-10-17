@@ -13,7 +13,7 @@
    
    :three: Créer un fichier avec votre :id: et nommer le :id:`-data.sql` 
    
-   :four: Ajoutant des commandes DML permettant de remplir la BD dans le fichier :id:`-data.sql`
+   :four: Ajouter des commandes DML permettant de remplir la BD dans le fichier :id:`-data.sql`
 
 
 # [Participation](Participation.md)
