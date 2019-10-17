@@ -12,7 +12,11 @@ use etudiants;
 -- Mes Tables
 
 CREATE TABLE ETUDIANTS (
-  initiale VARCHAR(30) NOT NULL
+  etudiant INT AUTO_INCREMENT,
+  initiale VARCHAR(30) NOT NULL,
+  nom VARCHAR(30) NOT NULL,
+  age INT,
+  PRIMARY KEY(etudiant)
   );
 
 CREATE TABLE NOTES (
