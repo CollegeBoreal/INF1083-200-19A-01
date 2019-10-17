@@ -25,26 +25,6 @@ PRIMARY KEY (couleur)
 );
 
 
- CREATE TABLE Pays_de_fabrication ( 
- pays_de_fabrication INT AUTO_INCREMENT,  
- nom VARCHAR(10) NOT NULL,
- devise VARCHAR(10) NOT NULL,
- Pays_de_fabrication INT,
- PRIMARY KEY (pays_de_fabrication)
- 
- );
-
-
-CREATE TABLE Accessoires (
-accessoire INT AUTO_INCREMENT,  
-nom VARCHAR(10) NOT NULL,
-type VARCHAR(10) NOT NULL,   
-Accessoires INT,
-PRIMARY KEY (accessoire)
-
-);
-
-
 CREATE TABLE Prix (
 prix INT AUTO_INCREMENT,
 nom VARCHAR(10) NOT NULL,
@@ -72,3 +52,26 @@ nom VARCHAR(10) NOT NULL,
 Tissu INT, 
 PRIMARY KEY (tissu)
 );
+
+
+CREATE TABLE Accessoires (
+accessoire INT AUTO_INCREMENT,  
+nom VARCHAR(10) NOT NULL,
+type VARCHAR(10) NOT NULL,   
+Accessoires INT,
+PRIMARY KEY (accessoire)
+
+);
+
+
+CREATE TABLE Pays_de_fabrication ( 
+tissu INT,
+accessoire INT,
+pays_de_fabrication INT,
+PRIMARY KEY ( tissu, accessoire),
+FOREIGN KEY(tissu) 
+     REFERENCES Tissu(tissu),
+FOREIGN KEY(devoir) 
+     REFERENCES Accessoires(accessoire)
+ 
+ );
