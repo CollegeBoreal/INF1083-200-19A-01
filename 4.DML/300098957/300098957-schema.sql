@@ -1,9 +1,9 @@
 -- Mon domaine
-CREATE DATABASE etudiants;
+CREATE DATABASE IF NOT EXISTS etudiants;
 
 -- Mon utilisateur
 
-CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
+CREATE USER IF NOT EXISTS 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
 GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
 
 -- selectionner la base de donnees
