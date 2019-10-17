@@ -8,6 +8,7 @@ CREATE USER 'guigma'@'localhost' IDENTIFIED BY 'guigma_1';
 GRANT ALL ON immigration.* TO 'guigma'@'localhost';
 
 -- selectionner la base de donnees
+
 use immigration;
 
 -- Mes Tables
