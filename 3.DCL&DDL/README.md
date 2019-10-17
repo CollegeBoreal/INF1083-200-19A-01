@@ -4,7 +4,7 @@
 
 :bookmark: Écrire un fichier de commande SQL permettant de créer votre domain dans un base de données MySQL
 
-:tip: Créer un fichier avec votre :id: et nommer le :id:`.sql`
+:warning: Créer un fichier avec votre :id: et nommer le :id:`.sql`
 
 
 ### Example de DCL & DDL:
