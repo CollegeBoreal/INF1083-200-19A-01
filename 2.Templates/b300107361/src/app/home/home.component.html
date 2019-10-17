@@ -1,75 +1,35 @@
- <RadSideDrawer #rsd drawerTransition="PushTransition"
-        (loaded)="drawerLoaded($event)">
-        <GridLayout tkDrawerContent>
-            <StackLayout backgroundColor="#213c6b">
-                <StackLayout height="56" class="drawer-container">
-                    <Label text="Cities Raid" class="drawer-heading"></Label>
-                </StackLayout>
-                <ListView id="list-view" [items]="cities"
-                    (itemTap)="chooseCity($event)"
-                    separatorColor="transparent" height="100%"
-                    backgroundColor="#4673c1">
-                    <ng-template let-city="item">
-                        <Label [text]="city.name" padding="20"
-                            class="drawer-item"></Label>
-                    </ng-template>
-                </ListView>
-            </StackLayout>
-        </GridLayout>
-
-        <GridLayout tkMainContent class="page page-content" rows="44, *"
-            backgroundImage="{{ img }}">
-            <GridLayout row="0" (tap)="onOpenDrawerTap($event)">
-                <Label text="&#xf0c9;" class="fa-solid weather"
-                    style="padding:10"></Label>
-            </GridLayout>
-            <StackLayout orientation="vertical">
-                <Label text="JOKER" class="joker" textAlignment="center"></Label>
-            </StackLayout>
-            <ScrollView row="1">
-                <StackLayout style="padding-top:25">
-                    <Label text="{{ city }}" class="center city-name"></Label>
-                    <Label text="{{ state }}" class="center state-name">
-                    </Label>
-                    <GridLayout columns="*, *, *" rows="90, 50" class="center"
-                        style="margin-top:25">
-                        <Label text="&#xf1ad;" row="0" col="0"
-                            backgroundColor="#53beb1"
-                            class="fa icon icon-left m-r-10"></Label>
-                        <Label text="&#xf395;" row="0" col="1"
-                            backgroundColor="#d16a6e"
-                            class="fa-solid icon icon-middle"></Label>
-                        <Label text="&#xf3ff;" row="0" col="2"
-                            backgroundColor="#55a3bb"
-                            class="fa-solid icon icon-right m-l-10"></Label>
-                        <Label text="Chaos" row="1" col="0"
-                            class="icon-text icon-text-left"></Label>
-                        <Label text="Fight" row="1" col="1"
-                            class="icon-text icon-text-middle"></Label>
-                        <Label text="Play" row="1" col="2"
-                            class="icon-text icon-text-right"></Label>
-                    </GridLayout>
-                    <StackLayout class="hr-light hr-top m-t-20"></StackLayout>
-                    <StackLayout style="padding-bottom:30">
-                        <Label style="padding-left:35" text="WHY SO SERIOUS?"
-                            row="0" col="0" class="joker"></Label>
-                    </StackLayout>
-                    <StackLayout class="hr-light hr-bottom"></StackLayout>
-                </StackLayout>
-            </ScrollView>
-        </GridLayout>
-    </RadSideDrawer>
-</StackLayout>
-
-
-<StackLayout orientation="horizontal" paddingLeft="10" marginTop="525"
-    class="center">
-    <StackLayout position="relative">
-        <StackLayout #searchRow orientation="horizontal" marginTop="5">
-            <TextField backgroundColor="white" paddingLeft="20"
-                borderRadius="20" [(ngModel)]="textFieldValue" width="80%"
-                height="40" fontSize="14" hint="Search"></TextField>
-            <Button text="OK" (tap)="onButtonTap()"></Button>
-        </StackLayout>
+<ActionBar class="action-bar" xmlns="">
+    <Label class="action-bar-title" text="YOU ONLY LIVE ONCE"></Label>
+</ActionBar>
+<GridLayout tkMainContent class="page page-content" rows="44, *" backgroundImage="~/app/images/wp2660704.jpg">
+    <StackLayout orientation="vertical">
+        <Label text="JOKER" class="joker" textAlignment="center"></Label>
     </StackLayout>
-</StackLayout>
+         <ScrollView row="1">
+              <StackLayout backgroundImage="~/app/images/1097749.jpg" class="page">
+                    <Label text="Always" class="center city-name"></Label>
+                    <Label text="Improving" class="center state-name"></Label>
+                <GridLayout columns="*, *, *" rows="90, 50" class="center">
+                         <Label text="N" row="0" col="0" backgroundColor="#53beb1" class="fa icon icon-left m-r-10"></Label>
+                         <Label text="P" row="0" col="1" backgroundColor="#d16a6e" class="fa-solid icon icon-middle"></Label>
+                         <Label text="M" row="0" col="2" backgroundColor="#55a3bb" class="fa-solid icon icon-right m-l-10"></Label>
+                         <Label text="Chaos" row="1" col="0" class="icon-text icon-text-left"></Label>
+                         <Label text="Fight" row="1" col="1" class="icon-text icon-text-middle"></Label>
+                         <Label text="Play" row="1" col="2" class="icon-text icon-text-right"></Label>
+                </GridLayout>
+                <StackLayout class="hr-light hr-top m-t-20"></StackLayout>
+                    <StackLayout>
+                         <Label style="padding-left:35" text="WHY SO SERIOUS?" row="0" col="0" class="joker"></Label>
+                         <image src="~/app/images/why.png"></image>
+                         <StackLayout  orientation="horizontal" marginTop="auto">
+                            <TextField backgroundColor="white" paddingLeft="20" borderRadius="20" [(ngModel)]="textFieldValue" width="80%" height="40" fontSize="14" hint="Search"></TextField>
+                            <Button text="OK" (tap)="onButtonTap()"></Button>
+                         </StackLayout>
+                    </StackLayout>
+                <StackLayout class="hr-light hr-bottom"></StackLayout>
+              </StackLayout>
+         </ScrollView>
+</GridLayout>
+
+
+
