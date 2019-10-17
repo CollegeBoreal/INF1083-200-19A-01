@@ -1,7 +1,7 @@
 # DCL & DDL
 
 
-Créer un fichier avec votre :id: et nommer le `:id:.sql`
+Créer un fichier avec votre :id: et nommer le :id:`.sql`
 
 
 ### DCL & DDL:
