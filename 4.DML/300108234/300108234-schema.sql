@@ -71,7 +71,7 @@ pays_de_fabrication INT,
 PRIMARY KEY ( tissu, accessoire),
 FOREIGN KEY(tissu) 
      REFERENCES Tissu(tissu),
-FOREIGN KEY(devoir) 
+FOREIGN KEY(accessoire) 
      REFERENCES Accessoires(accessoire)
  
  );
