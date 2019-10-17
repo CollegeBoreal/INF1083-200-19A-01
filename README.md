@@ -6,6 +6,8 @@ Système de gestion de bases de données
 | Date   |                                                     |     Commentaires                                                      |
 |:------:|:----------------------------------------------------|:----------------------------------------------------------------------|
 |05-09-19| [3NF](./1.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                        |
+|30-09-19| [DQL](2.DQL/PRATIQUE.md)                            | Construire des requetes SQL en reponse a des demandes specifiques  |
+|17-10-19| [DCL&DDL](3.DCL%26DDL/Participation.md)             | Contruire votre domaine en fonction des règles DCL et DDL  |
 
 
 ## Déroulement de cours:
@@ -16,8 +18,8 @@ Système de gestion de bases de données
 |02|10-09-19| [Docker](./0.Docker)                                | Install MySQL with Docker                                          |
 |03|17-09-19| [3NF](./1.3NF)                                      | * Domaine, * 1NF, * 2NF, * 3NF                                     |
 |04|24-09-19| :x:                                                 | Pratique NF                                                       |
-|05|01-10-19| [DCL]()                                             | Data Control Language                                              |
-|06|08-10-19| [DDL]()                                             | Data Description Language                                          |
+|05|01-10-19| [DQL](2.DQL)                                        | Data Query Language                                               |
+|06|08-10-19| [DCL]() & [DDL]()                                   | Data Control Language   & Data Description Language               |
 |07|15-10-19| [DML]()                                             | Data Manipulation Language                                         |
 |08|22-10-19| Semaine d'études                                    | Pas de cours                                                       |
 |09|29-10-19| [DQL]()                                             | Data Query Language                                               |
@@ -55,6 +57,8 @@ Système de gestion de bases de données
 
 
 ## References
+
+http://www.mysqltutorial.org/mysql-primary-key/ (Primary Key)
 
 https://books.goalkicker.com/MySQLBook/ (free books)
 

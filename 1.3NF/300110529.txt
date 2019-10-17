@@ -1,2 +1,10 @@
-Domaine : Ventes des cartes graphiques
+1NF Domaine : Ventes des cartes graphiques
 
+2NF Donnees Meta-donnees
+
+{Radeon RX 560 2GB HDMI, GeForce GTX 1650 4GB HDMI, GEFORCE GTX 1660 6GB HDMI, GEFORCE RTX 2060 6GB HDMI} => Type de carte [Nom]
+{1 an en magasin, 3 ans manufacturier} => Garantie [Nom]
+{2GB, 4GB, 8GB, 16GB} => Capacite [Nom]
+{2012, 2013, 2015, 2016, 2017} => Annee [Nom]
+
+3NF =>

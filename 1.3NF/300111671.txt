@@ -1,1 +1,19 @@
 Domain: Vente des Boubou traditionnelle
+
+2NF => Donnees :
+Region Ethnique: boubou traditionelle du malien ,boubou traditionnelle senegalais ,boubou traditionelle beninoise,
+boubou traditionelle togolaise .
+Materiel: bazin ,dentel,
+Genre :UNISEXE
+Caracteristique: Dashiki
+size:MLXL2 XL3 XL4 XL
+Couleur: toutes les options
+Délai : 1 semaine 
+Quantité:
+Durée estimée (jours)	3	Négociable
+categorie d'age: Adulte 
+logistique: Expédition aérienne rapide
+Prix compétitifs:negociable avec le client 
+Suivi en ligne
+Durée estimée (jours)	3	Négociable
+Paiement : visa ,debit mastercard,ws,paypal
