@@ -4,7 +4,7 @@ CREATE DATABASE IF NOT EXISTS Hijabfashion;
 
 -- Mon utilisateur
 
-CREATE USER 'halima'@'localhost' IDENTIFIED BY 'password';
+CREATE USER IF NOT EXISTS 'halima'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON Hijabfashion.* TO 'halima'@'localhost';
 
 
