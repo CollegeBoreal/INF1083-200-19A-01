@@ -11,7 +11,9 @@
    
    :two: Rajouter les clés primaires et secondaires aux tables 
    
-   :three: Créer un fichier avec votre :id: et nommer le :id:`-data.sql` en ajoutant des commandes DML pour rmeplir la BD
+   :three: Créer un fichier avec votre :id: et nommer le :id:`-data.sql` 
+   
+   :four: Ajoutant des commandes DML permettant de remplir la BD dans le fichier :id:`-data.sql`
 
 
 # [Participation](Participation.md)
