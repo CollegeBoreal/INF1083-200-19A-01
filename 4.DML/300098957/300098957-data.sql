@@ -1,4 +1,6 @@
+-- Dans le domaine
 
+use etudiants;
 
 -- Données de la table étudiants
 
