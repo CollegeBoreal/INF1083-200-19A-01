@@ -34,3 +34,4 @@ CREATE TABLE Couleurs(
 CREATE TABLE Marques(
           nom VARCHAR(30) NOT NULL, 
           note INT
+ );
