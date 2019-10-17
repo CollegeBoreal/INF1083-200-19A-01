@@ -58,6 +58,8 @@ Système de gestion de bases de données
 
 ## References
 
+http://www.mysqltutorial.org/mysql-primary-key/ (Primary Key)
+
 https://books.goalkicker.com/MySQLBook/ (free books)
 
 http://sql.sh/ressources/cours-sql-sh-.pdf (En francais)
