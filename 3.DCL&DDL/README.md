@@ -1,9 +1,10 @@
 # DCL & DDL
 
 
-:one: Créer un fichier avec votre :id: et nommer le :id:`.sql`
 
-:two: Écrire un fichier de commande SQL permettant de créer votre domain dans un base de données MySQL
+:bookmark: Écrire un fichier de commande SQL permettant de créer votre domain dans un base de données MySQL
+
+:tip: Créer un fichier avec votre :id: et nommer le :id:`.sql`
 
 
 ### Example de DCL & DDL:
