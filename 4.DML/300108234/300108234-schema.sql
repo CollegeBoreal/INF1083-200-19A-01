@@ -1,6 +1,6 @@
 -- Mon domaine
 
-CREATE DATABASE Hijabfashion;
+CREATE DATABASE IF NOT EXISTS Hijabfashion;
 
 -- Mon utilisateur
 
