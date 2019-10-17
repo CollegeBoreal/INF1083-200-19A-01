@@ -18,10 +18,23 @@ CREATE TABLE ETUDIANTS (
   age INT,
   PRIMARY KEY(etudiant)
   );
+  
+CREATE TABLE DEVOIRS (
+  devoir INT AUTO_INCREMENT,
+  nom VARCHAR(30) NOT NULL,
+  evaluation Date,
+  PRIMARY KEY(devoir)
+  )
 
 CREATE TABLE NOTES (
-  nom VARCHAR(30) NOT NULL,
-  note INT
+  etudiant INT,
+  devoir INT,
+  note INT,
+  PRIMARY KEY( etudiant, devoir),
+  FOREIGN KEY(etudiant) 
+     REFERENCES ETUDIANTS(etudiant),
+  FOREIGN KEY(devoir) 
+     REFERENCES DEVOIRS(devoir)
   );
   
   -- A vous de jouer
