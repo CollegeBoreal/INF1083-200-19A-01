@@ -24,7 +24,7 @@ CREATE TABLE DEVOIRS (
   nom VARCHAR(30) NOT NULL,
   evaluation Date,
   PRIMARY KEY(devoir)
-  )
+  );
 
 CREATE TABLE NOTES (
   etudiant INT,
