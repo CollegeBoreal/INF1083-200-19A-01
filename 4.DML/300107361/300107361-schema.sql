@@ -1,7 +1,7 @@
-CREATE DATABASE Car_Center;
+CREATE DATABASE IF NOT EXISTS Car_Center;
 
 
-CREATE USER 'joker'@'localhost' IDENTIFIED BY 'etudiants_1';
+CREATE USER IF NOT EXISTS 'joker'@'localhost' IDENTIFIED BY 'etudiants_1';
 GRANT ALL ON Car_Center.* TO 'joker'@'localhost';
 
  
