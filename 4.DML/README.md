@@ -6,35 +6,11 @@
 
 :warning: 
    
-   :one: Créer un fichier avec votre :id: et nommer le :id:`.sql` en copiant le contenu de DCL&DDL
+   :one: Créer un fichier avec votre :id: et nommer le :id:`-schema.sql` en copiant le contenu de DCL&DDL
    
-   :two: Rajouter 
+   :two: Rajouter les clés primaires et secondaires aux tables 
+   
+   :three: Créer un fichier avec votre :id: et nommer le :id:`-data.sql` en ajoutant des commandes DML pour rmeplir la BD
 
-
-### Example de DCL & DDL:
-
-. lancer le CLI (Command Level Interface) de MySQL
-
-```
-#  mysql --user root --password
-```
-
-
-. Dans le CLI
-
-.. créer une base de données (DDL)
-
-```
-mysql> CREATE DATABASE etudiants;
-```
-
-.. créer les utilisateurs (DDL et DCL)
-
-- Version Longue
-
-```
-mysql> CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
-mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
-```
 
 # [Participation](Participation.md)
