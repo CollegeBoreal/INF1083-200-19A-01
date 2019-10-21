@@ -3,6 +3,8 @@ CREATE DATABASE Assurance;
 
 -- Mon  Utilisateur
  CREATE USER 'Assurance'@'localhost' IDENTIFIED BY 'Assurance_1';
+ 
+ 
  GRANT ALL ON Assurance.* TO 'Assurrance'@'localhost';
  
  -- Selectionne la base de donnees
