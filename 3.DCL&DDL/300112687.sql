@@ -1,14 +1,19 @@
 -- MON de Domaine
+
 CREATE DATABASE Assurance;
 
 -- Mon  Utilisateur
+
  CREATE USER 'Assurance'@'localhost' IDENTIFIED BY 'Assurance_1';
  
  
  GRANT ALL ON Assurance.* TO 'Assurrance'@'localhost';
  
  -- Selectionne la base de donnees
- use la base de donnee
+ 
+ 
+ use Assurance;
+ 
  
  -- Mes Tables
 
