@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import {Component, ElementRef, OnInit} from "@angular/core";
 
 @Component({
     selector: "Home",
@@ -6,7 +6,9 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HomeComponent implements OnInit {
 
-    constructor() {
+    message: string = "16 taps left";
+
+    constructor(public elementRef: ElementRef) {
         // Use the component constructor to inject providers.
     }
 
