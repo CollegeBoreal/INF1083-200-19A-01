@@ -1,8 +1,9 @@
 # Correction
 
 ```
-% tns test init
-? Select testing framework: jasmine
+% tns test init           
+? Select testing framework: (Use arrow keys)
+❯ jasmine 
 ```
 
 ```
