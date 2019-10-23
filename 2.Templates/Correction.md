@@ -6,6 +6,10 @@
 ```
 
 ```
+% tns test ios
+```
+
+```
 Set JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 Set ANDROID_HOME=/usr/local/share/android-sdk
 Set ANDROID_SDK_ROOT=/usr/local/share/android-sdk
