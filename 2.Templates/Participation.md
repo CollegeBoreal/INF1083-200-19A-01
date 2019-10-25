@@ -25,4 +25,4 @@
 | 10   | [300112017](b300112017-blank-ng) |                                          | :x:                |
 | 11   | [300112687](b300112687-blank-ng) |                                          | :heavy_plus_sign:  |
 | 12   | [300112917](b300112917-blank-ng) |                                          | :heavy_plus_sign:  |
-| 13   | [300113775](b300113775-blank-ng) |                                          | :heavy_plus_sign:  |
+| 13   | [300113775](b300113775-blank-ng) |                                          | :heavy_check_mark: |
