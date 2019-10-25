@@ -40,15 +40,6 @@ CREATE TABLE ORIGINS (
    PRIMARY KEY(origin)
    );
    
-CREATE TABLE MARKS_MODELS (
-    mark INT,
-    model INT,
-    PRIMARY KEY(mark, model),
-        FOREIGN KEY(mark),
-           REFERENCES MARKS(mark),
-        FOREIGN KEY(model),
-           REFERENCES MODELS(model)
-    );
     
 CREATE TABLE COLOURS (
    colour INT AUTO_INCREMENT,
