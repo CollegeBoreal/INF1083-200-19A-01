@@ -1,8 +1,8 @@
 -- Dans le domaine
 
-use etudiants;
+use Car_Center;
 
--- Données de la table étudiants
+-- Données des tables
 
 INSERT INTO SERVICES_OFFERED (Sale, Insurance, Cleaning  ) VALUES ( 'Car_Trucks', 'New_Driver', 'Car_Wash');
 INSERT INTO MARKS ( Mark ) VALUES ('Acura' , 'Audi', 'Bentley' , 'BMW' , 'Buick' , 'Cadilac' , 'Chevrolet' , 'Chrysler' , 'CODA' , 'Daihatsu' , 'Dodge' , 'Ferrari' , 'FIAT' , 'Ford' , 'GMC' , 'Honda' , 'Hyundai' , 'Infiniti' , 'Izuzu' , 'Jaguar' , 'Jeep' , 'Kia' , 'Lamborghini' , 'Land_Rover' , 'Lexus' , 'LOtus' , 'Maserati' , 'Maybach' , 'Mazda' , 'Mercedes_Benz' , 'Mitsubishi' , 'Nissan' , 'Porsche' , 'Subaru' , 'Suzuki' , 'Toyota' , 'Volkswagen' , 'Volvo_48' , 'Yamaha' );
