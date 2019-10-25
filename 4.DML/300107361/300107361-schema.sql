@@ -34,7 +34,6 @@ CREATE TABLE MODELS (
    );
    
 CREATE TABLE ORIGINS (
-    origin INT AUTO_INCREMENT,
     Origins VARCHAR(30) NOT NULL,
     mark VARCHAR(30),
     model VARCHAR(30),
