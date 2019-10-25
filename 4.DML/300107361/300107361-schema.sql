@@ -70,7 +70,7 @@ CREATE TABLE PRICES (
   );
 
 CREATE TABLE MAINTENANCES (
-  maintenance INT AUTO_INCREMENTS,
+  maintenance INT AUTO_INCREMENT,
   name VARCHAR(30) NOT NULL,
   Maintenances VARCHAR(30) NOT NULL,
   PRIMARY KEY(maintenance)
