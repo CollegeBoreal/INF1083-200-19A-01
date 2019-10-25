@@ -32,11 +32,17 @@ CREATE TABLE MODELS (
    Models VARCHAR(30) NOT NULL,
    PRIMARY KEY(model)
    );
-   
+
 CREATE TABLE ORIGINS (
-    Origins VARCHAR(30) NOT NULL,
-    mark VARCHAR(30),
-    model VARCHAR(30),
+   origin INT AUTO_INCREMENT,
+   name VARCHAR(30) NOT NULL,
+   Origins VARCHAR(30) NOT NULL,
+   PRIMARY KEY(origin)
+   );
+   
+CREATE TABLE MARKS_MODELS (
+    mark INT,
+    model INT,
     PRIMARY KEY(mark, model),
         FOREIGN KEY(mark),
            REFERENCES MARKS(mark),
