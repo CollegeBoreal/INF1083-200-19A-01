@@ -39,8 +39,8 @@ CREATE TABLE ORIGINS (
     model VARCHAR(30),
     PRIMARY KEY(mark, model),
         FOREIGN KEY(mark),
-           REFERENCES MARKS(mark)
-        FOREIGN KEY(model)
+           REFERENCES MARKS(mark),
+        FOREIGN KEY(model),
            REFERENCES MODELS(model)
     );
     
