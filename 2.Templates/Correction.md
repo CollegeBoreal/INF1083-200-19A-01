@@ -22,10 +22,65 @@
 
 * Créer le fichier `tests/test-maint.ts`, comportant l'initialisation du TestBed,  avec le contenu suivant:
 
-```
+```typescript
 import "nativescript-angular/zone-js/testing.jasmine";
 import { nsTestBedInit } from "nativescript-angular/testing";
 nsTestBedInit();
+```
+
+* Créer le fichier `tests/test-utils.ts`, comportant la visualisation des composants non-DOM,  avec le contenu suivant:
+
+```typescript
+import { View } from "tns-core-modules/ui/core/view";
+import { TextBase } from "tns-core-modules/ui/text-base";
+import { Device } from "tns-core-modules/platform";
+
+function getChildren(view: View): Array<View> {
+    let children: Array<View> = [];
+    (<any>view).eachChildView((child) => {
+        children.push(child);
+        return true;
+    });
+    return children;
+}
+
+export function dumpView(view: View, verbose: boolean = false): string {
+    let nodeName: string = (<any>view).nodeName;
+    if (!nodeName) {
+        // Strip off the source
+        nodeName = view.toString().replace(/(@[^;]*;)/g, '');
+    }
+    nodeName = nodeName.toLocaleLowerCase();
+
+    let output = ["(", nodeName];
+    if (verbose) {
+        if (view instanceof TextBase) {
+            output.push("[text=", view.text, "]");
+        }
+    }
+
+    let children = getChildren(view).map((c) => dumpView(c, verbose)).join(", ");
+    if (children) {
+        output.push(" ", children);
+    }
+
+    output.push(")");
+    return output.join("");
+}
+
+export function createDevice(os: string): Device {
+    return {
+        os: os,
+        osVersion: "0",
+        deviceType: "Phone",
+        language: "en",
+        uuid: "0000",
+        sdkVersion: "0",
+        region: "US",
+        manufacturer: "tester",
+        model: "test device"
+    };
+}
 ```
 
 # References (a ignorer)
