@@ -2,11 +2,11 @@
 
 ## Légende 
 
-| Signe .             | Signification      |
-|--------------------|--------------------|
-| :heavy_check_mark: | Travail fait       |
-| :heavy_plus_sign:  | Doit faire plus    |
-| :x:                | N'a rien fait      |
+| Signe              | Signification                 |
+|--------------------|-------------------------------|
+| :heavy_check_mark: | Travail fait                  |
+| :heavy_plus_sign:  | Incomplet, doit faire plus    |
+| :x:                | N'a rien fait                 |
 
 ## Résultat
 
