@@ -1,6 +1,18 @@
 # Correction
 
-## :one: Créer l'environemment de test
+## :one: Modifier les composants à tester 
+
+:bulb: Malheureusement, les composants NativeScript ne suivent pas le DOM
+
+* Ajouter au constructeur du composant `HomeComponent`, le parametre public suivant:
+
+```typescript
+    constructor(public elementRef: ElementRef) {
+        // Use the component constructor to inject providers.
+    }
+```
+
+## :two: Créer l'environnement de test
 
 * Dans le répertoire de votre projet, lancer la commande suivante 
 
@@ -18,7 +30,7 @@
 % tns test ios
 ```
 
-## :two: Préparer les fichiers de test
+## :three: Ajouter les fichiers de test
 
 * Créer le fichier `tests/test-maint.ts`, comportant l'initialisation du TestBed,  avec le contenu suivant:
 
@@ -82,15 +94,6 @@ export function createDevice(os: string): Device {
     };
 }
 ```
-
-* Ajouter au constructeur du composant `HomeComponent`, le parametre public suivant:
-
-```typescript
-    constructor(public elementRef: ElementRef) {
-        // Use the component constructor to inject providers.
-    }
-```
-
 
 # References (a ignorer)
 
