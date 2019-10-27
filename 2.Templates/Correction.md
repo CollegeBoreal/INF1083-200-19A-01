@@ -7,6 +7,9 @@
 * Ajouter au constructeur du composant `HomeComponent`, le parametre public suivant:
 
 ```typescript
+    import { Component, ElementRef, OnInit } from "@angular/core";
+    
+...
     constructor(public elementRef: ElementRef) {
         // Use the component constructor to inject providers.
     }
