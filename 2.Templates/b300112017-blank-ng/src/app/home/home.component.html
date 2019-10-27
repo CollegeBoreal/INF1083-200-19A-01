@@ -1,37 +1,12 @@
 <ActionBar class="action-bar">
-    <Label class="action-bar-title" text="Home"></Label>
+    <Label class="action-bar-title" text="Google"></Label>
 </ActionBar>
 
-<GridLayout class="page">
-    <!-- Add your page content here -->
-</GridLayout>
-<ActionBar title="Home" class="action-bar">
-</ActionBar>
-
-<GridLayout>
-    <ScrollView class="page">
-        <StackLayout class="home-panel">
-            <!--Add your page content here-->
-            <Label textWrap="true" text="Play with NativeScript!"
-                   class="h2 description-label"></Label>
-            <Label textWrap="true"
-                   text="Write code in the editor or drag and drop components to build a NativeScript mobile application."
-                   class="h2 description-label"></Label>
-            <Label textWrap="true"
-                   text="Scan the QR code with your mobile device and watch the changes sync live while you play with the code."
-                   class="h2 description-label"></Label>
-        </StackLayout>
-    </ScrollView>
-</GridLayout>
-<SearchBar hint="Search hint" [text]="searchPhrase"
-           (submit)="onSearchSubmit($event)"></SearchBar>
-<DockLayout width="210" height="210" backgroundColor="lightgray"
-            stretchLastChild="false">
-    <Label text="left" dock="left" width="60" backgroundColor="red"></Label>
-    <Label text="top" dock="top" height="60" backgroundColor="green"></Label>
-    <Label text="right" dock="right" width="60" backgroundColor="blue">
-    </Label>
-    <Label text="bottom" dock="bottom" height="60" backgroundColor="yellow">
-    </Label>
+<DockLayout stretchLastChild="true">
+    <Button dock="left" text="Facebook" style="background-color: #0099CC; margin: 5;"></Button>
+    <Button dock="right" text="Instagram" style="background-color: #8C489F; margin: 5;"></Button>
+    <Button dock="bottom" text="Home" style="background-color: #AA0078; margin: 5;"></Button>
+    <Button dock="top" text="Search" style="background-color: #B3B3D7; margin: 5;"></Button>
+    <Button text="Camera" style="background-color: #CCFFFF; margin: 5;"></Button>
 </DockLayout>
 
