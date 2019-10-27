@@ -135,7 +135,7 @@ describe("HomeComponent", () => {
 
 
 
-# References (à ignorer)
+# Références (à ignorer)
 
 * zsh
 
