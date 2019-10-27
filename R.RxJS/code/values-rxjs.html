@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+<SCRIPT src=https://unpkg.com/@reactivex/rxjs@6.0.0/dist/global/rxjs.umd.js></SCRIPT>
+<SCRIPT>
+// import { fromEvent } from 'rxjs';
+// import { throttleTime, map, scan } from 'rxjs/operators';
+
+rxjs.
+fromEvent(document, 'click')
+  .pipe(
+    rxjs.operators.throttleTime(1000),
+    rxjs.operators.map(event => event.clientX),
+    rxjs.operators.scan((count, clientX) => count + clientX, 0)
+  )
+  .subscribe(count => console.log(count));
+</SCRIPT>
+</HEAD>
+<BODY>
+</BODY>
+</HTML>
