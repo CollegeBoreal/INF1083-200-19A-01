@@ -132,7 +132,11 @@ describe("HomeComponent", () => {
 
 ```
 
+## :five: Ajouter les fichier `karma.conf.js` pour les parametres de tests 
 
+```
+% git add --force karma.conf.js
+```
 
 
 # Références (à ignorer)
