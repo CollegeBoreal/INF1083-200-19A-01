@@ -15,19 +15,22 @@ use network_IT;
 
 -- Mes Tables
 
-CREATE TABLE SOLUTION ( Nom VARCHAR(30) NOT NULL,
-             solution INT AUTO_INCREMENT,  
-             PRIMARY KEY(solution));
+CREATE TABLE SOLUTION ( solution INT AUTO_INCREMENT, 
+                       Nom VARCHAR(30) NOT NULL,
+                       PRIMARY KEY(solution));
   
-CREATE TABLE PRODUCTS ( Nom VARCHAR(30) NOT NULL, Date INT,
+CREATE TABLE PRODUCTS ( Nom VARCHAR(30) NOT NULL, Date INT);
                      
-CREATE TABLE INSTALLATION ( Nom VARCHAR(30) NOT NULL,
-            installation INT AUTO_INCREMENT,
-            PRIMARY KEY(installation)););
+CREATE TABLE INSTALLATION (installation INT AUTO_INCREMENT,
+                           Nom VARCHAR(30) NOT NULL,
+                           PRIMARY KEY(installation));
   
 CREATE TABLE PRIX (Nom VARCHAR(30) NOT NULL, Tarif INT,
-            PRIMARY KEY( solution, installation),
+                   solution INT,
+                   instalation INT, 
+                   prix INT,
+            PRIMARY KEY( solution,installation),
             FOREIGN KEY(solution) 
             REFERENCES SOLUTION(solution),
-            FOREIGN KEY(instllation) 
+            FOREIGN KEY(installation) 
             REFERENCES INSTALLATION(installation));
