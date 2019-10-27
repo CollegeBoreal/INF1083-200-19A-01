@@ -83,6 +83,15 @@ export function createDevice(os: string): Device {
 }
 ```
 
+* Ajouter au constructeur du composant `HomeComponent`, le parametre public suivant:
+
+```typescript
+    constructor(public elementRef: ElementRef) {
+        // Use the component constructor to inject providers.
+    }
+```
+
+
 # References (a ignorer)
 
 * zsh
