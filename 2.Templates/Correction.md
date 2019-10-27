@@ -35,7 +35,13 @@
 
 ## :three: Ajouter les outils de tests (Testing Tools incluant le TestBed et la visualisation)
 
-* Créer le fichier `tests/test-maint.ts`, comportant l'initialisation du TestBed,  avec le contenu suivant:
+* Créer le fichier `test-maint.ts`, comportant l'initialisation du TestBed,  
+
+```
+ % touch src/tests/test-maint.ts
+```
+
+* avec le contenu suivant:
 
 ```typescript
 import "nativescript-angular/zone-js/testing.jasmine";
@@ -43,7 +49,13 @@ import { nsTestBedInit } from "nativescript-angular/testing";
 nsTestBedInit();
 ```
 
-* Créer le fichier `tests/test-utils.ts`, comportant la visualisation des composants non-DOM,  avec le contenu suivant:
+* Créer le fichier `test-utils.ts`, comportant la visualisation des composants non-DOM,  
+
+```
+ % touch src/tests/test-utils.ts
+```
+
+* avec le contenu suivant:
 
 ```typescript
 import { View } from "tns-core-modules/ui/core/view";
