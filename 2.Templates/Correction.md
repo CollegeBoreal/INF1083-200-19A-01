@@ -112,6 +112,14 @@ export function createDevice(os: string): Device {
 
 ## :four: Créer le test
 
+* Home Component Test Script
+
+```
+% touch src/tests/home.component.spec.ts
+```
+
+* avec le contenu suivant:
+
 ```typescript
 
 import "reflect-metadata";
