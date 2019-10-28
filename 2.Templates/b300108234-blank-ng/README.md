@@ -4,4 +4,4 @@
 
 :two: Le résultat final
 
-![image](Final.jpg)
+![image](Final.png)
