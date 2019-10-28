@@ -6,7 +6,7 @@ Afficher une page mobile comportant deux libellés et une image
 
 :one: Sketch
 
-![image](Sketch.png)
+![image](sketch.png)
 
 :two: Le résultat final
 
