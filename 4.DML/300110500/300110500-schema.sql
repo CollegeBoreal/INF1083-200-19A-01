@@ -20,11 +20,11 @@ CREATE TABLE Visas (
   initiale VARCHAR(35) NOT NULL
   );
 
-CREATE TABLE Countries1 (
+CREATE TABLE Ville_residence (
   initiale VARCHAR(35) NOT NULL
   );
   
-  CREATE TABLE Counties2 (
+  CREATE TABLE Ville_immigration (
   initiale VARCHAR(35) NOT NULL
   );
   
