@@ -23,6 +23,12 @@ CREATE TABLE Marques (
 
   );
   
+   CREATE TABLE clients(
+num_client INT NOT NULL,
+	    nom_client VARCHAR(30),
+	    prenom_client VARCHAR(20)
+	    );
+  
   CREATE TABLE marchandises (
 	       num_marchandise INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	       nom_marchandise VARCHAR(20),
