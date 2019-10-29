@@ -26,7 +26,7 @@ CREATE TABLE MODELS (
    model INT AUTO_INCREMENT,
    mark INT,
    Models VARCHAR(500) NOT NULL,
-   PRIMARY KEY(model),
+   PRIMARY KEY(model, mark),
      FOREIGN KEY(mark)
        REFERENCES MARKS(mark)
    );
@@ -51,7 +51,7 @@ CREATE TABLE YEARS (
   year INT  AUTO_INCREMENT,
   model INT,
   Years DATE,
-  PRIMARY KEY(year),
+  PRIMARY KEY(year, model),
      FOREIGN KEY(model)
         REFERENCES MODELS(model)
   );
@@ -65,7 +65,7 @@ CREATE TABLE  ENGIN_TYPES (
 CREATE TABLE PRICES (
   price INT,
   model INT,
-  mark INT AUTO_INCREMENT,
+  mark INT,
   PRIMARY KEY(model, mark),
   FOREIGN KEY(model)
      REFERENCES MODELS(model),
