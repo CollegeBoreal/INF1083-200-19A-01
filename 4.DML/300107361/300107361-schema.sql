@@ -58,9 +58,9 @@ CREATE TABLE  ENGIN_TYPES (
 
 CREATE TABLE PRICES (
   price INT,
-  model INT AUTO_INCREMENT,
-  mark INT AUTO_INCREMENT,
-  PRIMARY KEY(model, mark),
+  model INT,
+  mark INT,
+  PRIMARY KEY(model, mark) AUTO_INCREMENT,
   FOREIGN KEY(model)
      REFERENCES MODELS(model),
   FOREIGN KEY(mark)
