@@ -14,9 +14,6 @@ CREATE TABLE MODES (
   nom VARCHAR(15) NOT NULL
   );
   
-CREATE TABLE COULEURS (
-     nom VARCHAR(10) NOT NULL
-     );
      
 CREATE TABLE FORMATS (
      nom VARCHAR(5) NOT NULL
@@ -38,10 +35,7 @@ CREATE TABLE MODES_DE_LIVRAISON (
      format INT
      );
      
-CREATE TABLE LIVRAISONS (
-     nom VARCHAR(15) NOT NULL
-     );
-     
+  
 CREATE TABLE PRIX (
      nom VARCHAR(10) NOT NULL,
      tarif INT 
