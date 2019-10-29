@@ -19,8 +19,8 @@ CREATE TABLE Couleurs (
 couleur INT AUTO_INCREMENT, 
 nom VARCHAR(30) NOT NULL,  
 PRIMARY KEY (couleur)
-
-
+ 
+ );
 
 
 CREATE TABLE Prix (
