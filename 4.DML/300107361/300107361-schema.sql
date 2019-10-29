@@ -24,8 +24,11 @@ CREATE TABLE MARKS (
   
 CREATE TABLE MODELS (
    model INT AUTO_INCREMENT,
+   mark INT,
    Models VARCHAR(500) NOT NULL,
-   PRIMARY KEY(model)
+   PRIMARY KEY(model),
+     FOREIGN KEY(mark)
+       REFERENCES MARKS(mark)
    );
 
 CREATE TABLE ORIGINS (
