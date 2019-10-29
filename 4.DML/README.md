@@ -18,5 +18,25 @@
 
 :b: Créer un fichier README.md et y afficher votre modèle
 
+:bookmark: Montrer:
+
+** Clés
+
+- Une clé primaire
+
+- Une clé secondaire
+
+- Une clé composite
+
+- Des références entre tables 
+
+** Type
+
+- Un Varchar
+
+- Un Int
+
+- Une Date
+
 
 # [Participation](Participation.md)
