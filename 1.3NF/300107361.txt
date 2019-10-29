@@ -2,11 +2,11 @@
 
 2NF Donnees: 
 
-{Sale, Repair And cleaning, Insurance} => Services offered [Name]
+{Sale} => Services offered [Name]
 
-{Acura, Audi, Bentley, BMW, Buick, Cadilac, Chevrolet, Chrysler, CODA, Daihatsu, Dodge, Ferrari, FIAT, Ford, GMC, Honda, Hyundai, Infiniti, Izuzu, Jaguar, Jeep, Kia, Lamborghini, Lamd Rover, Lexus, LOtus, Maserati, Maybach, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Porsche, Subaru, Suzuki, Toyota, Volkswagen, Volvo 48, Yamaha}                                                                             => Mark[Name]
+{'Acura' , 'Audi', 'BMW' ,'Ferrari' , 'Ford' , 'GMC' , 'Honda' , 'Hyundai' , 'Infiniti' ,'Jaguar', 'Jeep','Lamborghini', 'Lexus', 'Nissan' , 'Porsche' , 'Toyota'}                                                                             => Mark[Name]
 
-{CL, CSX, EL, ILX, INTEGRA, LEGEND, VIGOR, 100, 200, CABRIOLET, R8 GT SPYDER, 1 SERIES, 640 GRAN COUP, 640 GRAN TURISMO, AVALANCHE, AVEO, IMPALA, BERETA, G30, 328, 348 SPYDER, CHEROKEE, WRANGLER, GLADIATOR, COMPASS, COMMANDER}                                                                  => Model [Name]
+{'CL', 'LEGEND', 'CABRIOLET', 'GT_SPYDER', 'AVALANCHE', 'AVEO', 'IMPALA', 'CHEROKEE', 'WRANGLER'}                                                                  => Model [Name]
 
 
 {Made in USA, Japan, Germany, Italy, ...} => origin [name]
