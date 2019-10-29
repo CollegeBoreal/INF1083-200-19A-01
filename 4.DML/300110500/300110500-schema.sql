@@ -9,6 +9,7 @@ use immigration_consulting;
 
                                                                                                      
  CREATE TABLE Type_visas (
+ Name VARCHAR(30) NOT NULL,
  Etudiant INT AUTO_INCREMENT,
  Resident_permanent VARCHAR(30) NOT NULL,
  Resident_temporaire VARCHAR(30) NOT NULL,
@@ -21,6 +22,7 @@ use immigration_consulting;
    
                                                                                                      
   CREATE TABLE Honoraire_payments (
+  Name VARCHAR(30) NOT NULL 
   Especes INT AUTO_INCREMENT,
   Carte_bancaire INT NOT NULL,
   Western_union INT NOT NULL,
@@ -29,6 +31,7 @@ use immigration_consulting;
                                                                                                                                                                                                                       
                                                                                                      
   CREATE TABLE Ville_residence (
+   Name VARCHAR(30) NOT NULL,
    Zone_afrque INT AUTO_INCREMENT,
    Zone_europe VARCHAR(30) NOT NULL,
    Zone_amerique VARCHAR(30) NOT NULL,
@@ -37,6 +40,7 @@ use immigration_consulting;
   
                                                                                                      
    CREATE TABLE Type_services (
+   Name VARCHAR(30) NOT NULL, 
    Conseil_appui INT AUTO_INCREMENT,
    Documentation VARCHAR(30) NOT NULL,
    Annulation_demande VARCHAR(30) NOT NULL,
