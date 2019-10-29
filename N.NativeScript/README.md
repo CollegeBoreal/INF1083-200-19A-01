@@ -1,10 +1,20 @@
-# NativeScript
+# NativeScript Playground
 
+
+## Prerequisite
+
+* install node
+
+* install nativescript (add sudo if required)
+
+```
+$ npm install nativescript --global
+ ```
 
 ## Installation
 
-[Installe](installation)
+[Install](installation)
 
 ## Emulation
 
-[Emule](Emulator.md)
+[Emulate](Emulator.md)
