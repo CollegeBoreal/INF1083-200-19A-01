@@ -40,6 +40,7 @@ use immigration_consulting;
                                                                                                      
    CREATE TABLE Type_services (
    Name VARCHAR(30) NOT NULL, 
+   Demende_officielle VARCHAR(30) NOT NULL,
    Conseil_appui INT AUTO_INCREMENT,
    Documentation VARCHAR(30) NOT NULL,
    Annulation_demande VARCHAR(30) NOT NULL,
