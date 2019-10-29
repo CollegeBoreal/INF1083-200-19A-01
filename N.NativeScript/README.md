@@ -20,11 +20,11 @@ $ tns --version
 
 :one: Installation
 
-Follow [Install](installation)
+  Follow [Install](installation)
 
 :two: Emulation
 
-Follow [Emulate](Emulator.md)
+  Follow [Emulate](Emulator.md)
 
 
 :three: Utiliser NativeScript
