@@ -1,19 +1,13 @@
 # NativeScript 
 
 
-## Installation Rapide des emulateurs
+## Installation de Playground
 
-
-[Installation Rapide](https://docs.nativescript.org/start/quick-setup)
-
-
-
-### Windows
-
+### sur Windows
 
 [Installation sur Windows](Windows.md)
 
-### MacOS
+### sur MacOS
 
 [Installation sur MacOS](MacOS.md)
 
