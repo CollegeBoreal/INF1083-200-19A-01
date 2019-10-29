@@ -12,26 +12,28 @@ use magasin;
 
 
 -- Mes Tables
-CREATE TABLE clients IF NOT EXIST(
- num_client INT NOT NULL,
-     nom VARCHAR(30),
-    prenom VARCHAR(20)
-    );
-CREATE TABLE marchandises IF NOT EXIST(
-       num_marchandise INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-       nom_marchandise VARCHAR(20),
-       prix_marchandise INT(20) NOT NULL,
-       description_marchandise TEXT
-      );
-CREATE TABLE PAYMENTS IF NOT EXIST(
-          nom VARCHAR(30) NOT NULL, 
-          note INT
-);
-CREATE TABLE Couleurs IF NOT EXIST(
-          nom VARCHAR(30) NOT NULL, 
-          note INT
-);
-CREATE TABLE Marques IF NOT EXIST(
-          nom VARCHAR(30) NOT NULL, 
-          note INT
- ); 
+	 CREATE TABLE clients(
+num_client INT NOT NULL,
+	     nom VARCHAR(30),
+	    prenom VARCHAR(20)
+	    );
+	CREATE TABLE marchandises(
+	       num_marchandise INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	       nom_marchandise VARCHAR(20),
+	       prix_marchandise INT(20) NOT NULL,
+	       description_marchandise TEXT
+	      );
+	CREATE TABLE PAYMENTS(
+	          nom VARCHAR(30) NOT NULL, 
+	          note INT
+	);
+	CREATE TABLE Couleurs(
+	          nom VARCHAR(30) NOT NULL, 
+	          note INT
+	);
+	CREATE TABLE Marques(
+	          nom VARCHAR(30) NOT NULL, 
+	          note INT
+	 ); 
+
+
