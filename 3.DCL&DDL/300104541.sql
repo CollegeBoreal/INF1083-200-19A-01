@@ -7,7 +7,7 @@ CREATE DATABASE Jeuxvideos;
 CREATE USER 'romeo'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON Jeuxvideos.* TO 'romeo'@'localhost';
 
---selectionner la base de donnees 
+-- selectionner la base de donnees 
 
 
 use Jeuxvideos;

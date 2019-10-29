@@ -22,9 +22,9 @@ use immigration_consulting;
                                                                                                      
   CREATE TABLE Honoraire_payments (
   Name VARCHAR(30) NOT NULL 
-  Especes INT AUTO_INCREMENT,
-  Carte_bancaire INT NOT NULL,
-  Western_union INT NOT NULL,
+  Especes INT,
+  Carte_bancaire INT,
+  Western_union INT,
   PRIMARY KEY(Especes)
   );  
                                                                                                                                                                                                                       
