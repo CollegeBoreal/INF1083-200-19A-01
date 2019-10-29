@@ -18,7 +18,7 @@ use Hijabfashion;
 
 CREATE TABLE Couleurs (
   
-nom VARCHAR(10) NOT NULL,   
+nom VARCHAR(30) NOT NULL,   
 Couleurs INT  
 
 );
@@ -26,8 +26,8 @@ Couleurs INT
 
  CREATE TABLE Pays_de_fabrication ( 
    
- nom VARCHAR(10) NOT NULL,
- devise VARCHAR(10) NOT NULL,
+ nom VARCHAR(30) NOT NULL,
+ devise VARCHAR(30) NOT NULL,
  Pays_de_fabrication INT
  
  );
@@ -35,8 +35,8 @@ Couleurs INT
 
 CREATE TABLE Accessoires (
   
-nom VARCHAR(10) NOT NULL,
-type VARCHAR(10) NOT NULL,   
+nom VARCHAR(30) NOT NULL,
+type VARCHAR(30) NOT NULL,   
 Accessoires INT   
 
 );
@@ -44,8 +44,8 @@ Accessoires INT
 
 CREATE TABLE Prix (
   
-nom VARCHAR(10) NOT NULL,
-tarif VARCHAR(10) NOT NULL,
+nom VARCHAR(30) NOT NULL,
+tarif VARCHAR(30) NOT NULL,
 Prix INT
 
 );
@@ -53,9 +53,9 @@ Prix INT
 
 CREATE TABLE Tailles (   
 
-largeur VARCHAR(10) NOT NULL,
-longeur VARCHAR(10) NOT NULL,
-unite_de_mesure VARCHAR(10) NOT NULL,
+largeur VARCHAR(30) NOT NULL,
+longeur VARCHAR(30) NOT NULL,
+unite_de_mesure VARCHAR(30) NOT NULL,
 Tailles INT
 
 );
@@ -63,7 +63,7 @@ Tailles INT
 
 CREATE TABLE Tissu (
 
-nom VARCHAR(10) NOT NULL,   
+nom VARCHAR(30) NOT NULL,   
 Tissu INT 
 
 );
