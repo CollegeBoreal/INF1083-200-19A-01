@@ -60,10 +60,11 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 ###  =[BEGIN]============== Exécution du script 300110500 =============== 
 ```
 mysql: [Warning] Using a password on the command line interface can be insecure.
-ERROR 1064 (42000) at line 23: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Especes INT AUTO_INCREMENT,
+ERROR 1064 (42000) at line 23: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Especes INT,
   Carte_bancaire INT,
   Western_union INT,
-  PRIMARY' at line 3
+  PRIMARY KEY(Especes)
+ ' at line 3
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ERROR 1064 (42000) at line 7: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Name, Etudiant) VALUES ('Hamidou_zongo', 'International');
 INSERT INTO Honorair' at line 1
@@ -79,7 +80,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 \n## Etudiant 300111671 
 ###  =[BEGIN]============== Exécution du script 300111671 =============== 
 ```
-notation.sh: line 39: /c/Users/300098957/Developer/INF1006-202-19A-01/4.DML/300111671/300111671-schema.sql: No such file or directory
+mysql: [Warning] Using a password on the command line interface can be insecure.
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ```
 ###  =[END]============== Exécution du script 300111671 =============== 
@@ -116,6 +117,6 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 ```
 mysql: [Warning] Using a password on the command line interface can be insecure.
 mysql: [Warning] Using a password on the command line interface can be insecure.
-ERROR 1146 (42S02) at line 9: Table 'picasa.PICASA' doesn't exist
+ERROR 1146 (42S02) at line 9: Table 'picasa.picasa' doesn't exist
 ```
 ###  =[END]============== Exécution du script 300113775 =============== 
