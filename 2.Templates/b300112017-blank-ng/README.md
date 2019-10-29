@@ -12,6 +12,6 @@ Afficher une page mobile comportant deux libellés et une image
 
 ** Android **
 
-![image](image/Emulator.jpg)
+![image](image/Emulator.JPG)
 
 
