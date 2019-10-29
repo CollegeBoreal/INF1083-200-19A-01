@@ -35,7 +35,7 @@ CREATE TABLE ORIGINS (
    origin INT AUTO_INCREMENT,
    mark INT,
    Origins VARCHAR(255) NOT NULL,
-   PRIMARY KEY(origin)
+   PRIMARY KEY(origin),
      FOREIGN KEY(mark)
        REFERENCES MARKS(mark)
    );
