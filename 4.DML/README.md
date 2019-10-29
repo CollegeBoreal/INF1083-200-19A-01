@@ -15,7 +15,8 @@
    
    :four: Ajouter des commandes DML permettant de remplir la BD dans le fichier :id:`-data.sql`
 
-:b: Créer on fichier README.md et y afficher votre modèle
+
+:b: Créer un fichier README.md et y afficher votre modèle
 
 
 # [Participation](Participation.md)
