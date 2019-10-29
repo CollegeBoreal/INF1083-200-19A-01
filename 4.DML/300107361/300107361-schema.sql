@@ -60,7 +60,7 @@ CREATE TABLE PRICES (
   price INT,
   model INT,
   mark INT,
-  PRIMARY KEY(model, mark) AUTO_INCREMENT,
+  PRIMARY KEY(model, mark),
   FOREIGN KEY(model)
      REFERENCES MODELS(model),
   FOREIGN KEY(mark)
