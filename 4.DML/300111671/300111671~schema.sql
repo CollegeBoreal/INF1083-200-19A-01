@@ -1,4 +1,4 @@
--- Mon domaine
+
 
 CREATE DATABASE Boubou;
 
