@@ -51,5 +51,5 @@ $ docker run --name some-mysql --env MYSQL_ROOT_PASSWORD=password --publish 3306
 * Exécuter le script de correction
 
 ```
-$ sh notation.sh > Corrections/README.md 2>&
+$ sh notation.sh > Corrections/README.md 2>&1
 ```
