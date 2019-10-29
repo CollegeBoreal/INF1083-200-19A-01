@@ -37,3 +37,19 @@ $ docker exec --interactive some-mysql \
 | 12   | [300112687](300112687) | :x:                | :x:                                 |
 | 13   | [300112917](300112917) | :x:                | :x:                                 |
 | 14   | [300113775](300113775) | :x:                | :x:                                 |
+
+
+## Correction
+
+* Nettoyer MySQL
+
+```
+$ docker container rm -f some-mysql
+$ docker run --name some-mysql --env MYSQL_ROOT_PASSWORD=password --publish 33060:3306 --detach mysql:5.7
+```
+
+* Exécuter le script de correction
+
+```
+$ sh notation.sh > Corrections/README.md 2>&
+```
