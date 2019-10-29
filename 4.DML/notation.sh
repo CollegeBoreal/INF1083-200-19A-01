@@ -29,8 +29,10 @@ echo "# Corrections "
 
 for id in "${ETUDIANTS[@]}"
 do
+
    echo "\n## Etudiant ${id} "
    echo "###  =[BEGIN]============== Exécution du script ${id} =============== "
+   echo "\`\`\`"
 
    # Charger le schema
 
@@ -42,5 +44,7 @@ do
    docker exec --interactive some-mysql \
       mysql --user root -ppassword < ~/Developer/INF1006-202-19A-01/4.DML/${id}/${id}-data.sql
 
+   echo "\`\`\`"
    echo "###  =[END]============== Exécution du script ${id} =============== "
+
 done
