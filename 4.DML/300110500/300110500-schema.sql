@@ -1,16 +1,12 @@
--- Mon domaine
+CREATE DATABASE IF NOT EXISTS immigration_consulting;
 
-CREATE DATABASE immigration;
 
--- Mon utilsateur
+CREATE USER IF NOT EXISTS 'guigma'@'localhost' IDENTIFIED BY 'guigma_1';
+GRANT ALL ON immigration_consulting.* TO 'guigma'@'localhost';
 
-CREATE USER 'guigma'@'localhost' IDENTIFIED BY 'guigma_1';
-GRANT ALL ON immigration.* TO 'guigma'@'localhost';
 
--- selectionner la base de donnees
-use immigration;
+use immigration_consulting;
 
--- Mes Tables
 
 CREATE TABLE Visas (
   initiale VARCHAR(35) NOT NULL
