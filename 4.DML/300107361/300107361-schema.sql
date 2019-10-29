@@ -13,8 +13,6 @@ use Car_Center;
 CREATE TABLE SERVICES_OFFERED (
   services INT AUTO_INCREMENT,
   Sale VARCHAR(30) NOT NULL,
-  Insurance VARCHAR(30) NOT NULL,
-  Cleaning VARCHAR(30) NOT NULL,
   PRIMARY KEY(services)
   );
   
