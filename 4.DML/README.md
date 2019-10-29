@@ -2,7 +2,7 @@
 
 *** Taches ***
 
-:bookmark: Écrire un fichier de commande SQL permettant de créer votre domain dans un base de données MySQL
+:a: Écrire un fichier de commande SQL permettant de créer votre domain dans un base de données MySQL
 
 
    :zero: Créer un répertoire avec votre :id: permettant de mettre deux fichiers ci-dessous
@@ -14,6 +14,8 @@
    :three: Créer un fichier avec votre :id: et nommer le :id:`-data.sql` 
    
    :four: Ajouter des commandes DML permettant de remplir la BD dans le fichier :id:`-data.sql`
+
+:b: Créer on fichier README.md et y afficher votre modèle
 
 
 # [Participation](Participation.md)
