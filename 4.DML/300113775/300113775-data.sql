@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS picasa;
+
 -- Dans le domaine
 
 use picasa;
