@@ -27,7 +27,7 @@ CREATE TABLE INSTALLATION (installation INT AUTO_INCREMENT,
   
 CREATE TABLE PRIX (Nom VARCHAR(30) NOT NULL, Tarif INT,
                    solution INT,
-                   instalation INT, 
+                   installation INT, 
                    prix INT,
             PRIMARY KEY( solution,installation),
             FOREIGN KEY(solution) 
