@@ -22,7 +22,12 @@ CREATE TABLE Marques (
   Marques INT
 
   );
-
+  
+  CREATE TABLE marchandises(
+	       num_marchandise INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	       nom_marchandise VARCHAR(20),
+	       prix_marchandise INT(20) NOT NULL,
+	       description_marchandise TEXT
 
 CREATE TABLE CAPACITE (
 
