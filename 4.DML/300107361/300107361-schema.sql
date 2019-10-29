@@ -79,4 +79,3 @@ CREATE TABLE MAINTENANCES (
   PRIMARY KEY(maintenance)
   );
   
-  
