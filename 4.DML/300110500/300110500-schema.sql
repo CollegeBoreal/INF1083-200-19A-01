@@ -7,25 +7,38 @@ GRANT ALL ON immigration_consulting.* TO 'guigma'@'localhost';
 
 use immigration_consulting;
 
-
-CREATE TABLE Visas (
-  initiale VARCHAR(35) NOT NULL
-  );
+                                                                                                     
+ CREATE TABLE Type_visas (
+ Etudiant INT AUTO_INCREMENT,
+ Resident_permanent VARCHAR(30) NOT NULL,
+ Resident_temporaire VARCHAR(30) NOT NULL,
+ Insurance VARCHAR(30) NOT NULL,
+ Refugier VARCHAR(30) NOT NULL,
+ PRIMARY KEY(Etudiant)
+  );                                                                                       
+    
+                                                                                                     
+  CREATE TABLE Honoraire_payments (
+  Especes INT AUTO_INCREMENT,
+  Carte_bancaire VARCHAR(30) NOT NULL,
+  Western_union VARCHAR(30) NOT NULL,
+  PRIMARY KEY(Especes)
+  );  
+                                                                                                                                                                                                                      
+                                                                                                     
+  CREATE TABLE Ville_residence (
+   Zone_afrque INT AUTO_INCREMENT,
+   Zone_europe VARCHAR(30) NOT NULL,
+   Zone_amerique VARCHAR(30) NOT NULL,
+   PRIMARY KEY(Zone_afrique)
+   );
   
-  CREATE TABLE Payments (
-  initiale VARCHAR(35) NOT NULL
-  );
-
-CREATE TABLE Ville_residence (
-  initiale VARCHAR(35) NOT NULL
-  );
-  
-  CREATE TABLE Ville_immigration (
-  initiale VARCHAR(35) NOT NULL
-  );
-  
-  
-  CREATE TABLE Services (
-  initiale VARCHAR(35) NOT NULL
-  );
-
+                                                                                                     
+   CREATE TABLE Type_services (
+   Conseil_appui INT AUTO_INCREMENT,
+   Documentation VARCHAR(30) NOT NULL,
+   Annulation_demande VARCHAR(30) NOT NULL,
+   PRIMARY KEYConseil_appui)
+   );
+                                                                                       
+ 
