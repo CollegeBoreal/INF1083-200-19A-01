@@ -13,11 +13,11 @@ use immigration;
 
 -- Mes Tables
 
-CREATE TABLE Visas (
+CREATE TABLE Type_visas (
   initiale VARCHAR(35) NOT NULL
   );
   
-  CREATE TABLE Payments (
+  CREATE TABLE Honoraire_ayments (
   initiale VARCHAR(35) NOT NULL
   );
 
@@ -30,7 +30,7 @@ CREATE TABLE Ville_residence (
   );
   
   
-  CREATE TABLE Services (
+  CREATE TABLE Type_services (
   initiale VARCHAR(35) NOT NULL
   );
 
