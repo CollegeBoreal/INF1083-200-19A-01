@@ -43,7 +43,7 @@ PRIMARY KEY (taille)
 );
 
 
-CREATE TABLE Tissu (
+CREATE TABLE Tissus (
 tissu INT AUTO_INCREMENT,
 nom VARCHAR(30) NOT NULL, 
 PRIMARY KEY (tissu)
