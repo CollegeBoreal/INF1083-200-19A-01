@@ -94,10 +94,3 @@ CREATE TABLE PAIEMENT (
   NAME VARCHAR(30) NOT NULL
 
   );
-
-
-
-
-
-
-
