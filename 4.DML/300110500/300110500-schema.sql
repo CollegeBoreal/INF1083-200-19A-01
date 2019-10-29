@@ -17,11 +17,13 @@ use immigration_consulting;
  PRIMARY KEY(Etudiant)
   );                                                                                       
     
+    
+   
                                                                                                      
   CREATE TABLE Honoraire_payments (
   Especes INT AUTO_INCREMENT,
-  Carte_bancaire VARCHAR(30) NOT NULL,
-  Western_union VARCHAR(30) NOT NULL,
+  Carte_bancaire INT NOT NULL,
+  Western_union INT NOT NULL,
   PRIMARY KEY(Especes)
   );  
                                                                                                                                                                                                                       
