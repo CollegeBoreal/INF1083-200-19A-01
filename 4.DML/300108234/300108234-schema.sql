@@ -18,7 +18,7 @@ use Hijabfashion;
 
 CREATE TABLE Couleurs (
 couleur INT AUTO_INCREMENT,  
-nom VARCHAR(10) NOT NULL,   
+nom VARCHAR(30) NOT NULL,   
 Couleurs INT,
 PRIMARY KEY (couleur)
 
@@ -27,8 +27,8 @@ PRIMARY KEY (couleur)
 
 CREATE TABLE Prix (
 prix INT AUTO_INCREMENT,
-nom VARCHAR(10) NOT NULL,
-tarif VARCHAR(10) NOT NULL,
+nom VARCHAR(30) NOT NULL,
+tarif VARCHAR(30) NOT NULL,
 Prix INT,
 PRIMARY KEY (prix)
 
@@ -37,9 +37,9 @@ PRIMARY KEY (prix)
 
 CREATE TABLE Tailles (   
 taille INT AUTO_INCREMENT,
-largeur VARCHAR(10) NOT NULL,
-longeur VARCHAR(10) NOT NULL,
-unite_de_mesure VARCHAR(10) NOT NULL,
+largeur VARCHAR(30) NOT NULL,
+longeur VARCHAR(30) NOT NULL,
+unite_de_mesure VARCHAR(30) NOT NULL,
 Tailles INT,
 PRIMARY KEY (taille)
 
@@ -48,7 +48,7 @@ PRIMARY KEY (taille)
 
 CREATE TABLE Tissu (
 tissu INT AUTO_INCREMENT,
-nom VARCHAR(10) NOT NULL,   
+nom VARCHAR(30) NOT NULL,   
 Tissu INT, 
 PRIMARY KEY (tissu)
 );
@@ -56,8 +56,8 @@ PRIMARY KEY (tissu)
 
 CREATE TABLE Accessoires (
 accessoire INT AUTO_INCREMENT,  
-nom VARCHAR(10) NOT NULL,
-type VARCHAR(10) NOT NULL,   
+nom VARCHAR(30) NOT NULL,
+type VARCHAR(30) NOT NULL,   
 Accessoires INT,
 PRIMARY KEY (accessoire)
 
