@@ -33,8 +33,11 @@ CREATE TABLE MODELS (
 
 CREATE TABLE ORIGINS (
    origin INT AUTO_INCREMENT,
+   mark INT,
    Origins VARCHAR(255) NOT NULL,
    PRIMARY KEY(origin)
+     FOREIGN KEY(mark)
+       REFERENCES MARKS(mark)
    );
    
     
@@ -46,8 +49,11 @@ CREATE TABLE COLOURS (
    
 CREATE TABLE YEARS (
   year INT  AUTO_INCREMENT,
-  Years INT NOT NULL,
-  PRIMARY KEY(year)
+  model INT,
+  Years DATE,
+  PRIMARY KEY(year),
+     FOREIGN KEY(model)
+        REFERENCES MODELS(model)
   );
 
 CREATE TABLE  ENGIN_TYPES (
