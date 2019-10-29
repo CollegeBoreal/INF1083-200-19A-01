@@ -4,9 +4,18 @@
 
 * Remplacer `<id>` par son :id:
 
+* Charger le schema
+
 ```
 $ docker exec --interactive some-mysql \
-         mysql --user root -ppassword < ~/Developer/INF1006-202-19A-01/3.DCL\&DDL/<id>.sql
+         mysql --user root -ppassword < ~/Developer/INF1006-202-19A-01/3.DCL\&DDL/<id>/<id>-schema.sql
+```
+
+* Charger les données
+
+```
+$ docker exec --interactive some-mysql \
+         mysql --user root -ppassword < ~/Developer/INF1006-202-19A-01/3.DCL\&DDL/<id>/<id>-data.sql
 ```
 
 ## Resultat
