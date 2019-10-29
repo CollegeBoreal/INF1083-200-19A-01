@@ -13,7 +13,6 @@ use immigration_consulting;
  Etudiant INT AUTO_INCREMENT,
  Resident_permanent VARCHAR(30) NOT NULL,
  Resident_temporaire VARCHAR(30) NOT NULL,
- Insurance VARCHAR(30) NOT NULL,
  Refugier VARCHAR(30) NOT NULL,
  PRIMARY KEY(Etudiant)
   );                                                                                       
