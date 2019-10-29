@@ -40,13 +40,6 @@ unite_de_mesure VARCHAR(30) NOT NULL,
 PRIMARY KEY (taille)
 );
 
-CREATE TABLE Tissu (
-tissu INT AUTO_INCREMENT,
-nom VARCHAR(30) NOT NULL, 
-PRIMARY KEY (tissu)
-);
-
-
 CREATE TABLE Accessoires (
 accessoire INT AUTO_INCREMENT,  
 nom VARCHAR(30) NOT NULL,
@@ -55,15 +48,32 @@ PRIMARY KEY (accessoire)
 
 );
 
+ CREATE TABLE Pays_de_fabrication ( 
+   
+ nom VARCHAR(30) NOT NULL,
+ devise VARCHAR(30) NOT NULL,
+ Pays_de_fabrication INT
+ 
+ );
 
-CREATE TABLE PAYS_DE_FABRICATION ( 
-tissu INT,
+
+CREATE TABLE Tissu (
+taille INT,
+prix INT,
+couleur INT,
 accessoire INT,
 pays_de_fabrication INT,
-PRIMARY KEY ( tissu, accessoire),
-FOREIGN KEY(tissu) 
-     REFERENCES Tissu(tissu),
+tissu INT,
+PRIMARY KEY ( taille, prix, couleur, accessoire, pays_de_fabrication),
+FOREIGN KEY(taille) 
+     REFERENCES Tailles(taille),
+FOREIGN KEY(prix) 
+     REFERENCES Prix(prix),
+FOREIGN KEY(couleur) 
+     REFERENCES Couleurs(couleur),
 FOREIGN KEY(accessoire) 
-     REFERENCES Accessoires(accessoire)
- 
+     REFERENCES Accessoires(accessoire),
+FOREIGN KEY(pays_de_fabrication) 
+     REFERENCES Pays_de_fabrication(pays_de_fabrication)
+
  );
