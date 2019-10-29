@@ -5,10 +5,17 @@
 
 * install node
 
-* install nativescript (add sudo if required)
+* install NativeScript CLI (add sudo if required)
 
 ```
 $ npm install nativescript --global
+ ```
+ 
+ * Test
+ 
+ ```
+$ tns --version
+6.1.2
  ```
 
 ## Installation
