@@ -15,16 +15,39 @@ use Hijabfashion;
 
 -- Mes tables
 
+CREATE TABLE Couleurs (
+couleur INT AUTO_INCREMENT, 
+nom VARCHAR(30) NOT NULL,  
+PRIMARY KEY (couleur)
 
 
-CREATE TABLE TISSUS (
+
+
+CREATE TABLE Prix (
+prix INT AUTO_INCREMENT,
+nom VARCHAR(30) NOT NULL,
+tarif VARCHAR(30) NOT NULL,
+PRIMARY KEY (prix)
+
+);
+ 
+ 
+ CREATE TABLE Tailles (
+taille INT AUTO_INCREMENT,
+largeur VARCHAR(30) NOT NULL,	
+longeur VARCHAR(30) NOT NULL,
+unite_de_mesure VARCHAR(30) NOT NULL,
+PRIMARY KEY (taille)
+);
+
+CREATE TABLE Tissu (
 tissu INT AUTO_INCREMENT,
 nom VARCHAR(30) NOT NULL, 
 PRIMARY KEY (tissu)
 );
 
 
-CREATE TABLE ACCESSOIRES (
+CREATE TABLE Accessoires (
 accessoire INT AUTO_INCREMENT,  
 nom VARCHAR(30) NOT NULL,
 type VARCHAR(30) NOT NULL,   
@@ -39,8 +62,8 @@ accessoire INT,
 pays_de_fabrication INT,
 PRIMARY KEY ( tissu, accessoire),
 FOREIGN KEY(tissu) 
-     REFERENCES TISSUS(tissu),
+     REFERENCES Tissu(tissu),
 FOREIGN KEY(accessoire) 
-     REFERENCES ACCESSOIRES(accessoire)
+     REFERENCES Accessoires(accessoire)
  
  );
