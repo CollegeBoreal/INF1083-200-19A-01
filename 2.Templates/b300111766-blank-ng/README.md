@@ -13,6 +13,6 @@ Afficher une page mobile comportant deux libellés et une image
 
 ** Android **
 
-![image](image/emulateur.jpg)
+![image](image/emulateur.png)
 
 
