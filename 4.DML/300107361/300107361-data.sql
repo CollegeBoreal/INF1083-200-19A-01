@@ -4,7 +4,7 @@ use Car_Center;
 
 -- Données des tables
 
-INSERT INTO SERVICES_OFFERED (Sale) VALUES ( 'Car_Trucks', 'New_Driver', 'Car_Wash');
+INSERT INTO SERVICES_OFFERED (Sale) VALUES ( 'Car_Trucks');
 INSERT INTO MARKS ( Mark ) VALUES ('Acura' , 'Audi', 'Bentley' , 'BMW' , 'Buick' , 'Cadilac' , 'Chevrolet' , 'Chrysler' , 'CODA' , 'Daihatsu' , 'Dodge' , 'Ferrari' , 'FIAT' , 'Ford' , 'GMC' , 'Honda' , 'Hyundai' , 'Infiniti' , 'Izuzu' , 'Jaguar' , 'Jeep' , 'Kia' , 'Lamborghini' , 'Land_Rover' , 'Lexus' , 'LOtus' , 'Maserati' , 'Maybach' , 'Mazda' , 'Mercedes_Benz' , 'Mitsubishi' , 'Nissan' , 'Porsche' , 'Subaru' , 'Suzuki' , 'Toyota' , 'Volkswagen' , 'Volvo_48' , 'Yamaha' );
 INSERT INTO MODELS (Model) VALUES ('CL', 'CSX', 'EL', 'ILX', 'INTEGRA', 'LEGEND', 'VIGOR', 100, 200, 'CABRIOLET', 'R8' 'GT_SPYDER', '1_SERIES', '640' 'GRAN_COUP', '640_GRAN_TURISMO', 'AVALANCHE', 'AVEO', 'IMPALA', 'BERETA', 'G30', '328', '348_SPYDER', 'CHEROKEE', 'WRANGLER', 'GLADIATOR', 'COMPASS', 'COMMANDER');
 INSERT INTO ORIGINS (Origins) VALUES ('USA', 'Japan', 'Germany', 'Italy',);
