@@ -24,10 +24,13 @@ ETUDIANTS=(
  300112917
  300113775
 )
+   
+echo "# Corrections "
 
 for id in "${ETUDIANTS[@]}"
 do
-   echo " =[BEGIN]============== Exécution du script ${id} =============== "
+   echo "\n## Etudiant ${id} "
+   echo "###  =[BEGIN]============== Exécution du script ${id} =============== "
 
    # Charger le schema
 
@@ -39,5 +42,5 @@ do
    docker exec --interactive some-mysql \
       mysql --user root -ppassword < ~/Developer/INF1006-202-19A-01/4.DML/${id}/${id}-data.sql
 
-   echo " =[END]============== Exécution du script ${id} =============== "
+   echo "###  =[END]============== Exécution du script ${id} =============== "
 done
