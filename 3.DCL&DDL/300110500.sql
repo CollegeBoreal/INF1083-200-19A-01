@@ -17,7 +17,7 @@ CREATE TABLE Type_visas (
   initiale VARCHAR(35) NOT NULL
   );
   
-  CREATE TABLE Honoraire_ayments (
+  CREATE TABLE Honoraire_payments (
   initiale VARCHAR(35) NOT NULL
   );
 
