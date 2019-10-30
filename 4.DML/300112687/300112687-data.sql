@@ -1,8 +1,9 @@
 
 --Dans le Domaine
 
-utilsié Assurance;
+ use Assurance;
 
 --Données de la table Assurance 
 
-inseré dans Assurance ( model plan,suscruption plan , ) valeurs 
+insert into Assurance ( model plan, subscription plan) values (months, type );
+insert into Assurance (model plan , subscription plan) values (months, type );
