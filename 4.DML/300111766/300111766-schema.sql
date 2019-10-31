@@ -35,6 +35,6 @@ Use vente_portable;
   PRIMARY KEY(telephone, customer),
   FOREIGN KEY(telephone)
      REFERENCES TELEPHONES(telephone),
-  FOREIGN KEY (cutomer)
+  FOREIGN KEY (customer)
      REFERENCES COULEURS(customer)
   );
