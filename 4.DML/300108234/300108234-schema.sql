@@ -15,7 +15,7 @@ use Hijabfashion;
 
 -- Mes tables
 
-CREATE TABLE Couleurs (
+CREATE TABLE COULEURS(
 couleur INT AUTO_INCREMENT, 
 nom VARCHAR(30) NOT NULL,  
 PRIMARY KEY (couleur)
@@ -23,7 +23,7 @@ PRIMARY KEY (couleur)
  );
 
 
-CREATE TABLE Prix (
+CREATE TABLE PRIX(
 prix INT AUTO_INCREMENT,
 nom VARCHAR(30) NOT NULL,
 tarif VARCHAR(30) NOT NULL,
@@ -32,7 +32,7 @@ PRIMARY KEY (prix)
 );
  
  
- CREATE TABLE Tailles (
+ CREATE TABLE TAILLES(
 taille INT AUTO_INCREMENT,
 largeur VARCHAR(30) NOT NULL,	
 longeur VARCHAR(30) NOT NULL,
@@ -40,7 +40,7 @@ unite_de_mesure VARCHAR(30) NOT NULL,
 PRIMARY KEY (taille)
 );
 
-CREATE TABLE Accessoires (
+CREATE TABLE ACCESSOIRES(
 accessoire INT AUTO_INCREMENT,  
 nom VARCHAR(30) NOT NULL,
 type VARCHAR(30) NOT NULL,
@@ -49,7 +49,7 @@ PRIMARY KEY (accessoire)
 
 );
 
- CREATE TABLE Pays_de_fabrication ( 
+ CREATE TABLE PAYS_DE_FABRICATION( 
    
  nom VARCHAR(30) NOT NULL,
  devise VARCHAR(30) NOT NULL,
@@ -58,7 +58,7 @@ PRIMARY KEY (accessoire)
  );
 
 
-CREATE TABLE Tissu (
+CREATE TABLE TISSUS(
 taille INT,
 prix INT,
 couleur INT,
@@ -67,13 +67,13 @@ pays_de_fabrication INT,
 tissu INT,
 PRIMARY KEY ( taille, prix, couleur, accessoire, pays_de_fabrication),
 FOREIGN KEY(taille) 
-     REFERENCES Tailles(taille),
+     REFERENCES TAILLES(taille),
 FOREIGN KEY(prix) 
-     REFERENCES Prix(prix),
+     REFERENCES PRIX(prix),
 FOREIGN KEY(couleur) 
-     REFERENCES Couleurs(couleur),
+     REFERENCES COULEURS(couleur),
 FOREIGN KEY(accessoire) 
-     REFERENCES Accessoires(accessoire),
+     REFERENCES ACCESSOIRES(accessoire),
 FOREIGN KEY(pays_de_fabrication) 
      REFERENCES Pays_de_fabrication(pays_de_fabrication)
 
