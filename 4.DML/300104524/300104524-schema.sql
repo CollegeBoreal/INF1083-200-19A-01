@@ -5,32 +5,39 @@ GRANT ALL ON technical_support.* TO 'technical_support'@'localhost';
 
 use technical_support;
 
-CREATE TABLE REPAIRS IF NOT EXISTS (
- nom VARCHAR(30) NOT NULL,
- brand VARCHAR(30) NOT NULL,
-PRIMARY KEY(technical_support)
-);
+CREATE TABLE clients(
+	client INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+		     nom VARCHAR(30),
+		    prenom VARCHAR(20)
+		    );
 
-CREATE TABLE SERVICES IF NOT EXISTS (
-services INT AUTO_INCREMENT,
+CREATE TABLE SERVICES(
+services INT AUTO_INCREMENT PRIMARY KEY,
 BRAND VARCHAR(30) NOT NULL,
  problem VARCHAR(30) NOT NULL,
-description VARCHAR(120),
-PRIMARY KEY(technical_support)
+description VARCHAR(120)
 );
 
-CREATE TABLE NOTES IF NOT EXISTS (
+CREATE TABLE REPAIRS(
+ nom VARCHAR(30) NOT NULL,
+ brand VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE NOTES(
 demarche VARCHAR(120)NOT NULL,
-documentation VARCHAR(120) NOT NULL,
-PRIMARY KEY(technical_support)
-PRIMARY KEY(technical_support,services)
-    FOREIGN KEY(technical_support)
-REFERENCES SERVICES(technical_support),
-    FOREIGN KEY(service)
-REFERENCES SERVICES(services) 
+documentation VARCHAR(120) NOT NULL
 );
 
-
-CREATE TABLE PAYMENTS IF NOT EXISTS (
- nom VARCHAR(30) NOT NULL, note INT
+CREATE TABLE PAYMENTS(
+ nom VARCHAR(30) NOT NULL, 
+ note INT
 );
+ 
+ CREATE TABLE ventes(
+      num_vente INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+      date_vente DATE,
+      marchandise_num INT,
+      client_num INT,
+       FOREIGN KEY (marchandise_num) REFERENCES marchandises (num_marchandise),
+     FOREIGN KEY (client_num) REFERENCES clients (num_client)
+     );
