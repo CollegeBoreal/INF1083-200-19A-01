@@ -2,9 +2,9 @@
 
 -- Dans le domaine
 
-use picasa;
+use widesign;
 
 -- Données de la table picasa
 
-INSERT INTO picasa ( modes, format, reseaux_sociaux) VALUES ( 'portrait', 'RGB', 'Facebook');
-INSERT INTO picasa ( modes, format, reseaux_sociaux) VALUES ('paysage', 'CMYK', 'Instagram');
+INSERT INTO IMAGES (image ) VALUES ( 'portrait');
+INSERT INTO USES (utilisation ) VALUES ('impressions');
