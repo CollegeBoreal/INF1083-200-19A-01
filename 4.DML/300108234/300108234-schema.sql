@@ -15,6 +15,17 @@ use Hijabfashion;
 
 -- Mes tables
 
+CREATE TABLE CLIENTS(
+client INT AUTO_INCREMENT, 
+nom VARCHAR(30) NOT NULL,
+adresse VARCHAR(30) NOT NULL,
+achat Date,
+PRIMARY KEY (client)
+ 
+ );
+
+
+
 CREATE TABLE COULEURS(
 couleur INT AUTO_INCREMENT, 
 nom VARCHAR(30) NOT NULL,  
@@ -44,7 +55,6 @@ CREATE TABLE ACCESSOIRES(
 accessoire INT AUTO_INCREMENT,  
 nom VARCHAR(30) NOT NULL,
 type VARCHAR(30) NOT NULL,
-fabrication Date,
 PRIMARY KEY (accessoire)
 
 );
