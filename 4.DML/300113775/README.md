@@ -2,4 +2,4 @@
 
 base de données
 
-![image](widesign.PNG)
+![image](widesign.png)
