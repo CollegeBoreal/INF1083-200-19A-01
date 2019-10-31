@@ -1,42 +1,46 @@
-
-CREATE DATABASE picasa;
-
+CREATE DATABASE widesign;
 
 
 
-CREATE USER 'picasa'@'localhost' IDENTIFIED BY 'picasa_1';
-GRANT ALL ON picasa.* TO 'picasa'@'localhost';
+
+CREATE USER IF NOT EXISTS 'widesign'@'localhost' IDENTIFIED BY 'widesign_1';
+GRANT ALL ON widesign.* TO 'widesign'@'localhost';
 
 
-use picasa;
+use widesign;
 
-CREATE TABLE MODES (
-  nom VARCHAR(15) NOT NULL
+      
+CREATE TABLE IMAGES (
+  image INT AUTO_INCREMENT,
+  name VARCHAR(30) NOT NULL,
+  PRIMARY KEY(image)
   );
   
-     
-CREATE TABLE FORMATS (
-     nom VARCHAR(5) NOT NULL
-     );
+CREATE TABLE USES (
+  utilisation INT AUTO_INCREMENT,
+  social_networks VARCHAR(50) NOT NULL,
+  PRIMARY KEY(utilisation)
+  );
   
-  
-CREATE TABLE RESEAUX_SOCIAUX (
-     nom VARCHAR(10) NOT NULL
-     );
-     
-CREATE TABLE FRAMES (
-     nom VARCHAR(10) NOT NULL,
-     width INT,
-     length INT 
-     );
-     
-CREATE TABLE MODES_DE_LIVRAISON (
-     nom VARCHAR(20) NOT NULL,
-     format INT
-     );
-     
-  
-CREATE TABLE PRIX (
-     nom VARCHAR(10) NOT NULL,
-     tarif INT 
-     );
+CREATE TABLE DELIVERIES (
+   delivery INT AUTO_INCREMENT,
+   image INT,
+   social_networks VARCHAR(50) NOT NULL,
+   PRIMARY KEY(delivery, image),
+     FOREIGN KEY(image)
+       REFERENCES IMAGES(image)
+   );
+
+
+    
+
+CREATE TABLE PRICES (
+  price INT,
+  image INT,
+  delivery INT,
+  PRIMARY KEY(image, delivery),
+  FOREIGN KEY(image)
+     REFERENCES IMAGES(image),
+  FOREIGN KEY(delivery)
+     REFERENCES DELIVERIES(delivery)
+  );
