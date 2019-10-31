@@ -43,7 +43,8 @@ PRIMARY KEY (taille)
 CREATE TABLE Accessoires (
 accessoire INT AUTO_INCREMENT,  
 nom VARCHAR(30) NOT NULL,
-type VARCHAR(30) NOT NULL,   
+type VARCHAR(30) NOT NULL,
+fabrication Date,
 PRIMARY KEY (accessoire)
 
 );
