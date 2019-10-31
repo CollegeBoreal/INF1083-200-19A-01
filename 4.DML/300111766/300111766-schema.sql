@@ -15,26 +15,26 @@ Use vente_portable;
 
   CREATE TABLE TELEPHONES(
   telephone INT AUTO_INCREMENT,
-  marque VARCHAR ( 30 ) NON NULL,
-  accessoire VARCHAR ( 30 ) NOT NULL,
+  marque VARCHAR (30) NOT NULL,
+  accessoire VARCHAR (30) NOT NULL,
   PRIMARY KEY (telephone)
   );
   
   CREATE  TABLE  CUSTOMERS(
   customer INT AUTO_INCREMENT,
-  name VARCHAR ( 30 ) NOT NULL,
+  name VARCHAR (30) NOT NULL,
   address VARCHAR(30) NOT NULL,
   inscription Date,
   PRIMARY KEY (customer)
   );
 
-  CREATE TABLE PRICE (
+  CREATE TABLE PRICES (
   telephone INT,
   customer INT,
   price INT,
-  PRIMARY KEY (telephone, customer),
-  FOREIGN KEY (telephone)
-     REFERENCES TELEPHONES (telephone),
+  PRIMARY KEY(telephone, customer),
+  FOREIGN KEY(telephone)
+     REFERENCES TELEPHONES(telephone),
   FOREIGN KEY (cutomer)
-     REFERENCES COULEURS (customer)
+     REFERENCES COULEURS(customer)
   );
