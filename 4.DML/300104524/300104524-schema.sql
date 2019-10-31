@@ -9,7 +9,7 @@ CREATE TABLE clients(
 	client INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 		     nom VARCHAR(30),
 		    prenom VARCHAR(20)
-		    );
+);
 
 CREATE TABLE SERVICES(
 services INT AUTO_INCREMENT PRIMARY KEY,
@@ -38,6 +38,6 @@ CREATE TABLE PAYMENTS(
       date_vente DATE,
       marchandise_num INT,
       client_num INT,
-       FOREIGN KEY (marchandise_num) REFERENCES marchandises (num_marchandise),
-     FOREIGN KEY (client_num) REFERENCES clients (num_client)
+       FOREIGN KEY (num_vente) REFERENCES ventes (num_vente),
+     FOREIGN KEY (client) REFERENCES clients (client)
      );
