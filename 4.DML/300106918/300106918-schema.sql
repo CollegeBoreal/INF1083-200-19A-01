@@ -27,11 +27,11 @@ CREATE TABLE INSTALLATIONS (installation INT AUTO_INCREMENT,
                            PRIMARY KEY(installation)
                            );
   
-CREATE TABLE PRIX (Nom VARCHAR(30) NOT NULL, Tarif INT,
+CREATE TABLE PRIX (Nom VARCHAR(30) NOT NULL,
                    solution INT,
                    installation INT, 
                    prixx INT,
-            PRIMARY KEY( solution,installation),
+            PRIMARY KEY( solution, installation),
             FOREIGN KEY(solution) 
             REFERENCES SOLUTIONS(solution),
             FOREIGN KEY(installation) 
