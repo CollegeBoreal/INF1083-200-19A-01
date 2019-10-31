@@ -19,28 +19,28 @@ CREATE DATABASE Assurance;
 
   
  CREATE TABLE Assurance (
- Nom VACHAR(33) NOT NULL
+ Nom VARCHAR(33) NOT NULL
  );
  
  
  CREATE TABLE ABONEMENT (
- nom VACHAR (30) NOT NULL
+ nom VARCHAR (30) NOT NULL
  Mois int 
  );
  
  
  CREATE TABLE PAIEMENT(
- nom VACHAR (40) NOT NULL
+ nom VARCHAR (40) NOT NULL
  type de paiement VACHAR (40) NOT NULL
  );
  
  
  CREATE TABLE SERVICE(
- Initale VACHAR (59) NOT NULL
+ Initale VARCHAR (59) NOT NULL
  Type de service VACHAR (30) NOT NULL
  
  );
  
  CREATE TABLE PRIX (
- Initiale VACHAR (44)
+ Initiale VARCHAR (44)
  );
