@@ -4,8 +4,8 @@ CREATE  DATABASE  IF NOT EXISTS vente_portable;
 
 -- Mon utilsateur 
 
-CREATE  USER  IF NOT EXISTS 'thiam' @ ' localhost ' IDENTIFIED BY 'password';
-GRANT ALL ON vente_portable.* TO 'thiam' @ ' localhost ' ;
+CREATE  USER  IF NOT EXISTS 'thiam'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
 
 -- Selectionner la base de donnees
 
