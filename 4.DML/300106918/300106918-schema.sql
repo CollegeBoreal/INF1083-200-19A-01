@@ -17,20 +17,23 @@ use network_IT;
 
 CREATE TABLE SOLUTIONS ( solution INT AUTO_INCREMENT, 
                        Nom VARCHAR(30) NOT NULL,
-                       PRIMARY KEY(solution));
+                       PRIMARY KEY(solution)
+                       );
   
 CREATE TABLE PRODUCTS ( Nom VARCHAR(30) NOT NULL, Date INT);
                      
 CREATE TABLE INSTALLATIONS (installation INT AUTO_INCREMENT,
                            Nom VARCHAR(30) NOT NULL,
-                           PRIMARY KEY(installation));
+                           PRIMARY KEY(installation)
+                           );
   
 CREATE TABLE PRIX (Nom VARCHAR(30) NOT NULL, Tarif INT,
                    solution INT,
                    installation INT, 
-                   pri INT,
+                   prixx INT,
             PRIMARY KEY( solution,installation),
             FOREIGN KEY(solution) 
             REFERENCES SOLUTIONS(solution),
             FOREIGN KEY(installation) 
-            REFERENCES INSTALLATIONS(installation));
+            REFERENCES INSTALLATIONS(installation)
+                  );
