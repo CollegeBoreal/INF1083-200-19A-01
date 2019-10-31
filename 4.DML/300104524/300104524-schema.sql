@@ -39,4 +39,4 @@ CREATE TABLE PAYMENTS(
       client_num INT,
        FOREIGN KEY (vente) REFERENCES ventes (num_vente),
      FOREIGN KEY (client_num) REFERENCES clients (client)
-     );
+);
