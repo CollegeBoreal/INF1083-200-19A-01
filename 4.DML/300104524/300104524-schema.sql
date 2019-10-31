@@ -36,8 +36,7 @@ CREATE TABLE PAYMENTS(
  CREATE TABLE ventes(
       num_vente INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
       date_vente DATE,
-      marchandise_num INT,
       client_num INT,
        FOREIGN KEY (num_vente) REFERENCES ventes (num_vente),
-     FOREIGN KEY (client) REFERENCES clients (client)
+     FOREIGN KEY (client_num) REFERENCES clients (client)
      );
