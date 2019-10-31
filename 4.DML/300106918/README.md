@@ -1,3 +1,2 @@
-
-4.DML/300106918/IMAGE.png
+IMAGE.png
 
