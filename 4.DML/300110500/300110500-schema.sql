@@ -48,12 +48,12 @@ use immigration_consulting;
                                                                                                      
    CREATE TABLE TYPE_SERVICES (
    Type_visa INT,
-  Honoraire_payments INT,
+  Honoraire_payment INT,
   Type_service VARCHAR(30) NOT NULL,
   PRIMARY KEY(Type_visa, Honoraire_payments),
   FOREIGN KEY(Type_visa_) 
      REFERENCES TYPE_VISAS(Type_visa),
-  FOREIGN KEY( Honoraire_payments) 
+  FOREIGN KEY( Honoraire_payment) 
      REFERENCES HONORAIRE_PAYMENTS (Honoraire_payment)
   );
                                                                                        
