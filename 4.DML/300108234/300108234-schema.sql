@@ -43,7 +43,7 @@ PRIMARY KEY (prix)
 );
  
  
- CREATE TABLE TAILLES(
+CREATE TABLE TAILLES(
 taille INT AUTO_INCREMENT,
 largeur VARCHAR(30) NOT NULL,	
 longeur VARCHAR(30) NOT NULL,
@@ -75,6 +75,7 @@ couleur INT,
 accessoire INT,
 pays_de_fabrication INT,
 tissu INT,
+ 
 PRIMARY KEY ( taille, prix, couleur, accessoire, pays_de_fabrication),
 FOREIGN KEY(taille) 
      REFERENCES TAILLES(taille),
