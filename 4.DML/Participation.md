@@ -54,6 +54,6 @@ $ docker run --name some-mysql --env MYSQL_ROOT_PASSWORD=password --publish 3306
 $ sh notation.sh > Corrections/README.md 2>&1
 ```
 
-## [Criteres]
+## Critères
 
 ![image](images/Criteres.png)
