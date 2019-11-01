@@ -50,6 +50,12 @@ mysql> CREATE USER 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';
 mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'%';
 ```
 
+- activer immédiatemment
+
+```
+mysql> flush privileges;
+```
+
 
 ## References
 
