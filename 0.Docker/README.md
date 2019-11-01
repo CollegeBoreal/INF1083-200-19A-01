@@ -41,6 +41,16 @@ mysql> CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
 mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
 ```
 
+- création d'un utilsateur pour l'utilisation à distance
+
+:bulb: Le caractère `%` indiquant un client (IP address) quelconque
+
+```
+mysql> CREATE USER 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';
+mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'%';
+```
+
+
 ## References
 
 Raspberry Pi image:  `hypriot/rpi-mysql:latest`
