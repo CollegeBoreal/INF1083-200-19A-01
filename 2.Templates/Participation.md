@@ -4,7 +4,7 @@
 
 | Signe              | Signification                 |
 |--------------------|-------------------------------|
-| :heavy_check_mark: | Travail fait                  |
+| :tada:             | Travail fait                  |
 | :warning:          | Incomplet, doit faire plus    |
 | :x:                | N'a rien fait                 |
 
@@ -20,7 +20,7 @@
 | 06   | [300108234](b300108234-blank-ng) | :warning:          | [:bar_chart:](.err/300108234) |
 | 07   | [300110500](b300110500-blank-ng) | :x:                | [:bar_chart:](.err/300110500) |
 | 08   | [300111671](b300111671-blank-ng) | :x:                | [:bar_chart:](.err/300111671) |
-| 09   | [300111766](b300111766-blank-ng) | :heavy_check_mark: | [:bar_chart:](.err/300111766) |
+| 09   | [300111766](b300111766-blank-ng) | :tada:             | [:bar_chart:](.err/300111766) |
 | 10   | [300112017](b300112017-blank-ng) | :x:                | [:bar_chart:](.err/300112017) |
 | 11   | [300112687](b300112687-blank-ng) | :heavy_plus_sign:  | [:bar_chart:](.err/300112687) |
 | 12   | [300112917](b300112917-blank-ng) | :heavy_plus_sign:  | [:bar_chart:](.err/300112917) |
