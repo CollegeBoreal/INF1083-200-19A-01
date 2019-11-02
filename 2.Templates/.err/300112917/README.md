@@ -1,6 +1,6 @@
 # 300112917
 
-:warning: Corriger l'erreur 
+:no_entry: Corriger l'erreur suivante
 
 ***** Fatal JavaScript exception - application has been terminated. *****
 Native stack trace:
