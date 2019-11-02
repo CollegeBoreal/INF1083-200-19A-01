@@ -2,6 +2,7 @@
 
 :no_entry: Corriger l'erreur suivante
 
+```
 ***** Fatal JavaScript exception - application has been terminated. *****
 Native stack trace:
 1   0x105b4824e NativeScript::reportFatalErrorBeforeShutdown(JSC::ExecState*, JSC::Exception*, bool)
@@ -47,3 +48,4 @@ at checkDeferredModules(file:///src/webpack/bootstrap:43:0)
 at webpackJsonpCallback(file:///app/runtime.js:31:<…>
 JavaScript error:
 file:///node_modules/tns-core-modules/ui/content-view/content-view.js:44:0: JS ERROR Error: More than one layout child inside a ContentView
+```
