@@ -22,6 +22,6 @@
 | 08   | [300111671](b300111671-blank-ng) | :x:                | [:bar_chart:](.err/300111671) |
 | 09   | [300111766](b300111766-blank-ng) | :tada:             | [:bar_chart:](.err/300111766) |
 | 10   | [300112017](b300112017-blank-ng) | :x:                | [:bar_chart:](.err/300112017) |
-| 11   | [300112687](b300112687-blank-ng) | :heavy_plus_sign:  | [:bar_chart:](.err/300112687) |
+| 11   | [300112687](b300112687-blank-ng) | :warning:          | [:bar_chart:](.err/300112687) |
 | 12   | [300112917](b300112917-blank-ng) | :heavy_plus_sign:  | [:bar_chart:](.err/300112917) |
 | 13   | [300113775](b300113775-blank-ng) | :heavy_plus_sign:  | [:bar_chart:](.err/300113775) |
