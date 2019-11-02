@@ -24,7 +24,6 @@ use immigration_consulting;
   );                                                                                       
     
     
-
                                                                                                      
   CREATE TABLE HONORAIRE_PAYMENTS (
   Honoraire_payment INT AUTO_INCREMENT,
