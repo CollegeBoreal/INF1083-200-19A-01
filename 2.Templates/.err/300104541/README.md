@@ -1,3 +1,3 @@
 # 300104541
 
-Aucun travail de fait
+:no_entry: Aucun travail de fait
