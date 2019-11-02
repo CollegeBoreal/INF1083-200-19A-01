@@ -1,3 +1,7 @@
+# 300105201
+
+:banngbang:
+
 :x: Ne pas ecrire dans `app.component.html`
 
 ```
