@@ -1,6 +1,6 @@
 # 300105201
 
-:bangbang:
+:bangbang: Lire l'énoncé
 
 :x: Ne pas ecrire dans `app.component.html`
 
