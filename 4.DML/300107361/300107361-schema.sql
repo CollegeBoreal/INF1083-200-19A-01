@@ -19,11 +19,8 @@ CREATE TABLE SERVICES_OFFERED (
 
 CREATE TABLE ORIGINS (
    origin INT AUTO_INCREMENT,
-   mark INT,
    Origins TEXT NOT NULL,
-   PRIMARY KEY(origin, mark),
-     FOREIGN KEY(mark)
-       REFERENCES MARKS(mark)
+   PRIMARY KEY(origin),
    );
   
 CREATE TABLE  ENGIN_TYPES (
@@ -41,16 +38,7 @@ CREATE TABLE MARKS (
     FOREIGN KEY(origin)
       REFERENCES ORIGINS(origin)
   );
-  
-  
-CREATE TABLE COLOURS (
-   colour INT AUTO_INCREMENT,
-   Colours VARCHAR(255) NOT NULL,
-   model INT,
-   PRIMARY KEY(colour),
-     FOREIGN KEY(model)
-       REFERENCES MODELS(model)
-   );
+
    
 CREATE TABLE YEARS (
   year INT  AUTO_INCREMENT,
@@ -64,18 +52,23 @@ CREATE TABLE YEARS (
   CREATE TABLE MODELS (
    model INT AUTO_INCREMENT,
    mark INT,
-   colour INT,
    year INT,
    Models VARCHAR(50) NOT NULL,
    PRIMARY KEY(model, mark),
      FOREIGN KEY(mark)
        REFERENCES MARKS(mark),
-     FOREIGN KEY(colour)
-       REFERENCES COLOURS(colour),
      FOREIGN KEY(year)
        REFERENCES YEARS(year)
    );
 
+CREATE TABLE COLOURS (
+   colour INT AUTO_INCREMENT,
+   Colours VARCHAR(255) NOT NULL,
+   model INT,
+   PRIMARY KEY(colour),
+     FOREIGN KEY(model)
+       REFERENCES MODELS(model)
+   );
 
 CREATE TABLE PRICES (
   price INT,
