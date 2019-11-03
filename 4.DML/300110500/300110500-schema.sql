@@ -28,7 +28,7 @@ use immigration_consulting;
   CREATE TABLE HONORAIRE_PAYMENTS (
   Honoraire_payment INT AUTO_INCREMENT,
   Periode Date,
-  Name VARCHAR(30) NOT NULL 
+  Name VARCHAR(30) NOT NULL,
   Especes INT,
   Carte_bancaire INT,
   Western_union INT,
@@ -50,7 +50,7 @@ use immigration_consulting;
   Honoraire_payment INT,
   Type_service VARCHAR(30) NOT NULL,
   PRIMARY KEY(Type_visa, Honoraire_payments),
-  FOREIGN KEY(Type_visa_) 
+  FOREIGN KEY(Type_visa) 
      REFERENCES TYPE_VISAS(Type_visa),
   FOREIGN KEY( Honoraire_payment) 
      REFERENCES HONORAIRE_PAYMENTS (Honoraire_payment)
