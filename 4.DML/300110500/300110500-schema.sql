@@ -17,9 +17,9 @@ use immigration_consulting;
  Type_visa INT AUTO_INCREMENT,
  Name VARCHAR(30) NOT NULL,
  Etudiant INT AUTO_INCREMENT,
- Resident_permanent VARCHAR(30) NOT NULL,
- Resident_temporaire VARCHAR(30) NOT NULL,
- Refugier VARCHAR(30) NOT NULL,
+ Resident_permanent INT AUTO_INCREMENT,
+ Resident_temporaire INT AUTO_INCREMENT,
+ Refugier VARCHAR INT AUTO_INCREMENT,
  PRIMARY KEY(CType_visa)
   );                                                                                       
     
