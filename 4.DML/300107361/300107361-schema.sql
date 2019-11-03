@@ -42,11 +42,8 @@ CREATE TABLE MARKS (
    
 CREATE TABLE YEARS (
   year INT  AUTO_INCREMENT,
-  model INT,
   Years DATE,
-  PRIMARY KEY(year, model),
-     FOREIGN KEY(model)
-        REFERENCES MODELS(model)
+  PRIMARY KEY(year)
   );
   
   CREATE TABLE MODELS (
@@ -65,7 +62,7 @@ CREATE TABLE COLOURS (
    colour INT AUTO_INCREMENT,
    Colours VARCHAR(255) NOT NULL,
    model INT,
-   PRIMARY KEY(colour),
+   PRIMARY KEY(colour, model),
      FOREIGN KEY(model)
        REFERENCES MODELS(model)
    );
