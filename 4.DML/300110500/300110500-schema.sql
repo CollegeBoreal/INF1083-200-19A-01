@@ -16,10 +16,10 @@ use immigration_consulting;
  CREATE TABLE TYPE_VISAS (
  Type_visa INT AUTO_INCREMENT,
  Name VARCHAR(30) NOT NULL,
- Etudiant INT AUTO_INCREMENT,
- Resident_permanent INT AUTO_INCREMENT,
- Resident_temporaire INT AUTO_INCREMENT,
- Refugier INT AUTO_INCREMENT,
+ Etudiant VARCHAR(35) NOT NULL
+ Resident_permanent VARCHAR(35) NOT NULL
+ Resident_temporaire VARCHAR(35) NOT NULL
+ Refugier VARCHAR(35) NOT NULL
  PRIMARY KEY(CType_visa)
   );                                                                                       
     
