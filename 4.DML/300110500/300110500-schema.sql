@@ -20,7 +20,7 @@ use immigration_consulting;
  Resident_permanent VARCHAR(35) NOT NULL,
  Resident_temporaire VARCHAR(35) NOT NULL,
  Refugier VARCHAR(35) NOT NULL.
- PRIMARY KEY(CType_visa),
+ PRIMARY KEY(Type_visa),
   );                                                                                       
     
     
