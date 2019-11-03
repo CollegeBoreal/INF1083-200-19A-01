@@ -1,4 +1,4 @@
-# INF1083-200-19A-01 ROMEO
+# INF1083-200-19A-01
 Développement d'applications
 
 
@@ -21,7 +21,7 @@ Développement d'applications
 |04|23-09-19| [Angular](0.Angular/README.md)                      | https://angular.io/ Application Framework                           |
 |05|30-09-19| [NativeScript](1.tns)                               | Install [NativeScript](N.NativeScript)                                                     |
 |06|07-10-19| [Templates](2.Templates)                            | Ecrire une page HTML (Template) d'un template                                                                  |
-|07|14-10-19| TBD                                                 | TBD                                                                  |
+|07|14-10-19| Action de graces                                    | Pas de cours                                                         |
 |08|21-10-19| Semaine d'études                                    | Pas de cours                                                         |
 |09|28-10-19| TBD                                                 | TBD                                                                  |
 |10|04-11-19| TBD                                                 | TBD                                                                  |
