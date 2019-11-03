@@ -28,7 +28,8 @@
     "reflect-metadata": "~0.1.12",
     "rxjs": "^6.4.0",
     "tns-core-modules": "~6.1.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "nativescript-ui-sidedrawer": "latest"
   },
   "devDependencies": {
     "@angular/compiler-cli": "~8.2.0",
