@@ -19,7 +19,7 @@ use immigration_consulting;
  Etudiant VARCHAR(35) NOT NULL,
  Resident_permanent VARCHAR(35) NOT NULL,
  Resident_temporaire VARCHAR(35) NOT NULL,
- Refugier VARCHAR(35) NOT NULL.
+ Refugier VARCHAR(35) NOT NULL,
  PRIMARY KEY(Type_visa)
   );                                                                                       
     
