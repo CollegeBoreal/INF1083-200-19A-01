@@ -21,7 +21,7 @@ CREATE TABLE ORIGINS (
    origin INT AUTO_INCREMENT,
    mark INT,
    Origins TEXT NOT NULL,
-   PRIMARY KEY(origin),
+   PRIMARY KEY(origin, mark),
      FOREIGN KEY(mark)
        REFERENCES MARKS(mark)
    );
@@ -56,7 +56,7 @@ CREATE TABLE YEARS (
   year INT  AUTO_INCREMENT,
   model INT,
   Years DATE,
-  PRIMARY KEY(year),
+  PRIMARY KEY(year, model),
      FOREIGN KEY(model)
         REFERENCES MODELS(model)
   );
