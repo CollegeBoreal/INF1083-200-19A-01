@@ -19,7 +19,7 @@ use immigration_consulting;
  Etudiant INT AUTO_INCREMENT,
  Resident_permanent INT AUTO_INCREMENT,
  Resident_temporaire INT AUTO_INCREMENT,
- Refugier VARCHAR INT AUTO_INCREMENT,
+ Refugier INT AUTO_INCREMENT,
  PRIMARY KEY(CType_visa)
   );                                                                                       
     
