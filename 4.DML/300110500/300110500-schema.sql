@@ -49,7 +49,7 @@ use immigration_consulting;
    Type_visa INT,
   Honoraire_payment INT,
   Type_service VARCHAR(30) NOT NULL,
-  PRIMARY KEY(Type_visa, Honoraire_payments),
+  PRIMARY KEY(Type_visa, Honoraire_payment),
   FOREIGN KEY(Type_visa) 
      REFERENCES TYPE_VISAS(Type_visa),
   FOREIGN KEY( Honoraire_payment) 
