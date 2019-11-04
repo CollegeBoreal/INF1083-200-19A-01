@@ -2,13 +2,11 @@
 
 ## Première page:
 
-* Setup
 
-* Setup & Init
-
-* Stage & Snapshot
-
-* Branch & Merge
+| Éléments Révisés |  Éléments Révisés |
+|------------------|-------------------|
+| Setup            | Stage & Snapshot  |
+| Setup & Init     | Branch & Merge    |
 
 ![image](images/page1.png)
 
