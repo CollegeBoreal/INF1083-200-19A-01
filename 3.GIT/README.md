@@ -3,9 +3,9 @@
 ## :one: Première page:
 
 
-### Éléments
+### Éléments Révisés
 
-| -- |  -- |
+| --               |  --               |
 |------------------|-------------------|
 | Setup            | Stage & Snapshot  |
 | Setup & Init     | Branch & Merge    |
@@ -16,13 +16,13 @@
 
 ## :two: Deuxième page:
 
-* Inspect & Compare
+### Éléments Révisés
 
-* Tracking Path Changes
+| --                    |  --               |
+|-----------------------|-------------------|
+| Inspect & Compare     | Ignoring Patterns |
+| Tracking Path Changes | Share & Update    |
 
-* Ignoring Patterns
-
-* Share & Update
-
+### Détails
 
 ![image](images/page2.png)
