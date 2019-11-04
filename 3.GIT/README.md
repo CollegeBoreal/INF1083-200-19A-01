@@ -1,3 +1,3 @@
 # Git
 
-![image](git.pdf)
+![image](git-cheat-sheet-education.pdf)
