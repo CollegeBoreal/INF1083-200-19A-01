@@ -3,10 +3,14 @@
 ## Première page:
 
 
+### Éléments
+
 | Éléments Révisés |  Éléments Révisés |
 |------------------|-------------------|
 | Setup            | Stage & Snapshot  |
 | Setup & Init     | Branch & Merge    |
+
+### Détails
 
 ![image](images/page1.png)
 
