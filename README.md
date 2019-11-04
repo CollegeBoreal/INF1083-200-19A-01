@@ -1,13 +1,13 @@
-# INF1083-200-19A-01
+# INF1083-200-19A-01 **
 Développement d'applications
 
 
 ## Devoirs
 
-|# | Date   | Themes                                              |     Commentaires                                                   |
-|--|:------:|:----------------------------------------------------|:-------------------------------------------------------------------|
-|01|23-09-19| [Angular CLI](0.Angular/README.md#participation)    | Mon premier projet sous Angular CLI            |
-|02|07-10-19| [Templates](2.Templates/README.md#participation)    | Mon premier fichier HTML sous NativeScript   |                                                  
+|# | Date   | Themes                                              |     Commentaires                                      |
+|--|:------:|:----------------------------------------------------|:------------------------------------------------------|
+|01|23-09-19| [Angular CLI](0.Angular/README.md#participation)    | Mon premier projet sous Angular CLI                   |
+|02|07-10-19| [Templates](2.Templates/README.md#participation)    | Mon premier fichier HTML (template) sous NativeScript |                                                  
 
 
 
@@ -17,13 +17,13 @@ Développement d'applications
 |--|:------:|:----------------------------------------------------|:---------------------------------------------------------------------|
 |01|02-09-19|                                                     | Rentrée des classes                                                  |
 |02|09-09-19| Présentation du nouveau cours                       | Présentation d'Applications Hybrides comme NativeScript et github    |
-|03|16-09-19| Introduction NativeScript                           | https://play.nativescript.org                                        |
-|04|23-09-19| [Angular](0.Angular/README.md)                      | https://angular.io/ Application Framework                           |
-|05|30-09-19| [NativeScript](1.tns)                               | Install [NativeScript](N.NativeScript)                                                     |
-|06|07-10-19| [Templates](2.Templates)                            | Ecrire une page HTML (Template) d'un template                                                                  |
-|07|14-10-19| TBD                                                 | TBD                                                                  |
+|03|16-09-19| Introduction NativeScript Playground                | https://play.nativescript.org                                        |
+|04|23-09-19| [0.Angular](0.Angular/README.md)                    | [Angular](https://angular.io/) Application Framework                           |
+|05|30-09-19| [1.tns](1.tns)                                      | Installer [NativeScript Playground](N.NativeScript) localement sur sa machine |
+|06|07-10-19| [2.Templates](2.Templates)                          | Ecrire une page HTML (Template) d'un template                                                                  |
+|07|14-10-19| Action de graces                                    | Pas de cours                                                         |
 |08|21-10-19| Semaine d'études                                    | Pas de cours                                                         |
-|09|28-10-19| TBD                                                 | TBD                                                                  |
+|09|28-10-19| Révision [GIT](3.GIT)                               | Test semaine d'après .  |
 |10|04-11-19| TBD                                                 | TBD                                                                  |
 |11|11-11-19| TBD                                                 | TBD                                                                  |
 |12|18-11-19| TBD                                                 | TBD                                                                  |

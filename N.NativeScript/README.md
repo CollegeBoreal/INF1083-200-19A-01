@@ -1,10 +1,34 @@
-# NativeScript
+# NativeScript Playground
 
 
-## Installation
+:zero: Prerequisite
 
-[Installe](installation)
+* install node
 
-## Emulation
+* install NativeScript CLI (add sudo if required)
 
-[Emule](Emulator.md)
+```
+$ npm install nativescript --global
+ ```
+ 
+ * Test
+ 
+ ```
+$ tns --version
+6.1.2
+ ```
+
+:one: Installation
+
+  Follow [Install](installation)
+
+:two: Emulation
+
+  Follow [Emulate](Emulator.md)
+
+
+:three: Utiliser NativeScript
+
+https://github.com/CollegeBoreal/Tutoriels/tree/master/3.Angular/M.Mobile
+
+
