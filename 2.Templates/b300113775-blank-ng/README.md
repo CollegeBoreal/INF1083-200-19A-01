@@ -6,10 +6,7 @@
 
 
 
-                 Mon Emulator
-
-
-![image](images/emulator775.png)
+    
 
 
 
