@@ -20,7 +20,7 @@ Développement d'applications
 |03|16-09-19| Introduction NativeScript Playground                | https://play.nativescript.org                                        |
 |04|23-09-19| [0.Angular](0.Angular/README.md)                    | [Angular](https://angular.io/) Application Framework                           |
 |05|30-09-19| [1.tns](1.tns)                                      | Installer [NativeScript Playground](N.NativeScript) localement sur sa machine |
-|06|07-10-19| [Templates](2.Templates)                            | Ecrire une page HTML (Template) d'un template                                                                  |
+|06|07-10-19| [2.Templates](2.Templates)                          | Ecrire une page HTML (Template) d'un template                                                                  |
 |07|14-10-19| Action de graces                                    | Pas de cours                                                         |
 |08|21-10-19| Semaine d'études                                    | Pas de cours                                                         |
 |09|28-10-19| Révision [GIT](https://github.com/CollegeBoreal/Tutoriels/tree/master/0.GIT)| Test semaine d'après .  |
