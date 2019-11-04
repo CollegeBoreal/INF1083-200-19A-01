@@ -5,7 +5,7 @@
 
 ### Éléments
 
-| Éléments Révisés |  Éléments Révisés |
+| -- |  -- |
 |------------------|-------------------|
 | Setup            | Stage & Snapshot  |
 | Setup & Init     | Branch & Merge    |
