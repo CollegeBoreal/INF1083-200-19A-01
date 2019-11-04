@@ -19,7 +19,7 @@ Développement d'applications
 |02|09-09-19| Présentation du nouveau cours                       | Présentation d'Applications Hybrides comme NativeScript et github    |
 |03|16-09-19| Introduction NativeScript Playground                | https://play.nativescript.org                                        |
 |04|23-09-19| [0.Angular](0.Angular/README.md)                    | [Angular](https://angular.io/) Application Framework                           |
-|05|30-09-19| [NativeScript](1.tns)                               | Installer [NativeScript Playground](N.NativeScript) localement sur sa machine |
+|05|30-09-19| [1.tns](1.tns)                                      | Installer [NativeScript Playground](N.NativeScript) localement sur sa machine |
 |06|07-10-19| [Templates](2.Templates)                            | Ecrire une page HTML (Template) d'un template                                                                  |
 |07|14-10-19| Action de graces                                    | Pas de cours                                                         |
 |08|21-10-19| Semaine d'études                                    | Pas de cours                                                         |
