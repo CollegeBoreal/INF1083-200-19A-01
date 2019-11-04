@@ -12,5 +12,5 @@ Afficher une page mobile comportant deux libellés et une image
 
 ** Android **
 
-![image](image/Final.jpg)
+![image](image/Final.PNG)
 
