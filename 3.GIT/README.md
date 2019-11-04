@@ -1,6 +1,6 @@
 # Git Révisions
 
-## Première page:
+## :one: Première page:
 
 
 ### Éléments
@@ -14,7 +14,7 @@
 
 ![image](images/page1.png)
 
-## Deuxième page:
+## :two: Deuxième page:
 
 * Inspect & Compare
 
