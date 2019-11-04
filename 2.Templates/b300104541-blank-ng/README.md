@@ -1,6 +1,6 @@
 :one: My Sketch
 
-![image](Sketch.png)
+![image](Sketch.jpeg)
 
 :two: Le résultat final
 
