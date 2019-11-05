@@ -16,7 +16,7 @@ INSERT INTO TAILLES ( Largeur, Longeur, Unite_de_mesure ) VALUES ( 55, 160, 'cm'
 
 -- Données de la table tissu
 
-INSERT INTO TISSUS ( nom) VALUES ( 'Cotton');
+INSERT INTO TISSUS ( nom ) VALUES ( 'Cotton');
 
 -- Données de la table accessoires
 
@@ -24,5 +24,5 @@ INSERT INTO ACCESSOIRES ( nom, type ) VALUES ( 'Perle','Coloree');
 
 -- Données de la table pays de fabrication
 
-INSERT INTO PAYS_DE_FABRICATION ( nom, devise) VALUES ( 'Maroc', 'Dirham');
+INSERT INTO PAYS_DE_FABRICATION ( nom, devise ) VALUES ( 'Maroc', 'Dirham');
 
