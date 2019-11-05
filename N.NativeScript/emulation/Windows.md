@@ -35,7 +35,7 @@ $ emulator -avd test &
 
 * Jouer avec l'AVD
 
-![image](images/emulator.png)
+![image](../images/emulator.png)
 
 ## Problème de JDK
 
