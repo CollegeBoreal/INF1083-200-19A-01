@@ -70,15 +70,9 @@ CREATE TABLE COLOURS (
 CREATE TABLE PRICES (
   price INT,
   model INT,
-  mark INT,
-  year INT,
-  PRIMARY KEY(model, mark),
+  PRIMARY KEY(price, model),
   FOREIGN KEY(model)
-     REFERENCES MODELS(model),
-  FOREIGN KEY(mark)
-     REFERENCES MARKS(mark),
-  FOREIGN KEY(year)
-     REFERENCES YEARS(year)
+     REFERENCES MODELS(model)
   );
 
 CREATE TABLE MAINTENANCES (
