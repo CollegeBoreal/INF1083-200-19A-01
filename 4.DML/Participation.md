@@ -34,8 +34,8 @@ $ docker exec --interactive some-mysql \
 | 09   | [300111671](300111671) | :x:                | [:heavy_check_mark:](Corrections#etudiant-300110529) | [:o:](300111671) |
 | 10   | [300111766](300111766) | :x:                | [:heavy_check_mark:](Corrections#etudiant-300111766) | [:o:](300111766) |
 | 11   | [300112017](300112017) | :x:                | [:x:](Corrections#etudiant-300112017)                | [:bar_chart:](300112017) |
-| 12   | [300112687](300112687) | :x:                | [:x:](Corrections#etudiant-300112687)                | [:bar_chart:](300112687) |
-| 13   | [300112917](300112917) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300112917) | [:bar_chart:](300112917) |
+| 12   | [300112687](300112687) | :x:                | [:x:](Corrections#etudiant-300112687)                | [:o:](300112687) |
+| 13   | [300112917](300112917) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300112917) | [:o:](300112917) |
 | 14   | [300113775](300113775) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300113775) | [:bar_chart:](300113775) |
 
 ## [Corrections](Corrections)
