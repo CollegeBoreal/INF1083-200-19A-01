@@ -4,4 +4,4 @@
 
 :two: Le résultat final
 
-![image](Emulator.png)
+![image](emulator.jpeg)
