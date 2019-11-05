@@ -21,7 +21,7 @@ $ docker exec --interactive some-mysql \
 ## Resultat
 
 
-|:hash:| :id:                   | SQL Existe         | Execution                                            | Modèle |
+|:hash:| :id:                   | SQL                | Execution                                            | Modèle |
 |------|------------------------|--------------------|------------------------------------------------------|--------|
 | 01   | [300104524](300104524) | :heavy_check_mark: | [:x:](Corrections#etudiant-300104524)                | [:o:](300104524) |
 | 02   | [300104541](300104541) | :heavy_check_mark: | [:x:](Corrections#etudiant-300104541)                | [:o:](300104541) |
