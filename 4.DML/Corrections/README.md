@@ -38,7 +38,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ERROR 1396 (HY000) at line 8: Operation CREATE USER failed for 'network_IT'@'localhost'
 mysql: [Warning] Using a password on the command line interface can be insecure.
-ERROR 1265 (01000) at line 15: Data truncated for column 'Date' at row 1
+ERROR 1062 (23000) at line 8: Duplicate entry '10' for key 'PRIMARY'
 ```
 ###  =[END]============== Exécution du script 300106918 =============== 
 \n## Etudiant 300107361 
@@ -47,29 +47,25 @@ ERROR 1265 (01000) at line 15: Data truncated for column 'Date' at row 1
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ERROR 1050 (42S01) at line 13: Table 'SERVICES_OFFERED' already exists
 mysql: [Warning] Using a password on the command line interface can be insecure.
-ERROR 1364 (HY000) at line 8: Field 'origin' doesn't have a default value
+ERROR 1062 (23000) at line 11: Duplicate entry '1' for key 'PRIMARY'
 ```
 ###  =[END]============== Exécution du script 300107361 =============== 
 \n## Etudiant 300108234 
 ###  =[BEGIN]============== Exécution du script 300108234 =============== 
 ```
 mysql: [Warning] Using a password on the command line interface can be insecure.
-<<<<<<< HEAD
-ERROR 1050 (42S01) at line 18: Table 'CLIENTS' already exists
-=======
 ERROR 1050 (42S01) at line 19: Table 'ADRESSES' already exists
->>>>>>> 2107ee44a6ee9402bc656ebfaf13e2a8d5c3213a
 mysql: [Warning] Using a password on the command line interface can be insecure.
-ERROR 1054 (42S22) at line 19: Unknown column 'nom' in 'field list'
+ERROR 1146 (42S02) at line 27: Table 'Hijabfashion.TISSUS' doesn't exist
 ```
 ###  =[END]============== Exécution du script 300108234 =============== 
 \n## Etudiant 300110500 
 ###  =[BEGIN]============== Exécution du script 300110500 =============== 
 ```
 mysql: [Warning] Using a password on the command line interface can be insecure.
-ERROR 1410 (42000) at line 8: You are not allowed to create a user with GRANT
+ERROR 1050 (42S01) at line 16: Table 'TYPE_VISAS' already exists
 mysql: [Warning] Using a password on the command line interface can be insecure.
-ERROR 1146 (42S02) at line 7: Table 'immigration_consulting.TYPE_VISAS' doesn't exist
+ERROR 1366 (HY000) at line 7: Incorrect integer value: 'BFA' for column 'Type_visa' at row 1
 ```
 ###  =[END]============== Exécution du script 300110500 =============== 
 \n## Etudiant 300110529 
@@ -92,14 +88,10 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 ###  =[BEGIN]============== Exécution du script 300111766 =============== 
 ```
 mysql: [Warning] Using a password on the command line interface can be insecure.
-<<<<<<< HEAD
-ERROR 1050 (42S01) at line 16: Table 'TELEPHONES' already exists
-=======
 ERROR 1064 (42000) at line 9: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--Mon utilsateur 
 	
 
 	CREATE  USER  IF NOT EXISTS 'thiam'@'localhost' IDENTIFIED' at line 1
->>>>>>> 2107ee44a6ee9402bc656ebfaf13e2a8d5c3213a
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ```
 ###  =[END]============== Exécution du script 300111766 =============== 
@@ -109,7 +101,7 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ERROR 1007 (HY000) at line 2: Can't create database 'magasin'; database exists
 mysql: [Warning] Using a password on the command line interface can be insecure.
-ERROR 1054 (42S22) at line 7: Unknown column 'BLANCHART' in 'field list'
+ERROR 1062 (23000) at line 7: Duplicate entry '1' for key 'PRIMARY'
 ```
 ###  =[END]============== Exécution du script 300112017 =============== 
 \n## Etudiant 300112687 
