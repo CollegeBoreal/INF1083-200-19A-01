@@ -8,7 +8,7 @@ INSERT INTO COULEURS ( nom ) VALUES ( 'Noir');
 
 -- Données de la table prix
 
-INSERT INTO PRIX ( nom, tarif ) VALUES ( 10, 13%);
+INSERT INTO PRIX ( nom, tarif ) VALUES ( 10, 5);
 
 -- Données de la table tailles
 
