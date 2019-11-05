@@ -1,13 +1,16 @@
 <ActionBar title="Title" class="action-bar"></ActionBar>
 
-<AbsoluteLayout width="210" height="210" backgroundColor="lightgray">
-    <Label text="10, 10" left="10" top="10" width="90" height="90"
-        backgroundColor="red"></Label>
-    <Label text="110, 10" left="110" top="10" width="90" height="90"
-        backgroundColor="green"></Label>
-    
-     <Image
-    src="https://play.nativescript.org/dist/assets/img/NativeScript_logo.png">
-</Image>
-    
-</AbsoluteLayout>
+<DockLayout width="210" height="210" backgroundColor="lightgray"
+    stretchLastChild="false">
+    <Label text="left" dock="left" width="60" backgroundColor="red"></Label>
+    <Label text="top" dock="top" height="60" backgroundColor="green"></Label>
+    <Label text="right" dock="right" width="60" backgroundColor="blue">
+    </Label>
+    <Label text="bottom" dock="bottom" height="60" backgroundColor="yellow">
+    </Label>
+
+    <Image
+        src="https://play.nativescript.org/dist/assets/img/NativeScript_logo.png">
+    </Image>
+
+</DockLayout>
