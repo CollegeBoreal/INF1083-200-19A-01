@@ -15,12 +15,23 @@ use Hijabfashion;
 
 -- Mes tables
 
+ 
+ CREATE TABLE ADRESSES(
+  adresse INT AUTO_INCREMENT,
+  nom VARCHAR(30) NOT NULL,
+  code_postal VARCHAR(30) NOT NULL,
+  PRIMARY KEY (adresse)
+ 
+ );
+ 
+ 
 CREATE TABLE CLIENTS(
-client INT AUTO_INCREMENT, 
-nom VARCHAR(30) NOT NULL,
-adresse VARCHAR(30) NOT NULL,
 achat Date,
-PRIMARY KEY (client)
+adresse INT,
+client INT,
+PRIMARY KEY (adresse),
+FOREIGN KEY(adresse) 
+     REFERENCES ADRESSES(adresse)
  
  );
 

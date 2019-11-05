@@ -12,29 +12,91 @@ GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
 Use vente_portable;
 
 -- Mes tables
+	CREATE  DATABASE  IF NOT EXISTS vente_portable;
+	
 
-  CREATE TABLE TELEPHONES (
-  telephone INT AUTO_INCREMENT,
-  marque VARCHAR (30) NOT NULL,
-  accessoire VARCHAR (30) NOT NULL,
-  PRIMARY KEY(telephone)
+	-- Mon utilsateur 
+	
+
+	CREATE  USER  IF NOT EXISTS 'thiam'@'localhost' IDENTIFIED BY 'password';
+	GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
+	
+
+	-- Selectionner la base de donnees
+	
+
+	Use vente_portable;
+	
+
+	-- Mes tables
+	
+
+	CREATE TABLE MARKS (
+	  mark INT AUTO_INCREMENT,
+	  marks VARCHAR (30) NOT NULL,
+	
+	  PRIMARY KEY (mark)
+	  );
+
+
+ CREATE TABLE MODELS (
+   model INT AUTO_INCREMENT,
+   mark INT,
+   models VARCHAR(30) NOT NULL,
+   PRIMARY KEY(model, mark),
+      FOREIGN KEY(mark),
+         REFERNCES MARKS(mark),
+   );
+
+
+ CREATE TABLE PRICES (
+  price INT,
+  model INT,
+  mark INT,
+  PRIMARY KEY(model, mark),
+  FOREIGN KEY(model),
+     REFERENCES MODELS(model),
   );
   
-  CREATE  TABLE  CUSTOMERS (
-  customer INT AUTO_INCREMENT,
-  name VARCHAR (30) NOT NULL,
-  address VARCHAR(30) NOT NULL,
-  inscription Date,
-  PRIMARY KEY(customer)
-  );
+  
+CREATE TABLE INVOICES (
+  Invoice INT AUTO_INCREMENT,
+  Mark INT,
+  Invoice_Date,
+PRIMARY KEY(invoice, mark),
+  FOREINGN KEY(mark)
+    REFERENCES MARKS(mark)
+);
+ 
 
-  CREATE TABLE PRICES (
-  telephone INT,
-  customer INT,
-  price INT,
-  PRIMARY KEY(telephone, customer),
-  FOREIGN KEY(telephone)
-     REFERENCES TELEPHONES(telephone),
-  FOREIGN KEY (customer)
-     REFERENCES CUSTOMERS(customer)
-  );
+
+
+ 
+
+
+
+
+
+
+ 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  

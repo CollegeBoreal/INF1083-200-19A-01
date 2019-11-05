@@ -1,4 +1,4 @@
--- Mon domaine
+-- Jeuxvideos
 
 CREATE DATABASE Jeuxvideos; 
 
