@@ -5,10 +5,10 @@ use network_IT;
 
 -- Données de la table SOLUTIONS
 
-INSERT INTO SOLUTIONS ( solution, nom,  ) VALUES ( 'maintenance , 55);
-INSERT INTO SOLUTIONS ( solution, nom,  ) VALUES ( 'configuration', 15);
-INSERT INTO SOLUTIONS ( solution, nom,  ) VALUES ('vlan' , 75);
-INSERT INTO SOLUTIONS ( solution, nom,  ) VALUES ('routeur', 100);
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES ( 'maintenance' , 55);
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES ( 'configuration', 15);
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES ('vlan' , 75);
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES ('routeur', 100);
 
 -- Données de la table product
 
