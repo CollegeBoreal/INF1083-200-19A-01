@@ -16,9 +16,9 @@ INSERT INTO ENGIN_TYPES (Engins) VALUES ('Hybrid');
 INSERT INTO ENGIN_TYPES (Engins) VALUES ('Electric');
 INSERT INTO ENGIN_TYPES (Engins) VALUES ('Petrol');
 
-INSERT INTO MARKS (Marks) VALUES ('JEEP');
-INSERT INTO MARKS (Marks) VALUES ('Acura');
-INSERT INTO MARKS (Marks) VALUES ('Lamborghini');
+INSERT INTO MARKS (Marks, origin) VALUES ('JEEP', 1);
+INSERT INTO MARKS (Marks, origin) VALUES ('Acura', 3);
+INSERT INTO MARKS (Marks, origin) VALUES ('Lamborghini', 2);
 
 INSERT INTO YEARS (Years) VALUES ('2019-02-20');
 INSERT INTO YEARS (Years) VALUES ('2015-11-09');
