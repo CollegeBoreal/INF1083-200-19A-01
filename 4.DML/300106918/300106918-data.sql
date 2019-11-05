@@ -5,17 +5,17 @@ use network_IT;
 
 -- Données de la table SOLUTIONS
 
-INSERT INTO SOLUTIONS ( solution, nom  ) VALUES ( 'maintenance' , 55);
-INSERT INTO SOLUTIONS ( solution, nom  ) VALUES ( 'configuration', 15);
-INSERT INTO SOLUTIONS ( solution, nom  ) VALUES ('vlan' , 75);
-INSERT INTO SOLUTIONS ( solution, nom  ) VALUES ('routeur', 100);
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES (10, 'maintenance');
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES (23, 'configuration');
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES (30, 'vlan');
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES (51, 'routeur');
 
 -- Données de la table product
 
-INSERT INTO PRODUCTS ( nom, Date ) VALUES ('routers');
-INSERT INTO PRODUCTS ( nom, Date ) VALUES ('switches');
-INSERT INTO PRODUCTS ( nom, Date ) VALUES ('camera' );
-INSERT INTO PRODUCTS ( nom, Date ) VALUES ('cables' );
+INSERT INTO PRODUCTS ( nom, Date ) VALUES ('routers', '2019-10-03');
+INSERT INTO PRODUCTS ( nom, Date ) VALUES ('switches', '2019-10-03');
+INSERT INTO PRODUCTS ( nom, Date ) VALUES ('camera', '2019-10-03');
+INSERT INTO PRODUCTS ( nom, Date ) VALUES ('cables', '2019-10-03');
 
 
 -- Données de la table insttalation
