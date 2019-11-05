@@ -24,7 +24,7 @@ $ docker exec --interactive some-mysql \
 |:hash:| :id:                   | SQL Existe         | Execution          |
 |------|------------------------|--------------------|--------------------|
 | 01   | [300104524](300104524) | :heavy_check_mark: | [:x:](Corrections#etudiant-300104524) |
-| 02   | [300104541](300104541) | :heavy_check_mark: | :x:                |
+| 02   | [300104541](300104541) | :heavy_check_mark: | [:x:](Corrections#etudiant-300104541) |
 | 03   | [300105201](300105201) | :heavy_check_mark: | :heavy_check_mark: |
 | 04   | [300106918](300106918) | :heavy_check_mark: | :x:                                 |
 | 05   | [300107361](300107361) | :heavy_check_mark: | :x:                                 |
