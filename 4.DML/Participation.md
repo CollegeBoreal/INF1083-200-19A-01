@@ -24,8 +24,8 @@ $ docker exec --interactive some-mysql \
 |:hash:| :id:                   | SQL Existe         | Execution                                            | Modèle |
 |------|------------------------|--------------------|------------------------------------------------------|--------|
 | 01   | [300104524](300104524) | :heavy_check_mark: | [:x:](Corrections#etudiant-300104524)                | [:o:](300104524) |
-| 02   | [300104541](300104541) | :heavy_check_mark: | [:x:](Corrections#etudiant-300104541)                | [:bar_chart:](300104541) |
-| 03   | [300105201](300105201) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300105201) | [:bar_chart:](300105201) |
+| 02   | [300104541](300104541) | :heavy_check_mark: | [:x:](Corrections#etudiant-300104541)                | [:o:](300104541) |
+| 03   | [300105201](300105201) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300105201) | [:o:](300105201) |
 | 04   | [300106918](300106918) | :heavy_check_mark: | [:x:](Corrections#etudiant-300106918)                | [:bar_chart:](300106918) |
 | 05   | [300107361](300107361) | :heavy_check_mark: | [:x:](Corrections#etudiant-300107361)                | [:bar_chart:](300107361) |
 | 06   | [300108234](300108234) | :heavy_check_mark: | [:x:](Corrections#etudiant-300108234)                | [:bar_chart:](300108234) |
