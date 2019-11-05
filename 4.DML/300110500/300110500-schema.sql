@@ -4,8 +4,8 @@ CREATE DATABASE IF NOT EXISTS immigration_consulting;
 
 -- Mon utilisateur
 
-CREATE USER IF NOT EXISTS 'guigma'@'localhost' IDENTIFIED BY 'guigma_1';
-GRANT ALL ON immigration_consulting.* TO 'immigration_consulting'@'localhost';
+CREATE USER IF NOT EXISTS 'guigma'@'localhost' IDENTIFIED BY 'etudiants_1';
+GRANT ALL ON immigration_consulting.* TO 'guigma'@'localhost';
 
 -- selectionner la base de donnees
 
