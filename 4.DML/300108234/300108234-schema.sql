@@ -26,7 +26,6 @@ use Hijabfashion;
  
  
 CREATE TABLE CLIENTS(
-achat Date,
 adresse INT,
 client INT,
 PRIMARY KEY (adresse),
@@ -49,6 +48,7 @@ CREATE TABLE PRIX(
 prix INT AUTO_INCREMENT,
 nom VARCHAR(30) NOT NULL,
 tarif VARCHAR(30) NOT NULL,
+achat Date,
 PRIMARY KEY (prix)
 
 );
