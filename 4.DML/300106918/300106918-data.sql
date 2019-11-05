@@ -20,9 +20,9 @@ INSERT INTO PRODUCTS ( nom, Date ) VALUES ('cables', '2019-10-03');
 
 -- Données de la table insttalation
 
-INSERT INTO INSTTALATIONS (nom ) VALUES ('firewall');
-INSERT INTO INSTTALATIONS (nom ) VALUES ('anti-virus');
-INSERT INTO INSTTALATIONS (nom ) VALUES ('mise a jours');
+INSERT INTO INSTTALATIONS (installation, nom ) VALUES (1, 'firewall');
+INSERT INTO INSTTALATIONS (installation, nom ) VALUES (2, 'anti-virus');
+INSERT INTO INSTTALATIONS (installation, nom ) VALUES (3, 'mise a jours');
                                                   
   -- Données de la table prix
-INSERT INTO PRIX (solution, installation,prix ) VALUES ('100, 2000, 1500,');
+INSERT INTO PRIX (solution, installation,prix ) VALUES (100, 2000, 1500);
