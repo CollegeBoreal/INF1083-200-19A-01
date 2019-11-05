@@ -71,10 +71,11 @@ PRIMARY KEY (accessoire)
 );
 
  CREATE TABLE PAYS_DE_FABRICATION( 
-   
+ pays_de_fabrication INT AUTO_INCREMENT,  
  nom VARCHAR(30) NOT NULL,
  devise VARCHAR(30) NOT NULL,
- Pays_de_fabrication INT
+ PRIMARY KEY (pays_de_fabrication)
+
  
  );
 
@@ -97,6 +98,6 @@ FOREIGN KEY(couleur)
 FOREIGN KEY(accessoire) 
      REFERENCES ACCESSOIRES(accessoire),
 FOREIGN KEY(pays_de_fabrication) 
-     REFERENCES Pays_de_fabrication(pays_de_fabrication)
+     REFERENCES PAYS_DE_FABRICATION(pays_de_fabrication)
 
  );
