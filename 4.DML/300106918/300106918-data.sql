@@ -25,4 +25,4 @@ INSERT INTO INSTTALATIONS (installation, nom ) VALUES (2, 'anti-virus');
 INSERT INTO INSTTALATIONS (installation, nom ) VALUES (3, 'mise a jours');
                                                   
   -- Données de la table prix
-INSERT INTO PRIX (solution, installation,prix ) VALUES (100, 2000, 1500);
+INSERT INTO PRIX (solution, installation, prix ) VALUES (100, 2000, 1500);
