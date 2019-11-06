@@ -3,30 +3,31 @@
 
 -- Mon utilsateur 
 
-	CREATE  DATABASE  IF NOT EXISTS vente_portable;
+CREATE  DATABASE  IF NOT EXISTS vente_portable;
 	
 
-	--Mon utilsateur 
+-- Mon utilsateur 
 	
 
-	CREATE  USER  IF NOT EXISTS 'thiam'@'localhost' IDENTIFIED BY 'password';
-	GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
+CREATE  USER  IF NOT EXISTS 'thiam'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
 	
 
-	--Selectionner la base de donnees
+--Selectionner la base de donnees
 	
 
-	Use vente_portable;
+Use vente_portable;
 	
 
-	--Mes tables
+--Mes tables
+
 	
 CREATE TABBLE MARKS (
    mark INT AUTO_INCREMENT,
-   marks VARCHAR (30) NOT NULL,
-	
-   PRIMARY KEY (mark)	  
+   marks VARCHAR(30) NOT NULL,
+   PRIMARY KEY(mark)	  
    );
+   
 
 CREATE TABLE MODELS (
    model INT AUTO_INCREMENT,
@@ -46,6 +47,16 @@ CREATE TABLE PRICES (
   FOREIGN KEY(model),
   REFERENCES MODELS(model),
   );
+  
+  
+CREATE TABLE CUSTOMERS (
+  customer AUTO_INCREMENT,
+  name VARCHAR(30) NOT NULL,
+  address VARCHAR (25) NOT NULL,
+  contact VARCHAR(25) NOT NULL,
+  );
+  
+	
 CREATE TABLE INVOICES (
   Invoice INT AUTO_INCREMENT,
   Mark INT,
@@ -53,7 +64,7 @@ CREATE TABLE INVOICES (
   PRIMARY KEY(invoice, mark),
   FOREINGN KEY(mark)
   REFERENCES MARKS(mark)
-);
+ );
  
 
 
