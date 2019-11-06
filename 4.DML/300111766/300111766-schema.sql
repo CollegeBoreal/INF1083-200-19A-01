@@ -10,11 +10,7 @@ CREATE  DATABASE  IF NOT EXISTS vente_portable;
 CREATE  USER  IF NOT EXISTS 'thiam'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
 	
-
---Selectionner la base de donnees
-	
-
-Use vente_portable;
+-- Use vente_portable;
 	
 
 --Mes tables
