@@ -38,10 +38,9 @@ use immigration_consulting;
                                                                                                      
   CREATE TABLE VILLE_RESIDEMCE (
    Name VARCHAR(30) NOT NULL,
-   Zone_afrque INT AUTO_INCREMENT,
-   Zone_europe VARCHAR(30) NOT NULL,
-   Zone_amerique VARCHAR(30) NOT NULL,
-   PRIMARY KEY(Zone_afrique)
+   Ville VARCHAR(30) NOT NULL,
+   Continent VARCHAR(30) NOT NULL
+  
    );
   
                                                                                                      
