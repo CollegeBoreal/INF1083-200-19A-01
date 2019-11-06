@@ -25,11 +25,7 @@ CREATE TABBLE MARKS (
 
 CREATE TABLE MODELS (
    model INT AUTO_INCREMENT,
-   mark INT,
    models VARCHAR(30) NOT NULL,
-   PRIMARY KEY(model, mark),
-   FOREIGN KEY(mark),
-   REFERNCES MARKS(mark),
    );
 
 
@@ -47,17 +43,17 @@ CREATE TABLE CUSTOMERS (
   customer AUTO_INCREMENT,
   name VARCHAR(30) NOT NULL,
   address VARCHAR (25) NOT NULL,
-  contact VARCHAR(25) NOT NULL,
+  date of barth(25) NOT NULL,
   );
   
 	
 CREATE TABLE INVOICES (
   Invoice INT AUTO_INCREMENT,
-  Mark INT,
-  Invoice_Date,
-  PRIMARY KEY(invoice, mark),
-  FOREINGN KEY(mark)
-  REFERENCES MARKS(mark)
+  customer INT,
+  
+  PRIMARY KEY(invoice, customer),
+  FOREINGN KEY(customer)
+  REFERENCES MARKS(customer)
  );
  
 
