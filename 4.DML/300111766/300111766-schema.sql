@@ -48,12 +48,14 @@ CREATE TABLE CUSTOMERS (
   
 	
 CREATE TABLE INVOICES (
-  Invoice INT AUTO_INCREMENT,
+  mark INT,
   customer INT,
-  
-  PRIMARY KEY(invoice, customer),
-  FOREINGN KEY(customer)
-  REFERENCES MARKS(customer)
+  invoice INT,
+  PRIMARY KEY(mark,customer),
+  FOREIGN KEY(mark)
+  REFERENCES MARKS(mark)	
+  FOREIGN KEY(customer)
+  REFERENCES CUSTOMERS(customer)
  );
  
 
