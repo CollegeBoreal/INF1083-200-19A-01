@@ -1,7 +1,5 @@
 -- Mon domaine 
-
-
--- Mon utilsateur 
+ 
 
 CREATE  DATABASE  IF NOT EXISTS vente_portable;
 	
