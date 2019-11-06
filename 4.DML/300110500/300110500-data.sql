@@ -13,6 +13,6 @@ INSERT INTO HONORAIRE_PAYMENTS ( Name, Periode, Especes) VALUES ('Reglement_pour
 INSERT INTO VILLE_RESIDENCE (Name Zone_afrique) VALUES ('Hamidou_zongo', 'Congo_Afrique'); 
 INSERT INTO VILLE_RESIDENCE (Name Zone_europe) VALUES ('Cristiano_Ronaldo', 'Portugal_europe'); 
 
-INSERT INTO TYPE_SERVICES (Type_service,Duree) VALUES ('Etudiant_international', 'Temporaire');
+INSERT INTO TYPE_SERVICES (Type_service, Duree) VALUES ('Etudiant_international', 'Temporaire');
 INSERT INTO TYPE_SERVICES (Type_service, Duree) VALUES ('Travailleur_qualifie', 'permanent');
 
