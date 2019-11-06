@@ -33,13 +33,15 @@ CREATE DATABASE Assurance;
  
  
  CREATE TABLE PAIEMENT  (
+  
     nom VARCHAR(40) NOT NULL,
    num_client INT(25) NOT NULL PRIMARY KEY,
   mois VARCHAR (40) NOT NULL 
  );
  
- CREATE TABLE SERVICES(
-    nom VARCHAR (25) NOT NULL,
+ CREATE TABLE SERVICES  (
+  
+   nom VARCHAR (25) NOT NULL,
  Type de services VARCHAR (30) NOT NULL
  );
  
