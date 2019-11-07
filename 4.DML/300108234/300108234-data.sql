@@ -33,7 +33,7 @@ INSERT INTO PAYS_DE_FABRICATION ( nom, devise, livraison ) VALUES ( 'arabie saou
 
 -- Données de la table tissus
 
-INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication, tissu) VALUES ( 1, 2, 1, 1, 3, 'cotton');
+INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication, tissu) VALUES ( 1, 2, 1, 1, 3, 'coton');
 INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication, tissu) VALUES ( 3, 3, 3, 1, 2, 'laine');
 INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication, tissu) VALUES ( 2, 1, 2, 2, 1, 'soie');
 
