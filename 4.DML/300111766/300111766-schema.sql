@@ -16,47 +16,37 @@ GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
 --Mes tables
 
 	
-CREATE TABBLE MARKS (
-   mark INT AUTO_INCREMENT,
-   marks VARCHAR(30) NOT NULL,
-   PRIMARY KEY(mark)	  
-   );
-   
 
+CREATE TABLE MARKS (
+  mark INT(11) NOT NULL AUTO_INCREMENT,
+  marks VARCHAR(30) NOT NULL,
+  );
+	
+	
 CREATE TABLE MODELS (
-   model INT AUTO_INCREMENT,
+   model INT(11) NOT NULL AUTO_INCREMENT,
    models VARCHAR(30) NOT NULL,
    );
-
-
-CREATE TABLE PRICES (
-  price INT,
-  model INT,
-  prices VARCHAR(30) NOT NULL,
-  PRIMARY KEY(model, price)
-  FOREIGN KEY(model),
-  REFERENCES MODELS(model),
-  );
-  
-  
-CREATE TABLE CUSTOMERS (
-  customer AUTO_INCREMENT,
-  name VARCHAR(30) NOT NULL,
-  address VARCHAR (25) NOT NULL,
-  date of barth(25) NOT NULL,
-  );
-  
+	
 	
 CREATE TABLE INVOICES (
-  mark INT,
-  customer INT,
-  invoice INT,
-  PRIMARY KEY(mark,customer),
-  FOREIGN KEY(mark)
-  REFERENCES MARKS(mark)	
-  FOREIGN KEY(customer)
-  REFERENCES CUSTOMERS(customer)
- );
+  invoice INT NOT NULL AUTO_INCREMENT,
+  Nom VARCHAR(30) NOT NULL,
+  Date INT NOT NULL,
+  PRIMARY KEY invoice
+  );
+   
+   
+CREATE TABLE PRIX (
+  mark INT(11) NOT NULL,
+  model INT(11) NOT NULL,
+  prix INT(11) NULL DEFAULT NULL,
+  PRIMARY KEY (mark, model),
+  FOREIGN KEY (mark)
+  REFERENCES MARKS (mark),
+  FOREIGN KEY model
+  REFERENCES MODELS (model)
+  );
  
 
 
