@@ -46,8 +46,8 @@ INSERT INTO MODELE ( name ) VALUES ( 'malienne');
 
 
 INSERT INTO PAIEMENT ( name ) VALUES ( 'debit card');
-INSERT INTO PAIEMENT ( name ) VALUES ( 'mastercard',);
-INSERT INTO PAIEMENT ( name ) VALUES ( 'paypal');
+INSERT INTO PAIEMENT ( name ) VALUES ( 'mastercard');
+INSERT INTO PAIEMENT ( name ) VALUES ( 'pay pal');
 
 
 -- Données de la table duree
@@ -55,7 +55,7 @@ INSERT INTO PAIEMENT ( name ) VALUES ( 'paypal');
 
 INSERT INTO DUREE ( name ) VALUES ( '24 heures');
 INSERT INTO DUREE ( name ) VALUES ( '3 jours ');
-INSERT INTO DUREE ( nom ) VALUES ( '1 semaine');
+INSERT INTO DUREE ( name) VALUES ( '1 semaine');
 
 
 
