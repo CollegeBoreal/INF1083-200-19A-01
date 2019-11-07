@@ -20,7 +20,6 @@ use Hijabfashion;
   adresse INT AUTO_INCREMENT,
   rue VARCHAR(30) NOT NULL,
   ville VARCHAR(30) NOT NULL,
-  toronto VARCHAR(30) NOT NULL,
   code_postal VARCHAR(30) NOT NULL,
   PRIMARY KEY (adresse)
  
