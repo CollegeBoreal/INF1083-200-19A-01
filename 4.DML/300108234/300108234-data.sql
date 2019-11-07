@@ -33,12 +33,9 @@ INSERT INTO PAYS_DE_FABRICATION ( nom, devise, livraison ) VALUES ( 'Arabie saou
 
 -- Données de la table tissu
 
-INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication,
-tissu) VALUES ( 1, 2, 1, 1, 3,'Cotton');
-INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication,
-tissu) VALUES ( 3, 3, 3, 1, 2,'laine');
-INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication,
-tissu) VALUES ( 2, 1, 2, 2, 1,'soie');
+INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication, tissu) VALUES ( 1, 2, 1, 1, 3,'Cotton');
+INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication, tissu) VALUES ( 3, 3, 3, 1, 2,'laine');
+INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication, tissu) VALUES ( 2, 1, 2, 2, 1,'soie');
 
 INSERT INTO ADRESSES ( rue, ville, pays, code_postal ) VALUES ( '1765 victoria park drive', 'toronto', 'canada', 'm1s3r4');
 INTO ADRESSES ( rue, ville, pays, code_postal ) VALUES ( '89 amal', 'algerie', 'algerie', '2456');
