@@ -10,18 +10,18 @@ use Boubou;
 
 
 
-INSERT INTO PAYS ( nom ) VALUES ( 'senegal');
-INSERT INTO PAYS ( nom ) VALUES ( 'benin');
-INSERT INTO PAYS ( nom ) VALUES ( 'mali');
+INSERT INTO PAYS ( name ) VALUES ( 'senegal');
+INSERT INTO PAYS ( name ) VALUES ( 'benin');
+INSERT INTO PAYS ( name ) VALUES ( 'mali');
 
 
 -- Données de la table couleur
 
 
 
-INSERT INTO COULEUR ( nom ) VALUES ( 'noir');
-INSERT INTO COULEUR ( nom ) VALUES ( 'bleu');
-INSERT INTO COULEUR ( nom ) VALUES ( 'rouge');
+INSERT INTO COULEUR ( name ) VALUES ( 'noir');
+INSERT INTO COULEUR ( name ) VALUES ( 'bleu');
+INSERT INTO COULEUR ( name ) VALUES ( 'rouge');
 
 
 
@@ -30,31 +30,31 @@ INSERT INTO COULEUR ( nom ) VALUES ( 'rouge');
 
 
 
-INSERT INTO genre ( nom, type ) VALUES ( 'dashiki');
-INSERT INTO genre ( nom, type ) VALUES ( 'alabe');
+INSERT INTO GENRE ( name ) VALUES ( 'dashiki');
+INSERT INTO GENRE ( name ) VALUES ( 'alabe');
 
 -- Données de la table pays de modele
 
 
 
-INSERT INTO MODELE ( nom ) VALUES ( 'senegalais');
-INSERT INTO MODELE ( nom ) VALUES ( 'benioise');
-INSERT INTO MODELE ( nom ) VALUES ( 'malienne');
+INSERT INTO MODELE ( name ) VALUES ( 'senegalais');
+INSERT INTO MODELE ( name ) VALUES ( 'benioise');
+INSERT INTO MODELE ( name ) VALUES ( 'malienne');
 
 
 -- Données de la table paiement
 
 
-INSERT INTO PAIEMENT ( nom ) VALUES ( 'debit card');
-INSERT INTO PAIEMENT ( nom ) VALUES ( 'mastercard',);
-INSERT INTO PAIEMENT ( nom ) VALUES ( 'paypal');
+INSERT INTO PAIEMENT ( name ) VALUES ( 'debit card');
+INSERT INTO PAIEMENT ( name ) VALUES ( 'mastercard',);
+INSERT INTO PAIEMENT ( name ) VALUES ( 'paypal');
 
 
 -- Données de la table duree
 
 
-INSERT INTO DUREE ( nom ) VALUES ( '24 heures');
-INSERT INTO DUREE ( nom ) VALUES ( '3 jours ');
+INSERT INTO DUREE ( name ) VALUES ( '24 heures');
+INSERT INTO DUREE ( name ) VALUES ( '3 jours ');
 INSERT INTO DUREE ( nom ) VALUES ( '1 semaine');
 
 
@@ -62,9 +62,9 @@ INSERT INTO DUREE ( nom ) VALUES ( '1 semaine');
 -- Données de la table quantite
 
 
-INSERT INTO QUANTITE ( nom ) VALUES ( '1 a 3');
-INSERT INTO QUANTITE ( nom ) VALUES ( '1 douzaine ');
-INSERT INTO QUANTITE ( nom ) VALUES ( '2 douzaine ');
+INSERT INTO QUANTITE ( name ) VALUES ( '1 a 3');
+INSERT INTO QUANTITE ( name ) VALUES ( '1 douzaine ');
+INSERT INTO QUANTITE ( name ) VALUES ( '2 douzaine ');
 
 
 
