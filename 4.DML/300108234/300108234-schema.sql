@@ -18,7 +18,9 @@ use Hijabfashion;
  
  CREATE TABLE ADRESSES(
   adresse INT AUTO_INCREMENT,
-  nom VARCHAR(30) NOT NULL,
+  rue VARCHAR(30) NOT NULL,
+  ville VARCHAR(30) NOT NULL,
+  toronto VARCHAR(30) NOT NULL,
   code_postal VARCHAR(30) NOT NULL,
   PRIMARY KEY (adresse)
  
@@ -48,7 +50,6 @@ CREATE TABLE PRIX(
 prix INT AUTO_INCREMENT,
 nom VARCHAR(30) NOT NULL,
 tarif VARCHAR(30) NOT NULL,
-achat Date,
 PRIMARY KEY (prix)
 
 );
@@ -74,6 +75,7 @@ PRIMARY KEY (accessoire)
  pays_de_fabrication INT AUTO_INCREMENT,  
  nom VARCHAR(30) NOT NULL,
  devise VARCHAR(30) NOT NULL,
+ livraison Date,
  PRIMARY KEY (pays_de_fabrication)
 
  
