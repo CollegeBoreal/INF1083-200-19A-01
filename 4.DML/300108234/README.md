@@ -1,4 +1,4 @@
 # Hijabfashion
 
 
-![image](images/schema.png)
+![image](images/schema.jpg)
