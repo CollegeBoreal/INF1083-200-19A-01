@@ -1,6 +1,6 @@
 -- Mon domaine
 
-CREATE DATABASE immigration;
+CREATE DATABASE immigration_consulting;
 
 -- Mon utilsateur
 
@@ -9,28 +9,28 @@ GRANT ALL ON immigration.* TO 'guigma'@'localhost';
 
 -- selectionner la base de donnees
 
-use immigration;
+use immigration_consulting;
 
 -- Mes Tables
 
-CREATE TABLE Type_visas (
+CREATE TABLE TYPE_VISAS (
   initiale VARCHAR(35) NOT NULL
   );
   
-  CREATE TABLE Honoraire_payments (
+  CREATE TABLE HONORAIRE_PAYMENTS (
   initiale VARCHAR(35) NOT NULL
   );
 
-CREATE TABLE Ville_residence (
+CREATE TABLE VILLE_RESIDENCE (
   initiale VARCHAR(35) NOT NULL
   );
   
-  CREATE TABLE Ville_immigration (
+  CREATE TABLE VILLE_IMMIGRATION (
   initiale VARCHAR(35) NOT NULL
   );
   
   
-  CREATE TABLE Type_services (
+  CREATE TABLE TYPE_SERVICES (
   initiale VARCHAR(35) NOT NULL
   );
 

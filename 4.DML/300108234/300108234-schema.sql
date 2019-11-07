@@ -15,12 +15,22 @@ use Hijabfashion;
 
 -- Mes tables
 
+ 
+ CREATE TABLE ADRESSES(
+  adresse INT AUTO_INCREMENT,
+  nom VARCHAR(30) NOT NULL,
+  code_postal VARCHAR(30) NOT NULL,
+  PRIMARY KEY (adresse)
+ 
+ );
+ 
+ 
 CREATE TABLE CLIENTS(
-client INT AUTO_INCREMENT, 
-nom VARCHAR(30) NOT NULL,
-adresse VARCHAR(30) NOT NULL,
-achat Date,
-PRIMARY KEY (client)
+adresse INT,
+client INT,
+PRIMARY KEY (adresse),
+FOREIGN KEY(adresse) 
+     REFERENCES ADRESSES(adresse)
  
  );
 
@@ -38,12 +48,13 @@ CREATE TABLE PRIX(
 prix INT AUTO_INCREMENT,
 nom VARCHAR(30) NOT NULL,
 tarif VARCHAR(30) NOT NULL,
+achat Date,
 PRIMARY KEY (prix)
 
 );
  
  
- CREATE TABLE TAILLES(
+CREATE TABLE TAILLES(
 taille INT AUTO_INCREMENT,
 largeur VARCHAR(30) NOT NULL,	
 longeur VARCHAR(30) NOT NULL,
@@ -60,10 +71,11 @@ PRIMARY KEY (accessoire)
 );
 
  CREATE TABLE PAYS_DE_FABRICATION( 
-   
+ pays_de_fabrication INT AUTO_INCREMENT,  
  nom VARCHAR(30) NOT NULL,
  devise VARCHAR(30) NOT NULL,
- Pays_de_fabrication INT
+ PRIMARY KEY (pays_de_fabrication)
+
  
  );
 
@@ -75,6 +87,7 @@ couleur INT,
 accessoire INT,
 pays_de_fabrication INT,
 tissu INT,
+ 
 PRIMARY KEY ( taille, prix, couleur, accessoire, pays_de_fabrication),
 FOREIGN KEY(taille) 
      REFERENCES TAILLES(taille),
@@ -85,6 +98,6 @@ FOREIGN KEY(couleur)
 FOREIGN KEY(accessoire) 
      REFERENCES ACCESSOIRES(accessoire),
 FOREIGN KEY(pays_de_fabrication) 
-     REFERENCES Pays_de_fabrication(pays_de_fabrication)
+     REFERENCES PAYS_DE_FABRICATION(pays_de_fabrication)
 
  );

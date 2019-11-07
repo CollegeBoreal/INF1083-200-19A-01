@@ -4,25 +4,27 @@ use Hijabfashion;
 
 -- Données de la table couleurs
 
-INSERT INTO Couleurs ( nom ) VALUES ( 'Noir');
+INSERT INTO COULEURS ( nom ) VALUES ( 'noir');
 
 -- Données de la table prix
 
-INSERT INTO Prix ( nom, tarif ) VALUES ( 10, 13%);
+INSERT INTO PRIX ( nom, tarif ) VALUES ( 10, 5);
 
 -- Données de la table tailles
 
-INSERT INTO Tailles ( Largeur, Longeur, Unite_de_mesure ) VALUES ( 55, 160, 'cm');
-
--- Données de la table tissu
-
-INSERT INTO Tissu ( nom) VALUES ( 'Cotton');
+INSERT INTO TAILLES ( largeur, longeur, unite_de_mesure ) VALUES ( 55, 160, 'cm');
 
 -- Données de la table accessoires
 
-INSERT INTO Accessoires ( nom, type ) VALUES ( 'Perle','Coloree');
+INSERT INTO ACCESSOIRES ( nom, type ) VALUES ( 'perle','coloree');
 
 -- Données de la table pays de fabrication
 
-INSERT INTO Pays_de_fabrication ( nom, devise) VALUES ( 'Maroc', 'Dirham');
+INSERT INTO PAYS_DE_FABRICATION ( nom, devise ) VALUES ( 'maroc', 'dirham');
+
+-- Données de la table tissu
+
+INSERT INTO TISSUS ( taille, prix, couleur, accessoire, pays_de_fabrication,
+tissu ) VALUES ( 55,160, 'cm', 10,5, 'noir', 'perle', 'coloree', 'maroc', 'Cotton');
+
 
