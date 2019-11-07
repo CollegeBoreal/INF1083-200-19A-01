@@ -1,4 +1,4 @@
-# carte_graphique
+# carte-graphique
 
 
-![image](carte-graphique.png)
+![image](Images/carte-graphique.png)
