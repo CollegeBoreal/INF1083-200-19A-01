@@ -1,6 +1,6 @@
 -- Dans le domaine
 
-use Musicshop;
+use musicshop;
 
 -- Données des tables
 
