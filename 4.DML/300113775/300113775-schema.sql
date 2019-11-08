@@ -25,17 +25,25 @@ CREATE TABLE USES (
 CREATE TABLE DELIVERIES (
    delivery INT AUTO_INCREMENT,
    image INT,
+   shipping DATE,
    social_networks VARCHAR(50) NOT NULL,
    PRIMARY KEY(delivery, image),
      FOREIGN KEY(image)
        REFERENCES IMAGES(image)
    );
 
+CREATE TABLE COLORS (
+  color VARCHAR (30) NOT NULL,
+  image INT ,
+  PRIMARY KEY(color),
+      FOREIGN KEY(image)
+      REFERENCES IMAGES(image)
+);   
 
     
 
 CREATE TABLE PRICES (
-  price INT,
+  price INT NOT NULL,
   image INT,
   delivery INT,
   PRIMARY KEY(image, delivery),
