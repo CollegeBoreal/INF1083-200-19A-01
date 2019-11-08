@@ -22,20 +22,6 @@ CREATE TABLE USES (
   PRIMARY KEY(utilisation)
   );
   
-  
-CREATE TABLE SHIPPINGS (
-shipp INT AUTO_INCREMENT,
-shipping DATE ,
-format VARCHAR(8),
-PRIMARY KEY(shipp)
-);
-
-
-CREATE TABLE COLORS (
-color VARCHAR(10) NOT NULL,
-PRIMARY KEY(color)
-);
-
 CREATE TABLE DELIVERIES (
    delivery INT AUTO_INCREMENT,
    image INT,
@@ -44,6 +30,20 @@ CREATE TABLE DELIVERIES (
      FOREIGN KEY(image)
        REFERENCES IMAGES(image)
    );
+
+CREATE TABLE COLORS (
+      color VARCHAR(10)
+     
+);
+
+CREATE TABLE SHIPPINGS (
+
+shipping INT AUTO_INCREMENT,
+shipp DATE,
+PRIMARY KEY(shipping)
+
+);
+
 
 
     
