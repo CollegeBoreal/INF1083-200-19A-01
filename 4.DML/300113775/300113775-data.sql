@@ -8,9 +8,9 @@ use widesign;
 
 
 -- Données de la tables IMAGES
-INSERT INTO IMAGES (name) VALUES ( 'portrait');
-INSERT INTO IMAGES (name) VALUES ( 'paysage');
-INSERT INTO IMAGES (name) VALUES ( 'flyer');
+INSERT INTO IMAGES (name, image) VALUES ( 'portrait' 1);
+INSERT INTO IMAGES (name, image) VALUES ( 'paysage' 2);
+INSERT INTO IMAGES (name, image) VALUES ( 'flyer'3);
 
 
 -- Données de la tables USES
