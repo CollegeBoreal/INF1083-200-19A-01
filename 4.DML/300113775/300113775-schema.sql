@@ -22,28 +22,34 @@ CREATE TABLE USES (
   PRIMARY KEY(utilisation)
   );
   
+  
+CREATE TABLE SHIPPINGS (
+shipp INT AUTO_INCREMENT,
+shipping DATE ,
+format VARCHAR(8),
+PRIMARY KEY(shipp)
+);
+
+
+CREATE TABLE COLORS (
+color VARCHAR(10) NOT NULL,
+PRIMARY KEY(color)
+);
+
 CREATE TABLE DELIVERIES (
    delivery INT AUTO_INCREMENT,
    image INT,
-   shipping DATE,
    social_networks VARCHAR(50) NOT NULL,
    PRIMARY KEY(delivery, image),
      FOREIGN KEY(image)
        REFERENCES IMAGES(image)
    );
 
-CREATE TABLE COLORS (
-  color VARCHAR (30) NOT NULL,
-  image INT ,
-  PRIMARY KEY(color),
-      FOREIGN KEY(image)
-      REFERENCES IMAGES(image)
-);   
 
     
 
 CREATE TABLE PRICES (
-  price INT NOT NULL,
+  price INT,
   image INT,
   delivery INT,
   PRIMARY KEY(image, delivery),
