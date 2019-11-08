@@ -17,10 +17,10 @@ INSERT INTO clients ( client, num_client, nom, prenom ) VALUES ( '3', '4', 'Rick
 
 -- Données de la table notes
 
-INSERT INTO marchandises ( num_marchandise,nom_marchandise,prix_marchandise,description_marchandise ) VALUES ( 1, 'GTX960', '$275', '2GO');
-INSERT INTO marchandises ( num_marchandise,nom_marchandise,prix_marchandise,description_marchandise ) VALUES ( 1, 'GTX560', '$450', '2GO');
-INSERT INTO marchandises ( num_marchandise,nom_marchandise,prix_marchandise,description_marchandise ) VALUES ( 2, 'GTX1060', '$805', '4GO');
-INSERT INTO marchandises ( num_marchandise,nom_marchandise,prix_marchandise,description_marchandise ) VALUES ( 2, 'GTX1070i', '$1100', '6GO');
+INSERT INTO marchandises ( num_marchandise,nom_marchandise,prix_marchandise,description_marchandise ) VALUES ( '1', 'GTX960', '$275', '2GO');
+INSERT INTO marchandises ( num_marchandise,nom_marchandise,prix_marchandise,description_marchandise ) VALUES ( '2', 'GTX560', '$450', '2GO');
+INSERT INTO marchandises ( num_marchandise,nom_marchandise,prix_marchandise,description_marchandise ) VALUES ( '3', 'GTX1060', '$805', '4GO');
+INSERT INTO marchandises ( num_marchandise,nom_marchandise,prix_marchandise,description_marchandise ) VALUES ( '4', 'GTX1070i', '$1100', '6GO');
 
 -- Données de la table notes
 
