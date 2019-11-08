@@ -1,4 +1,4 @@
 # carte-graphique
 
 
-![image](Images/carte.PNG)
+![image](Image/carte.PNG)
