@@ -87,9 +87,10 @@ prix INT,
 couleur INT,
 accessoire INT,
 pays_de_fabrication INT,
-tissu INT,
+tissu INT AUTO_INCREMENT,
+nom VARCHAR (30) NOT NULL
  
-PRIMARY KEY ( taille, prix, couleur, accessoire, pays_de_fabrication),
+PRIMARY KEY (tissu),
 FOREIGN KEY(taille) 
      REFERENCES TAILLES(taille),
 FOREIGN KEY(prix) 
