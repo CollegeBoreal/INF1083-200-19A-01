@@ -1,3 +1,3 @@
 mon skcetch
 
-![image](scketch.jpg)
+![image](scketch)
