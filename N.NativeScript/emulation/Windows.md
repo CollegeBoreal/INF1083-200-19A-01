@@ -11,18 +11,18 @@
 :warning: Sous Windows ajouter l'extension `.bat` à `sdkmanager`
 
 ```bash
-$ $ANDROID_HOME/tools/bin/sdkmanager "emulator" "platform-tools" "platforms;android-28" "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
+$ sdkmanager "emulator" "platform-tools" "platforms;android-28" "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
 ```
 * Installer le package Android SDK version 28
 
 ```bash
-$ $ANDROID_HOME/tools/bin/sdkmanager --install "system-images;android-28;google_apis;x86_64"
+$ sdkmanager --install "system-images;android-28;google_apis;x86_64"
 ```
 
 * Creer le AVD (Android Virtual Device) avec un SDK
 
 ```bash
-$ $ANDROID_HOME/tools/bin/avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
+$ avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
 Auto-selecting single ABI x86===========] 100% Fetch remote repository...
 Do you wish to create a custom hardware profile? [no] no
 ```
@@ -51,26 +51,9 @@ $ nano ~/.bashrc
 
 * Ouvrir le fichier `~/.bashrc` avec `nano`
 
-* Vérifier les variables d'environemments suivantes
-
-
+* ajouter les alias suivants
 
 ```
-## Android Specific
-
-export ANDROID_HOME=/usr/local/share/android-sdk
-export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
-
-export PATH=$ANDROID_SDK_ROOT/tools:$PATH
-```
-
-export PATH=$ANDROID_SDK_ROOT/tools:$PATH
-
-
-```
-## MacOS Specific
-
-function emulator { cd "$(dirname "$(which emulator)")" && ./emulator "$@"; }
-alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
+alias sdkmanager=sdkmanager.bat
+alias avdmanager=avdmanager.bat
 ```
