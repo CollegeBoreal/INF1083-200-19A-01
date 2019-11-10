@@ -55,7 +55,7 @@ Installed packages:=====================] 100% Computing updates...
 
 ### :b: Pour créer un nouveau mobile (autre que test)
 
-* Creer le AVD (Android Virtual Device) avec un SDK
+* Creer le AVD (Android Virtual Device) avec l'utilitaire `avdmanager`
 
 ```bash
 $ avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
