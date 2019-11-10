@@ -7,7 +7,7 @@
 
 * Installer l'emulateur, les differents outils et la derniere version de la SDK Android
 
-:warning: Sous MacOS => [c.f.](Windows.md#variables-denvironemment)
+:warning: Sous MacOS => [c.f.](MacOS.md#variables-denvironemment)
 
 ### :a: Gestion de la SDK `Android`
 
