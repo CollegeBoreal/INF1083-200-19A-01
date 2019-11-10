@@ -7,7 +7,7 @@
 
 * Installer l'emulateur, les differents outils et la derniere version de la SDK Android
 
-:warning: Sous Windows ajouter l'extension `.bat` à `sdkmanager` Voir => [c.f.](Windows.md#variables-denvironemment)
+:warning: Sous MacOS => [c.f.](Windows.md#variables-denvironemment)
 
 ### Gestion de la SDK `Android`
 
