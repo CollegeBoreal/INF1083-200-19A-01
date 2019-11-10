@@ -120,7 +120,7 @@ android-sdk 3859397
 intel-haxm 7.1.0
 ```
 
-* Avec gem : pour [cocoapods](https://cocoapods.org/)
+* Avec gem : pour [cocoapods](https://cocoapods.org/) `dependency manager` pour `Swift` et `Objective C`
 
 ```
 $ gem dependency cocoapods 
