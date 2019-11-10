@@ -104,6 +104,8 @@ y
 
 ## :three: Verification
 
+* Avec brew:
+
 ```
 % brew cask list --versions
 ```
@@ -117,3 +119,23 @@ android-platform-tools 27.0.1
 android-sdk 3859397
 intel-haxm 7.1.0
 ```
+
+* Avec brew:
+
+```
+$ gem dependency cocoapods 
+```
+
+
+Verifier que les `artifacts` suivant sont presents
+
+```
+Gem cocoapods-1.8.4
+  activesupport (>= 4.0.2, < 5)
+  bacon (~> 1.1, development)
+  bundler (~> 1.3, development)
+  claide (>= 1.0.2, < 2.0)
+  cocoapods-core (= 1.8.4)
+  ...
+```
+
