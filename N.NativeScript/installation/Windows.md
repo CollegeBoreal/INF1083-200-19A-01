@@ -1,4 +1,4 @@
-# Windows
+# Windows 10 (Pro et Éducation)
 
 :one: Executer la commande suivante dans `cmd` en tant qu'Administrateur 
 
@@ -83,7 +83,7 @@ android-sdk 26.1.1
 
 :warning: Installer l'accélérateur en fonction de votre plateforme
 
-Si vous utilisez Hyper-V installer [WHPX](https://developer.android.com/studio/run/emulator-acceleration#vm-windows-whpx)
+Hyper-V est utilisé, Activer [WHPX](https://developer.android.com/studio/run/emulator-acceleration#vm-windows-whpx)
 
 [Windows Hypervisor Platform](https://stackoverflow.com/questions/53599660/cant-windows-hypervisor-platform-option-in-my-windows-10-pro) feature depends on Windows 10 version 1803 (aka "Redstone 4") 
 
