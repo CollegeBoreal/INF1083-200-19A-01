@@ -53,7 +53,7 @@ Installed packages:=====================] 100% Computing updates...
 ...
 ```
 
-### :b: Pour créer un nouveau mobile (autre que test)
+### :b: Pour créer un nouveau mobile
 
 * Creer le AVD (Android Virtual Device) avec l'utilitaire `avdmanager`
 
@@ -84,6 +84,17 @@ $ emulator -avd test &
 * Jouer avec l'AVD
 
 ![image](../images/emulator.png)
+
+* Lancer le Simulateur iOS
+
+```bash
+$ simulator
+```
+
+* Jouer avec le simulateur
+
+![image](../images/simulator.png)
+
 
 
 # Variables d'environemment
