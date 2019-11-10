@@ -48,7 +48,7 @@ Tip: Note that if you type A you won't be prompted for subsequent installations
 Do you want to install Android emulator? (Y)es/(N)o: Y
 ```
 
-* Enregistrer les variables d'environemments dans le script de demarrage `JAVA_HOME` et `ANDROID_HOME` 
+* Enregistrement des variables d'environemments par le script i.e. `JAVA_HOME` et `ANDROID_HOME` 
  
 ```
 This script has modified your environment. You need to log off and log back on for the changes to take effect.
