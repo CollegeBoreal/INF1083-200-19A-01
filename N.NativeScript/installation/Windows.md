@@ -79,6 +79,13 @@ android-sdk 26.1.1
 ...
 ```
 
+* `emulator` présent
+```
+$ emulator -list-avds
+test
+```
+
+
 # Accélerateur de matériel
 
 :warning: Installer l'accélérateur en fonction de votre plateforme
