@@ -5,7 +5,7 @@
 
 :bookmark: Ouvrir le terminal
 
-* Installer l'emulateur, les differents outils et la derniere version de la SDK Android
+* Installer l'emulateur, les differents outils, la derniere version de la SDK Android et le simulateur
 
 :warning: Sous MacOS modifier les variables d'environnements => [c.f.](MacOS.md#variables-denvironemment)
 
