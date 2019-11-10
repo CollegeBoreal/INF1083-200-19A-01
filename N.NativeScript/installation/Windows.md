@@ -59,14 +59,24 @@ Press any key to continue...
 
 :bangbang: Sortir du Terminal `cmd` et rouvrir un autre (i.e. `bash`) pour tester les variables
 
+* Variables d'environnements présentes
+
 ```bash
-moi@ma-machine MINGW64 ~
 $ echo $JAVA_HOME
 C:\Program Files\Java\jdk1.8.0_221
 
-moi@ma-machine MINGW64 ~
 $ echo $ANDROID_HOME
 C:\Android\android-sdk
+```
+
+* `Packages` présents
+
+```
+$ choco list --local-only
+...
+adoptopenjdk 8.192
+android-sdk 26.1.1
+...
 ```
 
 #### Accélerateur de matériel
