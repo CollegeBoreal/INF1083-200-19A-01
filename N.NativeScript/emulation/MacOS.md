@@ -9,7 +9,7 @@
 
 :warning: Sous MacOS => [c.f.](Windows.md#variables-denvironemment)
 
-### Gestion de la SDK `Android`
+### :a: Gestion de la SDK `Android`
 
 :one: Verifier que les `packages` de la SDK sont installés
 
@@ -53,7 +53,7 @@ Installed packages:=====================] 100% Computing updates...
 ...
 ```
 
-### Pour créer un nouveau mobile (autre que test)
+### :b: Pour créer un nouveau mobile (autre que test)
 
 * Creer le AVD (Android Virtual Device) avec un SDK
 
@@ -86,7 +86,7 @@ $ emulator -avd test &
 ![image](../images/emulator.png)
 
 
-# Variables d'environemment
+# :c: Variables d'environemment
 
 * Ouvrir le fichier `~/.bashrc` **(bash)** ou `~/.zshrc` **(zsh)** avec `nano`
 
