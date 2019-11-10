@@ -37,19 +37,14 @@ $ emulator -avd test &
 
 ![image](../images/emulator.png)
 
-## Problème de JDK
-
-modifier votre JDK en "/c/Program Files/java/jdk1.8.0_221"
-
-example export JAVA_HOME="/c/Program Files/java/jdk1.8.0_221"
-
-```bash
-$ nano ~/.bashrc
-```
 
 # Variables d'environemment
 
 * Ouvrir le fichier `~/.bashrc` avec `nano`
+
+```bash
+$ nano ~/.bashrc
+```
 
 * ajouter les alias suivants
 
@@ -57,3 +52,12 @@ $ nano ~/.bashrc
 alias sdkmanager=sdkmanager.bat
 alias avdmanager=avdmanager.bat
 ```
+
+* Problème de JDK
+
+modifier votre JDK en "/c/Program Files/java/jdk1.8.0_221"
+
+```
+export JAVA_HOME="/c/Program Files/java/jdk1.8.0_221"
+```
+
