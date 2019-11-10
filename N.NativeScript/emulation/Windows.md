@@ -64,6 +64,18 @@ Auto-selecting single ABI x86===========] 100% Fetch remote repository...
 Do you wish to create a custom hardware profile? [no] no
 ```
 
+* Vérifier
+
+
+```bash
+$ avdmanager list avd
+Available Android Virtual Devices:
+    Name: test
+    Path: C:\Users\300098957\.android\avd\test.avd
+  Target: Google APIs (Google Inc.)
+          Based on: Android API 28 Tag/ABI: google_apis/x86_64
+```
+
 * Lancer l'appareil virtuel Android
 
 ```bash
