@@ -24,7 +24,7 @@ $ tns --version
 
 :two: Emulation
 
-  Follow [Emulate](Emulator.md)
+  Follow [Emulate](emulation)
 
 
 :three: Utiliser NativeScript

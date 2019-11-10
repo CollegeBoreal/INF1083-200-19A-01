@@ -101,3 +101,19 @@ Step 6 of 12:
 Do you want to install HAXM (Hardware accelerated Android emulator)? (y/n)
 y
 ```
+
+## :three: Verification
+
+```
+% brew cask list --versions
+```
+
+Verifier que les `artifacts` suivant sont presents
+
+```
+adoptopenjdk8 8,222:b10
+android-ndk 16b
+android-platform-tools 27.0.1
+android-sdk 3859397
+intel-haxm 7.1.0
+```
