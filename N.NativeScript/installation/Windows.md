@@ -79,7 +79,7 @@ android-sdk 26.1.1
 ...
 ```
 
-#### Accélerateur de matériel
+# Accélerateur de matériel
 
 :warning: Installer l'accélérateur en fonction de votre plateforme
 
