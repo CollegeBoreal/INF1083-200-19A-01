@@ -8,7 +8,7 @@
 
 * Installer l'emulateur, les differents outils et la derniere version de la SDK Android
 
-:warning: Sous Windows ajouter l'extension `.bat` à `sdkmanager`
+:warning: Sous Windows ajouter l'extension `.bat` à `sdkmanager` [c.f.](Windows.md#variables-denvironemment)
 
 ```bash
 $ sdkmanager "emulator" "platform-tools" "platforms;android-28" "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
