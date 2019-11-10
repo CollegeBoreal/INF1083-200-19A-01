@@ -120,7 +120,7 @@ android-sdk 3859397
 intel-haxm 7.1.0
 ```
 
-* Avec brew:
+* Avec gem:
 
 ```
 $ gem dependency cocoapods 
