@@ -86,7 +86,7 @@ $ emulator -avd test &
 ![image](../images/emulator.png)
 
 
-# :c: Variables d'environemment
+# Variables d'environemment
 
 * Ouvrir le fichier `~/.bashrc` **(bash)** ou `~/.zshrc` **(zsh)** avec `nano`
 
