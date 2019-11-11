@@ -23,11 +23,11 @@ La page comprendra du texte et une ou des images
 $  tns create my-tab-ng --template tns-template-tab-navigation-ng
 ```
 
-:two: En s'aidant de [play.nativescript.org](https://play.nativescript.org), Remplacer le `template` du composant `home` pour afficher:
+:two: En s'aidant d'un `PlayGround`, Remplacer le contenu de `items: Array<IDataItem>;` du composant `home` par le votre:
 
 :warning: Ne pas toucher le fichier `app.component.html` il doit contenir `<page-router-outlet></page-router-outlet>`
 
-:bulb: Editer le fichier `home.component.html`
+:bulb: Editer le composant `home`
 
 
 :three: Activités `git` et [MarkDown](https://github.com/CollegeBoreal/Tutoriels/tree/master/M.MarkDown)
