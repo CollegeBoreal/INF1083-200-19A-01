@@ -25,8 +25,8 @@ INSERT INTO ADRESSES ( rue, ville, pays, code_postal ) VALUES ( '1254 river stre
 -- Données de la table clients
 
 INSERT INTO CLIENTS ( vente, prix, adresse, client ) VALUES ( 1, 1, 1, 45);
-INSERT INTO CLIENTS ( adresse, client ) VALUES ( 3, 2, 2, 55);
-INSERT INTO CLIENTS ( adresse, client ) VALUES ( 2, 3, 3, 60);
+INSERT INTO CLIENTS ( vente, prix, adresse, client ) VALUES ( 3, 2, 2, 55);
+INSERT INTO CLIENTS ( vente, prix, adresse, client ) VALUES ( 2, 3, 3, 60);
 
 
 
