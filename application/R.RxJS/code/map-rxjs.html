@@ -1,0 +1,18 @@
+<HTML>
+<HEAD>
+<!--
+   https://rxjs-dev.firebaseapp.com/api/operators/map
+-->
+<SCRIPT src=https://unpkg.com/@reactivex/rxjs@6.0.0/dist/global/rxjs.umd.js></SCRIPT>
+<SCRIPT>
+// import { fromEvent } from 'rxjs';
+// import { map } from 'rxjs/operators';
+
+const clicks = rxjs.fromEvent(document, 'click');
+const positions = clicks.pipe(rxjs.operators.map(ev => ev.clientX));
+positions.subscribe(x => console.log(x));
+</SCRIPT>
+</HEAD>
+<BODY>
+</BODY>
+</HTML>

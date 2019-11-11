@@ -101,3 +101,41 @@ Step 6 of 12:
 Do you want to install HAXM (Hardware accelerated Android emulator)? (y/n)
 y
 ```
+
+## :three: Verification
+
+* Avec brew:
+
+```
+% brew cask list --versions
+```
+
+Verifier que les `artifacts` suivant sont presents
+
+```
+adoptopenjdk8 8,222:b10
+android-ndk 16b
+android-platform-tools 27.0.1
+android-sdk 3859397
+intel-haxm 7.1.0
+```
+
+* Avec gem : pour [cocoapods](https://cocoapods.org/) `dependency manager` pour `Swift` et `Objective C`
+
+```
+$ gem dependency cocoapods 
+```
+
+
+Verifier que les `artifacts` suivant sont presents
+
+```
+Gem cocoapods-1.8.4
+  activesupport (>= 4.0.2, < 5)
+  bacon (~> 1.1, development)
+  bundler (~> 1.3, development)
+  claide (>= 1.0.2, < 2.0)
+  cocoapods-core (= 1.8.4)
+  ...
+```
+
