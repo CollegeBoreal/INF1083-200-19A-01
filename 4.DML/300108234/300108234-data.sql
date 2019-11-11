@@ -5,9 +5,9 @@ use Hijabfashion;
 
 -- Données de la table ventes
 
-INSERT INTO VENTES ( vente, commande ) VALUES ( 1,  '2019-11-10');
-INSERT INTO VENTES ( vente, commande ) VALUES ( 2,  '2019-11-15');
-INSERT INTO VENTES ( vente, commande ) VALUES ( 3,  '2019-11-30');
+INSERT INTO VENTES ( commande ) VALUES ( '2019-11-10');
+INSERT INTO VENTES ( commande ) VALUES ( '2019-11-15');
+INSERT INTO VENTES ( commande ) VALUES ( '2019-11-30');
 
 -- Données de la table prix
 
