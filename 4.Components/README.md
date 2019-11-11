@@ -25,7 +25,7 @@ $  tns create my-tab-ng --template tns-template-tab-navigation-ng
 
 :two: En s'aidant d'un `PlayGround`, Remplacer le contenu de `items: Array<IDataItem>;` du composant `home` par le votre:
 
-:warning: Ne pas toucher le fichier `app.component.html` il doit contenir `<page-router-outlet></page-router-outlet>`
+:warning: Ne pas toucher le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
 
 :bulb: Editer le composant `home`
 
