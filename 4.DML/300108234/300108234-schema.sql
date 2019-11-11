@@ -110,7 +110,7 @@ tissu INT,
 
 PRIMARY KEY ( taille, couleur, accessoire, pays_de_fabrication),
 FOREIGN KEY(taille) 
-   FEFERENCES TAILLES(taille),
+   REFERENCES TAILLES(taille),
 FOREIGN KEY(couleur) 
    REFERENCES COULEURS(couleur),
 FOREIGN KEY(accessoire) 
