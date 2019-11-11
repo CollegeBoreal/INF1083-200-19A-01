@@ -13,14 +13,14 @@ La page comprendra du texte et une ou des images
 
 * montrer l'image du `sketch` dans son fichier `README.md` (voir ci-dessous)
 
-:one: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
+:one: Créer un projet, remplacer `my` dans `my-tab-ng` par b`<`votre :id:`>`
 
-:bulb: par example le nom du projet sera `b300098957-blank-ng` 
+:bulb: par example le nom du projet sera `b300098957-tab-ng` 
 
 * Création utilisant un autre [template](https://github.com/NativeScript/nativescript-app-templates)
 
 ```
-$  tns create my-blank-ng --template tns-template-blank-ng
+$  tns create my-tab-ng --template tns-template-tab-navigation-ng
 ```
 
 :two: En s'aidant de [play.nativescript.org](https://play.nativescript.org), Remplacer le `template` du composant `home` pour afficher:
@@ -29,17 +29,6 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 
 :bulb: Editer le fichier `home.component.html`
 
-* Une barre d'action
-
-![image](images/Bars.png)
-
-* Un layout
-
-![image](images/Layouts.png)
-
-* Deux `Labels` et une `Image`
-
-![image](images/Essentials.png)
 
 :three: Activités `git` et [MarkDown](https://github.com/CollegeBoreal/Tutoriels/tree/master/M.MarkDown)
 
@@ -53,10 +42,3 @@ $  tns create my-blank-ng --template tns-template-blank-ng
 
 # [Participation](Participation.md)
 
-# Nettoyer
-
-```
-delete node_modules, platforms, hooks folders
-clean npm cache with npm cache clear
-try to rebuild the project using only tns run android
-```
