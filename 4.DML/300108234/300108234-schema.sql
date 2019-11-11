@@ -8,20 +8,16 @@ CREATE DATABASE IF NOT EXISTS Hijabfashion;
 
 CREATE USER IF NOT EXISTS 'halima'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON Hijabfashion.* TO 'halima'@'localhost';
-	
-
-	
+		
 
 -- Selectionner la base de donnees 
-	 
-use Hijabfashion;
-	
 
-	
+
+use Hijabfashion;
+
 
 -- Mes tables
 	
-
 	 
 CREATE TABLE ADRESSES(
 adresse INT AUTO_INCREMENT,
@@ -50,7 +46,6 @@ PRIMARY KEY (prix)
 );
 
 
-
 CREATE TABLE CLIENTS(
 adresse INT,
 vente INT,
@@ -63,7 +58,6 @@ FOREIGN KEY(vente)
    REFERENCES VENTES(vente),
 FOREIGN KEY(prix) 
    REFERENCES PRIX(prix)
-
 
 );
 
@@ -104,9 +98,7 @@ devise VARCHAR(30) NOT NULL,
 livraison Date,
 PRIMARY KEY (pays_de_fabrication)
 
-
 );
-
 
 
 CREATE TABLE TISSUS(
@@ -126,5 +118,4 @@ FOREIGN KEY(accessoire)
 FOREIGN KEY(pays_de_fabrication) 
    REFERENCES PAYS_DE_FABRICATION(pays_de_fabrication)
 
-
-			 );
+);
