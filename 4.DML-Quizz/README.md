@@ -4,7 +4,36 @@
 
 :one: CREATE {DATABASE/TABLE/USER} (target);
 
-##### User 
+##### TABLE
+
+```SQL
+> CREATE TABLE <name> ( 
+    <field1> <type1> <option1>, 
+    <field2> <type1> <option2>, 
+    ...
+  );
+```
+
+* Type :
+
+INT, DOUBLE, FLOAT: Format => 1 - 10, 1.0 - 10.0,  
+
+DATE: Format => '1990-01-01' 
+
+BOOLEAN: Format => True, False 
+
+VARCHAR(<size>), TEXT Format => '1', '2.6', '2009-12-02'
+  
+* Option: 
+
+AUTO_INCREMENT -- Omettre (N'apparait pas) dans le INSERT statement
+
+NOT NULL -- Le champ ne peut etre null sinon Erreur
+
+PRIMARY KEY -- Peut etre mis ailleurs
+
+
+##### USER 
 
 - Locale
 
