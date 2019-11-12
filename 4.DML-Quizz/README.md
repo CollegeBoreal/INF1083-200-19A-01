@@ -1,10 +1,28 @@
-# Quizz
+# Quizz 
 
-DDL
+## :a: DDL
 
-DCL
+:one: CREATE {DATABASE/TABLE/USER} (target);
 
-DML
+     * User 
+     ```sql
+     > CREATE USER 'nom'@'localhost' IDENTIFIED BY 'passwd';
+     ```
 
+:two: DROP {DATABASE/TABLE}
+
+ ** Keys
+
+* DCL
+
+- GRANT
+- REVOKE
+
+* DML
+
+
+* MySQL
+
+- show 
 
 
