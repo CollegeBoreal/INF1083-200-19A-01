@@ -11,8 +11,8 @@ INSERT INTO CUSTOMERS (customer, Name, Phone_number) VALUES (1, John, 6477765643
 INSERT INTO INSTRUMENTS (instrument, Types, Name) VALUES (1, 'Percusion', 'Piano');
 INSERT INTO INSTRUMENTS (instrument, Types, Name) VALUES (2, 'Cordes', 'Guitar');
 
-INSERT INTO COLOURS (Colour, Colors) VALUES (1, 'White');
-INSERT INTO COLOURS (Colour, Colors) VALUES (2, 'Black');
+INSERT INTO COLOURS (colour, Colors) VALUES (1, 'White');
+INSERT INTO COLOURS (colour, Colors) VALUES (2, 'Black');
 
 INSERT INTO  PRICES (price, instrument, colour) VALUES (7000, 1, 2);
 INSERT INTO  PRICES (price, instrument, colour) VALUES (5000, 2, 1);
