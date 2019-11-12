@@ -9,11 +9,11 @@ INSERT INTO SERVICES_OFFERED (service_offered, Services) VALUES (1, 'Instruments
 INSERT INTO CUSTOMERS (customer, Name, Phone_number) VALUES (1, John, 6477765643);
 
 INSERT INTO INSTRUMENTS (instrument, Types, Name) VALUES (1, 'Percusion', 'Piano');
-INSERT INTO INSTRUMENTS (instrument, Types, Name) VALUES (2, 'Cordes', 'Guitar');
+INSERT INTO INSTRUMENTS (instrument, Types, Name) VALUES (2, 'Strings', 'Guitar');
 
-INSERT INTO COLOURS (colour, Colors) VALUES (1, 'White');
-INSERT INTO COLOURS (colour, Colors) VALUES (2, 'Black');
+INSERT INTO COLORS (color, Colors) VALUES (1, 'White');
+INSERT INTO COLORS (color, Colors) VALUES (2, 'Black');
 
-INSERT INTO  PRICES (price, instrument, colour) VALUES (7000, 1, 2);
-INSERT INTO  PRICES (price, instrument, colour) VALUES (5000, 2, 1);
+INSERT INTO  PRICES (price, instrument, color) VALUES (7000, 1, 2);
+INSERT INTO  PRICES (price, instrument, color) VALUES (5000, 2, 1);
 
