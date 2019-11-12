@@ -54,14 +54,28 @@ PRIMARY KEY -- Peut etre mis ailleurs
  ** Keys
  
      --- Primaire 
+     
 ```SQL
-    CREATE TABLE FACTURES ( ...
-       facture INT AUTO_INCREMENT,
+    CREATE TABLE CLIENTS ( ...
+       client INT AUTO_INCREMENT,
     
     
-    PRIMARY KEY(facture)    
+    PRIMARY KEY(client)    
     );
 ``` 
+
+     --- composite (Primaire) 
+
+```SQL
+    CREATE TABLE VENTES ( ...
+       produit INT AUTO_INCREMENT,
+       client INT AUTO_INCREMENT,
+    
+    
+    PRIMARY KEY(produit, client)    
+    );
+``` 
+
 
 * DCL
 
