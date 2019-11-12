@@ -29,7 +29,7 @@ $ docker exec --interactive some-mysql \
 | 04   | [300106918](300106918) | :heavy_check_mark: | [:x:](Corrections#etudiant-300106918)                | [:bar_chart:](300106918) | [network_IT](Corrections/network_IT.png) |
 | 05   | [300107361](300107361) | :heavy_check_mark: | [:x:](Corrections#etudiant-300107361)                | [:bar_chart:](300107361) | [Car_Center](Corrections/Car_Center.png) |
 | 06   | [300108234](300108234) | :heavy_check_mark: | [:x:](Corrections#etudiant-300108234)                | [:bar_chart:](300108234) | [Hijabfashion](Corrections/Hijabfashion.png) |
-| 07   | [300110500](300110500) | :heavy_check_mark: | [:x:](Corrections#etudiant-300110500)                | [:bar_chart:](300110500) | immigration_consulting |
+| 07   | [300110500](300110500) | :heavy_check_mark: | [:x:](Corrections#etudiant-300110500)                | [:bar_chart:](300110500) | [immigration_consulting](Corrections/immigration_consulting.png) |
 | 08   | [300110529](300110529) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300110529) | [:bar_chart:](300110529) | Carte_graphique |
 | 09   | [300111671](300111671) | :x:                | [:heavy_check_mark:](Corrections#etudiant-300110529) | [:o:](300111671) | Boubou |
 | 10   | [300111766](300111766) | :x:                | [:heavy_check_mark:](Corrections#etudiant-300111766) | [:bar_chart:](300111766) | vente_portable |
