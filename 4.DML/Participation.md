@@ -30,7 +30,7 @@ $ docker exec --interactive some-mysql \
 | 05   | [300107361](300107361) | :heavy_check_mark: | [:x:](Corrections#etudiant-300107361)                | [:bar_chart:](300107361) | Car_Center |
 | 06   | [300108234](300108234) | :heavy_check_mark: | [:x:](Corrections#etudiant-300108234)                | [:bar_chart:](300108234) | Hijabfashion |
 | 07   | [300110500](300110500) | :heavy_check_mark: | [:x:](Corrections#etudiant-300110500)                | [:bar_chart:](300110500) | immigration_consulting |
-| 08   | [300110529](300110529) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300110529) | [:bar_chart:](300110529) |
+| 08   | [300110529](300110529) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300110529) | [:bar_chart:](300110529) | Carte_graphique |
 | 09   | [300111671](300111671) | :x:                | [:heavy_check_mark:](Corrections#etudiant-300110529) | [:o:](300111671) |
 | 10   | [300111766](300111766) | :x:                | [:heavy_check_mark:](Corrections#etudiant-300111766) | [:bar_chart:](300111766) |
 | 11   | [300112017](300112017) | :x:                | [:x:](Corrections#etudiant-300112017)                | [:bar_chart:](300112017) |
