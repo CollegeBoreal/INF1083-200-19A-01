@@ -75,7 +75,19 @@ PRIMARY KEY -- Peut etre mis ailleurs
     PRIMARY KEY(produit, client)    
     );
 ``` 
-
+ ### Etrangere
+ 
+```SQL
+    CREATE TABLE VILLES ( ...
+       ville INT AUTO_INCREMENT,
+       pays INT,
+    
+    
+    PRIMARY KEY(ville).
+    FOREIGN KEY(pays) REFERENCES PAYS(pays),
+    );
+``` 
+ 
 
 * DCL
 
