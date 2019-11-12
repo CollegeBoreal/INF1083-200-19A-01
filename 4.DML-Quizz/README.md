@@ -5,9 +5,9 @@
 :one: CREATE {DATABASE/TABLE/USER} (target);
 
      * User 
-     ```sql
-     > CREATE USER 'nom'@'localhost' IDENTIFIED BY 'passwd';
-     ```
+```sql
+> CREATE USER 'nom'@'localhost' IDENTIFIED BY 'passwd';
+```
 
 :two: DROP {DATABASE/TABLE}
 
