@@ -32,7 +32,7 @@ CREATE TABLE DELIVERIES (
    );
 
 CREATE TABLE COLORS (
-      color VARCHAR(10)
+      color VARCHAR(30)
      
 );
 
