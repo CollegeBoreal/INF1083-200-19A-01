@@ -31,7 +31,7 @@ $ docker exec --interactive some-mysql \
 | 06   | [300108234](300108234) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300108234) | [:bar_chart:](300108234) | [Hijabfashion](Corrections/Hijabfashion.png) |
 | 07   | [300110500](300110500) | :heavy_check_mark: | [:x:](Corrections#etudiant-300110500)                | [:bar_chart:](300110500) | [immigration_consulting](Corrections/immigration_consulting.png) |
 | 08   | [300110529](300110529) | :heavy_check_mark: | [:x:](Corrections#etudiant-300110529)                | [:bar_chart:](300110529) | [Carte_graphique](Corrections/Carte_graphique.png) |
-| 09   | [300111671](300111671) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300110529) | [:o:](300111671) | Boubou |
+| 09   | [300111671](300111671) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300111671) | [:o:](300111671) | Boubou |
 | 10   | [300111766](300111766) | :heavy_check_mark: | [:heavy_check_mark:](Corrections#etudiant-300111766) | [:bar_chart:](300111766) | vente_portable |
 | 11   | [300112017](300112017) | :heavy_check_mark: | [:x:](Corrections#etudiant-300112017)                | [:bar_chart:](300112017) | magasin |
 | 12   | [300112687](300112687) | :heavy_check_mark: | [:x:](Corrections#etudiant-300112687)                | [:o:](300112687) | Assurance | 
