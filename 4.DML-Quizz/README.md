@@ -68,8 +68,8 @@ PRIMARY KEY -- Peut etre mis ailleurs
 
 ```SQL
     CREATE TABLE VENTES ( ...
-       produit INT AUTO_INCREMENT,
-       client INT AUTO_INCREMENT,
+       produit INT,
+       client INT,
     
     
     PRIMARY KEY(produit, client)    
