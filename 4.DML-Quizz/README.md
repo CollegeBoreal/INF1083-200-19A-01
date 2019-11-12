@@ -91,15 +91,47 @@ PRIMARY KEY -- Peut etre mis ailleurs
 
 * DCL
 
-- GRANT
+- 
+
+Permissions
+
+```
+> GRANT <Privilege> ON <base de donnee>.<tables> (* wildcard) TO <USER>;  
+```
+
+* Privilege `ALL`
+
 - REVOKE
 
 * DML
+
+voir `INSERT`
 
 
 
 * MySQL
 
-- show 
+- show <artifacts>
+    
+```
+mysql> show databases;
+```
 
+```
+mysql> show tables;
+```
+
+
+- describe
+
+```
+mysql> describe <nom de table>;
+```
+
+
+- use
+
+```
+mysql> use <database>;
+```
 
