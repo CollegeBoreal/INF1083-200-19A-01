@@ -1,7 +1,7 @@
-CREATE DATABASE musicshop;
+CREATE DATABASE IF NOT EXISTS musicshop;
 
 
-CREATE USER 'musicshop'@'localhost' IDENTIFIED BY 'musicshop_1';
+CREATE USER IF NOT EXISTS 'musicshop'@'localhost' IDENTIFIED BY 'musicshop_1';
 GRANT ALL ON musicshop.* TO 'musicshop'@'localhost';
 
 use musicshop;
