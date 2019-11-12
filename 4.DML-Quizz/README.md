@@ -53,7 +53,7 @@ PRIMARY KEY -- Peut etre mis ailleurs
 
  ** Keys
  
-     --- Primaire 
+ ### Primaire 
      
 ```SQL
     CREATE TABLE CLIENTS ( ...
@@ -64,7 +64,7 @@ PRIMARY KEY -- Peut etre mis ailleurs
     );
 ``` 
 
-     --- composite (Primaire) 
+### composite (Primaire) 
 
 ```SQL
     CREATE TABLE VENTES ( ...
@@ -83,6 +83,7 @@ PRIMARY KEY -- Peut etre mis ailleurs
 - REVOKE
 
 * DML
+
 
 
 * MySQL
