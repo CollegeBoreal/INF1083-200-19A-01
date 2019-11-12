@@ -27,19 +27,19 @@ CREATE TABLE CUSTOMERS  (
     PRIMARY KEY(instrument)
   );
   
- CREATE TABLE COLOURS (
+ CREATE TABLE COLORS (
   colour INT AUTO_INCREMENT,
   Color VARCHAR(30) NOT NULL,
-   PRIMARY KEY(colour)
+   PRIMARY KEY(color)
   ); 
 
 CREATE TABLE PRICES (
   price  INT AUTO_INCREMENT,
   instrument INT,
-  colour INT,
+  color INT,
   PRIMARY KEY(price, instrument),
     FOREIGN KEY(instrument)
       REFERENCES INSTRUMENTS(instrument),
-    FOREIGN KEY(colour)
-      REFERENCES COLOURS(colour)
+    FOREIGN KEY(color)
+      REFERENCES COLORS(color)
   );
