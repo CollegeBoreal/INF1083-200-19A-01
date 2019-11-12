@@ -1,2 +1,10 @@
 # Quizz
 
+DDL
+
+DCL
+
+DML
+
+
+
