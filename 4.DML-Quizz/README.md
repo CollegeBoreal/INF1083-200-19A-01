@@ -52,6 +52,16 @@ PRIMARY KEY -- Peut etre mis ailleurs
 :two: DROP {DATABASE/TABLE}
 
  ** Keys
+ 
+     --- Primaire 
+```SQL
+    CREATE TABLE FACTURES ( ...
+       facture INT AUTO_INCREMENT,
+    
+    
+    PRIMARY KEY(facture)    
+    );
+``` 
 
 * DCL
 
