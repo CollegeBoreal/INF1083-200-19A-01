@@ -5,7 +5,7 @@
 | Signe              | Signification                 |
 |--------------------|-------------------------------|
 | :tada:             | Travail fait                  |
-| :warning:          | Incomplet, doit faire plus    |
+| :octocat:          | Incomplet, doit faire plus    |
 | :x:                | N'a rien fait                 |
 
 ## Résultat
