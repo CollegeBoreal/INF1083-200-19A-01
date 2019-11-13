@@ -76,7 +76,7 @@
 
 :three: Keys :key:
  
- ### [Primaire](http://www.mysqltutorial.org/mysql-primary-key/) 
+ ##### :m: [Primaire](http://www.mysqltutorial.org/mysql-primary-key/) 
      
 ```SQL
     CREATE TABLE CLIENTS ( ...
@@ -87,7 +87,7 @@
     );
 ``` 
 
-### composite (Primaire) 
+##### :m: composite (Primaire) 
 
 ```SQL
     CREATE TABLE VENTES ( ...
@@ -98,15 +98,14 @@
     PRIMARY KEY(produit, client)    
     );
 ``` 
- ### Etrangere
+ ##### :m: Etrangere
  
 ```SQL
     CREATE TABLE VILLES ( ...
-       ville INT AUTO_INCREMENT,
+       ville INT,
        pays INT,
     
     
-    PRIMARY KEY(ville).
     FOREIGN KEY(pays) REFERENCES PAYS(pays),
     );
 ``` 
