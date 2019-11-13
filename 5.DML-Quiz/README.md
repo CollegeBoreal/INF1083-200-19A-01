@@ -142,7 +142,7 @@
 
 ## :ab: DML
 
-voir `INSERT`
+voir [`INSERT AUTO_INCREMENT`](https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.7/en/example-auto-increment.html)
 
 
 
