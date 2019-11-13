@@ -2,11 +2,18 @@
 
 [:bulb: What are DDL, DML and DQL?](https://en.wikibooks.org/wiki/MySQL/Language/Definitions:_what_are_DDL,_DML_and_DQL%3F)
 
+## :o: Commentaires
+
+```SQL
+-- Je suis un commentaire.
+-- Je commence par deux tirets et UN ESPACE
+```
+
 ## :a: DDL
 
 
 
-:bangbang: Attention: MySQL respecte les Majuscules!
+:bangbang: Attention: MySQL respecte la règle des `Majuscules` et `Minuscules` !
 
 
 
