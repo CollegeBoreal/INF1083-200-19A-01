@@ -1,0 +1,9 @@
+<ActionBar class="action-bar">
+    <NavigationButton (tap)="onBackTap()" android.systemIcon="ic_menu_back"></NavigationButton>
+    <Label class="action-bar-title" [text]="item.name"></Label>
+</ActionBar>
+
+<GridLayout>
+    <Label class="m-l-30 h1" verticalAlignment="top" horizontalAlignment="right" [text]="item.description"></Label>
+    <Image [src]="item.avatar" verticalAlignment="center"></Image>
+</GridLayout>
