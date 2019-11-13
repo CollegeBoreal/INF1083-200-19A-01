@@ -23,7 +23,7 @@
   );
 ```
 
-* Type :
+:arrow_right: Type :
 
 | Type                 |  SQL                  | Format                   |
 |----------------------|-----------------------|--------------------------|
@@ -32,7 +32,7 @@
 | booleen              | BOOLEAN               | True, False              |
 | Chaine de caracteres | VARCHAR(<size>), TEXT | '1', '2.6', '2009-12-02' |
   
-* Option: 
+:arrow_right: Option: 
 
 AUTO_INCREMENT -- Omettre (N'apparait pas) dans le INSERT statement
 
@@ -59,7 +59,7 @@ PRIMARY KEY -- Peut etre mis ailleurs
 
 :two: DROP {DATABASE/TABLE}
 
-:three: Keys
+:three: Keys :key:
  
  ### [Primaire](http://www.mysqltutorial.org/mysql-primary-key/) 
      
