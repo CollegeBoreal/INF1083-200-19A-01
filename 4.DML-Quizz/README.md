@@ -161,6 +161,6 @@ mysql> DESCRIBE <nom de table>;
 :m:  use
 
 ```
-mysql> use <database>;
+mysql> USE <database>;
 ```
 
