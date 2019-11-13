@@ -100,7 +100,6 @@
 ``` 
  ##### :m: Etrangere
  
- <img src='images/quiz.png' width="380" height="210"></img>
  
 ```SQL
     CREATE TABLE VILLES ( ...
@@ -111,6 +110,8 @@
     FOREIGN KEY(pays) REFERENCES PAYS(pays),
     );
 ``` 
+
+<img src='images/quiz.png' width="400" height="220"></img>
  
 
 :b: DCL
