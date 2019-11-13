@@ -120,9 +120,14 @@
 > GRANT <Privilege> ON <base de donnee>.<tables> (* wildcard) TO <USER>;  
 ```
 
-* Privilege `ALL`
+:pushpin: Privilege `ALL`, `INSERT`, `DELETE`
 
-- REVOKE
+- [REVOKE](http://www.mysqltutorial.org/mysql-revoke.aspx)
+
+```
+> GRANT <Privilege> ON <base de donnee>.<tables> (* wildcard) TO <USER>;  
+```
+
 
 :ab: DML
 
