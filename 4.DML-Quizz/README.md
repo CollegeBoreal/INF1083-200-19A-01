@@ -135,7 +135,7 @@ voir `INSERT`
 
 
 
-:o2: MySQL
+:o2: MySQL Admin Commands
 
 :m: SHOW <artifacts>
     
