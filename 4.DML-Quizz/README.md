@@ -117,16 +117,16 @@
 :four: Permissions
 
 ```
-> GRANT <Privilege> ON <base de donnee>.<tables> (* wildcard) TO <USER>;  
+> GRANT <Privilege> ON <base de donnee>.<tables> (ou `*` wildcard) TO <USER>;  
 ```
-
-:pushpin: Privilege `ALL`, `INSERT`, `DELETE`
 
 - [REVOKE](http://www.mysqltutorial.org/mysql-revoke.aspx)
 
 ```
-> GRANT <Privilege> ON <base de donnee>.<tables> (* wildcard) TO <USER>;  
+> REVOKE <Privilege> ON <base de donnee>.<tables> (ou `*` wildcard) TO <USER>;  
 ```
+
+:pushpin: Privilege `ALL`, `SELECT`, `UPDATE`, `INSERT`
 
 
 :ab: DML
