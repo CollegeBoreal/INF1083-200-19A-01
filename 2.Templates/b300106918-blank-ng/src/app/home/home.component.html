@@ -1,9 +1,19 @@
-<ActionBar title="AEK"></ActionBar>
-<FlexboxLayout flexDirection="row-reverse">
-    <Label text="Facebook" backgroundColor="#EEEEEE" flexGrow="1"></Label>
-    <Label text="whatsapp" backgroundColor="#DDDDDD" flexGrow="2"></Label>
-    <Label text="3" backgroundColor="#CCCCCC" flexGrow="3"></Label>
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="AEK"></Label>
+</ActionBar>
+
+<DockLayout width="210" height="210" backgroundColor="lightgray"
+    stretchLastChild="false">
+    <Label text="300106918" dock="left" width="60" backgroundColor="red">
+    </Label>
+    <Label text="search" dock="top" height="60" backgroundColor="green">
+    </Label>
+    <Label text="facebook" dock="right" width="60" backgroundColor="blue">
+    </Label>
+    <Label text="watshap" dock="bottom" height="60" backgroundColor="yellow">
+    </Label>
     <Image
         src="https://play.nativescript.org/dist/assets/img/NativeScript_logo.png">
     </Image>
-</FlexboxLayout>
+
+</DockLayout>
