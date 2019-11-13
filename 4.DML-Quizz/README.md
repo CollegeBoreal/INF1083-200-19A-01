@@ -124,13 +124,13 @@
 
 - REVOKE
 
-:o2: DML
+:ab: DML
 
 voir `INSERT`
 
 
 
-:ab: MySQL
+:o2: MySQL
 
 - show <artifacts>
     
