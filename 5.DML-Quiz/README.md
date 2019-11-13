@@ -4,6 +4,8 @@
 
 ## :a: DDL
 
+:bangbang: Attention: MySQL respecte les Majuscules!
+
 :one: CREATE {DATABASE/TABLE/USER} (target);
 
 ##### :m: DATABASE
