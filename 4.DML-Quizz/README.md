@@ -17,13 +17,13 @@
 
 ```SQL
 > CREATE TABLE <name> ( 
-    <field1> <type1> <option1>, 
-    <field2> <type1> <option2>, 
+    <nom_champ1> <type1> <option1>, 
+    <nom_champ2> <type1> <option2>, 
     ...
   );
 ```
 
-:arrow_right: Type :
+:wavy_dash:Type :
 
 | Type                 |  SQL                  | Format                   |
 |----------------------|-----------------------|--------------------------|
@@ -32,7 +32,7 @@
 | booleen              | BOOLEAN               | True, False              |
 | Chaine de caracteres | VARCHAR(<size>), TEXT | '1', '2.6', '2009-12-02' |
   
-:arrow_right: Option: 
+:wavy_dash: Option: 
 
 AUTO_INCREMENT -- Omettre (N'apparait pas) dans le INSERT statement
 
@@ -43,7 +43,7 @@ PRIMARY KEY -- Peut etre mis ailleurs
 
 ##### :m: USER 
 
-:arrow_right: Adresse IP Locale
+:wavy_dash: Adresse IP Locale
 
 ```SQL
 > CREATE USER 'nom'@'localhost' IDENTIFIED BY 'passwd'; -- Utilisateur accedant a la machine locale
@@ -54,8 +54,6 @@ PRIMARY KEY -- Peut etre mis ailleurs
 ```SQL
 > CREATE USER 'nom'@'%' IDENTIFIED BY 'passwd'; -- Utilisateur accedant a la machine distante
 ```
-
-
 
 :two: DROP {DATABASE/TABLE} <name>;
 
