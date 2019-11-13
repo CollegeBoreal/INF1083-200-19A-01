@@ -57,7 +57,24 @@ PRIMARY KEY -- Peut etre mis ailleurs
 
 
 
-:two: DROP {DATABASE/TABLE}
+:two: DROP {DATABASE/TABLE} <name>;
+
+##### :m: DATABASE
+
+```SQL
+> DROP DATABASE <name>;
+```
+
+##### :m: TABLE 
+
+```SQL
+> DROP TABLE <name>;
+```
+##### :m: USER 
+
+```SQL
+> DROP USER <name>;
+```
 
 :three: Keys :key:
  
