@@ -6,7 +6,7 @@
 
 :one: CREATE {DATABASE/TABLE/USER} (target);
 
-##### :small_red_triangle: TABLE
+##### :small_red_triangle: DATABASE
 
 ```SQL
 > CREATE DATABASE <name>;
