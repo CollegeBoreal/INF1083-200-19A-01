@@ -6,14 +6,14 @@
 
 :one: CREATE {DATABASE/TABLE/USER} (target);
 
-##### :small_red_triangle: DATABASE
+##### :m: DATABASE
 
 ```SQL
 > CREATE DATABASE <name>;
 ```
 
 
-##### :small_blue_diamond: TABLE
+##### :m: TABLE
 
 ```SQL
 > CREATE TABLE <name> ( 
@@ -41,7 +41,7 @@ NOT NULL -- Le champ ne peut etre null sinon Erreur
 PRIMARY KEY -- Peut etre mis ailleurs
 
 
-##### :small_orange_diamond: USER 
+##### :m: USER 
 
 - Locale
 
