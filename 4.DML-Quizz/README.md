@@ -49,7 +49,7 @@ PRIMARY KEY -- Peut etre mis ailleurs
 > CREATE USER 'nom'@'localhost' IDENTIFIED BY 'passwd'; -- Utilisateur accedant a la machine locale
 ```
 
-:arrow_right: Adresse IP Distante (avec `wildcard` **%** )
+:wavy_dash: Adresse IP Distante (avec `wildcard` **%** )
 
 ```SQL
 > CREATE USER 'nom'@'%' IDENTIFIED BY 'passwd'; -- Utilisateur accedant a la machine distante
