@@ -162,14 +162,14 @@ mysql> SHOW TABLES;
 mysql> SHOW GRANTS FOR rfc@localhost;
 ```
 
-#####   describe
+##### :m: describe
 
 ```
 mysql> DESCRIBE <nom de table>;
 ```
 
 
-#####   use
+##### :m:  use
 
 ```
 mysql> USE <database>;
