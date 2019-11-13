@@ -91,11 +91,10 @@ PRIMARY KEY -- Peut etre mis ailleurs
 ``` 
  
 
-* DCL
+:b: DCL
 
-- 
 
-Permissions
+:four: Permissions
 
 ```
 > GRANT <Privilege> ON <base de donnee>.<tables> (* wildcard) TO <USER>;  
@@ -111,7 +110,7 @@ voir `INSERT`
 
 
 
-* MySQL
+:c: MySQL
 
 - show <artifacts>
     
