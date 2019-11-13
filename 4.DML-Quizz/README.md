@@ -124,7 +124,7 @@
 
 - REVOKE
 
-* DML
+:o2: DML
 
 voir `INSERT`
 
