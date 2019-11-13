@@ -1,5 +1,7 @@
 # Quizz (2019-11-19)
 
+[what_are_DDL,_DML_and_DQL?](https://en.wikibooks.org/wiki/MySQL/Language/Definitions:_what_are_DDL,_DML_and_DQL%3F)
+
 ## :a: DDL
 
 :one: CREATE {DATABASE/TABLE/USER} (target);
