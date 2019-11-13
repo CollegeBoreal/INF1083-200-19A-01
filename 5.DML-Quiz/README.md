@@ -100,7 +100,7 @@
 ``` 
  ##### :m: Etrangere
  
- <img src='images/quiz.png' width="760" height="420"></img>
+ <img src='images/quiz.png' width="380" height="210"></img>
  
 ```SQL
     CREATE TABLE VILLES ( ...
