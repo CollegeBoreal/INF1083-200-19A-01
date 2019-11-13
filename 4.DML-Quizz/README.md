@@ -53,7 +53,7 @@ PRIMARY KEY -- Peut etre mis ailleurs
 
  ** Keys
  
- ### [Primaire]() 
+ ### [Primaire](http://www.mysqltutorial.org/mysql-primary-key/) 
      
 ```SQL
     CREATE TABLE CLIENTS ( ...
