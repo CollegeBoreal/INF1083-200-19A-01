@@ -43,13 +43,13 @@ PRIMARY KEY -- Peut etre mis ailleurs
 
 ##### :m: USER 
 
-- Locale
+:arrow_right: Adresse IP Locale
 
 ```SQL
 > CREATE USER 'nom'@'localhost' IDENTIFIED BY 'passwd'; -- Utilisateur accedant a la machine locale
 ```
 
-- Distante (avec `wildcard`)
+:arrow_right: Adresse IP Distante (avec `wildcard` **%** )
 
 ```SQL
 > CREATE USER 'nom'@'%' IDENTIFIED BY 'passwd'; -- Utilisateur accedant a la machine distante
