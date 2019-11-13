@@ -100,6 +100,8 @@
 ``` 
  ##### :m: Etrangere
  
+ <img src='images/quiz.png'></img>
+ 
 ```SQL
     CREATE TABLE VILLES ( ...
        ville INT,
