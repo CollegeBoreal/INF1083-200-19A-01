@@ -43,13 +43,13 @@
 
 ##### :m: USER 
 
-:wavy_dash: Adresse IP Locale
+:pushpin: Adresse IP Locale
 
 ```SQL
 > CREATE USER 'nom'@'localhost' IDENTIFIED BY 'passwd'; -- Utilisateur accedant a la machine locale
 ```
 
-:wavy_dash: Adresse IP Distante (avec `wildcard` **%** )
+:pushpin: Adresse IP Distante (avec `wildcard` **%** )
 
 ```SQL
 > CREATE USER 'nom'@'%' IDENTIFIED BY 'passwd'; -- Utilisateur accedant a la machine distante
