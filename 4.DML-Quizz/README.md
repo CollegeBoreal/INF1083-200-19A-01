@@ -32,7 +32,7 @@
 | booleen              | BOOLEAN               | True, False              |
 | Chaine de caracteres | VARCHAR(<size>), TEXT | '1', '2.6', '2009-12-02' |
   
-:wavy_dash: Option: 
+:pushpin: Option: 
 
 AUTO_INCREMENT -- Omettre (N'apparait pas) dans le INSERT statement
 
