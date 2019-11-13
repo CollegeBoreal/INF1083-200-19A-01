@@ -137,25 +137,28 @@ voir `INSERT`
 
 :o2: MySQL
 
-- show <artifacts>
+:m: SHOW <artifacts>
     
 ```
-mysql> show databases;
+mysql> SHOW DATABASES;
 ```
 
 ```
-mysql> show tables;
+mysql> SHOW TABLES;
+```
+
+```
+mysql> SHOW GRANTS FOR rfc@localhost;
+```
+
+:m:  describe
+
+```
+mysql> DESCRIBE <nom de table>;
 ```
 
 
-- describe
-
-```
-mysql> describe <nom de table>;
-```
-
-
-- use
+:m:  use
 
 ```
 mysql> use <database>;
