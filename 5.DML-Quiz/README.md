@@ -129,7 +129,13 @@
 > REVOKE <Privilege> ON <base de donnee>.<tables> (ou `*` wildcard) TO <USER>;  
 ```
 
-:pushpin: Privilege `ALL`, `SELECT`, `UPDATE`, `INSERT`
+:pushpin: Privileges 
+
+| Privileges | Description                   | 
+|------------|-------------------------------|
+| ALL        | Tous les privileges           |
+| SELECT     | Lecture seulement             |
+| INSERT     | Ajout uniquement              |
 
 
 :ab: DML
