@@ -1,6 +1,6 @@
 # Quizz (2019-11-19)
 
-[:bulb: What_are_DDL,_DML_and_DQL?](https://en.wikibooks.org/wiki/MySQL/Language/Definitions:_what_are_DDL,_DML_and_DQL%3F)
+[:bulb: What are DDL, DML and DQL?](https://en.wikibooks.org/wiki/MySQL/Language/Definitions:_what_are_DDL,_DML_and_DQL%3F)
 
 ## :a: DDL
 
