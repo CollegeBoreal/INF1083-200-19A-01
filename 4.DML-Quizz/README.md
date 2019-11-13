@@ -18,13 +18,12 @@
 
 * Type :
 
-INT, DOUBLE, FLOAT: Format => 1 - 10, 1.0 - 10.0,  
-
-DATE: Format => '1990-01-01' 
-
-BOOLEAN: Format => True, False 
-
-VARCHAR(<size>), TEXT Format => '1', '2.6', '2009-12-02'
+| Type                 |  SQL                  | Format                   |
+|----------------------|-----------------------|--------------------------|
+| Nombre               |INT, DOUBLE, FLOAT     | 1 - 10, 1.0 - 10.0       |  
+| Date                 | DATE                  | '1990-01-01'             |
+| booleen              | BOOLEAN               | True, False              |
+| Chaine de caracteres | VARCHAR(<size>), TEXT | '1', '2.6', '2009-12-02' |
   
 * Option: 
 
