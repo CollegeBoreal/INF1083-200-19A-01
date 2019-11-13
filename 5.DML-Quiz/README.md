@@ -119,13 +119,13 @@
 
 :four: Permissions
 
-:m: [GRANT](http://www.mysqltutorial.org/mysql-grant.aspx)
+##### :m: [GRANT](http://www.mysqltutorial.org/mysql-grant.aspx)
 
 ```
 > GRANT <Privilege> ON <base de donnee>.<tables> (ou `*` wildcard) TO <USER>;  
 ```
 
-:m: [REVOKE](http://www.mysqltutorial.org/mysql-revoke.aspx)
+##### :m: [REVOKE](http://www.mysqltutorial.org/mysql-revoke.aspx)
 
 ```
 > REVOKE <Privilege> ON <base de donnee>.<tables> (ou `*` wildcard) TO <USER>;  
