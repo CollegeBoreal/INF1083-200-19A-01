@@ -6,7 +6,8 @@
 
 ```SQL
 -- Je suis un commentaire.
--- Je commence par deux tirets et UN ESPACE
+-- Je commence par deux tirets suivi d'UN ESPACE
+-- Je cause souvent des erreurs d'inattentions
 ```
 
 ## :a: DDL
