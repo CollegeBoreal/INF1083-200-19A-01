@@ -110,7 +110,7 @@ voir `INSERT`
 
 
 
-:c: MySQL
+:ab: MySQL
 
 - show <artifacts>
     
