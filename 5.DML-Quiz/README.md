@@ -114,7 +114,7 @@
 <img src='images/quiz.png' width="400" height="220"></img>
  
 
-:b: DCL
+## :b: DCL
 
 
 :four: Permissions
@@ -140,15 +140,15 @@
 | INSERT     | Ajout uniquement              |
 
 
-:ab: DML
+## :ab: DML
 
 voir `INSERT`
 
 
 
-:o2: MySQL Admin Commands
+## :o2: MySQL Admin Commands
 
-:m: SHOW <artifacts>
+##### :m: SHOW <artifacts>
     
 ```
 mysql> SHOW DATABASES;
@@ -162,14 +162,14 @@ mysql> SHOW TABLES;
 mysql> SHOW GRANTS FOR rfc@localhost;
 ```
 
-:m:  describe
+#####   describe
 
 ```
 mysql> DESCRIBE <nom de table>;
 ```
 
 
-:m:  use
+#####   use
 
 ```
 mysql> USE <database>;
