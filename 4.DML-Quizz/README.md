@@ -34,12 +34,12 @@
   
 :pushpin: Option: 
 
-AUTO_INCREMENT -- Omettre (N'apparait pas) dans le INSERT statement
-
-NOT NULL -- Le champ ne peut etre null sinon Erreur
-
-PRIMARY KEY -- Peut etre mis ailleurs
-
+| Option           | Description                                                  | 
+|------------------|--------------------------------------------------------------|
+| AUTO_INCREMENT   | Omettre (N'apparait pas) dans le INSERT statement            |
+| NOT NULL         | Le champ ne peut etre nul sinon Erreur                       |
+| PRIMARY KEY      | :bulb: Peut etre placé ailleurs                              |
+| DEFAULT <valeur> | :question_mark:                                              |
 
 ##### :m: USER 
 
