@@ -43,26 +43,26 @@ FOREIGN KEY (adresse)
  
  
  CREATE TABLE ABONNEMENT (
- nom  VARCHAR (30) NOT NULL,
- type VARCHAR(30) NOT NULL,
+ nom  VARCHAR(30) NOT NULL,
+ type d'abonnement VARCHAR(30) NOT NULL,
  PRIMARY KEY (abonnement)
 
  );
  
  
  CREATE TABLE PAIEMENT(
- nom  VARCHAR (40) NOT NULL,
- type VARCHAR (40) NOT NULL,
- mois INt,
- PRIMARY KEY (paiement)
+  nom  VARCHAR(40) NOT NULL,
+  type de paiment VARCHAR(40) NOT NULL,
+  mois INT,
+  PRIMARY KEY (paiement)
 
  );
  
  CREATE TABLE SERVICES(
- Incendie VARCHAR(20) NOT NULL,
- voyage VARCHAR(20) NOT NULL,
- voiture VARCHAR(30) NOT NULL,
-PRIMARY KEY (service)
+  Incendie VARCHAR(20) NOT NULL,
+  voyage VARCHAR(20) NOT NULL,
+  voiture VARCHAR(30) NOT NULL,
+  PRIMARY KEY (service)
 
  );
  
