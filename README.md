@@ -68,3 +68,5 @@ http://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf
 
 https://en.wikibooks.org/wiki/MySQL/Language/Definitions:_what_are_DDL,_DML_and_DQL%3F
 
+[Workbench 🎥](https://www.linkedin.com/learning/decouvrir-mysql/installer-et-demarrer-mysql-workbench?u=56968449)
+
