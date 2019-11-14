@@ -17,76 +17,65 @@ CREATE DATABASE Assurance;
  
  -- Mes Tables
 
-  
- CREATE TABLE CLIENTS(
-
- adresse INT,
-vente INT,
-prix INT,
-client INT,
-abonnement INT,
-service INT,
-PRIMARY KEY (abonnement,paiement, vente , prix,service,adresse),
+   CREATE TABLE CLIENTS(
+  abonnement INT,
+  paiement INT,
+  vente INT,
+  prix INT,
+  service INT,
+  adresse INT,
+ client INT,
+PRIMARY KEY (abonnement,paiement,vente,prix,service,adresse),
  FOREIGN KEY (abonnement)
    REFERENCES Abonnement (abonnement),
-  
-  FOREIGN KEY(paiement)
+FOREIGN KEY(paiement)
     REFERENCES PAIEMENT(paiement),
-  
-  FOREIGN KEY (vente)
-    REFERENCES VENTES (vente), 
-  
-  FOREIGN KEY(prix)
-    REFERENCES PRIX (prix),
-  
+FOREIGN KEY (vente)
+    REFERENCES VENTES (vente),  
+FOREIGN KEY (prix)
+    REFERENCES PRIX (prix), 
 FOREIGN KEY (service)
     REFERENCES SERVICES (service),
-  
-  FOREIGN (adresse),
+FOREIGN KEY (adresse)
    REFERENCES ADRESSES (adresse),
-
 
  );
  
  
  CREATE TABLE ABONNEMENT (
- nom  du client VARCHAR (30) NOT NULL
- Mois INT,
-type d’abonnement VARCHAR(30) NOT NULL,
-PRIMARY KEY (abonnement)
+ nom  VARCHAR (30) NOT NULL,
+ type VARCHAR(30) NOT NULL,
+ PRIMARY KEY (abonnement)
 
  );
  
  
  CREATE TABLE PAIEMENT(
- nom du client  VARCHAR (40) NOT NULL,
- type de paiement VARCHAR (40) NOT NULL,
-  mois INt,
-PRIMARY KEY (paiement)
+ nom  VARCHAR (40) NOT NULL,
+ type VARCHAR (40) NOT NULL,
+ mois INt,
+ PRIMARY KEY (paiement)
 
  );
- 
  
  CREATE TABLE SERVICES(
  Incendie VARCHAR(20) NOT NULL,
  voyage VARCHAR(20) NOT NULL,
  voiture VARCHAR(30) NOT NULL,
-
 PRIMARY KEY (service)
 
  );
  
  CREATE TABLE PRIX (
  prix  INT AUTO_INCREMENT,
-nom VARCHAR (30) NOT NULL,
-PRIMARY KEY (prix)
+ nom VARCHAR(30) NOT NULL,
+ PRIMARY KEY (prix)
 
  );
 
 CREATE TABLE VENTES(
-
 vente INT AUTO_INCREMENT,
-Abonnement VARCHAR(30) NOT NULL;
+Abonnement VARCHAR(30) NOT NULL,
 PRIMARY KEY (vente)
 
 );
