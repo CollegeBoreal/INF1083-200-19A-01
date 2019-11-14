@@ -31,6 +31,20 @@ CREATE TABLE DELIVERIES (
        REFERENCES IMAGES(image)
    );
 
+CREATE TABLE COLORS (
+      color VARCHAR(30)
+     
+);
+
+CREATE TABLE SHIPPINGS (
+
+shipping INT AUTO_INCREMENT,
+shipp DATE,
+PRIMARY KEY(shipping)
+
+);
+
+
 
     
 

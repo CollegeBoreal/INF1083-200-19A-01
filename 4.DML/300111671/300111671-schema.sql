@@ -100,8 +100,21 @@ NAME VARCHAR(30) NOT NULL,
 PRIMARY KEY (prix)
 
   );
+  
+  CREATE TABLE PAIEMENT (
+paiement INT AUTO_INCREMENT,
+NAME VARCHAR(30) NOT NULL,
+PRIMARY KEY (paiement)
+    
+    );
+  
+  
+  
+  
+  
+  
 
-CREATE TABLE PAIEMENT (
+CREATE TABLE COMMANDE (
 age INT,
 logistique INT,
 prix INT,
@@ -118,8 +131,5 @@ REFERENCES GENRE(genre)
 
 
   );
-
-
-
 
 

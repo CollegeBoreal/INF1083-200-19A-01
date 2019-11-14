@@ -20,11 +20,11 @@ Système de gestion de bases de données
 |04|24-09-19| :x:                                                 | Pratique NF                                                       |
 |05|01-10-19| [DQL](2.DQL)                                        | Data Query Language                                               |
 |06|08-10-19| [DCL]() & [DDL]()                                   | Data Control Language   & Data Description Language               |
-|07|15-10-19| [DML]()                                             | Data Manipulation Language                                         |
+|07|15-10-19| [DML](4.DML)                                        | Data Manipulation Language                                         |
 |08|22-10-19| Semaine d'études                                    | Pas de cours                                                       |
 |09|29-10-19| [DQL]()                                             | Data Query Language                                               |
 |10|05-11-19| TBD                                                 | TBD                                                                |
-|11|12-11-19| TBD                                                 | TBD                                                                |
+|11|12-11-19| [Quiz](5.DML-Quiz)                                  | TBD                                                                |
 |12|19-11-19| TBD                                                 | TBD                                                                |
 |13|26-11-19| TBD                                                 | TBD                                                                |
 |14|03-12-19| TBD                                                 | TBD                                                                |
