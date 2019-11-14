@@ -28,7 +28,7 @@
 ```
 
 
-##### :m: TABLE [🎥](https://www.linkedin.com/learning/decouvrir-mysql/creer-une-table-dans-mysql?u=56968449)
+##### :m: TABLE [🎥](https://www.linkedin.com/learning/decouvrir-mysql/comprendre-les-commandes-ddl-sur-une-table?u=56968449)
 
 ```SQL
 > CREATE TABLE <name> ( 
