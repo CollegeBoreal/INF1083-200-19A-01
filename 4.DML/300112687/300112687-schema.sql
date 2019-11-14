@@ -44,7 +44,7 @@ FOREIGN KEY (adresse)
  
  CREATE TABLE ABONNEMENT (
  nom  VARCHAR(30) NOT NULL,
- type d'abonnement VARCHAR(30) NOT NULL,
+ abonnement VARCHAR(30) NOT NULL,
  PRIMARY KEY (abonnement)
 
  );
@@ -52,8 +52,8 @@ FOREIGN KEY (adresse)
  
  CREATE TABLE PAIEMENT(
   nom  VARCHAR(40) NOT NULL,
-  type de paiment VARCHAR(40) NOT NULL,
-  mois INT,
+  paiement VARCHAR(40) NOT NULL,
+   mois INT,
   PRIMARY KEY (paiement)
 
  );
