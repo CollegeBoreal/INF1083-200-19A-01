@@ -1,5 +1,16 @@
 # Quizz (2019-11-19)
 
+
+
+## Normalisation  [🎥](https://www.linkedin.com/learning/programming-foundations-databases-2/normalization-2?u=56968449)
+
+:pushpin: 1NF
+
+:pushpin: 2NF
+
+:pushpin: 3NF
+
+
 [:bulb: What are DDL, DML and DQL?](https://en.wikibooks.org/wiki/MySQL/Language/Definitions:_what_are_DDL,_DML_and_DQL%3F)
 
 ## :o: Commentaires
