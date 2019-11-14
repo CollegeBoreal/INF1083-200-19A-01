@@ -2,4 +2,4 @@
 # Assurance
 
 
-![image](images/schema.png)
+![image](images/png)
