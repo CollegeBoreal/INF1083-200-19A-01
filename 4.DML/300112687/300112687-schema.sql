@@ -51,9 +51,10 @@ FOREIGN KEY (adresse)
  
  
  CREATE TABLE PAIEMENT(
-  nom  VARCHAR(40) NOT NULL,
-  paiement VARCHAR(40) NOT NULL,
-   mois INT,
+  paiement INT AUTO_INCREMENT,
+  nom  VARCHAR(40) NOT NULL, 
+  client VARCHAR(30) NOT NULL,
+   REFERENCES CLIENTS (client),
   PRIMARY KEY (paiement)
 
  );
