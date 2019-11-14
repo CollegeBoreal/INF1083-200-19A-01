@@ -18,26 +18,10 @@ CREATE DATABASE Assurance;
  -- Mes Tables
 
    CREATE TABLE CLIENTS(
-  abonnement INT,
-  paiement INT,
-  vente INT,
-  prix INT,
-  service INT,
-  adresse INT,
- client INT,
-PRIMARY KEY (abonnement,paiement,vente,prix,service,adresse),
- FOREIGN KEY (abonnement)
-   REFERENCES Abonnement (abonnement),
-FOREIGN KEY(paiement)
-    REFERENCES PAIEMENT(paiement),
-FOREIGN KEY (vente)
-    REFERENCES VENTES (vente),  
-FOREIGN KEY (prix)
-    REFERENCES PRIX (prix), 
-FOREIGN KEY (service)
-    REFERENCES SERVICES (service),
-FOREIGN KEY (adresse)
-   REFERENCES ADRESSES (adresse),
+  client INT AUTO_INCREMENT
+   name VARCHAR(30) NOT NULL,
+    num INT, 
+    PRIMARY KEY (client)
     
  );
  
@@ -53,9 +37,10 @@ FOREIGN KEY (adresse)
  CREATE TABLE PAIEMENT(
   paiement INT AUTO_INCREMENT,
   nom  VARCHAR(40) NOT NULL, 
-  client VARCHAR(30) NOT NULL,
-   REFERENCES CLIENTS (client),
-  PRIMARY KEY (paiement)
+  date INT,
+  PRIMARY KEY (paiement,client),
+   FOREIGN KEY (client)
+     REFERENCES CLIENTS(client)
 
  );
  
@@ -70,7 +55,9 @@ FOREIGN KEY (adresse)
  CREATE TABLE PRIX (
  prix  INT AUTO_INCREMENT,
  nom VARCHAR(30) NOT NULL,
- PRIMARY KEY (prix)
+ PRIMARY KEY (prix,client)
+  FOREIGN KEY (client)
+     REFERNCES CLIENTS(client)
 
  );
 
