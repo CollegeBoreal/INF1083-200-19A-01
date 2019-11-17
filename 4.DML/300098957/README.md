@@ -5,7 +5,7 @@
 
 :pushpin: le champ `programme` est une clé étrangère de la table ETUDIANTS . Remarquez le trait `discontinu` entre les :two: tables
 
-:m: Représentation avec les champs
+:m: Représentation avec toutes les colonnes
 
 ![image](images/schema.png)
 
