@@ -143,7 +143,7 @@
     );
 ``` 
 
-<img src='images/CK.png' width="170" height="328"></img>
+<img src='images/CK.png' width="800" height="328"></img>
 
 
 ## :b: DCL
