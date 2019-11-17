@@ -137,7 +137,8 @@
     );
 ``` 
 
-<img src='images/quiz.png' width="400" height="220"></img>
+|------------------------------------------------------------|-------------------------------------------------------------|
+| <img src='images/quiz.png' width="400" height="220"></img> |  <img src='images/quiz.png' width="400" height="220"></img> |
  
 
 ## :b: DCL
