@@ -125,7 +125,7 @@
     FOREIGN KEY(pays) REFERENCES PAYS(pays),
     );
 ``` 
-:bulb: Observez le trait `discontinu` entre les deux tables
+:bulb: Observez le trait `discontinu` entre les :two: tables et le champ pays en rouge :red:
 
  <img src='images/FK.png' width="170" height="328"></img> |  <img src='images/quiz.png' width="600" height="330"></img>
  
@@ -142,6 +142,7 @@
       FOREIGN KEY(client) REFERENCES CLIENTS(client)
     );
 ``` 
+:bulb: Observez le trait `continu` entre les :three: tables
 
 <img src='images/CK.png' width="800" height="328"></img>
 
