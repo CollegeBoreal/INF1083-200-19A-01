@@ -136,6 +136,7 @@
     FOREIGN KEY(pays) REFERENCES PAYS(pays),
     );
 ``` 
+:bulb: Observez le trait `discontinu` entre les deux tables
 
  <img src='images/FK.png' width="170" height="328"></img> |  <img src='images/quiz.png' width="400" height="220"></img>
  
