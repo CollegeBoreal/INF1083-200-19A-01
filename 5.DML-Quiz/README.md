@@ -113,18 +113,7 @@
     );
 ``` 
 
-##### :m: composite (Primaire) 
-
-```SQL
-    CREATE TABLE VENTES ( ...
-       produit INT,
-       client INT,
-    
-    
-    PRIMARY KEY(produit, client)    
-    );
-``` 
- ##### :m: Etrangere
+##### :m: Etrangere
  
  
 ```SQL
@@ -138,8 +127,24 @@
 ``` 
 :bulb: Observez le trait `discontinu` entre les deux tables
 
- <img src='images/FK.png' width="170" height="328"></img> |  <img src='images/quiz.png' width="400" height="220"></img>
+ <img src='images/FK.png' width="170" height="328"></img> |  <img src='images/quiz.png' width="600" height="330"></img>
  
+##### :m: composite (Primaire) 
+
+```SQL
+    CREATE TABLE VENTES ( ...
+       produit INT,
+       client INT,
+       ...    
+    
+      PRIMARY KEY( produit, client),
+      FOREIGN KEY(produit) REFERENCES PRODUITS(produit),
+      FOREIGN KEY(client) REFERENCES CLIENTS(client)
+    );
+``` 
+
+<img src='images/CK.png' width="170" height="328"></img>
+
 
 ## :b: DCL
 
