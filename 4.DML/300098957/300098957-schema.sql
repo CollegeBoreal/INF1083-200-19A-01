@@ -15,8 +15,11 @@ CREATE TABLE ETUDIANTS (
   etudiant INT AUTO_INCREMENT,
   initiale VARCHAR(30) NOT NULL,
   nom VARCHAR(30) NOT NULL,
+  programme INT,
   age INT,
-  PRIMARY KEY(etudiant)
+  PRIMARY KEY(etudiant),
+  FOREIGN KEY(programme) 
+     REFERENCES PROGRAMMES(programme)
   );
   
 CREATE TABLE DEVOIRS (
@@ -38,4 +41,12 @@ CREATE TABLE NOTES (
   );
   
   -- A vous de jouer
+  
+  
+CREATE TABLE PROGRAMMES (
+  programme INT AUTO_INCREMENT,
+  nom VARCHAR(30) NOT NULL,
+  nombre_annee INT,
+  PRIMARY KEY(programme)
+);
 
