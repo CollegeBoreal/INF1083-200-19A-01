@@ -57,3 +57,6 @@ latest TNS install
 $ npm install --global nativescript@rc
 ```
 
+
+out-of-date source repos which you can update with `pod repo update` or with `pod install --repo-update`.
+
