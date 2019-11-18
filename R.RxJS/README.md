@@ -21,6 +21,9 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
     ]
 ```
 
+```
+$ ng generate class shared/country
+```
 
 ```
 % ng generate service shared/apicall
