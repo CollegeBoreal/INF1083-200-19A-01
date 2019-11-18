@@ -25,12 +25,20 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 $ ng generate class shared/country
 ```
 
+```typescript
+export class Country {
+    id: number;
+    name: string;
+    capital:string;
+}
+```
+
 ```
 % ng generate service shared/apicall
 ```
 
 
-```
+```typescript
 @Injectable({
   providedIn: 'root'
 })
