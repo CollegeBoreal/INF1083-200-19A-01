@@ -7,7 +7,7 @@ https://rxjs-dev.firebaseapp.com/guide/overview
 
 https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
-:pushpin: Remplacer `my` par votre :id: 
+:pushpin: Remplacer `my` par votre b:id: 
 
 ```
 $ tns create my-blank-ng --template tns-template-blank-ng
