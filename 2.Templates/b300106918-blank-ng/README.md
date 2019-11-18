@@ -1,17 +1,3 @@
+![image](Sketch.png)
+![image](aekapp.png)
 
-  mon sketch 
-                 
-                 
-![image](images/WhatsApp.png)
-
-
-
-
-    
-
-
-
-                  Mon preview
-                  
-                  
-![image](WhatsApp.png )
