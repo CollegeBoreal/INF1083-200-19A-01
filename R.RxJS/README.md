@@ -6,3 +6,12 @@ https://rxjs-dev.firebaseapp.com/guide/overview
 ## Examples
 
 https://www.pluralsight.com/guides/using-http-with-rxjs-observables
+
+
+```
+$ tns create my-blank-ng --template tns-template-blank-ng
+```
+
+```
+% ng generate service shared/apicall
+```
