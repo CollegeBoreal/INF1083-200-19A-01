@@ -51,3 +51,9 @@ https://collegeboreal.brightspace.com/d2l/home/29006
 
 [Contributeur(e)s](../../graphs/contributors)
 
+latest TNS install
+
+```
+$ npm install --global nativescript@rc
+```
+
