@@ -1,27 +1,26 @@
-# Participation
+# Participation au 17-11-2019 22:45
 
-## Légende 
+## Légende
 
 | Signe              | Signification                 |
 |--------------------|-------------------------------|
-| :tada:             | Travail fait                  |
-| :warning:          | Incomplet, doit faire plus    |
-| :x:                | N'a rien fait                 |
+| :heavy_check_mark: | Prêt à être corrigé           |
+| :x:                | Projet inexistant             |
 
 ## Résultat
 
-|:hash:| :id:                             | Appreciation       | :checkered_flag:              |
-|------|----------------------------------|--------------------|-------------------------------|
-| 01   | [300104524](b300104524-tab-ng)   | :x:                | [:bar_chart:](.err/300104524) |
-| 02   | [300104541](b300104541-tab-ng)   | :x:                | [:bar_chart:](.err/300104541) |
-| 03   | [300105201](b300105201-tab-ng)   | :x:                | [:bar_chart:](.err/300105201) |
-| 04   | [300106918](b300106918-tab-ng)   | :x:                | [:bar_chart:](.err/300106918) |
-| 05   | [300107361](b300107361)          | :x:          | [:bar_chart:](.err/300107361) |
-| 06   | [300108234](b300108234-blank-ng) | :x:          | [:bar_chart:](.err/300108234) |
-| 07   | [300110500](b300110500-blank-ng) | :x:                | [:bar_chart:](.err/300110500) |
-| 08   | [300111671](b300111671-blank-ng) | :x:                | [:bar_chart:](.err/300111671) |
-| 09   | [300111766](b300111766-blank-ng) | :x:             | [:bar_chart:](.err/300111766) |
-| 10   | [300112017](b300112017-blank-ng) | :x:             | [:bar_chart:](.err/300112017) |
-| 11   | [300112687](b300112687-blank-ng) | :x:          | [:bar_chart:](.err/300112687) |
-| 12   | [300112917](b300112917-blank-ng) | :x:          | [:bar_chart:](.err/300112917) |
-| 13   | [300113775](b300113775-blank-ng) | :x:             | [:bar_chart:](.err/300113775) |
+|:hash:| Boréal :id:                | :100:              |
+|------|----------------------------|--------------------|
+| 1 | [300104524](b300104524-tab-ng) | [:x:](Correction.md#etudiant-300104524) |
+| 2 | [300104541](b300104541-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300104541) |
+| 3 | [300105201](b300105201-tab-ng) | [:x:](Correction.md#etudiant-300105201) |
+| 4 | [300106918](b300106918-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300106918) |
+| 5 | [300107361](b300107361-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300107361) |
+| 6 | [300108234](b300108234-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300108234) |
+| 7 | [300110500](b300110500-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300110500) |
+| 8 | [300111671](b300111671-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300111671) |
+| 9 | [300111766](b300111766-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300111766) |
+| 10 | [300112017](b300112017-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300112017) |
+| 11 | [300112687](b300112687-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300112687) |
+| 12 | [300112917](b300112917-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300112917) |
+| 13 | [300113775](b300113775-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300113775) |

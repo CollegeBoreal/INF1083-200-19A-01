@@ -1,4 +1,4 @@
-# INF1083-200-19A-01
+# INF1083-200-19A-01 --
 Développement d'applications
 
 
@@ -46,7 +46,17 @@ https://collegeboreal.brightspace.com/d2l/home/29006
 |                              Glossaire                                                    |                                      |
 |-------------------------------------------------------------------------------------------|--------------------------------------|
 | [Application Framework](https://www.techopedia.com/definition/6005/application-framework) |                                      |
+| [RxJS](https://www.pluralsight.com/guides/using-http-with-rxjs-observables)               |                                      |
 
 
 [Contributeur(e)s](../../graphs/contributors)
+
+latest TNS install
+
+```
+$ npm install --global nativescript@rc
+```
+
+
+out-of-date source repos which you can update with `pod repo update` or with `pod install --repo-update`.
 
