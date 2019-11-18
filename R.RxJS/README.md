@@ -7,6 +7,7 @@ https://rxjs-dev.firebaseapp.com/guide/overview
 
 https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
+Remplace `my` par votre :id: 
 
 ```
 $ tns create my-blank-ng --template tns-template-blank-ng
