@@ -68,6 +68,21 @@ export class ApicallService {
 
 ```
 
+home.component.ts
+
+```typescript
+  name:string;
+  
+  searchCapital() {
+    this.apiService
+    .searchCountryByName(this.name)
+    .subscribe((data:Country[]) => {
+      console.log(data);
+      this.countries = data;
+    });
+  }
+```
+
 References:
 
 https://docs.nativescript.org/angular/ng-framework-modules/http
