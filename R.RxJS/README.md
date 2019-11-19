@@ -43,7 +43,7 @@ $ ng generate class shared/country
 export class Country {
     id: number;
     name: string;
-    capital:string;
+    capital: string;
 }
 ```
 
