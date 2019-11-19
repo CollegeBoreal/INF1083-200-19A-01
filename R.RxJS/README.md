@@ -158,7 +158,9 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
 :bookmark: modifier le constructeur
 
 ```typescript
-   constructor(private apiService: ApicallService){}
+    constructor(private apiService: ApicallService){
+        // Use the component constructor to inject providers.
+    }
 ```
 
 :bookmark: Rajouter la fonction `searchCapital`
@@ -177,8 +179,8 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
 :bookmark: Rajouter les `import`
 
 ```typescript
-import {ApicallService} from "~/app/shared/apicall.service";
 import {Country} from "~/app/shared/country";
+import {ApicallService} from "~/app/shared/apicall.service";
 ```
 
 
@@ -186,8 +188,8 @@ import {Country} from "~/app/shared/country";
 
 ```typescript
 import { Component, OnInit } from "@angular/core";
-import {ApicallService} from "~/app/shared/apicall.service";
 import {Country} from "~/app/shared/country";
+import {ApicallService} from "~/app/shared/apicall.service";
 
 @Component({
     selector: "Home",
@@ -195,13 +197,16 @@ import {Country} from "~/app/shared/country";
 })
 export class HomeComponent implements OnInit {
 
-    name: string;
+    name:string;
     countries: Array<Country>;
 
-    ngOnInit(){
+    constructor(private apiService: ApicallService){
+        // Use the component constructor to inject providers.
     }
 
-    constructor(private apiService: ApicallService){}
+    ngOnInit(): void {
+        // Init your component properties here.
+    }
 
     searchCapital() {
         this.apiService
@@ -211,11 +216,11 @@ export class HomeComponent implements OnInit {
                 this.countries = data;
             });
     }
-}
 
+}
 ```
 
-:four: Remplacer le `GridLayout` du template `home.component.html` avec le `StackLayout` suivant
+:four: Remplacer le `GridLayout` du template `home.component.html` par le `StackLayout` suivant
 
 
 ```html
