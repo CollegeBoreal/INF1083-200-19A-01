@@ -25,8 +25,7 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
     ]
 ```
 
-:pushpin: Créer la classe `country` permettant de récuperer les données 
-
+:pushpin: Créer la classe `country` permettant de capturer les données  dans le répertoire `shared`
 
 ```
 $ ng generate class shared/country
@@ -44,20 +43,70 @@ export class Country {
 }
 ```
 
-
+:pushpin: Créer le service `apicall` permettant de récuperer les données dans le répertoire `shared`
 
 ```
 % ng generate service shared/apicall
 ```
 
+:bookmark: Remplacer le constructeur du service `Apicall` avec le code suivant 
 
 ```typescript
+    constructor(private httpClient: HttpClient) {}
+```
+
+:bookmark: Ajouter la fonction  `searchCountryByName` au service `Apicall` avec le code suivant 
+
+```typescript
+    searchCountryByName(name: string): Observable<Country[]>{
+        let headers: HttpHeaders = new HttpHeaders();
+        headers = headers.append('Accept', 'application/json');
+        headers = headers.append(
+            'X-RapidAPI-Key',
+            '1108554cc1mshf11c17c4fea2b3dp179054jsn2446fb7a8965'
+        );
+        return this.httpClient.get(
+            `https://restcountries-v1.p.rapidapi.com/capital/` + name,
+            {headers: headers}
+        ).pipe(
+            map((data: Country[]) => {
+                return data;
+            }), catchError( error => {
+                return throwError( 'Capital not found!' );
+            })
+        )
+    }
+```
+
+:bookmark: Ajouter les  `import` au service `Apicall` avec le code suivant 
+
+```typescript
+import { Injectable } from '@angular/core';
+import {HttpClient, HttpHeaders} from "@angular/common/http";
+
+import {Observable, throwError} from "rxjs";
+import {catchError, map} from "rxjs/internal/operators";
+
+import {Country} from "~/app/shared/country";
+```
+
+:bookmark: Résultat final du service `Apicall` 
+
+```typescript
+import { Injectable } from '@angular/core';
+import {HttpClient, HttpHeaders} from "@angular/common/http";
+
+import {Observable, throwError} from "rxjs";
+import {catchError, map} from "rxjs/internal/operators";
+
+import {Country} from "~/app/shared/country";
+
 @Injectable({
   providedIn: 'root'
 })
 export class ApicallService {
 
-  constructor(private httpClient: HttpClient) {}
+    constructor(private httpClient: HttpClient) {}
 
     searchCountryByName(name: string): Observable<Country[]>{
         let headers: HttpHeaders = new HttpHeaders();
@@ -78,7 +127,6 @@ export class ApicallService {
         )
     }
 }
-
 ```
 
 home.component.ts
