@@ -137,6 +137,8 @@ export class ApicallService {
 
 :pushpin: Rajouter le module `NativeScriptFormsModule` au module de l'application `home.module.ts`
 
+:bulb: Chaque module comportant des formulaire de saisie doicent importer le module `NativeScriptFormsModule`
+
 ```typescript
 import { NativeScriptFormsModule } from "nativescript-angular/forms"
 
@@ -146,7 +148,6 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
         ...
     ]
 ```
-
 
 :pushpin: Éditer le composant `home.component.ts`
 
