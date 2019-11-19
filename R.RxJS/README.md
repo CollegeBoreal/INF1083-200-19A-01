@@ -219,6 +219,6 @@ export class HomeComponent implements OnInit {
 ```
 
 
-References:
+# References:
 
 https://docs.nativescript.org/angular/ng-framework-modules/http
