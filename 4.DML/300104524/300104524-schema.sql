@@ -13,7 +13,7 @@ CREATE TABLE CLIENTS(
 );
 
 CREATE TABLE SERVICES(
-services INT AUTO_INCREMENT PRIMARY KEY,
+services INT AUTO_INCREMENT ,
 BRAND VARCHAR(30) NOT NULL,
  problem VARCHAR(30) NOT NULL,
 description VARCHAR(120)
@@ -23,7 +23,7 @@ REFERENCES CLIENTS(client)
 );
 
 CREATE TABLE REPAIRS(
- nom VARCHAR(30) NOT NULL,
+repair nom VARCHAR(30) NOT NULL,
  brand VARCHAR(30) NOT NULL
 );
 
@@ -43,9 +43,9 @@ CREATE TABLE PAYMENTS(
       date_vente DATE,
       services INT,
       client INT,
-PRIMARY KEY(client, vente)
+PRIMARY KEY(client, service)
        FOREIGN KEY (client)
      REFERENCES CLIENTS (client),
-     FOREIGN KEY (vente)
-    REFERENCES VENTES (vente)
+     FOREIGN KEY (service)
+    REFERENCES SERVICES(service)
 );
