@@ -24,7 +24,7 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 
 @NgModule({
     imports: [
-        NativeScriptHttpClientModule.
+        NativeScriptHttpClientModule,
         ...
     ]
 ```
@@ -133,7 +133,22 @@ export class ApicallService {
 }
 ```
 
-home.component.ts
+:three: Modifier le composant `home` em formulaire de saisie
+
+:pushpin: Rajouter le module `NativeScriptFormsModule` au module de l'application `home.module.ts`
+
+```typescript
+import { NativeScriptFormsModule } from "nativescript-angular/forms"
+
+@NgModule({
+    imports: [
+        NativeScriptFormsModule,
+        ...
+    ]
+```
+
+
+:pushpin: Éditer le composant `home.component.ts`
 
 ```typescript
   name:string;
