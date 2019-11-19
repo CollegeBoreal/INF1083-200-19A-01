@@ -3,7 +3,7 @@
 
 https://www.linkedin.com/learning/building-native-mobile-apps-with-nativescript-and-angular-2/components?u=56968449
 
-:zero: Dessiner, à la main, une page d'un écran mobile (sketch) et en prendre une photo 
+### :a: Dessiner, à la main, une page d'un écran mobile (sketch) et en prendre une photo 
 
 :bulb: Ce `sketch` sera utiliser pour créer une application mobile
 
@@ -13,9 +13,9 @@ La page comprendra du texte et une ou des images
 
 * montrer l'image du `sketch` dans son fichier `README.md` (voir ci-dessous)
 
-:one: Créer un projet, remplacer `my` dans `my-tab-ng` par b`<`votre :id:`>`
+### :b: Créer un projet, remplacer `my` dans `my-tab-ng` par b`<`votre :id:`>`
 
-:bulb: par example le nom du projet sera `b300098957-tab-ng` 
+:one: par example le nom du projet sera `b300098957-tab-ng` 
 
 * Création utilisant un autre [template](https://github.com/NativeScript/nativescript-app-templates)
 
