@@ -132,7 +132,7 @@ export class ApicallService {
 
 :three: Modifier le composant `home` em formulaire de saisie
 
-:pushpin: Rajouter le module `NativeScriptFormsModule` au module de l'application `home.module.ts`
+:pushpin: Rajouter le module `NativeScriptFormsModule` au module `home.module.ts`
 
 :bulb: Chaque module comportant des formulaire de saisie doicent importer le module `NativeScriptFormsModule`
 
