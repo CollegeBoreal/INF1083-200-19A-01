@@ -7,6 +7,10 @@ https://rxjs-dev.firebaseapp.com/guide/overview
 
 https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
+```
+Comment implementer une recherche avec RxJS
+```
+
 :one: Création du projet 
 
 :pushpin: Remplacer `my` par votre `b` + :id: 
