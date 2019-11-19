@@ -94,7 +94,7 @@ import {catchError, map} from "rxjs/internal/operators";
 import {Country} from "~/app/shared/country";
 ```
 
-:bookmark: Résultat final du service `Apicall` 
+:star: Résultat final du service `Apicall` 
 
 ```typescript
 import { Injectable } from '@angular/core';
@@ -185,7 +185,7 @@ import {Country} from "~/app/shared/country";
 ```
 
 
-:bookmark: Résultat du composant `home` 
+:star: Résultat du composant `home` 
 
 ```typescript
 import { Component, OnInit } from "@angular/core";
