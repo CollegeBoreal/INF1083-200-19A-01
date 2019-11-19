@@ -31,8 +31,16 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 
 :pushpin: Créer la classe `country` permettant de capturer les données  dans le répertoire `shared`
 
-```
+```shell
 $ ng generate class shared/country
+CREATE src/app/shared/country.spec.ts (146 bytes)
+CREATE src/app/shared/country.ts (22 bytes)
+```
+
+:warning: supprimer le fichier test `country.spec.test` ne marche pas sous NativeScript
+
+```
+$ rm src/app/shared/country.spec.ts
 ```
 
 :bulb: Si la commande `ng` ne marche pas appliquer le [schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/3.Angular/M.Mobile/Schematics.md#m-nativescript-schematics)
@@ -43,15 +51,24 @@ $ ng generate class shared/country
 export class Country {
     id: number;
     name: string;
-    capital:string;
+    capital: string;
 }
 ```
 
 :pushpin: Créer le service `apicall` permettant de récuperer les données dans le répertoire `shared`
 
+```shell
+$ ng generate service shared/apicall
+CREATE src/app/shared/apicall.spec.ts (146 bytes)
+CREATE src/app/shared/apicall.ts (22 bytes)
 ```
-% ng generate service shared/apicall
+
+:warning: supprimer le fichier test `apicall.spec.test` ne marche pas sous NativeScript
+
 ```
+$ rm src/app/shared/apicall.spec.ts
+```
+
 
 :bookmark: Remplacer le constructeur du service `Apicall` avec le code suivant 
 
@@ -87,10 +104,8 @@ export class Country {
 ```typescript
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-
+import {catchError, map} from "rxjs/operators";
 import {Observable, throwError} from "rxjs";
-import {catchError, map} from "rxjs/internal/operators";
-
 import {Country} from "~/app/shared/country";
 ```
 
@@ -99,10 +114,8 @@ import {Country} from "~/app/shared/country";
 ```typescript
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-
+import {catchError, map} from "rxjs/operators";
 import {Observable, throwError} from "rxjs";
-import {catchError, map} from "rxjs/internal/operators";
-
 import {Country} from "~/app/shared/country";
 
 @Injectable({
@@ -130,14 +143,13 @@ export class ApicallService {
             })
         )
     }
+
 }
 ```
 
 :three: Modifier le composant `home` em formulaire de saisie
 
-:pushpin: Rajouter le module `NativeScriptFormsModule` au module de l'application `home.module.ts`
-
-:bulb: Chaque module comportant des formulaire de saisie doicent importer le module `NativeScriptFormsModule`
+:pushpin: Rajouter le module `NativeScriptFormsModule` au module `home.module.ts`
 
 ```typescript
 import { NativeScriptFormsModule } from "nativescript-angular/forms"
@@ -148,6 +160,8 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
         ...
     ]
 ```
+
+:bulb: Chaque module comportant des formulaires de saisie doivent importer le module `NativeScriptFormsModule`
 
 :pushpin: Éditer le composant `home.component.ts`
 
@@ -161,7 +175,9 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
 :bookmark: modifier le constructeur
 
 ```typescript
-   constructor(private apiService: ApicallService){}
+    constructor(private apiService: ApicallService){
+        // Use the component constructor to inject providers.
+    }
 ```
 
 :bookmark: Rajouter la fonction `searchCapital`
@@ -180,8 +196,8 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
 :bookmark: Rajouter les `import`
 
 ```typescript
-import {ApicallService} from "~/app/shared/apicall.service";
 import {Country} from "~/app/shared/country";
+import {ApicallService} from "~/app/shared/apicall.service";
 ```
 
 
@@ -189,8 +205,8 @@ import {Country} from "~/app/shared/country";
 
 ```typescript
 import { Component, OnInit } from "@angular/core";
-import {ApicallService} from "~/app/shared/apicall.service";
 import {Country} from "~/app/shared/country";
+import {ApicallService} from "~/app/shared/apicall.service";
 
 @Component({
     selector: "Home",
@@ -198,13 +214,16 @@ import {Country} from "~/app/shared/country";
 })
 export class HomeComponent implements OnInit {
 
-    name: string;
+    name:string;
     countries: Array<Country>;
 
-    ngOnInit(){
+    constructor(private apiService: ApicallService){
+        // Use the component constructor to inject providers.
     }
 
-    constructor(private apiService: ApicallService){}
+    ngOnInit(): void {
+        // Init your component properties here.
+    }
 
     searchCapital() {
         this.apiService
@@ -214,11 +233,11 @@ export class HomeComponent implements OnInit {
                 this.countries = data;
             });
     }
-}
 
+}
 ```
 
-:four: Remplacer le `GridLayout` du template `home.component.html` avec le `StackLayout` suivant
+:four: Remplacer le `GridLayout` du template `home.component.html` par le `StackLayout` suivant
 
 
 ```html
