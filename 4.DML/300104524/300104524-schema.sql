@@ -40,6 +40,8 @@ CREATE TABLE PAYMENTS(
       services INT,
       client INT,
 PRIMARY KEY(clients, services)
-       FOREIGN KEY (service) REFERENCES (service),
-     FOREIGN KEY (client) REFERENCES (client)
+       FOREIGN KEY (client)
+     REFERENCES CLIENTS (client),
+     FOREIGN KEY (service)
+    REFERENCES SERVICES (service)
 );
