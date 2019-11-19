@@ -2,20 +2,19 @@
     <Label text="Home"></Label>
 </ActionBar>
 
-<GridLayout>
+<StackLayout class="form" >
 
-    <StackLayout class="form">
-        <StackLayout class="input-field">
-            <TextField hint="Enter Capital" ...></TextField>
-        </StackLayout>
-        <Button [text]="name" (tap)="searchCapital()"></Button>
-    </StackLayout>
+    <TextField class="input" hint="Capital" [(ngModel)]="name"></TextField>
+
+    <Button text="Search" class="btn btn-primary" (tap)="searchCapital()"></Button>
 
     <ListView [items]="countries">
         <ng-template let-item="item">
             <StackLayout>
                 <Label [text]="item.name"></Label>
+                <Label [text]="item.capital"></Label>
             </StackLayout>
         </ng-template>
     </ListView>
-</GridLayout>
+
+</StackLayout>

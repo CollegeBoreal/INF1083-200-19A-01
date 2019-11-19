@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-import {catchError, map} from "rxjs/internal/operators";
+
 import {Observable, throwError} from "rxjs";
+import {catchError, map} from "rxjs/internal/operators";
+
 import {Country} from "~/app/shared/country";
 
 @Injectable({
@@ -9,7 +11,7 @@ import {Country} from "~/app/shared/country";
 })
 export class ApicallService {
 
-  constructor(private httpClient: HttpClient) {}
+    constructor(private httpClient: HttpClient) {}
 
     searchCountryByName(name: string): Observable<Country[]>{
         let headers: HttpHeaders = new HttpHeaders();
