@@ -24,17 +24,24 @@ REFERENCES CLIENTS(client)
 
 CREATE TABLE REPAIRS(
 repair nom VARCHAR(30) NOT NULL,
- brand VARCHAR(30) NOT NULL
+mac adress VARCHAR(30)
+ brand VARCHAR(30) NOT NULL,
+PRIMARY KEY(repair)
 );
 
 CREATE TABLE NOTES(
+archivre_num INT(10) NOT NULL,
 demarche VARCHAR(120)NOT NULL,
-documentation VARCHAR(120) NOT NULL
+documentation VARCHAR(120) NOT NULL,
+PRIMARY KEY(demarche)
 );
 
 CREATE TABLE PAYMENTS(
- nom VARCHAR(30) NOT NULL, 
+commande_num VARCHAR(30) NOT NULL,
+article VARCHA(30) NOT NULL,
+quantity INT(10),
  note INT
+PRIMARY KEY(commande)
 );
  
  
