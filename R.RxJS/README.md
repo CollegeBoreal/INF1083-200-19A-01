@@ -97,10 +97,8 @@ import {Country} from "~/app/shared/country";
 ```typescript
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-
+import {catchError, map} from "rxjs/operators";
 import {Observable, throwError} from "rxjs";
-import {catchError, map} from "rxjs/internal/operators";
-
 import {Country} from "~/app/shared/country";
 
 @Injectable({
@@ -128,6 +126,7 @@ export class ApicallService {
             })
         )
     }
+
 }
 ```
 
