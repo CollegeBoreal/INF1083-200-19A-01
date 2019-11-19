@@ -218,6 +218,28 @@ export class HomeComponent implements OnInit {
 
 ```
 
+:four: Remplacer le `GridLayout` du template `home.component.html` avec le `StackLayout` suivant
+
+
+```html
+<StackLayout class="form" >
+
+    <TextField class="input" hint="Capital" [(ngModel)]="name"></TextField>
+
+    <Button text="Search" class="btn btn-primary" (tap)="searchCapital()"></Button>
+
+    <ListView [items]="countries">
+        <ng-template let-item="item">
+            <StackLayout>
+                <Label [text]="item.name"></Label>
+                <Label [text]="item.capital"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+
+</StackLayout>
+```
+
 
 # References:
 
