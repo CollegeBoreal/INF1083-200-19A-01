@@ -151,9 +151,22 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
 
 :pushpin: Éditer le composant `home.component.ts`
 
+:bookmark: Rajouter 2 variables 
+
 ```typescript
   name:string;
-  
+  countries: Array<Country>;
+```
+
+:bookmark: modifier le constructeur
+
+```typescript
+   constructor(private apiService: ApicallService){}
+```
+
+:bookmark: Rajouter la fonction `searchCapital`
+
+```typescript
   searchCapital() {
     this.apiService
     .searchCountryByName(this.name)
@@ -163,6 +176,48 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
     });
   }
 ```
+
+:bookmark: Rajouter les `import`
+
+```typescript
+import {ApicallService} from "~/app/shared/apicall.service";
+import {Country} from "~/app/shared/country";
+```
+
+
+:bookmark: Résultat du composant `home` 
+
+```typescript
+import { Component, OnInit } from "@angular/core";
+import {ApicallService} from "~/app/shared/apicall.service";
+import {Country} from "~/app/shared/country";
+
+@Component({
+    selector: "Home",
+    templateUrl: "./home.component.html"
+})
+export class HomeComponent implements OnInit {
+
+    name: string;
+    countries: Array<Country>;
+
+    ngOnInit(){
+    }
+
+    constructor(private apiService: ApicallService){}
+
+    searchCapital() {
+        this.apiService
+            .searchCountryByName(this.name)
+            .subscribe((data:Country[]) => {
+                console.log(data);
+                this.countries = data;
+            });
+    }
+}
+
+```
+
 
 References:
 
