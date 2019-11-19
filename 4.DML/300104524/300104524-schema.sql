@@ -5,7 +5,7 @@ GRANT ALL ON technical_support.* TO 'technical_support'@'localhost';
 
 use technical_support;
 
-CREATE TABLE clients(
+CREATE TABLE CLIENTS(
 	client INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 		     nom VARCHAR(30),
 		    prenom VARCHAR(20)
@@ -34,7 +34,7 @@ CREATE TABLE PAYMENTS(
 );
  
  
-    CREATE TABLE ventes(
+    CREATE TABLE VENTES(
       num_vente INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
       date_vente DATE,
       services INT,
