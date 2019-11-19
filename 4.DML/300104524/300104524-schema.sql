@@ -35,10 +35,11 @@ CREATE TABLE PAYMENTS(
  
  
     CREATE TABLE VENTES(
-      num_vente INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+      num_vente INT NOT NULL AUTO_INCREMENT 
       date_vente DATE,
       services INT,
       client INT,
-       FOREIGN KEY (service) REFERENCES services (service),
-     FOREIGN KEY (client) REFERENCES clients (client)
+PRIMARY KEY(clients, services)
+       FOREIGN KEY (service) REFERENCES (service),
+     FOREIGN KEY (client) REFERENCES (client)
 );
