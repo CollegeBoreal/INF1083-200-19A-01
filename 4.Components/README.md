@@ -3,7 +3,7 @@
 
 https://www.linkedin.com/learning/building-native-mobile-apps-with-nativescript-and-angular-2/components?u=56968449
 
-:zero: Dessiner, à la main, une page d'un écran mobile (sketch) et en prendre une photo 
+### :a: Dessiner, à la main, une page d'un écran mobile (sketch) et en prendre une photo 
 
 :bulb: Ce `sketch` sera utiliser pour créer une application mobile
 
@@ -13,9 +13,9 @@ La page comprendra du texte et une ou des images
 
 * montrer l'image du `sketch` dans son fichier `README.md` (voir ci-dessous)
 
-:one: Créer un projet, remplacer `my` dans `my-tab-ng` par b`<`votre :id:`>`
+### :b: Créer un projet, remplacer `my` dans `my-tab-ng` par b`<`votre :id:`>`
 
-:bulb: par example le nom du projet sera `b300098957-tab-ng` 
+:one: par example le nom du projet sera `b300098957-tab-ng` 
 
 * Création utilisant un autre [template](https://github.com/NativeScript/nativescript-app-templates)
 
@@ -23,14 +23,26 @@ La page comprendra du texte et une ou des images
 $  tns create my-tab-ng --template tns-template-tab-navigation-ng
 ```
 
-:two: En s'aidant d'un `PlayGround`, Remplacer le contenu de `items: Array<IDataItem>;` du composant `home` par le votre:
+:warning: Ne pas toucher le `routage` 
 
-:warning: Ne pas toucher le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
+* le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
 
-:bulb: Editer le composant `home`
+* les `routing` modules
 
 
-:three: Activités `git` et [MarkDown](https://github.com/CollegeBoreal/Tutoriels/tree/master/M.MarkDown)
+:two: Remplacer le contenu de `items: Array<IDataItem>;` du composant `home` par le votre:
+
+:bulb: Editer le service `DataService` 
+
+:three: En s'aidant d'un `PlayGround`, Remplacer le contenu du composant `browse` pour afficher une page web externe
+
+:bulb: Pensez au composant `WebView`
+
+:four: Remplacer le contenu du composant `search` pour afficher un `API` de RapidAPI 
+
+:bulb: Voir le projet [R.RxJS](../R.RxJS)
+
+:ab: Activités `git` et [MarkDown](https://github.com/CollegeBoreal/Tutoriels/tree/master/M.MarkDown)
 
 * Créer un fichier README.md
 
