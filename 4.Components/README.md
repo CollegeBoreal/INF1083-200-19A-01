@@ -23,14 +23,26 @@ La page comprendra du texte et une ou des images
 $  tns create my-tab-ng --template tns-template-tab-navigation-ng
 ```
 
-:two: En s'aidant d'un `PlayGround`, Remplacer le contenu de `items: Array<IDataItem>;` du composant `home` par le votre:
+:warning: Ne pas toucher le `routage` 
 
-:warning: Ne pas toucher le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
+* le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
 
-:bulb: Editer le composant `home`
+* les `routing` modules
 
 
-:three: Activités `git` et [MarkDown](https://github.com/CollegeBoreal/Tutoriels/tree/master/M.MarkDown)
+:two: Remplacer le contenu de `items: Array<IDataItem>;` du composant `home` par le votre:
+
+:bulb: Editer le service `DataService` 
+
+:three: En s'aidant d'un `PlayGround`, Remplacer le contenu du composant `browse` pour afficher une page web externe
+
+:bulb: Pensez au composant `WebView`
+
+:four: Remplacer le contenu du composant `search` pour afficher un `API` de RapidAPI 
+
+:bulb: Voir le projet [R.RxJS](../R.RxJS)
+
+:ab: Activités `git` et [MarkDown](https://github.com/CollegeBoreal/Tutoriels/tree/master/M.MarkDown)
 
 * Créer un fichier README.md
 
