@@ -13,7 +13,7 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 $ tns create my-blank-ng --template tns-template-blank-ng
 ```
 
-* Rajouter le module `NativeScriptHttpClientModule`
+:pushpin: Rajouter le module `NativeScriptHttpClientModule` au module de l'application `app.module.ts`
 
 ```typescript
 import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
@@ -25,9 +25,15 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
     ]
 ```
 
+:pushpin: Créer la classe `country` permettant de récuperer les données 
+
+
 ```
 $ ng generate class shared/country
 ```
+
+:bulb: Si la commande ne marche pas appliquer le [schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/3.Angular/M.Mobile/Schematics.md#m-nativescript-schematics)
+
 
 ```typescript
 export class Country {
