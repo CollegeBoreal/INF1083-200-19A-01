@@ -185,7 +185,7 @@ import {Country} from "~/app/shared/country";
 ```
 
 
-:star: Résultat du composant `home` 
+:star: Résultat final du composant `home` 
 
 ```typescript
 import { Component, OnInit } from "@angular/core";
