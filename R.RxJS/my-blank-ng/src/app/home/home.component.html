@@ -3,5 +3,19 @@
 </ActionBar>
 
 <GridLayout>
-    <!-- Add your page content here -->
+
+    <StackLayout class="form">
+        <StackLayout class="input-field">
+            <TextField hint="Enter Capital" ...></TextField>
+        </StackLayout>
+        <Button [text]="name" (tap)="searchCapital()"></Button>
+    </StackLayout>
+
+    <ListView [items]="countries">
+        <ng-template let-item="item">
+            <StackLayout>
+                <Label [text]="item.name"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
 </GridLayout>
