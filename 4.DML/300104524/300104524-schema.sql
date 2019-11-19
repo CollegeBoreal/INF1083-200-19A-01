@@ -43,9 +43,9 @@ CREATE TABLE PAYMENTS(
       date_vente DATE,
       services INT,
       client INT,
-PRIMARY KEY(clients, services)
+PRIMARY KEY(client, vente)
        FOREIGN KEY (client)
      REFERENCES CLIENTS (client),
-     FOREIGN KEY (service)
-    REFERENCES SERVICES (service)
+     FOREIGN KEY (vente)
+    REFERENCES VENTES (vente)
 );
