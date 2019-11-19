@@ -43,7 +43,7 @@ $ ng generate class shared/country
 export class Country {
     id: number;
     name: string;
-    capital:string;
+    capital: string;
 }
 ```
 
@@ -87,10 +87,8 @@ export class Country {
 ```typescript
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-
+import {catchError, map} from "rxjs/operators";
 import {Observable, throwError} from "rxjs";
-import {catchError, map} from "rxjs/internal/operators";
-
 import {Country} from "~/app/shared/country";
 ```
 
@@ -99,10 +97,8 @@ import {Country} from "~/app/shared/country";
 ```typescript
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-
+import {catchError, map} from "rxjs/operators";
 import {Observable, throwError} from "rxjs";
-import {catchError, map} from "rxjs/internal/operators";
-
 import {Country} from "~/app/shared/country";
 
 @Injectable({
@@ -130,14 +126,13 @@ export class ApicallService {
             })
         )
     }
+
 }
 ```
 
 :three: Modifier le composant `home` em formulaire de saisie
 
-:pushpin: Rajouter le module `NativeScriptFormsModule` au module de l'application `home.module.ts`
-
-:bulb: Chaque module comportant des formulaire de saisie doicent importer le module `NativeScriptFormsModule`
+:pushpin: Rajouter le module `NativeScriptFormsModule` au module `home.module.ts`
 
 ```typescript
 import { NativeScriptFormsModule } from "nativescript-angular/forms"
@@ -148,6 +143,8 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms"
         ...
     ]
 ```
+
+:bulb: Chaque module comportant des formulaires de saisie doivent importer le module `NativeScriptFormsModule`
 
 :pushpin: Éditer le composant `home.component.ts`
 
