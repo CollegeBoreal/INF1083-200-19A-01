@@ -37,7 +37,7 @@ CREATE src/app/shared/country.spec.ts (146 bytes)
 CREATE src/app/shared/country.ts (22 bytes)
 ```
 
-:warning: supprimer le fichier test (country.spec.test)
+:warning: supprimer le fichier test `country.spec.test` ne marche pas sous NativeScript
 
 ```
 $ rm src/app/shared/country.spec.ts
@@ -58,12 +58,12 @@ export class Country {
 :pushpin: Créer le service `apicall` permettant de récuperer les données dans le répertoire `shared`
 
 ```shell
-% ng generate service shared/apicall
+$ ng generate service shared/apicall
 CREATE src/app/shared/apicall.spec.ts (146 bytes)
 CREATE src/app/shared/apicall.ts (22 bytes)
 ```
 
-:warning: supprimer le fichier test (apicall.spec.test)
+:warning: supprimer le fichier test `apicall.spec.test` ne marche pas sous NativeScript
 
 ```
 $ rm src/app/shared/apicall.spec.ts
