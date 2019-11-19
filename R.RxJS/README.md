@@ -32,6 +32,10 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 $ ng generate class shared/country
 ```
 
+:bulb: Si la commande `ng` ne marche pas appliquer le [schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/3.Angular/M.Mobile/Schematics.md#m-nativescript-schematics)
+
+:bookmark: Ajouter les champs ci-dessous à la classe `Country`
+
 ```typescript
 export class Country {
     id: number;
@@ -40,7 +44,6 @@ export class Country {
 }
 ```
 
-:bulb: Si la commande `ng` ne marche pas appliquer le [schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/3.Angular/M.Mobile/Schematics.md#m-nativescript-schematics)
 
 
 ```
