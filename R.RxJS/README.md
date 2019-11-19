@@ -31,8 +31,16 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 
 :pushpin: Créer la classe `country` permettant de capturer les données  dans le répertoire `shared`
 
-```
+```shell
 $ ng generate class shared/country
+CREATE src/app/shared/country.spec.ts (146 bytes)
+CREATE src/app/shared/country.ts (22 bytes)
+```
+
+:warning: supprimer le fichier test (country.spec.test)
+
+```
+$ rm src/app/shared/country.spec.ts
 ```
 
 :bulb: Si la commande `ng` ne marche pas appliquer le [schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/3.Angular/M.Mobile/Schematics.md#m-nativescript-schematics)
@@ -49,9 +57,18 @@ export class Country {
 
 :pushpin: Créer le service `apicall` permettant de récuperer les données dans le répertoire `shared`
 
-```
+```shell
 % ng generate service shared/apicall
+CREATE src/app/shared/apicall.spec.ts (146 bytes)
+CREATE src/app/shared/apicall.ts (22 bytes)
 ```
+
+:warning: supprimer le fichier test (apicall.spec.test)
+
+```
+$ rm src/app/shared/apicall.spec.ts
+```
+
 
 :bookmark: Remplacer le constructeur du service `Apicall` avec le code suivant 
 
