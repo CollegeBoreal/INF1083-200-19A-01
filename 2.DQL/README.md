@@ -18,7 +18,7 @@ $ unzip ~/Downloads/sakila-db.zip  -d ~/Downloads
 - Créer la base de données sakila
 
 ```
-$ docker exec --interactive --tty some-mysql \
+$ docker container exec --interactive --tty some-mysql \
               mysql --user root --password --execute \
               "CREATE DATABASE sakila;"
 ```
@@ -26,7 +26,7 @@ $ docker exec --interactive --tty some-mysql \
 - Créer un utilisateur
 
 ```
-$ docker exec --interactive some-mysql  \
+$ docker container exec --interactive some-mysql  \
               mysql --user root -ppassword --execute \
               "CREATE USER 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';"
 ```
@@ -34,7 +34,7 @@ $ docker exec --interactive some-mysql  \
 - Accorder tous les droits a l'utilisateur d'utiliser la base sakila
 
 ```
-$ docker exec --interactive some-mysql  \
+$ docker caontainer exec --interactive some-mysql  \
               mysql --user root -ppassword --execute \
               "GRANT ALL ON sakila.* TO 'etudiants'@'%';"
 ```
@@ -42,7 +42,7 @@ $ docker exec --interactive some-mysql  \
 - Charger la base
 
 ```
-$ docker exec  --interactive some-mysql \
+$ docker container exec  --interactive some-mysql \
                mysql --user root -ppassword sakila < ~/Downloads/sakila-db/sakila-schema.sql
 ```
 
