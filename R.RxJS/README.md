@@ -7,11 +7,15 @@ https://rxjs-dev.firebaseapp.com/guide/overview
 
 https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
-:one: Remplacer `my` par votre `b` + :id: 
+:one: Création du projet 
+
+:pushpin: Remplacer `my` par votre `b` + :id: 
 
 ```
 $ tns create my-blank-ng --template tns-template-blank-ng
 ```
+
+:two: Création du service
 
 :pushpin: Rajouter le module `NativeScriptHttpClientModule` au module de l'application `app.module.ts`
 
