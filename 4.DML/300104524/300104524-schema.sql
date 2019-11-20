@@ -6,7 +6,7 @@ GRANT ALL ON technical_support.* TO 'technical_support'@'localhost';
 use technical_support;
 
 CREATE TABLE CLIENTS(
-	client INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	client INT NOT NULL AUTO_INCREMENT,
 		     nom VARCHAR(30),
 		    prenom VARCHAR(20),
 	PRIMARY KEY(client)
