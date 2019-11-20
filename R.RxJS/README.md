@@ -268,5 +268,5 @@ export class HomeComponent implements OnInit {
 
 | Site                     | URL                                                             |
 |--------------------------|-----------------------------------------------------------------|
-|                          | https://docs.nativescript.org/angular/ng-framework-modules/http |
+| tns HttpClientModule     | https://docs.nativescript.org/angular/ng-framework-modules/http |
 | RapidAPI Open Weather Map| https://rapidapi.com/community/api/open-weather-map             |
