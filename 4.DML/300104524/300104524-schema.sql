@@ -24,30 +24,30 @@ REFERENCES CLIENTS(client)
 );
 
 CREATE TABLE REPAIRS(
-repair DATETIME VARCHAR(30) NOT NULL,
+repair INT NOT NULL AUTO_INCREMENT,
 mac_adress VARCHAR(30),
  brand VARCHAR(30) NOT NULL,
 PRIMARY KEY(repair)
 );
 
 CREATE TABLE NOTES(
-archivre_num INT(10) NOT NULL,
+archivre_num INT NOT NULL AUTO_INCREMENT,
 demarche VARCHAR(120)NOT NULL,
 documentation VARCHAR(120) NOT NULL,
-PRIMARY KEY(demarche)
+PRIMARY KEY(archivre_num)
 );
 
 CREATE TABLE PAYMENTS(
-commande_num VARCHAR(30) NOT NULL,
+commande_num INT NOT NULL AUTO_INCREMENT,
 article VARCHAR(30) NOT NULL,
 quantity INT(10),
  note INT,
-PRIMARY KEY(commande)
+PRIMARY KEY(commande_num)
 );
  
  
     CREATE TABLE VENTES(
-      num_vente INT NOT NULL AUTO_INCREMENT, 
+      num_vente INT NOT NULL, 
  article INT,
       service INT,
       client INT,
@@ -60,11 +60,11 @@ PRIMARY KEY(client, service),
  
  
     CREATE TABLE VENTES(
-      num_vente INT NOT NULL AUTO_INCREMENT 
+      num_vente INT NOT NULL, 
       date_vente DATE,
       service INT,
       client INT,
-PRIMARY KEY(client, service)
+PRIMARY KEY(client, service),
        FOREIGN KEY (client)
      REFERENCES CLIENTS (client),
      FOREIGN KEY (service)
