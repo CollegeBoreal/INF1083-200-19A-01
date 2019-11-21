@@ -1,6 +1,6 @@
-CREATE DATABASE technical_support;
+CREATE DATABASE IF NOT EXISTS technical_support;
 
-CREATE USER 'technical_support'@'localhost' IDENTIFIED BY 'technical_support_1';
+CREATE USER IF NOT EXISTS 'technical_support'@'localhost' IDENTIFIED BY 'technical_support_1';
 GRANT ALL ON technical_support.* TO 'technical_support'@'localhost';
 
 use technical_support;
