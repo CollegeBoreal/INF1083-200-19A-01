@@ -161,10 +161,10 @@
 ##### :m: [REVOKE](http://www.mysqltutorial.org/mysql-revoke.aspx)
 
 ```
-> REVOKE <Privilege> ON <base de donnee>.<tables> (ou `*` wildcard) TO <USER>;  
+> REVOKE <Privilege> ON <base de donnee>.<tables> (ou `*` wildcard) FROM <USER>;  
 ```
 
-:pushpin: [Privileges](http://ask.xmodulo.com/create-configure-mysql-user-command-line.html) 
+:pushpin: Privileges [:blue_book:](http://ask.xmodulo.com/create-configure-mysql-user-command-line.html) 
 
 | Privileges | Description                   | 
 |------------|-------------------------------|
