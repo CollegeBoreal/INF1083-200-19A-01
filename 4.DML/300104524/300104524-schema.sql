@@ -25,7 +25,7 @@ REFERENCES CLIENTS(client)
 
 CREATE TABLE REPAIRS(
 repair DATETIME VARCHAR(30) NOT NULL,
-mac adress VARCHAR(30)
+mac_adress VARCHAR(30),
  brand VARCHAR(30) NOT NULL,
 PRIMARY KEY(repair)
 );
@@ -49,7 +49,7 @@ PRIMARY KEY(commande)
     CREATE TABLE VENTES(
       num_vente INT NOT NULL AUTO_INCREMENT, 
  article INT,
-      services INT,
+      service INT,
       client INT,
 PRIMARY KEY(client, service),
        FOREIGN KEY(client)
@@ -62,7 +62,7 @@ PRIMARY KEY(client, service),
     CREATE TABLE VENTES(
       num_vente INT NOT NULL AUTO_INCREMENT 
       date_vente DATE,
-      services INT,
+      service INT,
       client INT,
 PRIMARY KEY(client, service)
        FOREIGN KEY (client)
