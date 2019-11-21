@@ -48,20 +48,8 @@ PRIMARY KEY(commande_num)
  
     CREATE TABLE VENTES(
       num_vente INT NOT NULL, 
- article INT,
-      service INT,
-      client INT,
-PRIMARY KEY(client, service),
-       FOREIGN KEY(client)
-     REFERENCES CLIENTS (client),
-     FOREIGN KEY (service)
-    REFERENCES SERVICES(service)
-);
- 
- 
-    CREATE TABLE VENTES(
-      num_vente INT NOT NULL, 
       date_vente DATE,
+      article INT,
       service INT,
       client INT,
 PRIMARY KEY(client, service),
