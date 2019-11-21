@@ -25,7 +25,7 @@
 
 
 
-:bangbang: Attention: MySQL respecte la règle des `Majuscules` et `Minuscules` !
+:bangbang: Attention: MySQL respecte la règle des `Majuscules` et `Minuscules` pour le nom des tables !
 
 
 
