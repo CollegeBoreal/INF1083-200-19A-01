@@ -164,7 +164,7 @@
 > REVOKE <Privilege> ON <base de donnee>.<tables> (ou `*` wildcard) TO <USER>;  
 ```
 
-:pushpin: Privileges 
+:pushpin: [Privileges](http://ask.xmodulo.com/create-configure-mysql-user-command-line.html) 
 
 | Privileges | Description                   | 
 |------------|-------------------------------|
