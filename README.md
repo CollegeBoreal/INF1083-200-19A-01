@@ -48,6 +48,10 @@ https://collegeboreal.brightspace.com/d2l/home/29006
 | [Application Framework](https://www.techopedia.com/definition/6005/application-framework) |                                      |
 | [RxJS](https://www.pluralsight.com/guides/using-http-with-rxjs-observables)               |                                      |
 
+| Backend               |  Link                                                             |
+|-----------------------|-------------------------------------------------------------------|
+| Firebase Alternatives | https://blog.back4app.com/2018/01/12/firebase-alternatives/       |
+
 
 [Contributeur(e)s](../../graphs/contributors)
 
