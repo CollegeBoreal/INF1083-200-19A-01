@@ -26,16 +26,124 @@ $ tns create my-blank-ng --template tns-template-blank-ng
 
 ## :b: Créer le service
 
+:pushpin: Créer la classe `Country`
+
+* Créer la classe
+
+```
+% ng generate class shared/country
+```
+
+
+* Rajouter les champs
+
+```typescript
+export class Country {
+    id: number;
+    name: string;
+    capital: string;
+}
+```
+
+:pushpin: Service APICall
+
 ```
 % ng generate service shared/apicall
+```
+
+
+* Rajouter le constructeur se connectant au Module `HttpModule`
+
+```typescript
+constructor(private httpClient: HttpClient) {}
+```
+
+* Rajouter la fonction search se connectant au Module `HttpModule`
+
+```typescript
+    searchCountryByName(name: string): Observable<Country[]>{
+        let headers: HttpHeaders = new HttpHeaders();
+        headers = headers.append('Accept', 'application/json');
+        headers = headers.append(
+            'X-RapidAPI-Key',
+            '1108554cc1mshf11c17c4fea2b3dp179054jsn2446fb7a8965'
+        );
+        return this.httpClient.get(
+            `https://restcountries-v1.p.rapidapi.com/capital/` + name,
+            {headers: headers}
+        ).pipe(
+            map((data: Country[]) => {
+                return data;
+            }), catchError( error => {
+                return throwError( 'Capital not found!' );
+            })
+        )
+    }
+```
+
+* Rajouter les autres modules par importer au debut du fichier
+
+```typescript
+import {HttpClient, HttpHeaders} from "@angular/common/http";
+import {catchError, map} from "rxjs/operators";
+import {Observable, throwError} from "rxjs";
+import {Country} from "~/app/shared/country";
+```
+
+:bulb: Résultat final
+
+```typescript
+import { Injectable } from '@angular/core';
+import {HttpClient, HttpHeaders} from "@angular/common/http";
+import {catchError, map} from "rxjs/operators";
+import {Observable, throwError} from "rxjs";
+import {Country} from "~/app/shared/country";
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ApicallService {
+
+    constructor(private httpClient: HttpClient) {}
+
+    searchCountryByName(name: string): Observable<Country[]>{
+        let headers: HttpHeaders = new HttpHeaders();
+        headers = headers.append('Accept', 'application/json');
+        headers = headers.append(
+            'X-RapidAPI-Key',
+            '1108554cc1mshf11c17c4fea2b3dp179054jsn2446fb7a8965'
+        );
+        return this.httpClient.get(
+            `https://restcountries-v1.p.rapidapi.com/capital/` + name,
+            {headers: headers}
+        ).pipe(
+            map((data: Country[]) => {
+                return data;
+            }), catchError( error => {
+                return throwError( 'Capital not found!' );
+            })
+        )
+    }
+}
+
+```
+
+:pushpin: Rajouter le module `NativeScriptHttpClientModule` à `app.module.ts`
+
+```
+import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
+```
+
+le rajouter à `@NgModule` le champ `import`
+
+```
+    imports: [
+        NativeScriptHttpClientModule,
 ```
 
 ## :ab: Créer le formulaire
 
 
-```
-% ng generate service shared/apicall
-```
 
 
 # References:
