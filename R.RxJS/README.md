@@ -8,9 +8,9 @@ https://rxjs-dev.firebaseapp.com/guide/overview
 https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 
-# :a: Construire un accès à des données
+# :o: Construire un accès à des données
 
-### :one: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
+### :a: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
 
 :pushpin: par example le nom du projet sera `b300098957-blank-ng` 
 
@@ -24,13 +24,20 @@ $ tns create my-blank-ng --template tns-template-blank-ng
 
 * le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
 
-### :two: Créer le service
+## :b: Créer le service
+
+```
+% ng generate service shared/apicall
+```
+
+## :ab: Créer le formulaire
+
 
 ```
 % ng generate service shared/apicall
 ```
 
 
-References:
+# References:
 
 https://docs.nativescript.org/angular/ng-framework-modules/http
