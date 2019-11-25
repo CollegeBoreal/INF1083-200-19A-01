@@ -51,13 +51,6 @@ export class Country {
 % ng generate service shared/apicall
 ```
 
-## :ab: Créer le formulaire
-
-
-```
-% ng generate service shared/apicall
-```
-
 
 * Rajouter le constructeur se connectant au Module `HttpModule`
 
@@ -87,6 +80,11 @@ constructor(private httpClient: HttpClient) {}
         )
     }
 ```
+
+## :ab: Créer le formulaire
+
+
+
 
 # References:
 
