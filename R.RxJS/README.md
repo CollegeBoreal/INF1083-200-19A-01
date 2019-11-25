@@ -31,7 +31,7 @@ $ tns create my-blank-ng --template tns-template-blank-ng
 * Créer la classe
 
 ```
-% ng generate service shared/country
+% ng generate class shared/country
 ```
 
 
