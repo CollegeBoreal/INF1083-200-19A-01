@@ -22,7 +22,7 @@ $ tns create my-blank-ng --template tns-template-blank-ng
 
 :warning: Ne pas toucher le `routage` 
 
-* le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
+* le fichier `app.component.html` doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
 
 ## :b: Créer le service
 
