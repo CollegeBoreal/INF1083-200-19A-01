@@ -26,6 +26,25 @@ $ tns create my-blank-ng --template tns-template-blank-ng
 
 ## :b: Créer le service
 
+:pushpin: Créer la classe `Country`
+
+* Créer la classe
+
+```
+% ng generate service shared/country
+```
+
+
+* Rajouter les champs
+
+```
+    id: number;
+    name: string;
+    capital: string;
+```
+
+:pushpin: Service APICall
+
 ```
 % ng generate service shared/apicall
 ```
