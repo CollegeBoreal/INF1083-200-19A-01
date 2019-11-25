@@ -10,11 +10,19 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 # :o: Construire un accès à des données
 
-## :a: Créer le projet
+### :b: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
+
+:one: par example le nom du projet sera `b300098957-blank-ng` 
+
+* Création utilisant un autre [template](https://github.com/NativeScript/nativescript-app-templates)
 
 ```
 $ tns create my-blank-ng --template tns-template-blank-ng
-  ```
+```
+
+:warning: Ne pas toucher le `routage` 
+
+* le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
 
 ## :b: Créer le service
 
