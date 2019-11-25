@@ -37,10 +37,12 @@ $ tns create my-blank-ng --template tns-template-blank-ng
 
 * Rajouter les champs
 
-```
+```typescript
+export class Country {
     id: number;
     name: string;
     capital: string;
+}
 ```
 
 :pushpin: Service APICall
