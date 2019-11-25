@@ -81,6 +81,23 @@ constructor(private httpClient: HttpClient) {}
     }
 ```
 
+* Rajouter les autres modules par importer au debut du fichier
+
+```typescript
+import {HttpClient, HttpHeaders} from "@angular/common/http";
+import {catchError, map} from "rxjs/operators";
+import {Observable, throwError} from "rxjs";
+import {Country} from "~/app/shared/country";
+```
+
+:bulb: Résultat final
+
+```typescript
+```
+
+
+
+
 ## :ab: Créer le formulaire
 
 
