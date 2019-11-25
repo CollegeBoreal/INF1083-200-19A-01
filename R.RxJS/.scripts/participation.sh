@@ -44,7 +44,7 @@ i=1
 
 for id in "${ETUDIANTS[@]}"
 do
-   FILE=b${id}-tab-ng
+   FILE=b${id}-blank-ng
    OK="| ${i} | [${id}](${FILE}) | [:heavy_check_mark:](Correction.md#etudiant-${id}) | "
    KO="| ${i} | [${id}](${FILE}) | [:x:](Correction.md#etudiant-${id})                | "
    if [ -d "$FILE" ]; then
