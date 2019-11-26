@@ -183,28 +183,40 @@ voir l'explication  [`INSERT AUTO_INCREMENT`](https://dev.mysql.com/doc/mysql-tu
 
 ##### :m: SHOW <artifacts>
     
-```
+```mysql
 mysql> SHOW DATABASES;
 ```
 
-```
+```mysql
 mysql> SHOW TABLES;
 ```
 
-```
+```mysql
 mysql> SHOW GRANTS FOR rfc@localhost;
 ```
 
 ##### :m: describe
 
-```
+```mysql
 mysql> DESCRIBE <nom de table>;
 ```
 
 
 ##### :m:  use
 
-```
+```mysql
 mysql> USE <database>;
 ```
 
+##### :m:  mysql.user
+
+```mysql
+mysql> SELECT host, user, password FROM mysql.user;
++------+-----------+-------------------------------------------+
+| host | user      | password                                  |
++------+-----------+-------------------------------------------+
+| %    | root      | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+| %    | etudiants | *DAFBEF26A36FED36DEDC56E4B03974353E90F522 |
++------+-----------+-------------------------------------------+
+2 rows in set (0.00 sec)
+```
