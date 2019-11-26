@@ -16,13 +16,13 @@ services:
        - dst-mysql
 
    src-mysql:
-     image: mysql
+     image: hypriot/rpi-mysql:latest
      container_name: src-mysql
      environment:
       - MYSQL_ROOT_PASSWORD=password
 
    dst-mysql:
-     image: mysql
+     image: hypriot/rpi-mysql:latest
      container_name: dst-mysql
      environment:
       - MYSQL_ROOT_PASSWORD=password
