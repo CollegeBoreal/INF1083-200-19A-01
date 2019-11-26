@@ -25,8 +25,8 @@ Système de gestion de bases de données
 |09|29-10-19| [DQL]()                                             | Data Query Language                                               |
 |10|05-11-19| TBD                                                 | TBD                                                                |
 |11|12-11-19| [Quiz](5.DML-Quiz)                                  | TBD                                                                |
-|12|19-11-19| TBD                                                 | TBD                                                                |
-|13|26-11-19| TBD                                                 | TBD                                                                |
+|12|19-11-19| [AWS RDS](R.RDS)                                    | Test                                                               |
+|13|26-11-19| [C.Constraints](C.Constraints)                      | Constraints & Index                                                 |
 |14|03-12-19| TBD                                                 | TBD                                                                |
 |15|10-12-19| TBD                                                 | TBD                                                                |
 
