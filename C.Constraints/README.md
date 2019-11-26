@@ -7,3 +7,9 @@
 ## :two: Data Quality Constraints
 
 ##### :m: [Check](https://dev.mysql.com/doc/refman/8.0/en/create-table-check-constraints.html)
+
+
+# Références:
+
+http://www.mysqltutorial.org/mysql-foreign-key/
+
