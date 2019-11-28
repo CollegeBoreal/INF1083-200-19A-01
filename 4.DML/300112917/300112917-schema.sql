@@ -1,33 +1,45 @@
--- Mon domaine
 CREATE DATABASE hairasset;
 
--- Mon utilisateur
 
-CREATE USER 'hairasset'@'localhost' IDENTIFIED BY 'etudiants_1';
+
+CREATE USER IF NOT EXISTS 'hairasset'@'localhost' IDENTIFIED BY 'hairasset_1';
 GRANT ALL ON hairasset.* TO 'hairasset'@'localhost';
 
--- selectionner la base de donnees
+
 use hairasset;
 
--- Mes Tables
 
-CREATE TABLE CUSTOMERS (
-  initiale VARCHAR(30) NOT NULL
-  );
+CREATE TABLE  VENDEURS (
+	
+    	codev CHAR(6) NOT NULL PRIMARY KEY, 
+	nom CHAR(40), 
+	lieu CHAR(35), 
+	commission INT, 
+	telephone CHAR(15), 
+	pays VARCHAR(25) );
 
-CREATE TABLE COLOR (
-  initiale VARCHAR(30) NOT NULL
-  );
 
-CREATE TABLE PRICE (
-  initiale VARCHAR(30) NOT NULL
-  );
+CREATE TABLE  CLIENTS (	
 
-CREATE TABLE TYPE (
-  initiale VARCHAR(30) NOT NULL
-  );
+	codec VARCHAR(6) NOT NULL PRIMARY KEY, 
+	nom VARCHAR(40) NOT NULL, 
+	ville CHAR(35), 
+	lieu VARCHAR(35) NOT NULL, 
+	pays VARCHAR(20) NOT NULL, 
+	niveau INT, 
+	montant INT NOT NULL, 
+	dette INT NOT NULL, 
+	telephone VARCHAR(17) NOT NULL, 
+	codev CHAR(6) NOT NULL REFERENCES VENDEURS
+);   
 
-CREATE TABLE NOTES (
-  nom VARCHAR(30) NOT NULL,
-  note INT
-  );
+
+CREATE TABLE  COMMANDES (
+
+        numero INT NOT NULL PRIMARY KEY, 
+	montant INT NOT NULL,  
+	date DATE NOT NULL, 
+	codec VARCHAR(6) NOT NULL REFERENCES CLIENTS, 
+	codev CHAR(6) NOT NULL REFERENCES VENDEURS, 
+	description VARCHAR(60) NOT NULL
+   );
