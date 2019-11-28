@@ -1,48 +1,41 @@
 
-CREATE DATABASE picasa;
+CREATE DATABASE widesign;
 
 
+CREATE USER IF NOT EXISTS 'widesign'@'localhost' IDENTIFIED BY 'widesign_1';
+GRANT ALL ON widesign.* TO 'widesign'@'localhost';
 
 
-CREATE USER 'picasa'@'localhost' IDENTIFIED BY 'picasa_1';
-GRANT ALL ON picasa.* TO 'picasa'@'localhost';
 
 
 use picasa;
 
-CREATE TABLE MODES (
-  nom VARCHAR(15) NOT NULL
+CREATE TABLE IMAGES (
+  image INT,
+  name VARCHAR(30) NOT NULL
+ 
   );
   
-CREATE TABLE COULEURS (
-     nom VARCHAR(10) NOT NULL
-     );
-     
-CREATE TABLE FORMATS (
-     nom VARCHAR(5) NOT NULL
-     );
+CREATE TABLE USES (
+  utilisation VARCHAR(40) NOT NULL ,
+  social_networks VARCHAR(50) NOT NULL
+  );
   
+CREATE TABLE DELIVERIES (
+   delivery INT,
+   image VARCHAR,
+   social_networks VARCHAR(50) NOT NULL
+   
+   );
+   
+   
+CREATE TABLE COLORS (
+  couleurs VARCHAR (30) NOT NULL
+);   
+
+CREATE TABLE PRICES (
+  price INT NOT NULL,
+  image VARCHAR,
+  delivery VARCHAR 
   
-CREATE TABLE RESEAUX_SOCIAUX (
-     nom VARCHAR(10) NOT NULL
-     );
-     
-CREATE TABLE FRAMES (
-     nom VARCHAR(10) NOT NULL,
-     width INT,
-     length INT 
-     );
-     
-CREATE TABLE MODES_DE_LIVRAISON (
-     nom VARCHAR(20) NOT NULL,
-     format INT
-     );
-     
-CREATE TABLE LIVRAISONS (
-     nom VARCHAR(15) NOT NULL
-     );
-     
-CREATE TABLE PRIX (
-     nom VARCHAR(10) NOT NULL,
-     tarif INT 
-     );
+  );

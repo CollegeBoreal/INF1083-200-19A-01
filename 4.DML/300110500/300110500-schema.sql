@@ -4,8 +4,8 @@ CREATE DATABASE IF NOT EXISTS immigration_consulting;
 
 -- Mon utilisateur
 
-CREATE USER IF NOT EXISTS 'guigma'@'localhost' IDENTIFIED BY 'guigma_1';
-GRANT ALL ON immigration_consulting.* TO 'immigration_consulting'@'localhost';
+CREATE USER IF NOT EXISTS 'guigma'@'localhost' IDENTIFIED BY 'etudiants_1';
+GRANT ALL ON immigration_consulting.* TO 'guigma'@'localhost';
 
 -- selectionner la base de donnees
 
@@ -38,10 +38,9 @@ use immigration_consulting;
                                                                                                      
   CREATE TABLE VILLE_RESIDEMCE (
    Name VARCHAR(30) NOT NULL,
-   Zone_afrque INT AUTO_INCREMENT,
-   Zone_europe VARCHAR(30) NOT NULL,
-   Zone_amerique VARCHAR(30) NOT NULL,
-   PRIMARY KEY(Zone_afrique)
+   Ville VARCHAR(30) NOT NULL,
+   Continent VARCHAR(30) NOT NULL
+  
    );
   
                                                                                                      
