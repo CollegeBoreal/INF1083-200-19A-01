@@ -87,16 +87,14 @@ CREATE TABLE CLIENTS(
 );
 
 CREATE TABLE VENTES(
+ vente INT,
  client INT,
- price INT,
  Recu TEXT(50),
  DateDETransaction DATE NOT NULL DEFAULT '2019-11-29',
  NumeroDeTransaction INT NOT NULL DEFAULT 30098756,
- PRIMARY KEY(client, price),
-    FOREIGN KEY(client)
-      REFERENCES CLIENTS(client),
-    FOREIGN KEY(price)
-      REFERENCES PRICES(price) 
+ PRIMARY KEY(client, vente), 
+   FOREIGN KEY(vente)
+      REFERENCES VENTES(vente)
 );
 
 CREATE TABLE MAINTENANCES (
