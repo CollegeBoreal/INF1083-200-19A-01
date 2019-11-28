@@ -24,9 +24,9 @@ Système de gestion de bases de données
 |08|22-10-19| Semaine d'études                                    | Pas de cours                                                       |
 |09|29-10-19| [DQL]()                                             | Data Query Language                                               |
 |10|05-11-19| TBD                                                 | TBD                                                                |
-|11|12-11-19| TBD                                                 | TBD                                                                |
-|12|19-11-19| TBD                                                 | TBD                                                                |
-|13|26-11-19| TBD                                                 | TBD                                                                |
+|11|12-11-19| [Quiz](5.DML-Quiz)                                  | TBD                                                                |
+|12|19-11-19| [AWS RDS](R.RDS)                                    | Test                                                               |
+|13|26-11-19| [C.Constraints](C.Constraints)                      | Constraints & Index                                                 |
 |14|03-12-19| TBD                                                 | TBD                                                                |
 |15|10-12-19| TBD                                                 | TBD                                                                |
 
@@ -67,4 +67,6 @@ http://sql.sh/ressources/cours-sql-sh-.pdf (En francais)
 http://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf
 
 https://en.wikibooks.org/wiki/MySQL/Language/Definitions:_what_are_DDL,_DML_and_DQL%3F
+
+[Workbench 🎥](https://www.linkedin.com/learning/decouvrir-mysql/installer-et-demarrer-mysql-workbench?u=56968449)
 

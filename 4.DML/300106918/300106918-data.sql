@@ -5,24 +5,24 @@ use network_IT;
 
 -- Données de la table SOLUTIONS
 
-INSERT INTO SOLUTIONS ( solution, nom,  ) VALUES ( 'maintenance , 55);
-INSERT INTO SOLUTIONS ( solution, nom,  ) VALUES ( 'configuration', 15);
-INSERT INTO SOLUTIONS ( solution, nom,  ) VALUES ('vlan' , 75);
-INSERT INTO SOLUTIONS ( solution, nom,  ) VALUES ('routeur', 100);
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES (14, 'maintenance');
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES (22, 'configuration');
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES (34, 'vlan');
+INSERT INTO SOLUTIONS ( solution, nom  ) VALUES (56, 'routeur');
 
 -- Données de la table product
 
-INSERT INTO PRODUCTS ( nom, Date ) VALUES ('routers');
-INSERT INTO PRODUCTS ( nom, Date ) VALUES ('switches');
-INSERT INTO PRODUCTS ( nom, Date ) VALUES ('camera' );
-INSERT INTO PRODUCTS ( nom, Date ) VALUES ('cables' );
+INSERT INTO PRODUCTS ( nom, Date ) VALUES ('router', 2020-11-09);
+INSERT INTO PRODUCTS ( nom, Date ) VALUES ('switches', 2014-10-04);
+INSERT INTO PRODUCTS ( nom, Date ) VALUES ('camera', 2014-10-01);
+INSERT INTO PRODUCTS ( nom, Date ) VALUES ('cables', 2014-10-07);
 
 
 -- Données de la table insttalation
 
-INSERT INTO INSTTALATIONS (nom ) VALUES ('firewall');
-INSERT INTO INSTTALATIONS (nom ) VALUES ('anti-virus');
-INSERT INTO INSTTALATIONS (nom ) VALUES ('mise a jours');
+INSERT INTO INSTALLATIONS (installation, nom ) VALUES (4, 'firewall');
+INSERT INTO INSTALLATIONS (installation, nom ) VALUES (5, 'anti-virus');
+INSERT INTO INSTALLATIONS (installation, nom ) VALUES (6, 'mise a jours');
                                                   
   -- Données de la table prix
-INSERT INTO PRIX (solution, installation,prix ) VALUES ('100, 2000, 1500,');
+INSERT INTO PRIX (solution, installation, prix ) VALUES (22, 4, 1000);
