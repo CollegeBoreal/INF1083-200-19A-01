@@ -32,3 +32,22 @@ The difference is mostly syntactic sugar, but with a couple interesting notes.
 
 To put names, the first two are called "ANSI-style" while the third is called "Theta-style".
 ```
+
+
+```sql
+SELECT * FROM city;
+
+SELECT * FROM country;
+
+SELECT * FROM country WHERE country.country = 'Congo, The Democratic Republic of the';
+
+SELECT city.city FROM city
+INNER JOIN country ON (country.country_id = city.country_id)
+WHERE country.country = 'Morocco';
+
+SELECT city.city FROM city
+INNER JOIN country USING (country_id)
+WHERE country.country = 'Italy';
+```
+
+
