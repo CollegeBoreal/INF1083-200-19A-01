@@ -31,7 +31,7 @@ CREATE TABLE  ENGIN_TYPES (
   
   
 CREATE TABLE MARKS (
-  mark INT AUTO_INCREMENT,
+  mark INT NOT NULL,
   origin INT,
   Marks VARCHAR(30) NOT NULL,
   PRIMARY KEY(mark, origin),
@@ -41,13 +41,13 @@ CREATE TABLE MARKS (
 
    
 CREATE TABLE YEARS (
-  year INT  AUTO_INCREMENT,
+  year INT  NOT NULL,
   Years DATE,
   PRIMARY KEY(year)
   );
   
   CREATE TABLE MODELS (
-   model INT AUTO_INCREMENT,
+   model INT NOT NULL,
    mark INT,
    year INT,
    Models VARCHAR(50) NOT NULL,
@@ -59,7 +59,7 @@ CREATE TABLE YEARS (
    );
 
 CREATE TABLE COLOURS (
-   colour INT AUTO_INCREMENT,
+   colour INT NOT NULL,
    Colours VARCHAR(255) NOT NULL,
    model INT,
    PRIMARY KEY(colour, model),
