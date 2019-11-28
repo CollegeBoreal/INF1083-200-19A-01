@@ -79,6 +79,26 @@ CREATE TABLE PRICES (
      REFERENCES MODELS(model)
   );
 
+CREATE TABLE CLIENTS(
+  client Int AUTO_INCREMENT,
+  Name VARCHAR(20),
+  FirstName VARCHAR(20),
+  PRIMARY KEY(client)
+);
+
+CREATE TABLE VENTES(
+ client INT,
+ price INT,
+ Recu TEXT(50),
+ DateDETransaction DATE NOT NULL DEFAULT '2019-11-29',
+ NumeroDeTransaction INT NOT NULL DEFAULT 30098756,
+ PRIMARY KEY(client, price),
+    FOREIGN KEY(client)
+      REFERENCES CLIENTS(client),
+    FOREIGN KEY(price)
+      REFERENCES PRICES(price) 
+);
+
 CREATE TABLE MAINTENANCES (
   maintenance INT AUTO_INCREMENT,
   service_offered INT,
