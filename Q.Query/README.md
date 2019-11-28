@@ -51,3 +51,16 @@ WHERE country.country = 'Italy';
 ```
 
 
+```sql
+-- SELECT * FROM ETUDIANTS;
+
+-- SELECT NOTES.note FROM NOTES
+-- INNER JOIN ETUDIANTS ON (ETUDIANTS.etudiant = NOTES.etudiant)
+-- WHERE ETUDIANTS.nom = 'Thiam';
+
+-- SELECT NOTES.note FROM NOTES
+-- INNER JOIN ETUDIANTS USING (etudiant)
+-- WHERE ETUDIANTS.nom = 'Thiam';
+
+SELECT * FROM ETUDIANTS, NOTES; -- Theta
+```
