@@ -1,4 +1,4 @@
-# Pratique de manipulation de données en Query
+# :ab: Query
 
 ## :one: Votre Modele
 
@@ -13,7 +13,9 @@
 5. Quel est la longueur moyenne des films par catégorie? Trié par longueur moyenne
 6. Quel sont les catégories qui ont les plus longs films (i.e. dépassant la longueur moyenne) ? Trié par longueur moyenne
 
-## :two: Jointure
+## :two: Jointures
+
+:pushpin: Vos requetes doivent comporter des jointures
 
 http://code.openark.org/blog/mysql/mysql-joins-on-vs-using-vs-theta-style
 
