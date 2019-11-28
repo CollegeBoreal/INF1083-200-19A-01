@@ -33,13 +33,10 @@ CREATE TABLE  ENGIN_TYPES (
   );
   
   
-CREATE TABLE MARKS (
-  mark INT AUTO_INCREMENT,
-  origin INT,
-  Marks VARCHAR(30) NOT NULL,
-  PRIMARY KEY(mark, origin),
-    FOREIGN KEY(origin)
-      REFERENCES ORIGINS(origin)
+CREATE TABLE MAKES (
+  make INT AUTO_INCREMENT,
+  Makes VARCHAR(30) NOT NULL,
+  PRIMARY KEY(make)
   );
 
    
@@ -56,17 +53,20 @@ CREATE TABLE YEARS (
   
   CREATE TABLE MODELS (
    model INT AUTO_INCREMENT,
-   mark INT,
+   make INT,
    year INT,
    colour INT,
+   origin INT,
    Models VARCHAR(50) NOT NULL,
-   PRIMARY KEY(model, mark),
-     FOREIGN KEY(mark)
-       REFERENCES MARKS(mark),
+   PRIMARY KEY(model, make),
+     FOREIGN KEY(make)
+       REFERENCES MAKES(make),
      FOREIGN KEY(year)
        REFERENCES YEARS(year),
      FOREIGN KEY(colour)
-		REFERENCES COLOURS(colour)
+       REFERENCES COLOURS(colour),
+     FOREIGN KEY(origin)
+       REFERENCES ORIGINS(origin)
    );
 
 
