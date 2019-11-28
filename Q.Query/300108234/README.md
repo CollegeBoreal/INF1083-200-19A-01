@@ -1,8 +1,8 @@
--- Nom de domaine: 
+## Nom de domaine: 
 
 HIJABFASHION
 
--- Requetes à chercher:
+## Requetes à chercher:
 
 1- imprimer les villes des clients qui ont fait une commande au mois octobre 
 
@@ -11,18 +11,20 @@ HIJABFASHION
 3- imprimer les accessoires des tissus fabriqués au maroc 
 
 
--- Requetes SQL:
+## Requetes SQL:
 
 # R1
 
-'''sql
+```sql
 
 SELECT ADRESSES.ville FROM ADRESSES
 INNER JOIN Clients ON (CLIENTS.adresse = ADRESSES.adresse)
 INNER JOIN VENTES ON (VENTES.vente = CLIENTS.vente)
 where VENTES.commande = 'octobre';
 
-#R2
+```
+
+# R2
 
 
 
