@@ -38,6 +38,10 @@ INSERT INTO PRICES (price, model) VALUES (43000, 3);
 INSERT INTO PRICES (price, model) VALUES (39000, 2);
 INSERT INTO PRICES (price, model) VALUES (1430000, 1);
 
+INSERT INTO CLIENTS (Name, FirstName) VALUES ('Etienne', 'Joky');
+
+INSERT INTO VENTES (Recu)   VALUES ('Merci pour votre achat');
+
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Brake');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Repair');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Tires');
