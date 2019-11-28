@@ -40,7 +40,7 @@ INSERT INTO PRICES (price, model) VALUES (1430000, 1);
 
 INSERT INTO CLIENTS (Name, FirstName) VALUES ('Etienne', 'Joky');
 
-INSERT INTO VENTES (client, price, Recu)   VALUES (1, DEFAULT, 'Merci pour votre achat');
+INSERT INTO VENTES (client, price, Recu)   VALUES (1, 1, 'Merci pour votre achat');
 
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Brake');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Repair');
