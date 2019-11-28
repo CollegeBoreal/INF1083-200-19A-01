@@ -30,9 +30,9 @@ INSERT INTO COLOURS (Colours) VALUES ('GRAY');
 INSERT INTO COLOURS (Colours) VALUES ('GREEN');
 INSERT INTO COLOURS (Colours) VALUES ('WHITE');
 
-INSERT INTO MODELS (model, Models, make, year, colour, origin) VALUES (1, 'AVENTADOR', 3, 2, [1,2,3,4,5], 1);
-INSERT INTO MODELS (model, Models, make, year, colour, origin) VALUES (2, 'NSX', 1, 3, [1,2,3,4,5], 2);
-INSERT INTO MODELS (model, Models, make, year, colour, origin) VALUES (3, 'WRANGLER', 2, 1, [1,2,3,4,5], 3);
+INSERT INTO MODELS (model, Models, make, year, colour, origin) VALUES (1, 'AVENTADOR', 3, 2, (1,2,3,4,5), 1);
+INSERT INTO MODELS (model, Models, make, year, colour, origin) VALUES (2, 'NSX', 1, 3, 2);
+INSERT INTO MODELS (model, Models, make, year, colour, origin) VALUES (3, 'WRANGLER', 2, 1, 3);
 
 INSERT INTO PRICES (price, model) VALUES (43000, 3);
 INSERT INTO PRICES (price, model) VALUES (39000, 2);
