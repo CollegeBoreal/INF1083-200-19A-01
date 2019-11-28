@@ -1,14 +1,17 @@
+-- Creation de la base de donnees
+
 CREATE DATABASE IF NOT EXISTS Car_Center;
 
+-- Creation de l'utilisateur
 
 CREATE USER IF NOT EXISTS 'joker'@'localhost' IDENTIFIED BY 'etudiants_1';
 GRANT ALL ON Car_Center.* TO 'joker'@'localhost';
 
- 
+-- Se diriger vers la base de donnees 
  
 use Car_Center;
 
-
+-- Creation des tables
 
 CREATE TABLE SERVICES_OFFERED (
   service_offered INT AUTO_INCREMENT,
@@ -30,42 +33,43 @@ CREATE TABLE  ENGIN_TYPES (
   );
   
   
-CREATE TABLE MARKS (
-  mark INT NOT NULL,
-  origin INT,
-  Marks VARCHAR(30) NOT NULL,
-  PRIMARY KEY(mark, origin),
-    FOREIGN KEY(origin)
-      REFERENCES ORIGINS(origin)
+CREATE TABLE MAKES (
+  make INT AUTO_INCREMENT,
+  Makes VARCHAR(30) NOT NULL,
+  PRIMARY KEY(make)
   );
 
    
 CREATE TABLE YEARS (
-  year INT  NOT NULL,
+  year INT  AUTO_INCREMENT,
   Years DATE,
   PRIMARY KEY(year)
   );
+  CREATE TABLE COLOURS (
+   colour INT AUTO_INCREMENT,
+   Colours VARCHAR(255) NOT NULL,
+   PRIMARY KEY(colour)
+   );
   
   CREATE TABLE MODELS (
-   model INT NOT NULL,
-   mark INT,
+   model INT AUTO_INCREMENT,
+   make INT,
    year INT,
+   colour INT,
+   origin INT,
    Models VARCHAR(50) NOT NULL,
-   PRIMARY KEY(model, mark),
-     FOREIGN KEY(mark)
-       REFERENCES MARKS(mark),
+   PRIMARY KEY(model, make),
+     FOREIGN KEY(make)
+       REFERENCES MAKES(make),
      FOREIGN KEY(year)
-       REFERENCES YEARS(year)
+       REFERENCES YEARS(year),
+     FOREIGN KEY(colour)
+       REFERENCES COLOURS(colour),
+     FOREIGN KEY(origin)
+       REFERENCES ORIGINS(origin)
    );
 
-CREATE TABLE COLOURS (
-   colour INT NOT NULL,
-   Colours VARCHAR(255) NOT NULL,
-   model INT,
-   PRIMARY KEY(colour, model),
-     FOREIGN KEY(model)
-       REFERENCES MODELS(model)
-   );
+
 
 CREATE TABLE PRICES (
   price INT,
@@ -84,3 +88,4 @@ CREATE TABLE MAINTENANCES (
        REFERENCES SERVICES_OFFERED(service_offered)
   );
   
+-- Author: <Etienne>

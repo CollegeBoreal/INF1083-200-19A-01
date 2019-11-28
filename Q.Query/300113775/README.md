@@ -1,3 +1,13 @@
--- imprimer les numeros des livraisons de tous les images 
 
-SELECT * FROM DELIVERIES JOIN IMAGES USING (image);
+
+
+Tel que discuté en classe mon WORKBENCH n'affiche pas les liaisons ainsi que les cléfs etrangères malgré les maintes tentatives .
+
+
+
+
+
+
+
+MON MODELE D
+![image](widesign2.png)
