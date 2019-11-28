@@ -34,7 +34,7 @@ $ docker container exec --interactive some-mysql  \
 - Accorder tous les droits a l'utilisateur d'utiliser la base sakila
 
 ```
-$ docker caontainer exec --interactive some-mysql  \
+$ docker container exec --interactive some-mysql  \
               mysql --user root -ppassword --execute \
               "GRANT ALL ON sakila.* TO 'etudiants'@'%';"
 ```
