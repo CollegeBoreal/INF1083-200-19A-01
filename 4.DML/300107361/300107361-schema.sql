@@ -90,7 +90,7 @@ CREATE TABLE SALES(
  sale INT AUTO_INCREMENT,
  client INT,
  price INT,
- model INT,
+ service_offered INT,
  Receipt TEXT(50),
  DateOfTransaction DATE NOT NULL DEFAULT '2019-11-29',
  NumberOfTransaction INT NOT NULL DEFAULT 30098756,
@@ -99,8 +99,8 @@ CREATE TABLE SALES(
       REFERENCES CLIENTS(client),
    FOREIGN KEY(price)
       REFERENCES PRICES(price),
-   FOREIGN KEY(model)
-      REFERENCES MODELS(model)
+   FOREIGN KEY(service_offered)
+      REFERENCES SERVICES_OFFERED(service_offered)
 );
 
 CREATE TABLE MAINTENANCES (
