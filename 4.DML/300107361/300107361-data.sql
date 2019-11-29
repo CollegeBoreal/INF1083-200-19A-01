@@ -47,3 +47,4 @@ INSERT INTO MAINTENANCES (Maintenances) VALUES ('Repair');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Tires');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Transmission');
 
+-- Author: <Etienne>
