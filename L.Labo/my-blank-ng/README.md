@@ -4,7 +4,9 @@
 
 
 
-:pushpin: [Source Code](Code.md)
+:bookmark: cliquer => [Source Code](Code.md)
+
+:pushpin: Résultat :tada:
 
 <image src="images/image1.png" width="160px" height="284px"></image>
 
