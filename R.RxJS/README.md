@@ -249,6 +249,20 @@ avec :
 </StackLayout>
 ```
 
+:tada: Observez l'utilisation de la variable `name`, `countries` et la fonction `searchCapital`
+
+:pushpin: Finalement rajouter le module `NativeScriptFormsModule` à `home.module.ts`
+
+```
+import { NativeScriptFormsModule } from "nativescript-angular/forms"
+```
+
+le rajouter à `@NgModule` le champ `import`
+
+```
+    imports: [
+        NativeScriptFormsModule,
+```
 
 # References:
 
