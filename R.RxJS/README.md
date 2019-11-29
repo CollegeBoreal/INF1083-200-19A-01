@@ -12,6 +12,8 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 <image src="images/httpmodule.png" width="630" heigth="347"></image>
 
+<image src="images/RapidAPIKey.png" width="906" heigth="566"></image>
+
 
 ### :a: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
 
