@@ -144,36 +144,6 @@ le rajouter à `@NgModule` le champ `import`
 ## :ab: Créer le formulaire
 
 
-:pushpin: Éditer le `template` du composant `Home` - `home.component.html`
-
-Remplacer :
-
-```html
-<GridLayout>
-    <!-- Add your page content here -->
-</GridLayout>
-```
-
-avec :
-
-```html
-<StackLayout class="form" >
-
-    <TextField class="input" hint="Capital" [(ngModel)]="name"></TextField>
-
-    <Button text="Search" class="btn btn-primary" (tap)="searchCapital()"></Button>
-
-    <ListView [items]="countries">
-        <ng-template let-item="item">
-            <StackLayout>
-                <Label [text]="item.name"></Label>
-                <Label [text]="item.capital"></Label>
-            </StackLayout>
-        </ng-template>
-    </ListView>
-
-</StackLayout>
-```
 
 :pushpin: Éditer le composant `Home` - `home.component.ts`
 
@@ -211,9 +181,6 @@ import {ApicallService} from "~/app/shared/apicall.service";
     }
 ```
 
-* Modifier le constructeur en lui passant le service `Apicall`
-
-
 :bulb: Résultat final
 
 
@@ -249,6 +216,37 @@ export class HomeComponent implements OnInit {
     }
 
 }
+```
+
+:pushpin: Éditer le `template` du composant `Home` - `home.component.html`
+
+Remplacer :
+
+```html
+<GridLayout>
+    <!-- Add your page content here -->
+</GridLayout>
+```
+
+avec :
+
+```html
+<StackLayout class="form" >
+
+    <TextField class="input" hint="Capital" [(ngModel)]="name"></TextField>
+
+    <Button text="Search" class="btn btn-primary" (tap)="searchCapital()"></Button>
+
+    <ListView [items]="countries">
+        <ng-template let-item="item">
+            <StackLayout>
+                <Label [text]="item.name"></Label>
+                <Label [text]="item.capital"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+
+</StackLayout>
 ```
 
 
