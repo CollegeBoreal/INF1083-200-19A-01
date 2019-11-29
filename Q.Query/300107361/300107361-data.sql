@@ -30,9 +30,9 @@ INSERT INTO COLOURS (Colours) VALUES ('GRAY');
 INSERT INTO COLOURS (Colours) VALUES ('GREEN');
 INSERT INTO COLOURS (Colours) VALUES ('WHITE');
 
-INSERT INTO MODELS (model, Models, make, year, origin, colour) VALUES (1, 'AVENTADOR', 3, 2, 1, DEFAULT);
-INSERT INTO MODELS (model, Models, make, year, origin, colour) VALUES (2, 'NSX', 1, 3, 2, DEFAULT);
-INSERT INTO MODELS (model, Models, make, year, origin, colour) VALUES (3, 'WRANGLER', 2, 1, 3, DEFAULT);
+INSERT INTO MODELS (model, Models, make, year, origin) VALUES (1, 'AVENTADOR', 3, 2, 1);
+INSERT INTO MODELS (model, Models, make, year, origin) VALUES (2, 'NSX', 1, 3, 2);
+INSERT INTO MODELS (model, Models, make, year, origin) VALUES (3, 'WRANGLER', 2, 1, 3);
 
 INSERT INTO PRICES (price, model) VALUES (43000, 3);
 INSERT INTO PRICES (price, model) VALUES (39000, 2);
@@ -40,10 +40,11 @@ INSERT INTO PRICES (price, model) VALUES (1430000, 1);
 
 INSERT INTO CLIENTS (Name, FirstName) VALUES ('Etienne', 'Joky');
 
-INSERT INTO VENTES (vente, client, Recu)   VALUES (1, 1, 'Merci pour votre achat');
+INSERT INTO SALES (Receipt)   VALUES ('Thanks for buying at Car Center!');
 
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Brake');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Repair');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Tires');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Transmission');
 
+-- Author: <Etienne>
