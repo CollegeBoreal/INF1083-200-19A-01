@@ -1,8 +1,8 @@
 # Labo - 2019-11-29
 
-![image](images/image1.png)
+<image src="images/image1.png" width="100px" height="100px"></image>
 
-![image](images/image2.png)
+<image src="images/image2.png" width="100px" height="100px"></image>
 
-![image](images/image3.png)
+<image src="images/image3.png" width="100px" height="100px"></image>
 
