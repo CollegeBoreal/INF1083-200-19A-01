@@ -40,7 +40,7 @@ INSERT INTO PRICES (price, model) VALUES (1430000, 1);
 
 INSERT INTO CLIENTS (Name, FirstName) VALUES ('Etienne', 'Joky');
 
-INSERT INTO SALES (Receipt)   VALUES ('Thanks for buying at Car Center');
+INSERT INTO SALES (Receipt)   VALUES ('Thanks for buying at Car Center!');
 
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Brake');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Repair');
