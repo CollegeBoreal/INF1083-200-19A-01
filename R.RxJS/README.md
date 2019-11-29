@@ -50,7 +50,7 @@ export class Country {
 }
 ```
 
-:pushpin: Créer le service `APICall
+:pushpin: Créer le service `APICall`
 
 ```
 % ng generate service shared/apicall
