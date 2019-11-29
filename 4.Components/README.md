@@ -36,7 +36,7 @@ $  tns create my-tab-ng --template tns-template-tab-navigation-ng
 
 :three: En s'aidant d'un `PlayGround`, Remplacer le contenu du composant `browse` pour afficher une page web externe
 
-:bulb: Pensez au composant `WebView` ou voir le projet [V.Video](../V.Video)
+:bulb: Pensez au composant [`WebView`](https://docs.nativescript.org/ui/components/web-view) ou voir le projet [V.Video](../V.Video)
 
 :four: Remplacer le contenu du composant `search` pour afficher un `API` de RapidAPI 
 
