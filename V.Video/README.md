@@ -1,16 +1,17 @@
 # nativescript-evoplayer
 
+:one: create a project, replace `my` in `my-blank-ng` by b`<`your :id:`>`
 
-:one: Create the blank `Angular` `Nativescript` Project
+:pushpin: for example the project name will be `b300098957-blank-ng` 
 
 ```
-% tns create ns-blank-ng --template tns-template-blank-ng && cd ns-blank-ng
+$ tns create my-blank-ng --template tns-template-blank-ng && cd my-blank-ng
 ```
 
 :two: Add the [exoplayer](https://github.com/google/ExoPlayer) plugin
 
 ```
-% tns plugin add nativescript-exoplayer
+$ tns plugin add nativescript-exoplayer
 ```
 
 :three: Add some code
