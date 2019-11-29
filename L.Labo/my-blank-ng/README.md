@@ -1,6 +1,6 @@
 # Labo - 2019-11-29
 
-<image src="images/image1.png" width="640px" height="1136px"></image>
+<image src="images/image1.png" width="600px" height="1200px"></image>
 
 <image src="images/image2.png" width="100px" height="100px"></image>
 
