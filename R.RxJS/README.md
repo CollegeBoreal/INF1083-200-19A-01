@@ -175,7 +175,81 @@ avec :
 </StackLayout>
 ```
 
+:pushpin: Éditer le composant `Home` - `home.component.ts`
 
+* Ajouter les variables `name` et `countries`
+
+```typescript
+    name: string;
+    countries: Array<Country>;
+```
+
+* Modifier le constructeur en lui passant le service `Apicall`
+
+```typescript
+    constructor(private apiService: ApicallService){
+        // Use the component constructor to inject providers.
+    }
+```
+
+* Importer le service `Apicall` dans le component `home`
+
+```typescript
+import {ApicallService} from "~/app/shared/apicall.service";
+```
+
+* Ajouter la fonction `searchCapital` permettant l'appel au service en passant la capitale
+
+```typescript
+    searchCapital() {
+        this.apiService
+            .searchCountryByName(this.name)
+            .subscribe((data:Country[]) => {
+                console.log(data);
+                this.countries = data;
+            });
+    }
+```
+
+* Modifier le constructeur en lui passant le service `Apicall`
+
+
+:bulb: Résultat final
+
+
+```typescript
+import { Component, OnInit } from "@angular/core";
+import {Country} from "~/app/shared/country";
+import {ApicallService} from "~/app/shared/apicall.service";
+
+@Component({
+    selector: "Home",
+    templateUrl: "./home.component.html"
+})
+export class HomeComponent implements OnInit {
+
+    name:string;
+    countries: Array<Country>;
+
+    constructor(private apiService: ApicallService){
+        // Use the component constructor to inject providers.
+    }
+
+    ngOnInit(): void {
+        // Init your component properties here.
+    }
+
+    searchCapital() {
+        this.apiService
+            .searchCountryByName(this.name)
+            .subscribe((data:Country[]) => {
+                console.log(data);
+                this.countries = data;
+            });
+    }
+
+}
+```
 
 
 # References:
