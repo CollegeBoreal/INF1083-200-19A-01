@@ -10,7 +10,11 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 # :o: Construire un accès à des données
 
+* Le projet utilise deux modules externes `HttpModule` et `FormsModule`
+
 <image src="images/httpmodule.png" width="630" heigth="347"></image>
+
+* Récupérer votre clé [RapidAPI](https://rapidapi.com/) pour l'accès aux bases de données
 
 <image src="images/RapidAPIKey.png" width="453" heigth="283"></image>
 
