@@ -1,5 +1,5 @@
 
-```typescript
+```html
 <ActionBar title="Une Ville Durable - Audrey Tatiotsop"></ActionBar>
 
 <StackLayout>
