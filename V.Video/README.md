@@ -5,8 +5,11 @@
 :pushpin: for example the project name will be `b300098957-blank-ng` 
 
 ```
-$ tns create my-blank-ng --template tns-template-blank-ng && cd my-blank-ng
+$ tns create my-blank-ng --template tns-template-blank-ng
 ```
+
+* go to your project 
+
 
 :two: Add the [exoplayer](https://github.com/google/ExoPlayer) plugin
 
