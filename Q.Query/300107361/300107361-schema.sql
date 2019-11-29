@@ -86,15 +86,21 @@ CREATE TABLE CLIENTS(
   PRIMARY KEY(client)
 );
 
-CREATE TABLE VENTES(
- vente INT NOT NULL,
+CREATE TABLE SALES(
+ sale INT AUTO_INCREMENT,
  client INT,
- Recu TEXT(50),
- DateDETransaction DATE NOT NULL DEFAULT '2019-11-29',
- NumeroDeTransaction INT NOT NULL DEFAULT 30098756,
- PRIMARY KEY(client, vente), 
+ price INT,
+ service_offered INT,
+ Receipt TEXT(50),
+ DateOfTransaction DATE NOT NULL DEFAULT '2019-11-29',
+ NumberOfTransaction INT NOT NULL DEFAULT 30098756,
+ PRIMARY KEY(sale), 
    FOREIGN KEY(client)
-      REFERENCES CLIENTS(client)
+      REFERENCES CLIENTS(client),
+   FOREIGN KEY(price)
+      REFERENCES PRICES(price),
+   FOREIGN KEY(service_offered)
+      REFERENCES SERVICES_OFFERED(service_offered)
 );
 
 CREATE TABLE MAINTENANCES (
