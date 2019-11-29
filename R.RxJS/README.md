@@ -8,6 +8,8 @@ https://rxjs-dev.firebaseapp.com/guide/overview
 https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 
+<image src="images/httpmodule.png" width="200" heigth="200"></image>
+
 # :o: Construire un accès à des données
 
 ### :a: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
