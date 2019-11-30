@@ -38,7 +38,7 @@ INSERT INTO MODELS (make, year, colour, price, Models) VALUES ('acura', 1, 'blk'
 INSERT INTO MODELS (make, year, colour, price, Models) VALUES ('jeep', 2, 'wht', 1, 'WRANGLER');
 INSERT INTO MODELS (make, year, colour, price, Models) VALUES ('lamborghini', 3, 'grn', 3, 'AVENTADOR');
 
-INSERT INTO CUSTOMERS (Name, Initiale, FirstName) VALUES ('Etienne', 'EJ', 'Joky');
+INSERT INTO CUSTOMERS (customer, Name, FirstName) VALUES ('EJ','Etienne', 'Joky');
 
 INSERT INTO PAYMENTS (customer, price) VALUES ('EJ', 1);
 INSERT INTO PAYMENTS (customer, price) VALUES ('EJ', 2);
