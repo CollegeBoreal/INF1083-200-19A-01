@@ -35,7 +35,7 @@ CREATE TABLE  ENGIN_TYPES (
   
 CREATE TABLE MAKES (
   make INT AUTO_INCREMENT,
-  origin INT,
+  origin VARCHAR(30),
   Makes VARCHAR(30) NOT NULL,
   PRIMARY KEY(make, origin),
     FOREIGN KEY(origin)
@@ -63,9 +63,9 @@ CREATE TABLE PRICES (
   
 CREATE TABLE MODELS (
   model INT AUTO_INCREMENT,
-  make INT,
-  year INT,
-  colour INT,
+  make VARCHAR(30),
+  year DATE,
+  colour VARCHAR(30),
   price INT,
   Models VARCHAR(50) NOT NULL,
   PRIMARY KEY(model, price),
@@ -82,13 +82,14 @@ CREATE TABLE MODELS (
 CREATE TABLE CUSTOMERS(
   customer Int AUTO_INCREMENT,
   Name VARCHAR(20),
+  Initiale VARCHAR(30),
   FirstName VARCHAR(20),
   PRIMARY KEY(customer)
 );
 
 CREATE TABLE PAYMENTS (
   payment INT AUTO_INCREMENT,
-  customer INT,
+  customer VARCHAR(30),
   price INT,
   Amount DECIMAL NOT NULL DEFAULT 50000.00,
   DateOfTransaction DATE DEFAULT '2019-11-27',
