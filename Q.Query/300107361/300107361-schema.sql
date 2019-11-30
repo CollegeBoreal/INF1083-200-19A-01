@@ -21,7 +21,7 @@ CREATE TABLE SERVICES_OFFERED (
   
 
 CREATE TABLE ORIGINS (
-   origin INT NOT NULL,
+   origin VARCHAR(30) NOT NULL,
    Origins TEXT NOT NULL,
    PRIMARY KEY(origin)
    );
@@ -34,74 +34,70 @@ CREATE TABLE  ENGIN_TYPES (
   
   
 CREATE TABLE MAKES (
-  make INT AUTO_INCREMENT,
+  make VARCHAR(30) NOT NULL,
+  origin VARCHAR(30),
   Makes VARCHAR(30) NOT NULL,
-  PRIMARY KEY(make)
+  PRIMARY KEY(make, origin),
+    FOREIGN KEY(origin)
+      REFERENCES ORIGINS(origin)
   );
 
    
 CREATE TABLE YEARS (
-  year INT  AUTO_INCREMENT,
+  year INT AUTO_INCREMENT,
   Years DATE,
   PRIMARY KEY(year)
   );
-  CREATE TABLE COLOURS (
-   colour INT AUTO_INCREMENT,
+  
+CREATE TABLE COLOURS (
+   colour VARCHAR(30) NOT NULL,
    Colours VARCHAR(255) NOT NULL,
    PRIMARY KEY(colour)
    );
-  
-  CREATE TABLE MODELS (
-   model INT AUTO_INCREMENT,
-   make INT,
-   year INT,
-   colour INT,
-   origin INT,
-   Models VARCHAR(50) NOT NULL,
-   PRIMARY KEY(model, make),
-     FOREIGN KEY(make)
-       REFERENCES MAKES(make),
-     FOREIGN KEY(year)
-       REFERENCES YEARS(year),
-     FOREIGN KEY(colour)
-       REFERENCES COLOURS(colour),
-     FOREIGN KEY(origin)
-       REFERENCES ORIGINS(origin)
-   );
-
-
 
 CREATE TABLE PRICES (
-  price INT,
-  model INT,
-  PRIMARY KEY(price, model),
-  FOREIGN KEY(model)
-     REFERENCES MODELS(model)
+  price INT AUTO_INCREMENT,
+  Prices INT NOT NULL,
+  PRIMARY KEY(price)
   );
+  
+CREATE TABLE MODELS (
+  model INT AUTO_INCREMENT,
+  make VARCHAR(30),
+  year INT,
+  colour VARCHAR(30),
+  price INT,
+  Models VARCHAR(50) NOT NULL,
+  PRIMARY KEY(model, price),
+     FOREIGN KEY(year)
+        REFERENCES YEARS(year),
+     FOREIGN KEY(price)
+        REFERENCES PRICES(price),
+     FOREIGN KEY(make)
+        REFERENCES MAKES(make),
+     FOREIGN KEY(colour)
+        REFERENCES COLOURS(colour)
+   );  
 
-CREATE TABLE CLIENTS(
-  client Int AUTO_INCREMENT,
+CREATE TABLE CUSTOMERS(
+  customer VARCHAR(4) NOT NULL,
   Name VARCHAR(20),
   FirstName VARCHAR(20),
-  PRIMARY KEY(client)
+  PRIMARY KEY(customer)
 );
 
-CREATE TABLE SALES(
- sale INT AUTO_INCREMENT,
- client INT,
- price INT,
- service_offered INT,
- Receipt TEXT(50),
- DateOfTransaction DATE NOT NULL DEFAULT '2019-11-29',
- NumberOfTransaction INT NOT NULL DEFAULT 30098756,
- PRIMARY KEY(sale), 
-   FOREIGN KEY(client)
-      REFERENCES CLIENTS(client),
-   FOREIGN KEY(price)
-      REFERENCES PRICES(price),
-   FOREIGN KEY(service_offered)
-      REFERENCES SERVICES_OFFERED(service_offered)
-);
+CREATE TABLE PAYMENTS (
+  payment INT AUTO_INCREMENT,
+  customer VARCHAR(4),
+  price INT,
+  Amount DECIMAL NOT NULL DEFAULT 50000.00,
+  DateOfTransaction DATE DEFAULT '2019-11-27',
+  PRIMARY KEY(payment),
+     FOREIGN KEY(customer)
+        REFERENCES CUSTOMERS(customer),
+     FOREIGN KEY(price)
+        REFERENCES PRICES(price)
+ );
 
 CREATE TABLE MAINTENANCES (
   maintenance INT AUTO_INCREMENT,
