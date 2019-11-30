@@ -16,13 +16,13 @@ INSERT INTO ENGIN_TYPES (Engins) VALUES ('Electric');
 INSERT INTO ENGIN_TYPES (Engins) VALUES ('Hybrid');
 INSERT INTO ENGIN_TYPES (Engins) VALUES ('Petrol');
 
-INSERT INTO MAKES (Makes) VALUES ('Acura');
-INSERT INTO MAKES (Makes) VALUES ('JEEP');
-INSERT INTO MAKES (Makes) VALUES ('Lamborghini');
+INSERT INTO MAKES (origin, Makes) VALUES (2, 'Acura');
+INSERT INTO MAKES (origin, Makes) VALUES (3, 'JEEP');
+INSERT INTO MAKES (origin, Makes) VALUES (1, 'Lamborghini');
 
 INSERT INTO YEARS (Years) VALUES ('2019-02-20');
 INSERT INTO YEARS (Years) VALUES ('2019-01-03');
-INSERT INTO YEARS (Years) VALUES ('2015-11-09');
+INSERT INTO YEARS (Years) VALUES ('2019-11-09');
 
 INSERT INTO COLOURS (Colours) VALUES ('Black');
 INSERT INTO COLOURS (Colours) VALUES ('BLUEU');
@@ -30,20 +30,22 @@ INSERT INTO COLOURS (Colours) VALUES ('GRAY');
 INSERT INTO COLOURS (Colours) VALUES ('GREEN');
 INSERT INTO COLOURS (Colours) VALUES ('WHITE');
 
-INSERT INTO MODELS (model, Models, make, year, origin) VALUES (1, 'AVENTADOR', 3, 2, 1);
-INSERT INTO MODELS (model, Models, make, year, origin) VALUES (2, 'NSX', 1, 3, 2);
-INSERT INTO MODELS (model, Models, make, year, origin) VALUES (3, 'WRANGLER', 2, 1, 3);
+INSERT INTO PRICES (Prices) VALUES (43000);
+INSERT INTO PRICES (Prices) VALUES (39000);
+INSERT INTO PRICES (Prices) VALUES (1430000);
 
-INSERT INTO PRICES (price, model) VALUES (43000, 3);
-INSERT INTO PRICES (price, model) VALUES (39000, 2);
-INSERT INTO PRICES (price, model) VALUES (1430000, 1);
+INSERT INTO MODELS (make, year, colour, price, Models) VALUES (1, 1, 1, 2, 'NSX');
+INSERT INTO MODELS (make, year, colour, price, Models) VALUES (2, 2, 1, 1, 'WRANGLER');
+INSERT INTO MODELS (make, year, colour, price, Models) VALUES (3, 3, 4, 3, 'AVENTADOR');
 
-INSERT INTO CLIENTS (Name, FirstName) VALUES ('Etienne', 'Joky');
+INSERT INTO COSTUMERS (Name, FirstName) VALUES ('Etienne', 'Joky');
 
-INSERT INTO SALES (Receipt)   VALUES ('Thanks for buying at Car Center!');
+INSERT INTO PAYMENTS (customer, price) VALUES (1, 1);
+INSERT INTO PAYMENTS (customer, price) VALUES (1, 2);
 
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Brake');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Repair');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Tires');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Transmission');
 
+-- Author: <Etienne>
