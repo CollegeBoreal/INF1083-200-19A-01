@@ -21,7 +21,7 @@ CREATE TABLE SERVICES_OFFERED (
   
 
 CREATE TABLE ORIGINS (
-   origin INT NOT NULL,
+   origin VARCHAR(30) NOT NULL,
    Origins TEXT NOT NULL,
    PRIMARY KEY(origin)
    );
@@ -34,7 +34,7 @@ CREATE TABLE  ENGIN_TYPES (
   
   
 CREATE TABLE MAKES (
-  make INT AUTO_INCREMENT,
+  make VARCHAR(30),
   origin VARCHAR(30),
   Makes VARCHAR(30) NOT NULL,
   PRIMARY KEY(make, origin),
@@ -44,13 +44,13 @@ CREATE TABLE MAKES (
 
    
 CREATE TABLE YEARS (
-  year INT  AUTO_INCREMENT,
+  year INT,
   Years DATE,
   PRIMARY KEY(year)
   );
   
 CREATE TABLE COLOURS (
-   colour INT AUTO_INCREMENT,
+   colour VARCHAR(30),
    Colours VARCHAR(255) NOT NULL,
    PRIMARY KEY(colour)
    );
@@ -64,7 +64,7 @@ CREATE TABLE PRICES (
 CREATE TABLE MODELS (
   model INT AUTO_INCREMENT,
   make VARCHAR(30),
-  year DATE,
+  year INT,
   colour VARCHAR(30),
   price INT,
   Models VARCHAR(50) NOT NULL,
@@ -80,7 +80,7 @@ CREATE TABLE MODELS (
    );  
 
 CREATE TABLE CUSTOMERS(
-  customer Int AUTO_INCREMENT,
+  customer VARCHAR(30),
   Name VARCHAR(20),
   Initiale VARCHAR(30),
   FirstName VARCHAR(20),
