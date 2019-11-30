@@ -34,7 +34,7 @@ CREATE TABLE  ENGIN_TYPES (
   
   
 CREATE TABLE MAKES (
-  make VARCHAR(30),
+  make VARCHAR(30) NOT NULL,
   origin VARCHAR(30),
   Makes VARCHAR(30) NOT NULL,
   PRIMARY KEY(make, origin),
@@ -44,13 +44,13 @@ CREATE TABLE MAKES (
 
    
 CREATE TABLE YEARS (
-  year INT,
+  year INT AUTO_INCREMENT,
   Years DATE,
   PRIMARY KEY(year)
   );
   
 CREATE TABLE COLOURS (
-   colour VARCHAR(30),
+   colour VARCHAR(30) NOT NULL,
    Colours VARCHAR(255) NOT NULL,
    PRIMARY KEY(colour)
    );
@@ -80,9 +80,9 @@ CREATE TABLE MODELS (
    );  
 
 CREATE TABLE CUSTOMERS(
-  customer VARCHAR(30),
+  customer VARCHAR(30) NOT NULL,
   Name VARCHAR(20),
-  Initiale VARCHAR(30),
+  Initiale VARCHAR(30) NOT NULL,
   FirstName VARCHAR(20),
   PRIMARY KEY(customer)
 );
