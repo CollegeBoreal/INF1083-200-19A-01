@@ -48,14 +48,15 @@ CREATE TABLE YEARS (
   Years DATE,
   PRIMARY KEY(year)
   );
-  CREATE TABLE COLOURS (
+  
+CREATE TABLE COLOURS (
    colour INT AUTO_INCREMENT,
    Colours VARCHAR(255) NOT NULL,
    PRIMARY KEY(colour)
    );
 
 CREATE TABLE PRICES (
-  price INT,
+  price INT AUTO_INCREMENT,
   Prices INT NOT NULL,
   PRIMARY KEY(price)
   );
