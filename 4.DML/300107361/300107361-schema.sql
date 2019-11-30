@@ -80,16 +80,15 @@ CREATE TABLE MODELS (
    );  
 
 CREATE TABLE CUSTOMERS(
-  customer VARCHAR(30) NOT NULL,
+  customer VARCHAR(4) NOT NULL,
   Name VARCHAR(20),
-  Initiale VARCHAR(4) NOT NULL,
   FirstName VARCHAR(20),
   PRIMARY KEY(customer)
 );
 
 CREATE TABLE PAYMENTS (
   payment INT AUTO_INCREMENT,
-  customer VARCHAR(30),
+  customer VARCHAR(4),
   price INT,
   Amount DECIMAL NOT NULL DEFAULT 50000.00,
   DateOfTransaction DATE DEFAULT '2019-11-27',
