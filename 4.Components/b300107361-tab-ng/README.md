@@ -1,4 +1,4 @@
-:warning: :loading:
+:warning: :load:
 ![image]()
 ![image]()
 ![image]()
