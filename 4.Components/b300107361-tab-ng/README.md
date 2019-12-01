@@ -15,3 +15,12 @@
 ![image](https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/4.Components/b300107361-tab-ng/src/sketches/browse.png?raw=true)
 ![image](https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/4.Components/b300107361-tab-ng/src/sketches/search.png?raw=true)
 
+## :three: A venir :bangbang:
+Les etapes du projet 
+
+![image](https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/4.Components/b300107361-tab-ng/src/sketches/hero.PNG?raw=true)
+
+
+
+
+Author: <.@Toch90>
