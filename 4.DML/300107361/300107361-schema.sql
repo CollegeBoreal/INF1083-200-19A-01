@@ -68,7 +68,7 @@ CREATE TABLE MODELS (
   colour VARCHAR(30),
   price INT,
   Models VARCHAR(50) NOT NULL,
-  PRIMARY KEY(model, price),
+  PRIMARY KEY(model),
      FOREIGN KEY(year)
         REFERENCES YEARS(year),
      FOREIGN KEY(price)
