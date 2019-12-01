@@ -7,7 +7,8 @@
 
 * 1- Imprimer le model et la marque des voitures d'origines Americaines.
 * 2- Imprimer le model et le prix des voitures de couleurs noirs.
-* 3- Imprimer le nom des clients et les dates de transactions effectuees. 
+* 3- Imprimer le nom des clients et les dates des transactions effectuees. 
+
 ========================
 
 # Requetes
