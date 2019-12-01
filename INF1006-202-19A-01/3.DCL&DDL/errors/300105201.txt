@@ -1,0 +1,1 @@
+ERROR 1410 (42000) at line 5: You are not allowed to create a user with GRANT
