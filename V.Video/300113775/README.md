@@ -1,1 +1,1 @@
-![image](file)
+![image](file.jpg)
