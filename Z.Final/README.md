@@ -5,6 +5,8 @@
 
 ### ng Schematics
 
+### Templates
+
 ### Forms
 
 ### RxJS et HttpModule
