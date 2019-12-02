@@ -3,7 +3,7 @@
 
 :one: Sketch
 
-![image](Sketch.png)
+![image](sketch.png)
 
 
 :two: Le résultat final
