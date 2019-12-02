@@ -1,3 +1,8 @@
+
+import {registerElement} from "nativescript-angular/element-registry";
+registerElement("exoplayer", () => require("nativescript-exoplayer").Video);
+
+
 import { Component, OnInit } from "@angular/core";
 
 @Component({
