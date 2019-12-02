@@ -3,6 +3,12 @@
 
 ### [3.GIT](../3.GIT)
 
+### Programmation
+
+ * Framework utilisé est `Angular` écrit par Google
+
+ * Language utilisé est `TypeScript` écrit par Microsoft
+
 ### Entrée dans Nativescript:
 
  * Code Source se trouve dans répertoir `src` 
@@ -27,23 +33,23 @@
 
 ### [Component](https://angular.io/api/core/Component)
 
-
 * les décorateurs d'un composant se nomme `@Component`
 
 * les attibuts du décorateur `@Component` sont:
 
-   - selector 
+   - `selector` permet la déclaration de balise ou étiquette
    
-   - template
+   - `templateUrl` permet l'utilisation de HTML
    
-   - style
-
+   - `styleUrls` permet l'utilisation de CSS
 
 :pushpin: Templates
 
 * sont dans les fichiers `.html`
 
-* 
+* utilise `XML` eXtended Markup Language
+
+* Dans NS POUR `Header` Action Bar pour Body Layout (imbriqué)
 
 ### Forms [Template Driven Forms](https://angular.io/guide/template-syntax#template-reference-variables--var-)
 
