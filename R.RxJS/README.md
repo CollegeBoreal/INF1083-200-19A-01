@@ -260,6 +260,14 @@ avec :
 
 :tada: Observez l'utilisation de la variable `name`, `countries` et la fonction `searchCapital`
 
+Binding with [Template Reference Variable](https://angular.io/guide/template-syntax#template-reference-variables--var-) usually called #name
+
+⚠️ #name reference variable can only be used in the template not by the controller
+
+🔖 ngForm is used to link the reference variable to the entire form (i.e. form.invalid)
+
+🔖 ngModel is used to link the reference variable to the <Input> form field (i.e. phone.touched)
+
 :pushpin: Finalement rajouter le module `NativeScriptFormsModule` à `home.module.ts`
 
 ```
