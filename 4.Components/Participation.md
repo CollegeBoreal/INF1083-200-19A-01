@@ -1,4 +1,4 @@
-# Participation au 17-11-2019 22:45
+# Participation au 29-11-2019 17:42
 
 ## Légende
 
@@ -11,9 +11,9 @@
 
 |:hash:| Boréal :id:                | :100:              |
 |------|----------------------------|--------------------|
-| 1 | [300104524](b300104524-tab-ng) | [:x:](Correction.md#etudiant-300104524) |
+| 1 | [300104524](b300104524-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300104524) |
 | 2 | [300104541](b300104541-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300104541) |
-| 3 | [300105201](b300105201-tab-ng) | [:x:](Correction.md#etudiant-300105201) |
+| 3 | [300105201](b300105201-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300105201) |
 | 4 | [300106918](b300106918-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300106918) |
 | 5 | [300107361](b300107361-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300107361) |
 | 6 | [300108234](b300108234-tab-ng) | [:heavy_check_mark:](Correction.md#etudiant-300108234) |
