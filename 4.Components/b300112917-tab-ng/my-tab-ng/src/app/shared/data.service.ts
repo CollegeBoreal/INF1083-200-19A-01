@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 
-export interface IDataItem {
+export interface DataItem {
     id: number;
     name: string;
     description: string;
@@ -11,65 +11,65 @@ export interface IDataItem {
 })
 export class DataService {
 
-    private items = new Array<IDataItem>(
+    private items = new Array<DataItem>(
         {
             id: 1,
-            name: "Waves",
+            name: "Item 1",
             description: "Description for Item 1"
         },
         {
             id: 2,
-            name: "Braid",
+            name: "Item 2",
             description: "Description for Item 2"
         },
         {
             id: 3,
-            name: "Shampoo",
+            name: "Item 3",
             description: "Description for Item 3"
         },
         {
             id: 4,
-            name: "Pins",
+            name: "Item 4",
             description: "Description for Item 4"
         },
         {
             id: 5,
-            name: "Ponytails",
+            name: "Item 5",
             description: "Description for Item 5"
         },
         {
             id: 6,
-            name: "Conditioner",
+            name: "Item 6",
             description: "Description for Item 6"
         },
         {
             id: 7,
-            name: "Conditioners",
+            name: "Item 7",
             description: "Description for Item 7"
         },
         {
             id: 8,
-            name: "Spray",
+            name: "Item 8",
             description: "Description for Item 8"
         },
         {
             id: 9,
-            name: "Hair Color",
+            name: "Item 9",
             description: "Description for Item 9"
         },
         {
             id: 10,
-            name: "Oil",
+            name: "Item 10",
             description: "Description for Item 10"
         },
         {
             id: 11,
-            name: "Brush",
+            name: "Item 11",
             description: "Description for Item 11"
         },
         {
             id: 12,
-            name: "Anti Breakage",
+            name: "Item 12",
             description: "Description for Item 12"
         },
         {
@@ -79,12 +79,12 @@ export class DataService {
         },
         {
             id: 14,
-            name: "Comb",
+            name: "Item 14",
             description: "Description for Item 14"
         },
         {
             id: 15,
-            name: "Cream",
+            name: "Item 15",
             description: "Description for Item 15"
         },
         {
@@ -114,11 +114,11 @@ export class DataService {
         }
     );
 
-    getItems(): Array<IDataItem> {
+    getItems(): Array<DataItem> {
         return this.items;
     }
 
-    getItem(id: number): IDataItem {
+    getItem(id: number): DataItem {
         return this.items.filter((item) => item.id === id)[0];
     }
 }

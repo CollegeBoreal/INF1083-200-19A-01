@@ -2,7 +2,6 @@ import { NgModule } from "@angular/core";
 import { Routes } from "@angular/router";
 import { NSEmptyOutletComponent } from "nativescript-angular";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
-import { WebView } from "tns-core-modules/ui/web-view";
 
 const routes: Routes = [
     {
@@ -19,7 +18,7 @@ const routes: Routes = [
     },
     {
         path: "browse",
-        component: WebView,
+        component: NSEmptyOutletComponent,
         loadChildren: () => import("~/app/browse/browse.module").then((m) => m.BrowseModule),
         outlet: "browseTab"
     },
