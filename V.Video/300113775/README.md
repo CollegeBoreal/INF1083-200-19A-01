@@ -2,7 +2,7 @@ Je voulais recreer mon projet , par contre je n'arrive pas à supprimer le fichi
 
 J'ai egalement essayé un "move" il m'affiche le message suivant : "cannot move directory over file"
 
-Avez vous des suggestions ?  Veuillez prendre en compte l'exercice dans MyVVideo enn attendant que je trouve une solution. 
+Avez vous des suggestions ?  Veuillez prendre en compte l'exercice dans MyVVideo en attendant que je trouve une solution. 
 
 
 
