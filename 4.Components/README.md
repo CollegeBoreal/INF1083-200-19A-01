@@ -54,3 +54,5 @@ $  tns create my-tab-ng --template tns-template-tab-navigation-ng
 
 # [Participation](Participation.md)
 
+# [Liste de Vérification](ListeDeVerification.md)
+
