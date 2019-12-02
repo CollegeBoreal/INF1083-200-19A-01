@@ -14,62 +14,62 @@ export class DataService {
     private items = new Array<IDataItem>(
         {
             id: 1,
-            name: "Item 1",
+            name: "Waves",
             description: "Description for Item 1"
         },
         {
             id: 2,
-            name: "Item 2",
+            name: "Braid",
             description: "Description for Item 2"
         },
         {
             id: 3,
-            name: "Item 3",
+            name: "Shampoo",
             description: "Description for Item 3"
         },
         {
             id: 4,
-            name: "Item 4",
+            name: "Pins",
             description: "Description for Item 4"
         },
         {
             id: 5,
-            name: "Item 5",
+            name: "Ponytails",
             description: "Description for Item 5"
         },
         {
             id: 6,
-            name: "Item 6",
+            name: "Conditioner",
             description: "Description for Item 6"
         },
         {
             id: 7,
-            name: "Item 7",
+            name: "Conditioners",
             description: "Description for Item 7"
         },
         {
             id: 8,
-            name: "Item 8",
+            name: "Spray",
             description: "Description for Item 8"
         },
         {
             id: 9,
-            name: "Item 9",
+            name: "Hair Color",
             description: "Description for Item 9"
         },
         {
             id: 10,
-            name: "Item 10",
+            name: "Oil",
             description: "Description for Item 10"
         },
         {
             id: 11,
-            name: "Item 11",
+            name: "Brush",
             description: "Description for Item 11"
         },
         {
             id: 12,
-            name: "Item 12",
+            name: "Anti Breakage",
             description: "Description for Item 12"
         },
         {
@@ -79,12 +79,12 @@ export class DataService {
         },
         {
             id: 14,
-            name: "Item 14",
+            name: "Comb",
             description: "Description for Item 14"
         },
         {
             id: 15,
-            name: "Item 15",
+            name: "Cream",
             description: "Description for Item 15"
         },
         {
