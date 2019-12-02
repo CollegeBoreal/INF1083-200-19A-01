@@ -3,6 +3,16 @@
 
 ### [3.GIT](../3.GIT)
 
+### Entrée dans Nativescript:
+
+ * Code Source se trouve dans répertoir `src` 
+ 
+ * Fichier d'entrée au programme NS `main.ts`
+ 
+ * Premier Module **bootstrap** est `app.module`
+ 
+ * Fichier de configuration des modules externes se trouve dans `package.json`
+
 ### Modules
 
 ### Templates
