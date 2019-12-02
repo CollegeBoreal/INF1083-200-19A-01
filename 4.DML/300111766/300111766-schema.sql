@@ -19,14 +19,14 @@ GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
 
 CREATE TABLE MARKS (
                    mark INT NOT NULL AUTO_INCREMENT,
-                   name VARCHAR(30) NOT NULL,
+                   marks VARCHAR(30) NOT NULL,
                    PRIMARY KEY mark
                    );
 	
 	
 CREATE TABLE MODELS (
                    model INT NOT NULL AUTO_INCREMENT,
-                   name VARCHAR(30) NOT NULL,
+                   models VARCHAR(30) NOT NULL,
                    PRIMARY KEY model
                    );
 	
