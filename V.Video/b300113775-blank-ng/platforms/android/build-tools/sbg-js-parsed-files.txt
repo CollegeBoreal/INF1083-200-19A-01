@@ -1,0 +1,5 @@
+C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\assets\app\0.js
+C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\assets\app\bundle.js
+C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\assets\app\runtime.js
+C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\assets\app\tns-java-classes.js
+C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\assets\app\vendor.js

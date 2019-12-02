@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.b300113775blankng"
+4    android:versionCode="10000"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:13:2-76
+17-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:13:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:14:2-77
+18-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:14:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:15:2-63
+19-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:15:19-61
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\Armand\.gradle\caches\transforms-2\files-2.1\af0a5bd14b17d262bead0fd522ac4ec0\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:5-79
+20-->[com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\Armand\.gradle\caches\transforms-2\files-2.1\af0a5bd14b17d262bead0fd522ac4ec0\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:22-76
+21
+22    <application
+22-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:17:2-38:16
+23        android:name="com.tns.NativeScriptApplication"
+23-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:18:3-49
+24        android:allowBackup="true"
+24-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:19:3-29
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.0.1] C:\Users\Armand\.gradle\caches\transforms-2\files-2.1\3d3d0b77ddd3e70ec0512eb77638feaf\core-1.0.1\AndroidManifest.xml:22:18-86
+26        android:debuggable="true"
+27        android:icon="@drawable/icon"
+27-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:20:3-32
+28        android:label="@string/app_name"
+28-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:21:3-35
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:22:3-34
+30        <activity
+30-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:24:3-36:14
+31            android:name="com.tns.NativeScriptActivity"
+31-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:25:4-47
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+32-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:27:4-120
+33            android:label="@string/title_activity_kimera"
+33-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:26:4-49
+34            android:theme="@style/LaunchScreenTheme" >
+34-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:28:4-44
+35            <meta-data
+35-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:30:4-87
+36                android:name="SET_THEME_ON_LAUNCH"
+36-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:30:15-49
+37                android:resource="@style/AppTheme" />
+37-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:30:50-84
+38
+39            <intent-filter>
+39-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:32:4-35:20
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:33:5-57
+40-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:33:13-54
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:34:5-65
+42-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:34:15-62
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.tns.ErrorReportActivity" />
+45-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:37:3-57
+45-->C:\Users\Armand\Developer\INF1083-200-19A-01\V.Video\b300113775-blank-ng\platforms\android\app\src\main\AndroidManifest.xml:37:13-55
+46    </application>
+47
+48</manifest>
