@@ -57,8 +57,21 @@
 
 * Output
 
+
+
 ### RxJS et HttpModule
 
+
+
 ### NS CLI tns et ng Schematics
+
+$ ng generate 
+
+$ tns create
+
+$ tns run
+
+$ tns preview
+
 
 
