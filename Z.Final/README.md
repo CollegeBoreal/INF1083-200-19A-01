@@ -9,7 +9,6 @@
 
 ### RxJS et HttpModule
 
-### ng Schematics
+### NS CLI tns et ng Schematics
 
-### tns
 
