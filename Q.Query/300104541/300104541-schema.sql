@@ -18,7 +18,7 @@ use Jeuxvideos;
 
 CREATE TABLE CONSOLES (
   
-nom VARCHAR (4) NOT NULL, 
+Consoles VARCHAR (4) NOT NULL, 
 console INT, 
 PRIMARY KEY(console)   
 );
@@ -26,7 +26,7 @@ PRIMARY KEY(console)
 
 
 CREATE TABLE VENTE_VIRTUELLES (
-nom VARCHAR (2) NOT NULL,
+Ventes VARCHAR (2) NOT NULL,
 vente_virtuelle INT,
 PRIMARY KEY(vente_virtuelle) 
 );
@@ -34,7 +34,7 @@ PRIMARY KEY(vente_virtuelle)
 
 
 CREATE TABLE VENTE_PHYSIQUES (
-nom VARCHAR (3) NOT NULL,
+Ventes VARCHAR (3) NOT NULL,
 vente_physique INT,
 PRIMARY KEY(vente_physique) 
 );
@@ -42,22 +42,25 @@ PRIMARY KEY(vente_physique)
 
 
 CREATE TABLE DIFFUSIONS (
-nom VARCHAR (2) NOT NULL,
+Diffusion VARCHAR (2) NOT NULL,
 diffusion INT,
 PRIMARY KEY(diffusion) 
 );
 
 CREATE TABLE JEUX (
   
-nom VARCHAR (4) NOT NULL,
+Jeux VARCHAR (4) NOT NULL,
 categorie VARCHAR (4) NOT NULL,
 jeux INT, 
- PRIMARY KEY(jeux) 
+ PRIMARY KEY(jeux),
+  FOREIGN KEY(console)
+     REFERENCES CONSOLE(console),
+  FOREIGN KEY(diffusion)
+     REFERENCE DIFFUSION(diffusion)
+  
 );
 
 CREATE TABLE SUPPORTS (
-  
-nom VARCHAR (2) NOT NULL,
 support INT,
 vente_virtuelle INT,
 vente_physique INT,
