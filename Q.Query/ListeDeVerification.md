@@ -1,5 +1,16 @@
 # Liste De vérification
 
+
+## :zero: S'éxécute
+
+- 0 pas
+
+- 1 DDL s'éxécute
+
+- 2 DML et DDL s'éxécute
+
+- 3 Parfait
+
 ## :one: Copier les fichiers de 4.DML
 
 - 0 fichiers copiés
