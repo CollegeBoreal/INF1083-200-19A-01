@@ -44,7 +44,7 @@ Support INT
 
 
 
-CREATE DATABASE Vente Virtuelle
+CREATE DATABASE Vente Virtuelle(
 nom VARCHAR (2) NOT NULL,
 Vente Virtuelle INT
 
@@ -52,7 +52,7 @@ Vente Virtuelle INT
 
 
 
-CREATE DATABASE Vente Physique 
+CREATE DATABASE Vente Physique(
 nom VARCHAR (3) NOT NULL,
 Vente Physique INT 
 
@@ -60,7 +60,7 @@ Vente Physique INT
 
 
 
-CREATE DATABASE Diffusion
+CREATE DATABASE Diffusion(
 nom VARCHAR (2) NOT NULL,
 Diffusion INT
 
