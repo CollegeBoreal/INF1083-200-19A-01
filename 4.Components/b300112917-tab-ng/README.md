@@ -1,5 +1,5 @@
 STETCH
-![image](a5.png)
+!(a5.png)
 
 HOME
 ![image](a1.png)
