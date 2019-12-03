@@ -32,13 +32,12 @@ use immigration_consulting;
                                                                                                                                                                                                                       
                                                                                                      
   CREATE TABLE CLIENTS (
-   Id_clients INT AUTO_INCREMENT,
-   Nom VARCHAR(30) NOT NULL,
-   Prenom VARCHAR(30) NOT NULL,
-   email VARCHAR(30) NOT NULL,
-   Sexe CHAR(1),
-   PRIMARY KEY (Id_clients)
-  
+  Id_clients INT AUTO_INCREMENT,
+  Nom VARCHAR(30) NOT NULL,
+  Prenom VARCHAR(30) NOT NULL,
+  email VARCHAR(30) NOT NULL,
+  Sexe CHAR(1),
+  PRIMARY KEY (Id_clients)
    );
   
                                                                                                      
