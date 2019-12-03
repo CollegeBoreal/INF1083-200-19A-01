@@ -39,17 +39,22 @@ PRIMARY KEY (genre)
 
 
   );
+CREATE TABLE MODELE(
+genre INT,
+couleur INT,
+quantite INT, 
+PRIMARY KEY (genre ,couleur ,quantite ),
+FOREIGN KEY(genre) 
+REFERENCES GENRE(genre),
+FOREIGN KEY(couleur) 
+REFERENCES COULEUR(couleur),
+FOREIGN KEY(quantite) 
+REFERENCES QUANTITE(quantite)
 
-CREATE TABLE  MODELE (
-MODELE INT AUTO_INCREMENT,
-NAME VARCHAR(30) NOT NULL,
-PRIMARY KEY (MODELE)
+);
 
 
 
-
-
-  );
 
 CREATE TABLE COULEUR (
 couleur INT AUTO_INCREMENT,

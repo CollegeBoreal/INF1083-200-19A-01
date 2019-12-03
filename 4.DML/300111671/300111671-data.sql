@@ -33,13 +33,8 @@ INSERT INTO COULEUR ( name ) VALUES ( 'rouge');
 INSERT INTO GENRE ( name ) VALUES ( 'dashiki');
 INSERT INTO GENRE ( name ) VALUES ( 'alabe');
 
--- Données de la table pays de modele
 
 
-
-INSERT INTO MODELE ( name ) VALUES ( 'senegalais');
-INSERT INTO MODELE ( name ) VALUES ( 'benioise');
-INSERT INTO MODELE ( name ) VALUES ( 'malienne');
 
 
 -- Données de la table paiement
@@ -65,6 +60,8 @@ INSERT INTO DUREE ( name) VALUES ( '1 semaine');
 INSERT INTO QUANTITE ( name ) VALUES ( '1 a 3');
 INSERT INTO QUANTITE ( name ) VALUES ( '1 douzaine ');
 INSERT INTO QUANTITE ( name ) VALUES ( '2 douzaine ');
+
+
 
 
 

@@ -8,48 +8,44 @@ INSERT INTO SERVICES_OFFERED (Sale) VALUES ('Sport_Car');
 INSERT INTO SERVICES_OFFERED (Sale) VALUES ('SUV');
 INSERT INTO SERVICES_OFFERED (Sale) VALUES ('Truck');
 
-INSERT INTO ORIGINS (origin, Origins) VALUES (1, 'ITALY');
-INSERT INTO ORIGINS (origin, Origins) VALUES (2, 'JAPAN');
-INSERT INTO ORIGINS (origin, Origins) VALUES (3, 'USA');
+INSERT INTO ORIGINS (origin, Origins) VALUES ('italy', 'ITALY');
+INSERT INTO ORIGINS (origin, Origins) VALUES ('japan', 'JAPAN');
+INSERT INTO ORIGINS (origin, Origins) VALUES ('usa', 'USA');
 
 INSERT INTO ENGIN_TYPES (Engins) VALUES ('Electric');
 INSERT INTO ENGIN_TYPES (Engins) VALUES ('Hybrid');
 INSERT INTO ENGIN_TYPES (Engins) VALUES ('Petrol');
 
-INSERT INTO MARKS (Marks, origin) VALUES ('Acura', 2);
-INSERT INTO MARKS (Marks, origin) VALUES ('JEEP', 3);
-INSERT INTO MARKS (Marks, origin) VALUES ('Lamborghini', 1);
+INSERT INTO MAKES (make, origin, Makes) VALUES ('acura', 'japan', 'ACURA');
+INSERT INTO MAKES (make, origin, Makes) VALUES ('jeep', 'usa', 'JEEP');
+INSERT INTO MAKES (make, origin, Makes) VALUES ('lamborghini', 'italy', 'LAMBORGHINI');
 
 INSERT INTO YEARS (Years) VALUES ('2019-02-20');
 INSERT INTO YEARS (Years) VALUES ('2019-01-03');
-INSERT INTO YEARS (Years) VALUES ('2015-11-09');
+INSERT INTO YEARS (Years) VALUES ('2019-11-09');
 
-INSERT INTO MODELS (Models, mark, year) VALUES ('AVENTADOR', 3, 2);
-INSERT INTO MODELS (Models, mark, year) VALUES ('NSX', 1, 3);
-INSERT INTO MODELS (Models, mark, year) VALUES ('WRANGLER', 2, 1);
+INSERT INTO COLOURS (colour, Colours) VALUES ('blk', 'BLACK');
+INSERT INTO COLOURS (colour, Colours) VALUES ('blu', 'BLUEU');
+INSERT INTO COLOURS (colour, Colours) VALUES ('gry', 'GRAY');
+INSERT INTO COLOURS (colour, Colours) VALUES ('grn', 'GREEN');
+INSERT INTO COLOURS (colour, Colours) VALUES ('wht', 'WHITE');
 
-INSERT INTO COLOURS (Colours, model) VALUES ('Black', 1);
-INSERT INTO COLOURS (Colours, model) VALUES ('BLUEU', 1);
-INSERT INTO COLOURS (Colours, model) VALUES ('GRAY', 1);
-INSERT INTO COLOURS (Colours, model) VALUES ('GREEN', 1);
-INSERT INTO COLOURS (Colours, model) VALUES ('WHITE', 1);
-INSERT INTO COLOURS (Colours, model) VALUES ('Black', 2);
-INSERT INTO COLOURS (Colours, model) VALUES ('BLUEU', 2);
-INSERT INTO COLOURS (Colours, model) VALUES ('GRAY', 2);
-INSERT INTO COLOURS (Colours, model) VALUES ('GREEN', 2);
-INSERT INTO COLOURS (Colours, model) VALUES ('WHITE', 2);
-INSERT INTO COLOURS (Colours, model) VALUES ('Black', 3);
-INSERT INTO COLOURS (Colours, model) VALUES ('BLUEU', 3);
-INSERT INTO COLOURS (Colours, model) VALUES ('GRAY', 3);
-INSERT INTO COLOURS (Colours, model) VALUES ('GREEN', 3);
-INSERT INTO COLOURS (Colours, model) VALUES ('WHITE', 3);
+INSERT INTO PRICES (Prices) VALUES (43000);
+INSERT INTO PRICES (Prices) VALUES (39000);
+INSERT INTO PRICES (Prices) VALUES (1430000);
 
-INSERT INTO PRICES (price, model) VALUES (43000, 3);
-INSERT INTO PRICES (price, model) VALUES (39000, 2);
-INSERT INTO PRICES (price, model) VALUES (1430000, 1);
+INSERT INTO MODELS (make, year, colour, price, Models) VALUES ('acura', 1, 'blk', 2, 'NSX');
+INSERT INTO MODELS (make, year, colour, price, Models) VALUES ('jeep', 2, 'wht', 1, 'WRANGLER');
+INSERT INTO MODELS (make, year, colour, price, Models) VALUES ('lamborghini', 3, 'grn', 3, 'AVENTADOR');
+
+INSERT INTO CUSTOMERS (customer, Name, FirstName) VALUES ('EJ','Etienne', 'Joky');
+
+INSERT INTO PAYMENTS (customer, price) VALUES ('EJ', 1);
+INSERT INTO PAYMENTS (customer, price) VALUES ('EJ', 2);
 
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Brake');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Repair');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Tires');
 INSERT INTO MAINTENANCES (Maintenances) VALUES ('Transmission');
 
+-- Author: <Etienne>
