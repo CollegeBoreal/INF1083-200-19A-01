@@ -46,7 +46,7 @@ Support INT
 
 CREATE TABLE Vente_Virtuelle (
 nom VARCHAR (2) NOT NULL,
-Vente Virtuelle INT
+vente_virtuelle INT
 
 );
 
@@ -54,7 +54,7 @@ Vente Virtuelle INT
 
 CREATE TABLE Vente_Physique (
 nom VARCHAR (3) NOT NULL,
-Vente Physique INT 
+vente_physique INT 
 
 );
 
@@ -62,7 +62,7 @@ Vente Physique INT
 
 CREATE TABLE Diffusion(
 nom VARCHAR (2) NOT NULL,
-Diffusion INT
+diffusion INT
 
 );
 
