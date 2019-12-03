@@ -2,6 +2,19 @@
     <Label text="Home"></Label>
 </ActionBar>
 
-<GridLayout>
-    <!-- Add your page content here -->
-</GridLayout>
+<StackLayout class="form" >
+
+    <TextField class="input" hint="Capital" [(ngModel)]="name"></TextField>
+
+    <Button text="Search" class="btn btn-primary" (tap)="searchCapital()"></Button>
+
+    <ListView [items]="countries">
+        <ng-template let-item="item">
+            <StackLayout>
+                <Label [text]="item.name"></Label>
+                <Label [text]="item.capital"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+
+</StackLayout>

@@ -43,6 +43,7 @@ $ tns create my-blank-ng --template tns-template-blank-ng
 % ng generate class shared/country
 ```
 
+##### :warning: Installer [NS Schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/3.Angular/M.Mobile/Schematics.md#m-nativescript-schematics) pour pouvoir genérer le service et les classes
 
 * Rajouter les champs
 
@@ -260,6 +261,14 @@ avec :
 
 :tada: Observez l'utilisation de la variable `name`, `countries` et la fonction `searchCapital`
 
+Binding with [Template Reference Variable](https://angular.io/guide/template-syntax#template-reference-variables--var-) usually called #name
+
+⚠️ #name reference variable can only be used in the template not by the controller
+
+🔖 ngForm is used to link the reference variable to the entire form (i.e. form.invalid)
+
+🔖 ngModel is used to link the reference variable to the <Input> form field (i.e. phone.touched)
+
 :pushpin: Finalement rajouter le module `NativeScriptFormsModule` à `home.module.ts`
 
 ```
@@ -276,3 +285,5 @@ le rajouter à `@NgModule` le champ `import`
 # References:
 
 https://docs.nativescript.org/angular/ng-framework-modules/http
+
+https://discourse.nativescript.org/t/reactive-forms-not-working/3044/5
