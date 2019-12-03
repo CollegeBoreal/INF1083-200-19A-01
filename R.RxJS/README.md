@@ -43,6 +43,7 @@ $ tns create my-blank-ng --template tns-template-blank-ng
 % ng generate class shared/country
 ```
 
+:warning: Installer [NS Schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/3.Angular/M.Mobile/Schematics.md#m-nativescript-schematics) pour pouvoir genérer le service et les classes
 
 * Rajouter les champs
 
