@@ -1,2 +1,0 @@
-
-![](images/schema.png)
