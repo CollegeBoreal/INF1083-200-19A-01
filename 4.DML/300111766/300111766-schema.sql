@@ -1,40 +1,109 @@
--- Mon domaine 
+--Mon domaine 
+ 
 
 CREATE  DATABASE  IF NOT EXISTS vente_portable;
+	
 
--- Mon utilsateur 
+--Mon utilsateur 
+	
 
 CREATE  USER  IF NOT EXISTS 'thiam'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON vente_portable.* TO 'thiam'@'localhost' ;
+	
+--Use vente_portable;
+	
 
--- Selectionner la base de donnees
+--Mes tables
 
-Use vente_portable;
+	
 
--- Mes tables
+CREATE TABLE MARKS (
+                   mark INT NOT NULL AUTO_INCREMENT,
+                   marks VARCHAR(30) NOT NULL,
+                   PRIMARY KEY mark
+                   );
+	
+	
+CREATE TABLE MODELS (
+                   model INT NOT NULL AUTO_INCREMENT,
+                   models VARCHAR(30) NOT NULL,
+                   PRIMARY KEY model
+                   );
+	
+	
+CREATE TABLE INVOICES (
+                   invoice INT NOT NULL AUTO_INCREMENT,
+                   Nom VARCHAR(30) NOT NULL,
+                   Date INT,
+                   PRIMARY KEY invoice
+                   );
+   
+   
+CREATE TABLE PRIX (mark INT,
+              model INT,
+              prix INT,
+              PRIMARY KEY(mark, model),
+              FOREIGN KEY(mark)
+              REFERENCES MARKS(mark),
+              FOREIGN KEY(model)
+              REFERENCES MODELS(model)
+              );
+ 
 
-  CREATE TABLE TELEPHONES (
-  telephone INT AUTO_INCREMENT,
-  marque VARCHAR (30) NOT NULL,
-  accessoire VARCHAR (30) NOT NULL,
-  PRIMARY KEY(telephone)
-  );
+
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
   
-  CREATE  TABLE  CUSTOMERS (
-  customer INT AUTO_INCREMENT,
-  name VARCHAR (30) NOT NULL,
-  address VARCHAR(30) NOT NULL,
-  inscription Date,
-  PRIMARY KEY(customer)
-  );
-
-  CREATE TABLE PRICES (
-  telephone INT,
-  customer INT,
-  price INT,
-  PRIMARY KEY(telephone, customer),
-  FOREIGN KEY(telephone)
-     REFERENCES TELEPHONES(telephone),
-  FOREIGN KEY (customer)
-     REFERENCES CUSTOMERS(customer)
-  );
