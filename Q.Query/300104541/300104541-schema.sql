@@ -16,53 +16,53 @@ use Jeuxvideos;
 -- Mes tables
 
 
-CREATE TABLE Jeux (
+CREATE TABLE JEUX (
   
 nom VARCHAR (4) NOT NULL,
 categorie VARCHAR (4) NOT NULL,
-Jeux INT 
-  
+jeux INT, 
+ PRIMARY KEY(jeux) 
 );
 
 
 
-CREATE TABLE Support (
+CREATE TABLE SUPPORTS (
   
 nom VARCHAR (2) NOT NULL,
-Support INT 
-  
+support INT,
+PRIMARY KEY(support)  
 );
 
 
 
-CREATE TABLE Console (
+CREATE TABLE CONSOLES (
   
 nom VARCHAR (4) NOT NULL, 
-Support INT 
-  
+support INT, 
+PRIMARY KEY(support)   
 );
 
 
 
-CREATE TABLE Vente_Virtuelle (
+CREATE TABLE VENTE_VIRTUELLES (
 nom VARCHAR (2) NOT NULL,
-vente_virtuelle INT
-
+vente_virtuelle INT,
+PRIMARY KEY(vente_virtuelle) 
 );
 
 
 
-CREATE TABLE Vente_Physique (
+CREATE TABLE VENTE_PHYSIQUES (
 nom VARCHAR (3) NOT NULL,
-vente_physique INT 
-
+vente_physique INT,
+PRIMARY KEY(vente_physique) 
 );
 
 
 
-CREATE TABLE Diffusion(
+CREATE TABLE DIFFUSIONS (
 nom VARCHAR (2) NOT NULL,
-diffusion INT
-
+diffusion INT,
+PRIMARY KEY(diffusions) 
 );
 
