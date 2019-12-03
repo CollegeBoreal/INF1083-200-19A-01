@@ -28,6 +28,8 @@
 
 - 1 rapport (deux tables avec filtres sur plusieurs criteres)
 
+- 1 avec statistiques 
+
 ## :four: Les requetes SQL liés aux rapports
 
 - 0 requetes
@@ -36,7 +38,10 @@
 
 - 1 requete (deux tables avec filtre)
 
-- 1 requete (deux tables avec filtres sur plusieurs criteres)
+- 1 requete (deux tables avec filtres sur plusieurs criteres avec dates)
+
+- 1 avec statistiques (count, having, avg, sum,  )
+
 
 ## :five: Nouveau Modèle (README avec image WB)
 
@@ -44,3 +49,10 @@
 
 - Afficher Model
 
+## :six: Performances
+
+- 0 Index
+
+- plusieurs Indexes 
+
+- explain plan Query
