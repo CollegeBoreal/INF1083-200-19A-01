@@ -1,11 +1,11 @@
 STETCH
-![](a5.png)
+![image](a5.PNG)
 
 HOME
-![](a1.png)
+![image](a1.PNG)
 
 BROWSE
-![image](a2.png) ![image](a4.png)
+![image](a2.PNG) ![image](a4.PNG)
 
 SEARCH
-![image](a3.png)
+![image](a3.PNG)
