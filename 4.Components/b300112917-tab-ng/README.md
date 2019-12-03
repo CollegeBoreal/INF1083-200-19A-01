@@ -1,12 +1,12 @@
 <b>STETCH</b>
 ![image](a5.PNG)
 
-HOME
+<b>HOME</b>
 ![image](a1.PNG)
 
-BROWSE
+<b>BROWSE</b>
 ![image](a2.PNG) 
 ![image](a4.PNG)
 
-SEARCH
+<b>SEARCH</b>
 ![image](a3.PNG)
