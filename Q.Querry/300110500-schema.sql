@@ -16,7 +16,7 @@ use immigration_consulting;
  CREATE TABLE TYPE_VISAS (
  Type_visa INT AUTO_INCREMENT,
  Libeles VARCHAR(30) NOT NULL,
- Date_d'expiration Date,
+ Date_expiration Date,
  Age INT,
  PRIMARY KEY(Type_visa)
   );                                                                                       
