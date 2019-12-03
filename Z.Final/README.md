@@ -57,7 +57,7 @@
 
 * Output
 
-
+<image src="images/forms.png" width="200" height="100"></image>
 
 ### RxJS et HttpModule
 
