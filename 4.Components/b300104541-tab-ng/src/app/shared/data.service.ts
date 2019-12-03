@@ -15,21 +15,21 @@ export class DataService {
     private items = new Array<IDataItem>(
         {
             id: 1,
-            name: "FIFA19",
-            description: "Description for Item 1",
-            avatar: "https://media.gamestop.com/i/gamestop/10164242/FIFA-19-Champions-Edition?$pdp$"
+            name: "FIFA20",
+            description: "Jeux de Foot",
+            avatar: "https://media.playstation.com/is/image/SCEA/fifa-20-standard-edition-01-ps4-us-05sep19?$native_nt$"
         },
         {
             id: 2,
-            name: "Item 2",
-            description: "Description for Item 2",
-            avatar: ""
+            name: "Naruto",
+            description: "Jeux d'Aventure",
+            avatar: "http://image.jeuxvideo.com/medias/142892/1428916387-80-jaquette-avant.jpg"
         },
         {
             id: 3,
-            name: "Item 3",
-            description: "Description for Item 3",
-            avatar: ""
+            name: "UFC 19",
+            description: "Jeux de Combat",
+            avatar: "https://media.gamestop.com/i/gamestop/10156108/EA-Sports-UFC-3?$pdp$"
         },
         {
             id: 4,
