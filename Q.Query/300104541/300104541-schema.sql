@@ -1,10 +1,10 @@
 -- Mon domaine
 
-CREATE DATABASE Jeuxvideos; 
+CREATE DATABASE IF NOT EXISTS  Jeuxvideos; 
 
 -- Mon User
 
-CREATE USER 'romeo'@'localhost' IDENTIFIED BY 'password';
+CREATE USER IF NOT EXISTS  'romeo'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON Jeuxvideos.* TO 'romeo'@'localhost';
 
 -- selectionner la base de donnees 
