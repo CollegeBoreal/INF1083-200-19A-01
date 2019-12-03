@@ -1,8 +1,0 @@
-
-
-1NF vente des telephones portable 
-2NF
-Donnees Meta donnees { SAMSUG, IPHONE ,NOKIA BLACKBERY ,HUAWEI,. } => [MARQUE]
-{GALAXI, J1,J2,J5, J7, IPHONE6, 6+, 7,8,10 11, HUAWEI P30,P30 PRO, …..} => numero de serie [MODELE].
-{Chargeur, ecouteur, cable , protégé, ecran ,…..} Accessoires [TYPE]
-{$600, $700, $400, $500, $1000,. . .} les tariffs [PRIX] 

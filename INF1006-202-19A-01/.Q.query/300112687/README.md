@@ -1,8 +1,0 @@
-
-# Assurance
-
-
-![image](Assurance.png)
-
-
-
