@@ -284,3 +284,5 @@ le rajouter à `@NgModule` le champ `import`
 # References:
 
 https://docs.nativescript.org/angular/ng-framework-modules/http
+
+https://discourse.nativescript.org/t/reactive-forms-not-working/3044/5
