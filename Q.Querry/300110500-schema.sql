@@ -15,11 +15,9 @@ use immigration_consulting;
                                                                                                      
  CREATE TABLE TYPE_VISAS (
  Type_visa INT AUTO_INCREMENT,
- Name VARCHAR(30) NOT NULL,
- Etudiant VARCHAR(35) NOT NULL,
- Resident_permanent VARCHAR(35) NOT NULL,
- Resident_temporaire VARCHAR(35) NOT NULL,
- Refugier VARCHAR(35) NOT NULL,
+ Libeles VARCHAR(30) NOT NULL,
+ Date_d'expiration Date,
+ Age INT,
  PRIMARY KEY(Type_visa)
   );                                                                                       
     
@@ -27,25 +25,25 @@ use immigration_consulting;
                                                                                                      
   CREATE TABLE HONORAIRE_PAYMENTS (
   Honoraire_payment INT AUTO_INCREMENT,
-  Periode Date,
-  Name VARCHAR(30) NOT NULL,
-  Especes INT,
-  Carte_bancaire INT,
-  Western_union INT,
+  Libeles  VARCHAR(30) NOT NULL,
+  Montant INT,
   PRIMARY KEY(Honoraire_payment)
   );  
                                                                                                                                                                                                                       
                                                                                                      
-  CREATE TABLE VILLE_RESIDEMCE (
-   Name VARCHAR(30) NOT NULL,
-   Ville VARCHAR(30) NOT NULL,
-   Continent VARCHAR(30) NOT NULL
+  CREATE TABLE CLIENTS (
+   Id_clients INT AUTO_INCREMENT,
+   Nom VARCHAR(30) NOT NULL,
+   Prenom VARCHAR(30) NOT NULL,
+   email VARCHAR(30) NOT NULL,
+   Sexe CHAR(1),
+   PRIMARY KEY (Id_clients)
   
    );
   
                                                                                                      
-   CREATE TABLE TYPE_SERVICES (
-   Type_visa INT,
+  CREATE TABLE TYPE_SERVICES (
+  Type_visa INT,
   Honoraire_payment INT,
   Type_service VARCHAR(30) NOT NULL,
   PRIMARY KEY(Type_visa, Honoraire_payment),
