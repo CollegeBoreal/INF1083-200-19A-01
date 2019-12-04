@@ -1,15 +1,7 @@
-# Templates
+# Forms
 
 
-```
-$ ng new --collection=@nativescript/schematics \
-         --style=scss \
-         --no-theme \
-         --prefix=my \
-         my-app-name
-```
-
-# ReactiveForms
+## ReactiveForms
 
 https://discourse.nativescript.org/t/reactive-forms-not-working/3044/5
 
