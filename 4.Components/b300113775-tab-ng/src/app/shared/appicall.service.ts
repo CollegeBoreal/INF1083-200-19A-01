@@ -16,7 +16,7 @@ export class ApicallService {
         headers = headers.append("Accept", "application/json");
         headers = headers.append(
             "X-RapidAPI-Key",
-            "c9e162695cmsh7ed6029b76f07abp1c3076jsn91cd049b082f"
+            "3ed55cd8b6msh9d41650971bdb75p1f2c50jsn6dccc3723197"
         );
 
         return this.httpClient.get(
