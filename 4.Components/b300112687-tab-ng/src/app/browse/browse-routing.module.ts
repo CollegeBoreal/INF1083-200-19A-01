@@ -1,19 +1,15 @@
-import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
-import { NativeScriptCommonModule } from "nativescript-angular/common";
+import { NgModule } from "@angular/core";
+import { Routes } from "@angular/router";
+import { NativeScriptRouterModule } from "nativescript-angular/router";
 
-import { BrowseRoutingModule } from "./browse-routing.module";
 import { BrowseComponent } from "./browse.component";
 
+const routes: Routes = [
+    { path: "default", component: BrowseComponent }
+];
+
 @NgModule({
-    imports: [
-        NativeScriptCommonModule,
-        BrowseRoutingModule
-    ],
-    declarations: [
-        BrowseComponent
-    ],
-    schemas: [
-        NO_ERRORS_SCHEMA
-    ]
+    imports: [NativeScriptRouterModule.forChild(routes)],
+    exports: [NativeScriptRouterModule]
 })
-export class BrowseModule { }
+export class BrowseRoutingModule { }
