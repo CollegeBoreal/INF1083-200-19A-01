@@ -12,3 +12,4 @@ export class BrowseComponent implements OnInit {
     ngOnInit(): void {
         // Use the "ngOnInit" handler to initialize data for the view.
     }
+}
