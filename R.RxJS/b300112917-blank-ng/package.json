@@ -33,6 +33,6 @@
     "nativescript-dev-webpack": "~1.3.0",
     "typescript": "~3.5.3"
   },
-  "gitHead": "d15fbd6879030bdd79c02bab872559d8086e9cea",
+  "gitHead": "a6fec076a20f898feabb4466a2c411158c18a100",
   "readme": "NativeScript Application"
 }
