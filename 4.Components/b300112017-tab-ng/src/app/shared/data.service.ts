@@ -4,6 +4,7 @@ export interface IDataItem {
     id: number;
     name: string;
     description: string;
+    avatar: string;
 }
 
 @Injectable({
@@ -14,29 +15,24 @@ export class DataService {
     private items = new Array<IDataItem>(
         {
             id: 1,
-            name: "Item 1",
-            description: "Description for Item 1"
+            name: "HARLEY-DAVIDSON®ELECTRIC LIVEWIRE®2020",
+            description: "",
+            avatar:"https://www.clipartwiki.com/clipimg/full/353-3537261_harley-davidson-2020-models.png"
         },
         {
             id: 2,
-            name: "Item 2",
-            description: "Description for Item 2"
+            name: "BMW F800 GS",
+            description: "Maximum speed\t\n" +
+                "Suppérieure à 200 km/h,Système rechargeable de stockage d’énergie (RESS) de 15,5 kWh",
+            avatar:"https://www.clipartwiki.com/clipimg/full/203-2038177_bmw-f800gs-adventure-png-image-preco-da-moto.png"
         },
         {
             id: 3,
-            name: "Item 3",
-            description: "Description for Item 3"
+            name: "Motocross XZ250R",
+            description: "",
+            avatar:"https://www.clipartwiki.com/clipimg/full/144-1440452_banner-black-and-white-download-bike-transparent-motocross.png"
         },
-        {
-            id: 4,
-            name: "Item 4",
-            description: "Description for Item 4"
-        },
-        {
-            id: 5,
-            name: "Item 5",
-            description: "Description for Item 5"
-        },
+
         {
             id: 6,
             name: "Item 6",
