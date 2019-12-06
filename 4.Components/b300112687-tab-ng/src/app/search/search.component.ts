@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import { Country } from "~/app/shared/country";
-import { ApicallService } from "~/app/shared/apicall.service";
+import {ApicallService} from "~/app/shared/apicall.service";
+import {Country} from "~/app/shared/country";
 
 @Component({
     selector: "Search",
@@ -10,7 +10,6 @@ export class SearchComponent implements OnInit {
 
     name: string;
     countries: Array<Country>;
-
     constructor(private apiService: ApicallService) {
         // Use the constructor to inject services.
     }
@@ -22,7 +21,7 @@ export class SearchComponent implements OnInit {
     searchCapital() {
         this.apiService
             .searchCountryByName(this.name)
-            .subscribe((data: Array<Country>) => {
+            .subscribe((data:Country[]) => {
                 console.log(data);
                 this.countries = data;
             });
