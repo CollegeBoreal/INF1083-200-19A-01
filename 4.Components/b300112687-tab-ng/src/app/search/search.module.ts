@@ -1,9 +1,10 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptCommonModule } from "nativescript-angular/common";
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
 import { SearchRoutingModule } from "./search-routing.module";
 import { SearchComponent } from "./search.component";
-import { NativeScriptFormsModule } from "nativescript-angular/forms"
+
 @NgModule({
     imports: [
         NativeScriptCommonModule,
