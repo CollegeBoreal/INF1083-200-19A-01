@@ -57,8 +57,21 @@
 
 * Output
 
+<image src="images/forms.png" width="200" height="100"></image>
+
 ### RxJS et HttpModule
 
+
+
 ### NS CLI tns et ng Schematics
+
+$ ng generate 
+
+$ tns create
+
+$ tns run
+
+$ tns preview
+
 
 
