@@ -51,6 +51,7 @@ https://collegeboreal.brightspace.com/d2l/home/29006
 | Backend               |  Link                                                             |
 |-----------------------|-------------------------------------------------------------------|
 | Firebase Alternatives | https://blog.back4app.com/2018/01/12/firebase-alternatives/       |
+| Comparaison Framework | https://www.academind.com/learn/flutter/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa/ |
 
 
 [Contributeur(e)s](../../graphs/contributors)
