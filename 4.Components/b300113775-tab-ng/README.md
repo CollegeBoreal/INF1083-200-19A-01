@@ -14,3 +14,6 @@ En utlisant angular et generer des services depuis github et une base de donnée
 
 
 ![image](Picture3.jpg)
+
+
+![image](portrait.jpg)
