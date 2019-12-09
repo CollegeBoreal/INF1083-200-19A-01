@@ -15,31 +15,23 @@ export class DataService {
     private items = new Array<IDataItem>(
         {
             id: 1,
-            name: "Hijab Style",
-            description: "Fashion arabic style",
-            avatar: "~/1.jpeg"
+            name: "Installations",
+            description: "mise à jour windows "
+            avatar:"http://secure-it.ch/sit/installation-forcee-de-windows-10/"
         },
         {
             id: 2,
-            name: "Accessoires",
-            description: "the latest hijab accessories",
-            avatar: "~/2.jpeg"
+            name: "Products",
+            description: "router cisco"
+            avatar:
         },
         {
             id: 3,
-            name: "Print Hijab",
-            description: "A wide variety of hijab print options",
-            avatar: "~/3.jpeg"
+            name: "Solutions",
+            description: "support technique"
+            avatar: "http://secure-it.ch/sit/installation-forcee-de-windows-10/"
+        },
 
-        },
-        {
-            id: 4,
-            name: "Under Hijab",
-            description: "High Quality Under Scarf Hijab"
-            avatar: "~/4.jpeg"
-        },
-       
-       
     );
 
     getItems(): Array<IDataItem> {
