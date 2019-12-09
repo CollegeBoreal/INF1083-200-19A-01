@@ -10,7 +10,13 @@
 
 :two:  Le but de cet exercice c'était de créer une application pour un client qui reflète le sketch que vous l'avez proposé :point_up:.
 
-En utlisant angular et generer des services depuis github et une base de donnée Rapid API. :point_down:
+En utlisant angular et generer des services depuis un terminal(gitbash) et une base de donnée Rapid API. :point_down:
 
 
 ![image](Picture3.jpg)
+
+
+
+Quand vous cliquer sur l'article portrait fabrice
+
+![image](portrait.jpg)
