@@ -4,7 +4,7 @@
 
 ## :one: D'abord les Sketch:
 
-<image src="https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/4.Components/b300107361-tab-ng/src/sketches/home1.png?raw=true" width="200" height="100"></image>
+<image src="https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/4.Components/b300107361-tab-ng/src/sketches/home1.png?raw=true" width="400" height="300"></image>
 ![image](https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/4.Components/b300107361-tab-ng/src/sketches/home1.png?raw=true) 
 ![image](https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/4.Components/b300107361-tab-ng/src/sketches/browse1.png?raw=true) 
 ![image](https://github.com/CollegeBoreal/INF1083-200-19A-01/blob/master/4.Components/b300107361-tab-ng/src/sketches/search1.png?raw=true) 
