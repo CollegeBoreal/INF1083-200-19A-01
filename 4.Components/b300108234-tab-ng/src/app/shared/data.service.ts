@@ -29,14 +29,14 @@ export class DataService {
             id: 3,
             name: "Print Hijab",
             description: "A wide variety of hijab print options",
-            avatar: "~/3.png"
+            avatar: "~/3.jpeg"
 
         },
         {
             id: 4,
             name: "Under Hijab",
-            description: ""
-            avatar: "~/4.png"
+            description: "High Quality Under Scarf Hijab"
+            avatar: "~/4.jpeg"
         },
        
        
