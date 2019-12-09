@@ -4,6 +4,7 @@ export interface IDataItem {
     id: number;
     name: string;
     description: string;
+    avatar: string;
 }
 
 @Injectable({
@@ -14,103 +15,39 @@ export class DataService {
     private items = new Array<IDataItem>(
         {
             id: 1,
-            name: "Item 1",
-            description: "Description for Item 1"
+            name: "Accordeon",
+            description: "Description for Item 1",
+            avatar: "https://musiquedepot.ca/pub/media/catalog/product/cache/10f519365b01716ddb90abc57de5a837/1/3/1303-red_l.jpg"
         },
         {
             id: 2,
-            name: "Item 2",
-            description: "Description for Item 2"
+            name: "Band",
+            description: "Description for Item 2",
+            avatar: "https://static.musiciansfriend.com/thehub/binaries/content/gallery/mf/buying-guides/beginner-band-instruments-header.jpg"
         },
         {
             id: 3,
-            name: "Item 3",
-            description: "Description for Item 3"
+            name: "Drums",
+            description: "Description fo",
+            avatar: "https://ca.yamaha.com/fr/files/absolute_hybrid_maple_1200x480_c51673ece1df0f7146814a5613ab8671.jpg"
         },
         {
             id: 4,
-            name: "Item 4",
-            description: "Description for Item 4"
+            name: "Guitar",
+            description: "Description for Item 4",
+            avatar: "https://www.vpl.ca/sites/vpl/public/styles/instrument/public/instrument-acoustic-guitar-grey.jpg?itok=m5cPZZn_"
         },
         {
             id: 5,
-            name: "Item 5",
-            description: "Description for Item 5"
+            name: "Keyboard",
+            description: "Description for Item 5",
+            avatar: "https://thehub.musiciansfriend.com/images/keyboardguide/Keyboard-Piano-Buying-Guide.jpg"
         },
         {
             id: 6,
-            name: "Item 6",
-            description: "Description for Item 6"
-        },
-        {
-            id: 7,
-            name: "Item 7",
-            description: "Description for Item 7"
-        },
-        {
-            id: 8,
-            name: "Item 8",
-            description: "Description for Item 8"
-        },
-        {
-            id: 9,
-            name: "Item 9",
-            description: "Description for Item 9"
-        },
-        {
-            id: 10,
-            name: "Item 10",
-            description: "Description for Item 10"
-        },
-        {
-            id: 11,
-            name: "Item 11",
-            description: "Description for Item 11"
-        },
-        {
-            id: 12,
-            name: "Item 12",
-            description: "Description for Item 12"
-        },
-        {
-            id: 13,
-            name: "Item 13",
-            description: "Description for Item 13"
-        },
-        {
-            id: 14,
-            name: "Item 14",
-            description: "Description for Item 14"
-        },
-        {
-            id: 15,
-            name: "Item 15",
-            description: "Description for Item 15"
-        },
-        {
-            id: 16,
-            name: "Item 16",
-            description: "Description for Item 16"
-        },
-        {
-            id: 17,
-            name: "Item 17",
-            description: "Description for Item 17"
-        },
-        {
-            id: 18,
-            name: "Item 18",
-            description: "Description for Item 18"
-        },
-        {
-            id: 19,
-            name: "Item 19",
-            description: "Description for Item 19"
-        },
-        {
-            id: 20,
-            name: "Item 20",
-            description: "Description for Item 20"
+            name: "Piano",
+            description: "Description for Item 6",
+            avatar: "http://mspmusique.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/y/a/yamaha-nu1x-nphotos.jpg"
         }
     );
 
