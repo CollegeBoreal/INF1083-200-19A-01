@@ -1,1 +1,1 @@
-![image](Sketch(2).png)
+![image](Sketch.png)
