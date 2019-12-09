@@ -14,28 +14,28 @@ export class DataService {
     private items = new Array<IDataItem>(
         {
             id: 1,
-            name: "Item 1",
-            description: "Description for Item 1"
+            name: "Assurance vie",
+            description: "5000.000.00$"
         },
         {
             id: 2,
-            name: "Item 2",
-            description: "Description for Item 2"
+            name: "Assurance santé",
+            description: "2000.000.00$"
         },
         {
             id: 3,
-            name: "Item 3",
-            description: "Description for Item 3"
+            name: "Assurance Maison",
+            description: "5000.00.0$"
         },
         {
             id: 4,
-            name: "Item 4",
-            description: "Description for Item 4"
+            name: "Assurance voyage",
+            description: "150.000.00$"
         },
         {
             id: 5,
-            name: "Item 5",
-            description: "Description for Item 5"
+            name: "Assurance incendie",
+            description: "2000.000.00$"
         },
         {
             id: 6,
