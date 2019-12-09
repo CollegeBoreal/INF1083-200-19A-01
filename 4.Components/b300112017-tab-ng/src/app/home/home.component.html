@@ -1,0 +1,14 @@
+<ActionBar>
+    <Label text="Vente des Motos"></Label>
+</ActionBar>
+
+<GridLayout>
+    <ListView [items]="items">
+        <ng-template let-item="item">
+            <StackLayout>
+                <Label [nsRouterLink]="['../item', item.id]" [text]="item.name"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+</GridLayout>
+
