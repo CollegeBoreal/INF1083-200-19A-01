@@ -33,21 +33,21 @@ export class DataService {
         },
         {
             id: 4,
-            name: "Item 4",
-            description: "Description for Item 4",
-            avatar: ""
+            name: "God of War",
+            description: "Jeux D'Aventure",
+            avatar: "https://media.gamestop.com/i/gamestop/10131619/God-of-War"
         },
         {
             id: 5,
-            name: "Item 5",
-            description: "Description for Item 5",
-            avatar: ""
+            name: "Call of Duty Modern War",
+            description: "Jeux d Action",
+            avatar: "https://cdn.cdkeys.com/500x706/media/catalog/product/c/o/cod-modern-warfare-xp-boost-dlc-ps4.jpg"
         },
         {
             id: 6,
-            name: "Item 6",
+            name: "Need For Speed",
             description: "Description for Item 6",
-            avatar: ""
+            avatar: "https://media.gamestop.com/i/gamestop/10121882/Need-for-Speed?$pdp$"
         }
 
     );
