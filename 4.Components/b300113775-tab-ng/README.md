@@ -17,7 +17,7 @@ En utlisant angular et generer des services depuis un terminal(gitbash) et une b
 
 
 
-:three:    Quand vous cliquez sur l'article portrait fabrice  ---------------------------------:four:    Mon resultat avec V.video
+:three:    Quand vous cliquez sur l'article portrait fabrice :point_down:  -------------------------------:four:    Mon resultat avec V.video :point_down:
 
 
 ![image](double.png)
