@@ -1,0 +1,17 @@
+Domaine:consulatation immgration
+=======
+DOMAINE: IMMIGRATION CONSULTING
+
+1NF Domaine: Consultation en Immigration
+
+2NF Donnees Meta-donnees
+
+{Visa Etudiant, visa Resident Permanent, visa Resident Temporaire, visa de refugier} => Type de visa[Nom]
+
+{Espece,Cheque, Carte Bancaire, Western Union} =>  Mode de reglement[Nom]
+
+{Ghana, Niger, Congo, Burkina Faso, France} => [Ville de Residence]
+
+Canada, USA, Espagne, France, Allemagne => [Ville d'immigration]
+
+{Appui, conseil, documentation, annulation d'une demande} => [Type de Service
