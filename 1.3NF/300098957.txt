@@ -1,0 +1,5 @@
+Domaine: etudiants => Gestion Des Eleves
+
+hf, abd, oa, jt => Etudiants[initiale]
+50, 60, 25, 100 => Notes[note] 
+
