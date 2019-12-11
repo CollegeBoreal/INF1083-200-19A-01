@@ -37,7 +37,7 @@ export class DataService {
             name: "Under Hijab",
             description: "High Quality Under Scarf Hijab"
             avatar: "~/4.jpg"
-        },
+        }
        
        
     );
