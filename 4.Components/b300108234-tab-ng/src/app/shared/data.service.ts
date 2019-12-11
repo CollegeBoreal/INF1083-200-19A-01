@@ -17,26 +17,26 @@ export class DataService {
             id: 1,
             name: "Hijab Style",
             description: "Fashion arabic style",
-            avatar: "~/1.jpeg"
+            avatar: "~/1.jpg"
         },
         {
             id: 2,
             name: "Accessoires",
             description: "the latest hijab accessories",
-            avatar: "~/2.jpeg"
+            avatar: "~/2.jpg"
         },
         {
             id: 3,
             name: "Print Hijab",
             description: "A wide variety of hijab print options",
-            avatar: "~/3.jpeg"
+            avatar: "~/3.jpg"
 
         },
         {
             id: 4,
             name: "Under Hijab",
             description: "High Quality Under Scarf Hijab"
-            avatar: "~/4.jpeg"
+            avatar: "~/4.jpg"
         },
        
        
