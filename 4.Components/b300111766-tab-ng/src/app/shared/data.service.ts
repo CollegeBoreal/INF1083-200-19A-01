@@ -22,57 +22,57 @@ export class DataService {
         {
             id: 2,
             name: "Iphone 6",
-            description: "Description for Item 2",
+            description: "best price",
             avatar: "https://images-na.ssl-images-amazon.com/images/I/412jWjEIzKL.jpg"
         },
         {
             id: 3,
             name: "Iphone 7",
-            description: "Description for Item 3",
+            description: "red colour, best price",
             avatar: "https://i5.walmartimages.ca/images/Large/264/655/6000197264655.jpg"
         },
         {
             id: 4,
             name: "Iphone 8",
-            description: "Description for Item 4",
+            description: "obtenir a 0$",
             avatar: "https://s7.s-sfr.fr/mobile/uc/device/j7j5cjt0/iphone8-back-noir-400x540.png?ts=1505314463328"
         },
         {
             id: 5,
             name: "Iphone X",
-            description: "Description for Item 5",
+            description: "nice phone",
             avatar: "https://images-na.ssl-images-amazon.com/images/I/618ZI2Xyw%2BL._SY445_.jpg"
         },
 
         {
             id: 6,
             name: "Iphone XI",
-            description: "Description for Item 6",
+            description: "obtenir a credit",
             avatar: "https://www.3u.com//upload/20190115/1547519932922067602.png"
         },
         {
             id: 7,
             name: "LG",
-            description: "Description for Item 7",
+            description: "nouveau model",
             avatar: "https://images-na.ssl-images-amazon.com/images/I/81uw7rANIlL._SX425_.jpg"
         },
         {
             id: 8,
             name: "Samsung ",
-            description: "Description for Item 8",
+            description: "noir, blanc",
             avatar: "https://www.bell.ca/Styles/wireless/all_languages/all_regions/catalog_images/Samsung-Galaxy-S10-Plus/Samsung_Galaxy_S10-plus_black_lrg1.png"
         },
         {
             id: 9,
             name: "galaxyA50",
-            description: "Description for Item 9",
+            description: "blanc, nouveau model",
             avatar: ""
         },
 
         {
             id: 10,
             name: "galaxyS10",
-            description: "Description for Item 10",
+            description: "a bas prix",
             avatar: "https://assets.pcmag.com/media/images/547224-samsung-galaxy-smartphones.jpg?width=333&height=245"
         }
     );
