@@ -1,6 +1,6 @@
 {
   "nativescript": {
-    "id": "org.nativescript.b300107361tabng",
+    "id": "org.nativescript.b300107361blankng",
     "tns-android": {
       "version": "6.2.0"
     },
@@ -11,9 +11,6 @@
   "description": "NativeScript Application",
   "license": "SEE LICENSE IN <your-license-filename>",
   "repository": "<fill-your-repository-here>",
-  "scripts": {
-    "lint": "tslint \"src/**/*.ts\""
-  },
   "dependencies": {
     "@angular/animations": "~8.2.0",
     "@angular/common": "~8.2.0",
@@ -34,10 +31,7 @@
   "devDependencies": {
     "@angular/compiler-cli": "~8.2.0",
     "@ngtools/webpack": "~8.2.0",
-    "codelyzer": "~4.5.0",
     "nativescript-dev-webpack": "~1.3.0",
-    "node-sass": "^4.7.1",
-    "tslint": "~5.19.0",
     "typescript": "~3.5.3"
   },
   "gitHead": "a6fec076a20f898feabb4466a2c411158c18a100",

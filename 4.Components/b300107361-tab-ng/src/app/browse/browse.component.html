@@ -2,6 +2,15 @@
     <Label text="Browse"></Label>
 </ActionBar>
 
-<GridLayout class="page__content">
-    <WebView height="1200px" src="https://jokcar.000webhostapp.com/"></WebView>
-</GridLayout>
+<StackLayout class="page__content">
+    <ScrollView row="2">
+    <StackLayout>
+        <exoplayer
+                src="https://fr.vid.web.acsta.net/nmedia/33/18/09/24/13/19580328_hd_013.mp4"
+                autoplay="true"
+                height="300" position="relative">
+        </exoplayer>
+        <WebView height="1200px" src="https://jokcar.000webhostapp.com/"></WebView>
+    </StackLayout>
+    </ScrollView>
+</StackLayout>
