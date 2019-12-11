@@ -6,5 +6,7 @@ import{ HttpClient } from '@angular/common/http';
 })
 export class ApicallService {
 
-  constructor() { }
+  constructor(private httpClient: HttpClient) { }
+
+
 }

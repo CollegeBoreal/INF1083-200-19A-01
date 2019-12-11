@@ -16,50 +16,50 @@ export class DataService {
 
         {
             id: 1,
-            name: "portrait1",
-            description: "fabrice",
+            name: "FABRICE PORTRAIT",
+            description: "Photographie d'étudiant pour affiche ",
             avatar: "https://github.com/8dbe/picasa/blob/master/pictures/p1.jpeg?raw=true"
         },
         {
             id: 2,
-            name: "portrait2",
-            description: "toch",
+            name: "TOCHGALY PORTRAIT",
+            description: "Photographie d'étudiant pour affiche ",
             avatar: "https://github.com/8dbe/picasa/blob/master/pictures/p2.jpeg?raw=true"
         },
         {
             id: 3,
-            name: "portrait3",
+            name: "STUDENT GROUP",
             description: "toch",
             avatar: "https://github.com/8dbe/picasa/blob/master/pictures/p3.jpeg?raw=true"
         },
         {
             id: 4,
-            name: "Food",
+            name: "FOOD",
             description: "food1",
             avatar: "https://github.com/8dbe/picasa/blob/master/pictures/p4.jpeg?raw=true"
         },
         {
             id: 5,
-            name: "Nature",
+            name: "NATURE",
             description: "flowers",
             avatar: "https://github.com/8dbe/picasa/blob/master/pictures/p5.jpeg?raw=true"
         },
         {
             id: 6,
-            name: "Photoshop",
-            description: "edit",
+            name: "PHOTOSHOP",
+            description: "",
             avatar: "https://github.com/8dbe/picasa/blob/master/pictures/p6.jpeg?raw=true"
         },
         {
             id: 7,
-            name: "Haitian Food",
-            description: "mets haitiens",
+            name: "HAITIAN FOOD",
+            description: "La meilleure cuisine de la caraibe ",
             avatar: "https://github.com/8dbe/picasa/blob/master/pictures/p7.jpeg?raw=true"
         },
         {
             id: 8,
-            name: "hiver",
-            description: "Winter In Canada",
+            name: "WINTER",
+            description: "Le canada a deux saisons l'hiver et Juillet ",
             avatar: "https://github.com/8dbe/picasa/blob/master/pictures/p8.jpeg?raw=true"
         }
 

@@ -1,0 +1,12 @@
+
+1NF Domaine => Jeux videos 
+
+2NF => Donnees: Meta-Donnees 
+
+{Naruto-dessin animes, Fifa20-sport,UFC-sport de combat, Spiderman-Action} => Jeux[Nom, Categorie]
+Disquette, Online => Support[Nom]
+PS4, PS3, X-BOX One, PS vita => Console[Nom]
+Client Online: Playstore => Vente Virtuelle [Nom]
+Client Physique: EB-Games, The Source, BestBuy => Vente Physique [Nom] 
+Publicite: google add, direct => Diffusion[Nom] 
+
