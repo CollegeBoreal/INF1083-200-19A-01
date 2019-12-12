@@ -11,16 +11,16 @@
 #### with preview 📱
 
 ##### Home:
-![image](1.png)
+![image](1.jpeg)
 
 ##### ⬇⬇⬇
-![image](1.1.png)  ![image](1.2.png)  ![image](1.3.png)  ![image](1.4.png)
+![image](1.1.jpeg)  ![image](1.2.jpeg)  ![image](1.3.jpeg)  ![image](1.4.jpeg)
 
 ##### Browse:
-![image](2.png)
+![image](2.jpeg)
 
 ##### Search:
-![image](3.png)
+![image](3.jpeg)
 
 
 
