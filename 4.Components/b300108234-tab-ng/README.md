@@ -8,7 +8,7 @@
 
 ## :two: Le résultat final 🕵️‍♀️
 
-#### with preview 📱
+## Using preview 📱
 
 # 📌Home:
 ![image](1.jpeg)
