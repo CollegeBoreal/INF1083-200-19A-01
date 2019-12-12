@@ -35,7 +35,7 @@ export class DataService {
         {
             id: 4,
             name: "Under Hijab",
-            description: "High Quality Under Scarf Hijab"
+            description: "High Quality Under Scarf Hijab",
             avatar: "~/4.jpg"
         }
        
