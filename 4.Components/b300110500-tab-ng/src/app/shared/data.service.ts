@@ -4,6 +4,7 @@ export interface IDataItem {
     id: number;
     name: string;
     description: string;
+    avatar: string;
 }
 
 @Injectable({
@@ -13,84 +14,60 @@ export class DataService {
 
     private items = new Array<IDataItem>(
         {
+            id: 0,
+            name: "Visa residence temporaire",
+            description: "travailleurs qualifies",
+            avatar: "https://fr.hespress.com/wp-content/uploads/2018/11/image.jpg"
+        },
+        {
             id: 1,
-            name: "Item 1",
-            description: "Description for Item 1"
+            name: "Visa etudiant",
+            description: "etudes et recherche",
+            avatar: "https://www.canada.ca/content/dam/ircc/migration/ircc/images/template/lp-study.jpg"
         },
         {
             id: 2,
-            name: "Item 2",
-            description: "Description for Item 2"
+            name: "Visa refugier",
+            description: "Refugies et asile politique",
+            avatar: "https://www.canada.ca/content/canadasite/fr/immigration-refugies-citoyennete/services/etudier-canada/_jcr_content/par/mwsfeatures_copy_cop/featureimage1.img.jpg/1569954309958.jpg"
         },
         {
             id: 3,
-            name: "Item 3",
-            description: "Description for Item 3"
+            name: " Visa tourisme",
+            description: " tourisme",
+            avatar: "https://img.over-blog-kiwi.com/1/18/77/42/20180909/ob_69cf00_lettre-motivation-visa-touriste.jpg"
         },
         {
             id: 4,
-            name: "Item 4",
-            description: "Description for Item 4"
+            name: "Visa temporaire",
+            description: "visite",
+            avatar: "http://tunisievisa.info/wp-content/uploads/2016/12/VISATHAI.jpg"
         },
         {
             id: 5,
-            name: "Item 5",
-            description: "Description for Item 5"
+            name: "Visa vert",
+            description: "travailleur non qualifies",
+            avatar: "https://avatars0.githubusercontent.com/u/43481043?s=400&v=4"
         },
         {
             id: 6,
-            name: "Item 6",
-            description: "Description for Item 6"
+            name: "Visa diplomatie",
+            description: "visa diplomatique",
+            avatar: "https://i1.wp.com/capitaineremi.com/wp-content/uploads/2017/06/cuba-visa-carte-touriste-1024x576.jpg?resize=1024%2C576"
         },
-        {
-            id: 7,
-            name: "Item 7",
-            description: "Description for Item 7"
-        },
+
         {
             id: 8,
-            name: "Item 8",
-            description: "Description for Item 8"
+            name: " Visa rapatier",
+            description: "rapatriement",
+            avatar: "https://i1.wp.com/capitaineremi.com/wp-content/uploads/2017/06/cuba-visa-carte-touriste-1024x576.jpg?resize=1024%2C576"
         },
+
         {
             id: 9,
-            name: "Item 9",
-            description: "Description for Item 9"
-        },
-        {
-            id: 10,
-            name: "Item 10",
-            description: "Description for Item 10"
-        },
-        {
-            id: 11,
-            name: "Item 11",
-            description: "Description for Item 11"
-        },
-        {
-            id: 12,
-            name: "Item 12",
-            description: "Description for Item 12"
-        },
-        {
-            id: 13,
-            name: "Item 13",
-            description: "Description for Item 13"
-        },
-        {
-            id: 14,
-            name: "Item 14",
-            description: "Description for Item 14"
-        },
-        {
-            id: 15,
-            name: "Item 15",
-            description: "Description for Item 15"
-        },
-        {
-            id: 16,
-            name: "Item 16",
-            description: "Description for Item 16"
+            name: " Visa evacuation",
+            description: "urgence et evacuationr",
+            avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwtF9njoHG5tQBQEExgdv0QibynOrv_B_65ASzfS8ZcF1r1SNO&s"
         }
     );
 
