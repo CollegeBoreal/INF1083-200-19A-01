@@ -1,8 +1,0 @@
-1NF => Domaine: widesign
-
-2NF => Données : 
-
-{ Portrait , Animalier , Paysage ,événement ,flyer ,  ... } => IMAGES [Nom] 
-{ Instagram , Facebook  , ...} => uses[utilisation ] 
-{ Poste, Download} => DELIVERIES [delivery]
-{ $4, $15, $20} => PRICES (price, )
